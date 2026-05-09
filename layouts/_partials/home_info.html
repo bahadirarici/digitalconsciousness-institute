@@ -1,0 +1,17 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <div class="home-logo">
+        <img src="/images/logo-symbol-large.png" alt="Institute for Digital Consciousness" width="240" />
+    </div>
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+        {{- with .Subtitle }}
+        <p class="home-subtitle">{{ . | markdownify }}</p>
+        {{- end }}
+    </header>
+    <div class="entry-content md-content">
+        {{ $opts := dict "display" "block" }}
+        {{ .Content | $.Page.RenderString $opts }}
+    </div>
+</article>
+{{- end -}}

@@ -1,0 +1,441 @@
+/* ==========================================================================
+   Institute for Digital Consciousness — Custom Theme
+   Palette: bordeaux + gold accents on warm parchment cream
+   Typography: serif body (EB Garamond), display (Cormorant Garamond)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+:root {
+    --theme: #faf6ee;          /* warm parchment, slightly more golden */
+    --entry: #faf6ee;
+    --primary: #1a1a1a;
+    --secondary: #4a4a4a;
+    --tertiary: #8a8a8a;
+    --content: #1a1a1a;
+    --code-block-bg: #2a2421;
+    --code-bg: #f0ebe2;
+    --border: #d8d2c5;
+    --accent: #722f37;          /* bordeaux */
+    --accent-soft: #8a3f48;
+    --gold: #c19a3e;            /* logo gold, slightly desaturated for legibility */
+    --gold-soft: #d4ae5b;
+}
+
+.dark {
+    --theme: #1a1a1a;
+    --entry: #1a1a1a;
+    --primary: #f5f0e8;
+    --secondary: #c0b8aa;
+    --tertiary: #8a8278;
+    --content: #f5f0e8;
+    --code-block-bg: #2a2421;
+    --code-bg: #2a2421;
+    --border: #3a3530;
+    --accent: #c9525e;
+    --accent-soft: #d96874;
+    --gold: #d4ae5b;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+body {
+    font-family: 'EB Garamond', 'Garamond', 'Georgia', serif;
+    font-size: 19px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    color: var(--primary);
+    background: var(--theme);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', 'Garamond', 'Georgia', serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+h1 { font-size: 2.4rem; line-height: 1.2; }
+h2 { font-size: 1.8rem; line-height: 1.3; margin-top: 2.5rem; }
+h3 { font-size: 1.4rem; line-height: 1.4; margin-top: 2rem; }
+
+p {
+    margin-bottom: 1.2em;
+}
+
+em, i {
+    font-style: italic;
+}
+
+strong {
+    font-weight: 600;
+}
+
+blockquote {
+    border-left: 2px solid var(--accent);
+    padding-left: 1.5em;
+    margin: 1.5em 0;
+    font-style: italic;
+    color: var(--secondary);
+}
+
+/* ==========================================================================
+   Header — keep slim, refined
+   ========================================================================== */
+
+.header {
+    border-bottom: 1px solid var(--border);
+    background: var(--theme);
+}
+
+.header-nav {
+    padding: 0.75rem 0;
+}
+
+.logo a {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: var(--primary);
+    text-transform: none;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.logo a:hover {
+    color: var(--accent);
+}
+
+.logo a img {
+    height: 36px !important;
+    width: auto !important;
+}
+
+.nav a {
+    font-family: 'EB Garamond', serif;
+    font-size: 1rem;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+    color: var(--secondary);
+    font-weight: 500;
+}
+
+.nav a:hover {
+    color: var(--accent);
+}
+
+.menu .active {
+    color: var(--accent);
+    border-bottom: 1px solid var(--accent);
+}
+
+/* ==========================================================================
+   Home page — hero with logo
+   ========================================================================== */
+
+.home-info {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.home-logo {
+    margin: 2rem auto 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.home-logo img {
+    width: 220px;
+    height: auto;
+    opacity: 0.95;
+}
+
+.home-info .entry-header h1 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.015em;
+    color: var(--primary);
+}
+
+.home-subtitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: var(--accent);
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+.home-info .entry-content {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: var(--secondary);
+    text-align: left;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.home-info .entry-content p {
+    margin-bottom: 1.4em;
+}
+
+.home-info .entry-content em {
+    color: var(--primary);
+}
+
+.home-info .entry-content a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    transition: opacity 0.2s ease;
+}
+
+.home-info .entry-content a:hover {
+    opacity: 0.7;
+}
+
+/* ==========================================================================
+   Page header (for non-home pages)
+   ========================================================================== */
+
+.page-header h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+/* ==========================================================================
+   Post / Page content
+   ========================================================================== */
+
+.main {
+    max-width: 760px;
+}
+
+.post-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.post-meta {
+    font-size: 0.85rem;
+    color: var(--tertiary);
+    font-style: italic;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+    margin-bottom: 2rem;
+}
+
+.post-content {
+    font-size: 1.05rem;
+    line-height: 1.75;
+}
+
+.post-content a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+.post-content a:hover {
+    border-bottom-color: var(--accent);
+}
+
+.post-content hr {
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin: 2.5rem auto;
+    width: 6rem;
+}
+
+/* Pull-quote / blockquote with gold accent */
+.post-content blockquote {
+    border-left: 3px solid var(--gold);
+    padding-left: 1.8em;
+    margin: 2em 0;
+    font-style: italic;
+    color: var(--secondary);
+    font-size: 1.05em;
+}
+
+/* ==========================================================================
+   Lists (working papers, etc)
+   ========================================================================== */
+
+.post-entry {
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 1.8rem 0;
+    transition: none;
+    box-shadow: none;
+}
+
+.post-entry:hover {
+    transform: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.post-entry .entry-header h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0;
+    line-height: 1.3;
+}
+
+.post-entry .entry-header h2:hover {
+    color: var(--accent);
+}
+
+.post-entry .entry-content {
+    font-size: 0.98rem;
+    line-height: 1.65;
+    color: var(--secondary);
+    margin-top: 0.5rem;
+    opacity: 1;
+}
+
+.post-entry .entry-footer {
+    font-size: 0.85rem;
+    color: var(--tertiary);
+    font-style: italic;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+    margin-top: 0.5rem;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer {
+    border-top: 1px solid var(--border);
+    padding: 2rem 0;
+    color: var(--tertiary);
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.footer a {
+    color: var(--secondary);
+    border-bottom: 1px dotted var(--tertiary);
+}
+
+.footer a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+}
+
+/* ==========================================================================
+   Code blocks
+   ========================================================================== */
+
+code {
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    font-size: 0.9em;
+    background: var(--code-bg);
+    padding: 0.15em 0.35em;
+    border-radius: 2px;
+    color: var(--accent);
+}
+
+pre code {
+    background: transparent;
+    color: var(--theme);
+    padding: 0;
+}
+
+/* ==========================================================================
+   Pagination
+   ========================================================================== */
+
+.paginav {
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+    margin: 3rem 0 1rem;
+    padding: 1rem 0;
+}
+
+.paginav a {
+    color: var(--secondary);
+    font-style: italic;
+}
+
+.paginav a:hover {
+    color: var(--accent);
+}
+
+/* ==========================================================================
+   Misc
+   ========================================================================== */
+
+::selection {
+    background: var(--accent);
+    color: var(--theme);
+}
+
+/* Drop cap for first paragraph of long working papers */
+.post-content > p:first-of-type::first-letter {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    line-height: 0.9;
+    float: left;
+    margin: 0.05em 0.1em -0.1em 0;
+    color: var(--accent);
+}
+
+/* Don't apply drop cap to home info or list pages */
+.list .post-entry .entry-content > p:first-of-type::first-letter,
+.home-info .entry-content > p:first-of-type::first-letter {
+    font-size: inherit;
+    font-weight: inherit;
+    float: none;
+    margin: 0;
+    color: inherit;
+    font-family: inherit;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 720px) {
+    body { font-size: 17px; }
+    .post-content { font-size: 1rem; }
+    h1 { font-size: 2rem; }
+    .home-info .entry-header h1 { font-size: 2rem; }
+    .home-subtitle { font-size: 1.1rem; }
+    .home-logo img { width: 160px; }
+    .post-title { font-size: 1.8rem; }
+    .logo a { font-size: 1rem; }
+    .logo a img { height: 28px !important; }
+}
+
+@media (max-width: 480px) {
+    .logo a {
+        gap: 0.4rem;
+    }
+    /* On very small screens, hide the text and keep just the logo icon */
+    .logo a {
+        max-width: 60%;
+        font-size: 0.95rem;
+        line-height: 1.2;
+    }
+}
