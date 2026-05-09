@@ -8,9 +8,9 @@ public_folder: "/uploads"
 publish_mode: editorial_workflow
 
 collections:
-  - name: "working-papers"
-    label: "Working Papers"
-    folder: "content/working-papers"
+  - name: "papers"
+    label: "Papers"
+    folder: "content/papers"
     create: true
     slug: "{{slug}}"
     fields:
