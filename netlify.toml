@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "git clone --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod && hugo --gc --minify"
+  command = "hugo --gc --minify"
 
 [build.environment]
   HUGO_VERSION = "0.139.0"
