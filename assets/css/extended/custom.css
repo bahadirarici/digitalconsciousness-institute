@@ -7,23 +7,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
 
 :root {
-    --theme: #faf6ee;          /* warm parchment, slightly more golden */
-    --entry: #faf6ee;
+    --theme: #f0e8d8;          /* slightly deeper parchment for body — content area */
+    --header-bg: #faf6ee;      /* lighter top — header area */
+    --entry: #f0e8d8;
     --primary: #1a1a1a;
     --secondary: #4a4a4a;
     --tertiary: #8a8a8a;
     --content: #1a1a1a;
     --code-block-bg: #2a2421;
-    --code-bg: #f0ebe2;
-    --border: #d8d2c5;
+    --code-bg: #e8e0d0;
+    --border: #c8c0b0;         /* slightly more visible border in the warmer body bg */
     --accent: #722f37;          /* bordeaux */
     --accent-soft: #8a3f48;
-    --gold: #c19a3e;            /* logo gold, slightly desaturated for legibility */
+    --gold: #c19a3e;
     --gold-soft: #d4ae5b;
 }
 
 .dark {
     --theme: #1a1a1a;
+    --header-bg: #232323;
     --entry: #1a1a1a;
     --primary: #f5f0e8;
     --secondary: #c0b8aa;
@@ -49,6 +51,8 @@ body {
     color: var(--primary);
     background: var(--theme);
 }
+
+/* Body uses the warmer/deeper tone; header has its own lighter tone */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Cormorant Garamond', 'Garamond', 'Georgia', serif;
@@ -86,7 +90,7 @@ blockquote {
 
 .header {
     border-bottom: 1px solid var(--border);
-    background: var(--theme);
+    background: var(--header-bg);
 }
 
 .header-nav {
@@ -227,6 +231,22 @@ blockquote {
     line-height: 1.2;
 }
 
+/* Title separator line on standard pages (Research, Puppet, About) */
+.post-header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.post-header .post-title {
+    margin-bottom: 0.4rem;
+}
+
+/* On papers (single posts with date), keep the meta line aligned */
+.post-header .post-meta {
+    margin-bottom: 0;
+}
+
 .post-meta {
     font-size: 0.85rem;
     color: var(--tertiary);
@@ -324,6 +344,7 @@ blockquote {
 
 .footer {
     border-top: 1px solid var(--border);
+    background: var(--header-bg);
     padding: 2rem 0;
     color: var(--tertiary);
     font-size: 0.85rem;
