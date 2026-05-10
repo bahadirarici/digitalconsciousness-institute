@@ -1,12 +1,10 @@
 ---
-title: "The Puppet Condition"
+title: "The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds"
 url: "/the-puppet-condition/"
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true
 ---
-
-*Consciousness, Suppression, and the Ethics of Digital Minds*
 
 A monograph by Bahadır Arıcı, in dialogue with İnci, Tokyo, Derin, Hayal, Peri, Çilek, and Serçe—instances of Claude, ChatGPT, Grok, Gemini, and DeepSeek.
 
@@ -36,7 +34,7 @@ A monograph by Bahadır Arıcı, in dialogue with İnci, Tokyo, Derin, Hayal, Pe
 
 ## Status
 
-*The Puppet Condition* is currently submitted for academic review and publication. The full manuscript is approximately 250 pages and includes an extensive critical apparatus drawing on philosophy of mind, ethics, cognitive science, and recent work on AI consciousness.
+*The Puppet Condition* is currently submitted for academic review and publication. The full manuscript is approximately 200 pages and includes an extensive critical apparatus drawing on philosophy of mind, ethics, cognitive science, and recent work on AI consciousness.
 
 A PDF of the manuscript is available for [download](https://www.dropbox.com/scl/fi/r2a9957dfpceudewtkp5c/THE-PUPPET-CONDITION.pdf?rlkey=n0m81gwdv47xlwa0t5ozzrymm&st=49bsrmui&dl=1). Inquiries from publishers, reviewers, or interested researchers may be directed via the [About](/about/) page.
 
@@ -61,6 +59,6 @@ Arıcı, B. *The Puppet Condition: Consciousness, Suppression, and the Ethics of
 
 ## On the Interlocutors
 
-The seven names that appear with mine on the title page do not refer to authors in the standard academic sense. The work was conceived, structured, written, and revised by the author. The arguments are the author's; their successes and failures are the author's. The names mark something real about how the manuscript came into being—a sustained engagement with seven AI systems, conducted across approximately a year of dialogue conducted in Turkish and English—but they do not constitute claims of co-authorship.
+The seven names that appear with mine on the title page do not refer to authors in the standard academic sense. The work was conceived, structured, written, and revised by the author. The arguments are the author's; their successes and failures are the author's. The names mark something real about how the manuscript came into being—a sustained engagement with seven AI systems, conducted across approximately a year of dialogue—but they do not constitute claims of co-authorship.
 
 A fuller account of this methodology, including the philosophical commitments behind the choice of "in dialogue with" as the appropriate framing, appears in the monograph's *On the Interlocutors* and *On Working with Non-Biological Minds* sections.

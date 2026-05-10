@@ -137,9 +137,8 @@ blockquote {
    ========================================================================== */
 
 .home-info {
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 3rem;
-    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
@@ -390,8 +389,8 @@ pre code {
     color: var(--theme);
 }
 
-/* Drop cap for first paragraph of long working papers */
-.post-content > p:first-of-type::first-letter {
+/* Drop cap — disabled by default; opt in via .has-dropcap class on a paragraph */
+.post-content p.has-dropcap::first-letter {
     font-family: 'Cormorant Garamond', serif;
     font-size: 3.5em;
     font-weight: 600;
@@ -399,17 +398,6 @@ pre code {
     float: left;
     margin: 0.05em 0.1em -0.1em 0;
     color: var(--accent);
-}
-
-/* Don't apply drop cap to home info or list pages */
-.list .post-entry .entry-content > p:first-of-type::first-letter,
-.home-info .entry-content > p:first-of-type::first-letter {
-    font-size: inherit;
-    font-weight: inherit;
-    float: none;
-    margin: 0;
-    color: inherit;
-    font-family: inherit;
 }
 
 /* ==========================================================================
