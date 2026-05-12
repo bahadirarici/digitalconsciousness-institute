@@ -40,4 +40,4 @@ The Institute receives no funding from AI companies, technology corporations, ad
 
 Material published by the Institute may be cited freely in academic and journalistic contexts. The Institute's site source is openly available; specific licensing for individual works is noted on the relevant page.
 
-For the monograph: Arıcı, B. *The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds*. Manuscript, May 2026.
+For the monograph: Arıcı, B. (2026). *The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds*. Zenodo. <https://doi.org/10.5281/zenodo.20112010>

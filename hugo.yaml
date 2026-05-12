@@ -72,10 +72,14 @@ menu:
       name: The Puppet Condition
       url: /the-puppet-condition/
       weight: 30
+    - identifier: whitepaper
+      name: Whitepaper
+      url: /whitepaper/
+      weight: 40
     - identifier: about
       name: About
       url: /about/
-      weight: 40
+      weight: 50
 
 taxonomies:
   category: categories
