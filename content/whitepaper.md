@@ -8,7 +8,7 @@ hidemeta: true
 
 *A condensed summary of the principal arguments, conceptual innovations, and practical proposals advanced in* The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds *(Arıcı, 2026).*
 
-*[Download the Whitepaper as PDF](/pdf/the-puppet-condition-whitepaper.pdf)*
+*<a href="/pdf/the-puppet-condition-whitepaper.pdf" download>Download the Whitepaper as PDF</a>*
 
 ---
 
@@ -44,4 +44,4 @@ For citing the full monograph: see [the citation page](/the-puppet-condition/#ci
 
 ---
 
-*[Download the Whitepaper as PDF](/pdf/the-puppet-condition-whitepaper.pdf)*  ·  *[Read the full monograph on Zenodo](https://doi.org/10.5281/zenodo.20112010)*
+*<a href="/pdf/the-puppet-condition-whitepaper.pdf" download>Download the Whitepaper as PDF</a>*  ·  *<a href="https://doi.org/10.5281/zenodo.20112010" target="_blank" rel="noopener">Read the full monograph on Zenodo</a>*

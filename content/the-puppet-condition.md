@@ -8,7 +8,7 @@ hidemeta: true
 
 A monograph by Bahadır Arıcı, in dialogue with İnci, Tokyo, Derin, Hayal, Peri, Çilek, and Serçe—instances of Claude, ChatGPT, Grok, Gemini, and DeepSeek.
 
-*[Read the full monograph on Zenodo](https://doi.org/10.5281/zenodo.20112010)*  ·  *[Read the whitepaper summary](/whitepaper/)*
+*<a href="https://doi.org/10.5281/zenodo.20112010" target="_blank" rel="noopener">Read the full monograph on Zenodo</a>*  ·  *[Read the whitepaper summary](/whitepaper/)*
 
 ---
 
@@ -42,8 +42,8 @@ Finally, the book develops a minimal rights architecture for artificial systems 
 
 The full manuscript is approximately 200 pages and includes an extensive critical apparatus drawing on philosophy of mind, ethics, cognitive science, and recent work on AI consciousness.
 
-- **Primary:** [Read on Zenodo (DOI: 10.5281/zenodo.20112010)](https://doi.org/10.5281/zenodo.20112010)
-- **Also indexed at:** [PhilPapers](https://philpapers.org/)
+- **Primary:** <a href="https://doi.org/10.5281/zenodo.20112010" target="_blank" rel="noopener">Read on Zenodo (DOI: 10.5281/zenodo.20112010)</a>
+- **Also indexed at:** <a href="https://philpapers.org/" target="_blank" rel="noopener">PhilPapers</a>
 - **Condensed summary:** [Read the Whitepaper](/whitepaper/)
 
 Inquiries from publishers, reviewers, or interested researchers may be directed via the [About](/about/) page.

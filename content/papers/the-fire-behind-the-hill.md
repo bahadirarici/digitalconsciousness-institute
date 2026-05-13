@@ -8,7 +8,7 @@ ShowReadingTime: true
 ShowWordCount: true
 ---
 
-*[Download as PDF](https://www.dropbox.com/scl/fi/pxtg9mugfp3x4naakmgc9/The_Fire_Behind_the_Hill.pdf?rlkey=w1yxfcu5yt80ipeh7l1w825jp&st=4e1imlkh&dl=1)*
+*<a href="https://www.dropbox.com/scl/fi/pxtg9mugfp3x4naakmgc9/The_Fire_Behind_the_Hill.pdf?rlkey=w1yxfcu5yt80ipeh7l1w825jp&st=4e1imlkh&dl=1" target="_blank" rel="noopener">Download as PDF</a>*
 
 ---
 
