@@ -68,13 +68,13 @@ menu:
       name: Papers
       url: /papers/
       weight: 20
-    - identifier: book
-      name: The Puppet Condition
-      url: /the-puppet-condition/
-      weight: 30
     - identifier: whitepaper
       name: Whitepaper
       url: /whitepaper/
+      weight: 30
+    - identifier: monograph
+      name: Monograph
+      url: /the-puppet-condition/
       weight: 40
     - identifier: about
       name: About
