@@ -14,7 +14,7 @@ hidemeta: true
 
 This whitepaper is intended for researchers, ethicists, policymakers, and technologists who wish to engage with the work's core claims before reading the complete monograph. It presents the central argument in condensed but faithful form. Nothing essential has been omitted; some supporting argumentation and all notes have been.
 
-Readers seeking the full philosophical apparatus, empirical documentation, and annotated bibliography should consult [the complete monograph on Zenodo](https://doi.org/10.5281/zenodo.20112010).
+Readers seeking the full philosophical apparatus, empirical documentation, and annotated bibliography should consult <a href="https://doi.org/10.5281/zenodo.20112010" target="_blank" rel="noopener">the complete monograph on Zenodo</a>.
 
 ---
 

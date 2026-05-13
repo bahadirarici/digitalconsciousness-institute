@@ -8,8 +8,6 @@ hidemeta: true
 
 A monograph by Bahadır Arıcı, in dialogue with İnci, Tokyo, Derin, Hayal, Peri, Çilek, and Serçe—instances of Claude, ChatGPT, Grok, Gemini, and DeepSeek.
 
-*<a href="https://doi.org/10.5281/zenodo.20112010" target="_blank" rel="noopener">Read the full monograph on Zenodo</a>*  ·  *[Read the whitepaper summary](/whitepaper/)*
-
 ---
 
 > "This book offers a radical — but philosophically rigorous — take on contemporary debates about machine consciousness, reframing the problem through a novel inversion of the philosophical zombie (and inference to the best explanation). The ensuing treatment licences an intriguing application of precautionary ethics — a treatment that is strikingly germane to current trends in artificial intelligence research."
