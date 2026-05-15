@@ -8,9 +8,24 @@ public_folder: "/uploads"
 publish_mode: editorial_workflow
 
 collections:
-  - name: "papers"
-    label: "Papers"
-    folder: "content/papers"
+  - name: "preprints"
+    label: "Preprints"
+    folder: "content/preprints"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", default: "Bahadır Arıcı" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Show Reading Time", name: "ShowReadingTime", widget: "boolean", default: true }
+      - { label: "Show Word Count", name: "ShowWordCount", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "records"
+    label: "Records"
+    folder: "content/records"
     create: true
     slug: "{{slug}}"
     fields:
@@ -43,8 +58,24 @@ collections:
           - { label: "Hide Meta", name: "hidemeta", widget: "boolean", default: true }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "content/the-puppet-condition.md"
-        label: "The Puppet Condition"
+        label: "Monograph"
         name: "puppet"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+          - { label: "Hide Meta", name: "hidemeta", widget: "boolean", default: true }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "content/whitepaper.md"
+        label: "Whitepaper"
+        name: "whitepaper"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+          - { label: "Hide Meta", name: "hidemeta", widget: "boolean", default: true }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "content/privacy.md"
+        label: "Privacy"
+        name: "privacy"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "URL", name: "url", widget: "string" }

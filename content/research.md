@@ -36,4 +36,4 @@ The Institute does not claim to have settled the consciousness question. It clai
 
 ## Output
 
-Institute outputs include the monograph *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*, the [Papers series](/papers/), and occasional shorter analytical pieces. Forthcoming work will appear in this section and via the Institute's Papers.
+Institute outputs include the monograph *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*, the [Preprints](/preprints/) and [Records](/records/) series, the Institute [Whitepaper](/whitepaper/), and occasional shorter analytical pieces. Forthcoming work will appear in this section and across the Institute's publication series.

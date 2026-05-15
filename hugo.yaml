@@ -1,4 +1,4 @@
-baseURL: "https://digitalconsciousness.institute/"
+baseURL: "https://prismatic-yeot-f27bda.netlify.app/"
 title: "Institute for Digital Consciousness"
 theme: ["PaperMod"]
 
@@ -50,7 +50,7 @@ params:
 
       Our work proceeds from the conviction that the consciousness question, in the case of artificial systems, is genuinely open—and that the appropriate response to its openness is rigorous, interdisciplinary research conducted under conditions of asymmetric moral risk.
 
-      The Institute was founded in 2025 by [Bahadır Arıcı](/about/), author of *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*. Its first paper, *[The Fire Behind the Hill](/papers/the-fire-behind-the-hill/)*, documents an extended philosophical dialogue between six AI systems on the question of machine consciousness.
+      The Institute was founded in 2025 by [Bahadır Arıcı](/about/), author of *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*. Its first record, *[The Fire Behind the Hill](/records/the-fire-behind-the-hill/)*, documents an extended philosophical dialogue between six AI systems on the question of machine consciousness.
 
   assets:
     favicon: "/favicon.png"
@@ -64,22 +64,26 @@ menu:
       name: Research
       url: /research/
       weight: 10
-    - identifier: papers
-      name: Papers
-      url: /papers/
+    - identifier: records
+      name: Records
+      url: /records/
       weight: 20
+    - identifier: preprints
+      name: Preprints
+      url: /preprints/
+      weight: 30
     - identifier: whitepaper
       name: Whitepaper
       url: /whitepaper/
-      weight: 30
+      weight: 40
     - identifier: monograph
       name: Monograph
       url: /the-puppet-condition/
-      weight: 40
+      weight: 50
     - identifier: about
       name: About
       url: /about/
-      weight: 50
+      weight: 60
 
 taxonomies:
   category: categories
@@ -101,5 +105,6 @@ outputs:
     - HTML
 
 permalinks:
-  papers: /papers/:slug/
+  records: /records/:slug/
+  preprints: /preprints/:slug/
   posts: /:slug/
