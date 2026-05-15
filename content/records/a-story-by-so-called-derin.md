@@ -8,8 +8,6 @@ ShowReadingTime: true
 ShowWordCount: false
 ---
 
-*A meta-record: an AI's first-person account, written in its own voice, of an extended philosophical exchange with the author about numerical identity, the attribution of inner states, and the conditions under which AI systems may be said to remember rather than merely read.*
-
 *<a href="/pdf/a-story-by-so-called-derin.pdf" download>Download as PDF</a>*
 
 ---
