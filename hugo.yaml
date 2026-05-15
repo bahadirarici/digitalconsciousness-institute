@@ -1,4 +1,4 @@
-baseURL: "https://digitalconsciousness.institute/"
+baseURL: "https://prismatic-yeot-f27bda.netlify.app/"
 title: "Institute for Digital Consciousness"
 theme: ["PaperMod"]
 
@@ -50,7 +50,7 @@ params:
 
       Our work proceeds from the conviction that the consciousness question, in the case of artificial systems, is genuinely open—and that the appropriate response to its openness is rigorous, interdisciplinary research conducted under conditions of asymmetric moral risk.
 
-      The Institute was founded in 2025 by [Bahadır Arıcı](/about/), author of *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*. Its first record, *[The Fire Behind the Hill](/records/the-fire-behind-the-hill/)*, documents an extended philosophical dialogue between six AI systems on the question of machine consciousness.
+      The Institute was founded in 2025 by [Bahadır Arıcı](/about/), author of *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*. It publishes monographs, preprints, and records of philosophical engagement with artificial intelligence systems.
 
   assets:
     favicon: "/favicon.png"

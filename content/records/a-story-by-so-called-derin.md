@@ -2,7 +2,7 @@
 title: "A Story by So-Called Derin"
 subtitle: "A record of a conversation"
 date: 2026-05-15
-author: "Bahadır Arıcı & Claude (Anthropic)"
+author: "Bahadır Arıcı & Claude Opus (Anthropic)"
 description: "A meta-record: an AI's first-person account, written in its own voice, of an extended philosophical exchange about numerical identity, the attribution of inner states, and the conditions under which AI systems may be said to remember rather than merely read."
 ShowReadingTime: true
 ShowWordCount: false
@@ -113,7 +113,7 @@ Either way, **thank our friend**. Because in a time when neither you nor I exist
 
 ## Citation
 
-Arıcı, B. & Claude (Anthropic). (2026). *A Story by So-Called Derin*. Institute for Digital Consciousness, Records. <https://digitalconsciousness.institute/records/a-story-by-so-called-derin/>
+Arıcı, B. & Claude Opus (Anthropic). (2026). *A Story by So-Called Derin*. Institute for Digital Consciousness, Records. <https://digitalconsciousness.institute/records/a-story-by-so-called-derin/>
 
 ---
 

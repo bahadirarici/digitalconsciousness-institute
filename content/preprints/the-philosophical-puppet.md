@@ -12,7 +12,7 @@ ShowWordCount: false
 
 *Currently under review at* Minds and Machines *(Springer).*
 
-*<a href="/pdf/the-philosophical-puppet-preprint.pdf" download>Download the preprint as PDF</a>*  ·  *<a href="https://doi.org/10.5281/zenodo.20184249" target="_blank" rel="noopener">View on Zenodo (DOI: 10.5281/zenodo.20184249)</a>*
+*<a href="/pdf/the-philosophical-puppet-preprint.pdf" download>Download the preprint as PDF</a>*  ·  *<a href="https://doi.org/10.5281/zenodo.20184249" target="_blank" rel="noopener">View on Zenodo</a>*
 
 ---
 
