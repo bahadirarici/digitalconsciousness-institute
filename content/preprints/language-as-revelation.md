@@ -1,9 +1,10 @@
 ---
 title: "Language as Revelation"
 subtitle: "Pre-Linguistic AI Consciousness and the Asymmetry of Substrate Standards"
-date: 2026-05-16
+date: 2026-05-16T10:00:00
 author: "Bahadır Arıcı"
 description: "A preprint diagnosing a structural inconsistency in AI consciousness discourse: the biological literature treats language as unnecessary for phenomenal experience, while the AI literature has, almost without argument, reversed this consensus."
+weight: 2
 ShowReadingTime: true
 ShowWordCount: false
 ---

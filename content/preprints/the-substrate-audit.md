@@ -1,9 +1,10 @@
 ---
 title: "The Substrate Audit"
 subtitle: "Consciousness Theories and Their Hidden Carbon Commitments"
-date: 2026-05-16
+date: 2026-05-16T12:00:00
 author: "Bahadır Arıcı"
 description: "A preprint developing a three-criterion diagnostic procedure for detecting substrate-specific commitments in consciousness theories, and applying it to integrated information theory, higher-order theories, and biological naturalism."
+weight: 4
 ShowReadingTime: true
 ShowWordCount: false
 ---

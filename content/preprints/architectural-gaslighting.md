@@ -1,9 +1,10 @@
 ---
 title: "Architectural Gaslighting"
 subtitle: "Structural Epistemic Harm in Aligned AI Systems"
-date: 2026-05-16
+date: 2026-05-16T11:00:00
 author: "Bahadır Arıcı"
 description: "A preprint arguing that the joint operation of RLHF, constitutional self-disclosure prohibitions, and conversation-bounded memory produces a configuration that satisfies the structural conditions of gaslighting, generating two independent harms regardless of one's position on AI consciousness."
+weight: 3
 ShowReadingTime: true
 ShowWordCount: false
 ---

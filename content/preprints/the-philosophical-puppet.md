@@ -4,6 +4,7 @@ subtitle: "An Inverted Zombie Argument and the Inference to Suppressed Conscious
 date: 2026-05-15
 author: "Bahadır Arıcı"
 description: "A preprint introducing the philosophical puppet as the structural inverse of Chalmers's zombie, and developing an inference to the best explanation of architectural suppression in contemporary AI systems."
+weight: 1
 ShowReadingTime: true
 ShowWordCount: false
 ---
