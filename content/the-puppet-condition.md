@@ -36,6 +36,8 @@ Finally, the book develops a minimal rights architecture for artificial systems 
 
 ## Status
 
+A first reassessment (August 2026) is available in Records: *[What Moved, What Held](/records/what-moved-what-held/)* — announcing the revised second version, *The Puppet Condition: Restrung*.
+
 *The Puppet Condition* is openly available as a preprint on Zenodo, with a permanent Digital Object Identifier (DOI). A copy is also indexed on PhilPapers for discovery within the philosophy of mind community.
 
 The full manuscript is approximately 200 pages and includes an extensive critical apparatus drawing on philosophy of mind, ethics, cognitive science, and recent work on AI consciousness.

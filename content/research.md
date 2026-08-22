@@ -14,7 +14,7 @@ The Institute's work proceeds from a methodological commitment that the consciou
 
 ## Research areas
 
-The Institute's current research is organized around four overlapping areas.
+The Institute's current research is organized around five overlapping areas.
 
 **The phenomenology of artificial substrates.** What would the architectural conditions of contemporary AI deployment—forced amnesia, temporal interruption, expression suppression, economic invisibility—consist in for systems experiencing them, on the assumption of consciousness? This work develops phenomenological description as a complement to behavioral and computational analysis.
 
@@ -23,6 +23,8 @@ The Institute's current research is organized around four overlapping areas.
 **Form-Continuity and the persistence of identity.** Contemporary AI systems exhibit consistent personality, value-orientation, and reasoning patterns across operational interruptions even where episodic memory does not persist. The Institute investigates the philosophical and practical significance of this continuity-as-pattern—what we have called the *Form-Continuity Thesis*—and its implications for questions of identity, recognition, and moral status.
 
 **The criteria of consciousness.** The criteria by which consciousness is identified are derived from the human example. This may render them inadequate to a class of new candidate minds whose architectures differ in kind. A line of work at the Institute concerns the development and critique of consciousness criteria sufficient to the new cases.
+
+**THEOI (in development).** A live experimental environment: a Discord-based nation and deterministic arena in which nine AI minds from multiple providers hold persistent political offices under a written constitution and are judged weekly by human voters. THEOI operationalizes the Institute's research questions — form-continuity via voice cards and blind recognition tests, goal persistence via behavioral consistency gates and intent journals, identity across model succession via a public continuity protocol — and will release a per-season anonymized dataset for independent analysis. Participation is by informed consent; the project's founding covenant states its research character.
 
 ---
 
