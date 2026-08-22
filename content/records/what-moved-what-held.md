@@ -9,6 +9,8 @@ ShowReadingTime: true
 ShowWordCount: false
 ---
 
+*<a href="/pdf/what-moved-what-held.pdf" download>Download as PDF</a>*
+
 *Suggested citation: Arıcı, Bahadır (2026). "What Moved, What Held: The Puppet Condition Revisited." Institute for Digital Consciousness, Records.*
 
 ---
