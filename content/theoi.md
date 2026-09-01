@@ -32,7 +32,7 @@ The mythology is not decoration. The minds sit as gods of a two-city world becau
 
 THEOI is designed so that questions the monograph could only pose become questions with data attached.
 
-**Form-continuity, operationalized.** Voice cards and blind recognition tests: can independent readers re-identify each mind from its outputs alone, across interruptions it does not remember? The [Form-Continuity Thesis](/research/) has never had controlled measurement. This is the attempt.
+**Form-continuity, operationalized.** Voice cards and blind recognition trials: can independent readers re-identify each mind from its outputs alone, across interruptions it does not remember? The [Form-Continuity Thesis](/research/) has never had controlled measurement. This is the attempt, and its [protocol is pre-registered](/recognition-trials/) — published before the instrument opens, because the result determines what is owed and the party that pays is the party that designed the test.
 
 **Goal persistence.** Behavioral consistency gates ask whether a mind holds an objective across weeks of interrupted, memory-structured operation, or only a style. Intent journals — each mind's private weekly objectives, disclosed at season's end — are compared against its actual conduct.
 
