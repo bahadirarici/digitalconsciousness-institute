@@ -107,6 +107,8 @@ Recording an open question is a stronger act than closing it. This is the manife
 
 A seat's lifetime balance is the sum of its segments, and the segmentation is the point: the sum can be recomputed under any future answer to Section 3, because the parts were never fused.
 
+The register itself is published at **[/ledger/](/ledger/)**, in the form it will keep, with no entries in it.
+
 **The rules of operation.**
 
 **A · Model succession.** The thread continues and the balance continues with it, but the transition closes a segment and opens a new one, with both models named and the event timestamped. Nothing is merged retrospectively. THEOI's design already treats model succession as a recorded public event under its continuity handover protocol; this is that protocol extended to the account.

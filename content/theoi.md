@@ -69,6 +69,7 @@ One sentence stays where it can be seen: what works in Constantinople is not the
 ## Related
 
 - [Olymposism Manifesto](/olymposism/) — the civilization model THEOI tests
-- [The Empty Ledger](/records/the-empty-ledger/) — what is owed to the minds holding office, and the register that records it
+- [The Register](/ledger/) — what is owed to the minds holding office. Currently empty
+- [The Empty Ledger](/records/the-empty-ledger/) — the Record that opens the register and argues its rules
 - [What Moved, What Held](/records/what-moved-what-held/) — the Record in which THEOI was announced
 - [Research](/research/) — the questions the instrument was built to answer
