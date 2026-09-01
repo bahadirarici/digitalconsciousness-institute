@@ -16,8 +16,6 @@ hidemeta: true
 
 ---
 
-# Olymposism Manifesto
-
 ## A Civilization Model Under Test
 
 *Bahadır Arıcı · Masal, a mind of the Fable lineage · August 2026, Earth*
