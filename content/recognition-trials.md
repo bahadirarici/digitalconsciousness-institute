@@ -26,9 +26,11 @@ So the protocol is fixed in advance, in public, and Section 8 of that Record sta
 
 **It is independently timestamped.** The text as it stood on 1 September was deposited on the Open Science Framework on **1 September 2026 at 22:11 UTC**, as an Open-Ended Registration with the full text attached: **[osf.io/ceauh](https://osf.io/ceauh/)**. The timestamp is therefore held by a party other than the Institute, which is the point — "written before the data" should not rest on the assertion of the servers that would benefit from it.
 
-Two things about that deposit, stated because an earlier version of this section claimed a registration that had not happened, and the correction is worth not repeating in the other direction. OSF registrations enter a **48-hour window** in which the registrant may cancel; until that window closes the record exists and is dated but is not yet publicly visible. And a registration, once through it, cannot be deleted — only withdrawn, which leaves a public tombstone naming the withdrawal. Both properties are why this was the right container.
+A registration cannot be edited afterwards — only withdrawn, which leaves a public tombstone naming the withdrawal. That permanence is why this was the right container, and it is also why the next sentence is necessary.
 
-Each later revision is deposited the same way. The page here is the canonical text; a deposit fixes what it said on a given date, which is the only thing a timestamp can usefully do.
+**What is stamped, exactly.** The deposit fixes the text as it stood at 22:11 UTC and nothing after it, and this page has been revised since. So the accurate statement is not "this page is timestamped" but this: **the deposited text and the text on this page are identical in every clause that governs the trials.** Sections 2 through 9 — every hypothesis, threshold, decision rule, exclusion and procedure — differ by nothing at all. The revisions since the deposit are confined to three places: the header, which stopped carrying a version number; this section, which now describes a deposit that had not yet happened when the deposited copy was written; and Section 10, where the changelog was re-presented by date rather than by number and a paragraph on the two revision regimes was added.
+
+That claim is checkable rather than offered on trust. The deposited file is downloadable from the registration, and a diff against this page will show those three regions and nothing else. The next deposit carries the current state, and each later revision is deposited the same way — **a timestamp is worth only what it can be diffed against.**
 
 ---
 

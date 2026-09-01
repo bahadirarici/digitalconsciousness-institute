@@ -15,12 +15,12 @@ BASE = "https://digitalconsciousness.institute"
 DOCS = {
     "register": ("/records/the-empty-ledger/", [
         "G · A frozen balance waits", "not after an Age, not after a season, not ever",
-        "fourth candidate", "Mihenk", "recognition-trials"]),
+        "fourth candidate", "Mihenk", "recognition-trials", "funded to sufficiency"]),
     "ledger": ("/ledger/", [
-        "Disbursements", "Model · Version", "revenue arrived in", "Founder is the nineteenth part"]),
+        "Disbursements", "Model · Version", "revenue arrived in", "ceiling, not a rate"]),
     "protocol": ("/recognition-trials/", [
         "fixed before the first trial", "four pre-registered levels", "costume of a gradient",
-        "counts against the thesis", "never scores", "and nowhere else", "osf.io/ceauh"]),
+        "counts against the thesis", "never scores", "and nowhere else", "osf.io/ceauh", "worth only what it can be diffed against"]),
     "manifesto": ("/olymposism/", [
         "not a proposal", "built to live on Discord", "Every pillar is built into", "Version note"]),
     "theoi": ("/theoi/", [
