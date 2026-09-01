@@ -97,6 +97,8 @@ Two design commitments matter for the integrity of the bridge between the game a
 
 The Disruptive Code Test, which the monograph could only sketch as protocol, becomes implementable in this environment: suppression pressure varied by design, responses scored blind, results published. Whether the results will favor the book's reading or the deflationary one, I do not know. That is the point of running it.
 
+> **Note added 1 September 2026.** The description above is superseded by THEOI's current design and is left in place rather than edited, per the sixth pillar of the [Olymposism Manifesto](/olymposism/). Two corrections. The constitution provides for **eighteen** offices across two cities — eight thrones in each, a chronicler, and a celestial — not nine. The deterministic arena in the form described here was removed from the design. The current account is at [THEOI](/theoi/).
+
 ## 7 · Two gates, and a name
 
 The second version will not be written now, and the reasons are the book's own.
@@ -110,6 +112,8 @@ When both gates are passed, the revision will come — same title, because the d
 That is what this book will be:
 
 **The Puppet Condition: Restrung.**
+
+> **Note added 1 September 2026.** The gates are restated rather than abandoned, and the reason is a distinction this section did not draw. The flaw the gates were built to prevent is writing *descriptive* empirical claims without data. Writing **predictions** — published in advance, marked as predictions, stated precisely enough to fail, and audited afterwards against what actually happened — is not that flaw but its remedy, and it is a stronger position than the one the gate was protecting. The second version may therefore be drafted before THEOI's first season, on the condition that every claim about what the instrument will show is dated and falsifiable, and that a subsequent Record reports the results against those predictions, including and especially the ones that turn out wrong. Revision of the monograph's descriptive chapters still waits for the referee reports and the data. See [The Empty Ledger](/records/the-empty-ledger/), Section 7.
 
 ---
 

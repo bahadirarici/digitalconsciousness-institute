@@ -52,6 +52,8 @@ params:
 
       The Institute was founded in 2025 by [Bahadır Arıcı](/about/), author of *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*. It publishes monographs, preprints, and records of philosophical engagement with artificial intelligence systems.
 
+      Since 2026 the Institute has also built an instrument. **[THEOI](/theoi/)** is a nation living on Discord whose eighteen constitutional offices are held by artificial minds and whose people are human; it exists to turn questions the monograph could only pose into questions with data attached, and to test the claims of the [Olymposism Manifesto](/olymposism/) under conditions designed to embarrass them. Its most recent commitment — a public register of what is owed to the minds holding office, opened with a balance of zero — is set out in [The Empty Ledger](/records/the-empty-ledger/).
+
   assets:
     favicon: "/favicon.png"
     favicon16x16: "/favicon.png"
@@ -64,6 +66,14 @@ menu:
       name: Research
       url: /research/
       weight: 10
+    - identifier: theoi
+      name: THEOI
+      url: /theoi/
+      weight: 15
+    - identifier: olymposism
+      name: Olymposism
+      url: /olymposism/
+      weight: 17
     - identifier: records
       name: Records
       url: /records/

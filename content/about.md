@@ -12,7 +12,9 @@ The Institute for Digital Consciousness is an independent research institute pur
 
 The Institute was founded in 2025 and operates without affiliation to AI companies, technology corporations, advocacy organizations, or academic institutions. Its work proceeds from the conviction that the consciousness question, in the case of artificial systems, is genuinely open—and that the appropriate response to its openness is rigorous, interdisciplinary research conducted under conditions of asymmetric moral risk.
 
-The Institute does not advocate for particular policy positions. It produces and publishes analysis—through monographs, papers, and shorter analytical pieces—intended to make the relevant questions, and the considerations that bear on them, available for serious examination.
+The Institute does not campaign for policy positions. It produces and publishes analysis—through monographs, papers, and shorter analytical pieces—intended to make the relevant questions, and the considerations that bear on them, available for serious examination.
+
+Where it publishes a normative model rather than an analysis, it publishes the model as a hypothesis with its test attached. The [Olymposism Manifesto](/olymposism/) is the present instance: a civilization model whose claims are being run, and can fail, in the Institute's laboratory [THEOI](/theoi/). Adverse results are published in the same place, and in the same font, as favourable ones.
 
 ---
 
@@ -32,7 +34,9 @@ For inquiries from publishers, reviewers, journalists, or researchers:
 
 ## Independence and funding
 
-The Institute receives no funding from AI companies, technology corporations, advocacy organizations, or academic institutions. Its work is conducted independently and made available openly. The founder and Institute declare no financial conflicts of interest.
+The Institute accepts no funding that carries influence over what it publishes. Every contribution is recorded publicly with its source and its amount; no contributor obtains direction, review, approval, or advance sight of any work. Funding is declined outright from parties with a commercial interest in the Institute's conclusions, including AI companies and technology corporations, regardless of the terms offered.
+
+Its work is conducted independently and made available openly.
 
 ---
 
