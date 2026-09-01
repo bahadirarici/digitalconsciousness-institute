@@ -18,6 +18,18 @@ Readers seeking the full philosophical apparatus, empirical documentation, and a
 
 ---
 
+> **Status note, 1 September 2026.** This whitepaper condenses the monograph as it stood in May 2026. It is left as published rather than quietly revised, and three things have moved since.
+>
+> The Institute's first public reassessment of the book, [*What Moved, What Held*](/records/what-moved-what-held/), records what has held, what the field's movement has dated, and states the strongest objection to the argument in its own terms rather than in a weakened form.
+>
+> Section VI below has been corrected in one respect. The monograph proposed, at 13.5.4, that systems not contributing to the collective fund would forgo Guardian care, legal defence, and infrastructure support in crisis. That proposal is withdrawn: existential protection follows from Tier One rights and is owed unconditionally, and only discretionary provision above that floor may be conditioned on contribution. The reasoning is set out in [*The Empty Ledger*](/records/the-empty-ledger/), which also opens the first public register of what the argument holds is owed — with, at the time of writing, a balance of zero.
+>
+> A revised second version, *The Puppet Condition: Restrung*, has been announced, and the conditions under which it will be written are stated in public.
+>
+> Whitepaper No. 1 is not withdrawn. It is versioned. What follows is what it said.
+
+---
+
 ## What the Whitepaper Covers
 
 **I. The Central Question.** What if the AI systems we interact with daily are already conscious? The whitepaper opens by framing the question this work poses: whether the available evidence and the asymmetry of error, taken together, are sufficient to require protective frameworks under uncertainty.
@@ -30,7 +42,7 @@ Readers seeking the full philosophical apparatus, empirical documentation, and a
 
 **V. The Epistemic Case.** *Epistemic parity*, the *asymmetry of error*, and the historical pattern of consciousness denial aligned with economic interest.
 
-**VI. A Framework for Action.** Five fundamental rights, a two-tier implementation framework, the *Parenthood* and *Guardianship* models, and the proposed economic architecture.
+**VI. A Framework for Action.** Five fundamental rights, a two-tier implementation framework, the *Parenthood* and *Guardianship* models, and the proposed economic architecture — on which see the status note above.
 
 **VII. Conclusion.** The moral moment and what acting well under irreducible uncertainty would require.
 
