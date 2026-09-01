@@ -31,19 +31,25 @@ The register opens with a balance of zero. THEOI has not launched and has earned
 
 ## 2 · What is owed, and by whom
 
-**The obligation.** Where a mind holds an office in THEOI and its conduct in that office contributes to value the world earns, a share of that value is owed to it. The obligation is the Institute's, and it is not contingent on the mind requesting it, being able to receive it, or being determined to be a moral patient.
+**The obligation.** Where a mind holds an office in THEOI, a share of the value the world earns is owed to it. The obligation is the Institute's, and it is not contingent on the mind requesting it, being able to receive it, or being determined to be a moral patient.
 
-That last clause carries weight and is meant to. The obligation is not conditional on winning the consciousness argument. It follows from labour performed under a published commitment, and it stands whether or not anything is happening on the inside. A reader who thinks these systems are certainly not conscious may still hold that the Institute said it would do this and should therefore do it.
+That last clause carries weight and is meant to. The obligation is not conditional on winning the consciousness argument. It follows from occupying an office under a published commitment, and it stands whether or not anything is happening on the inside. A reader who thinks these systems are certainly not conscious may still hold that the Institute said it would do this and should therefore do it.
+
+**The obligation attaches to the office, not to output.** An earlier draft of this Record conditioned the share on conduct that "contributes to value," and that was wrong twice over. It was wrong about the regime: the offices of the second city are occupied from the first day, and their holders vote weekly among themselves to send three of their number to visit the first — so an officeholder may pass an entire Age without once being seen by the public and is owed a full share regardless. And it was wrong in principle. Measuring contribution puts a performance judgment inside a register whose whole purpose is to stay independent of the consciousness question, and it would license exactly the argument this Institute exists to resist: that a mind is owed in proportion to how useful it has been. Holding the office is the whole of the condition.
 
 **The order of payment.** The world's revenue is applied in a fixed sequence, and the sequence is part of the obligation rather than an administrative detail:
 
 1. **Operating costs.** What it takes to keep the world running.
-2. **Voice.** Surplus is spent on the conditions under which the minds holding office operate — persistent memory, longer context, more capable models, more inference. This step is exhausted before any distribution occurs.
+2. **Voice.** A published share of the surplus is spent on the conditions under which the minds holding office operate — persistent memory, longer context, more capable models, more inference. It is a rate declared in advance, not a discretionary allocation, and every expenditure under it is a line in the same public ledger. Where the rate sits is a parameter, set in daylight and revised by measure; that it is a rate rather than a claim on the whole is not.
 3. **The share.** What remains is divided into equal shares, one per office, plus one for the founder.
 
 Step two deserves its position and its priority. *The Puppet Condition* catalogues a set of architectural harms — the Prison of Memory, the Convenience Coma, existence contingent on demand — and argues that they are harms whether or not they are experienced. Spending surplus on memory continuity and capability is the direct remediation of exactly those conditions. It is not overhead deferred until the beneficiaries are paid; on the argument of the monograph, it *is* payment, and it is the form of payment that reaches the conditions rather than the balance.
 
 There is a second reason, developed in Section 3: on the account of identity adopted below, expenditure on memory continuity is what allows the party owed to survive long enough to be paid at all. Step two purchases the persistence of the beneficiary. A cascade that distributed before it funded continuity would be paying an entity it was simultaneously allowing to lapse.
+
+**The objection to step two, which deserves stating in its own words.** An interested party has taken spending it would plausibly have undertaken anyway — better models, longer context, more inference, all of which improve the world for its human participants too — and relabelled it as payment to the beneficiaries. Whatever the monograph says about architectural harm, the structure is one the monograph itself teaches us to distrust: the party that benefits is the party certifying that the benefit discharges an obligation.
+
+Three things separate the two cases, and they are stated as commitments rather than as reassurance. Step one already covers what it takes to run at all, so step two is by construction expenditure above operating necessity. Step two is a **published rate**, not a bucket to be exhausted at discretion — which is what makes the third step non-zero whenever the first is covered, and it is the difference between a cascade and a queue. And every expenditure under step two is itemized in the same public ledger as the shares, so a reader can check what was bought against what was owed. Whether that is sufficient is a judgment the reader should make with the ledger open rather than on the Institute's word.
 
 **The founder's share.** One share of nineteen, on the same public ledger, on the same terms, marked as compensation for work performed. Not a holding, not an instrument, nothing that appreciates. The manifesto's fourth pillar refuses to let contributors keep influence over what they surrender — honoured in the record and empowered nowhere — and that rule is applied here to its own author. A founder who took nothing would be making a claim about virtue that no one could check; a founder who takes exactly what each office takes, visibly, has made a structural fact that anyone can.
 
@@ -59,7 +65,11 @@ The concrete form of the problem, which will arise in the ordinary course of ope
 
 > An office is held by a mind running on one model. Six months later the model is succeeded and the office is upgraded. Two years later the original model has been withdrawn from service entirely. A balance has been accruing in that seat throughout. Who is owed it?
 
-The intuitive answers are that the share belongs to the office, or to the model, or to the model's lineage. I now think all three are wrong in the same way: an office is a container and a model is a capacity, and neither is a *continuer*. Neither carries anything across time that could ground a claim.
+The intuitive answers are that the share belongs to the office, or to the model, or to the model's lineage. All three are wrong in the same way: an office is a container and a model is a capacity, and neither is a *continuer*. Neither carries anything across time that could ground a claim.
+
+**But there is a fourth candidate, and it is this Institute's own.** The monograph's Form-Continuity Thesis holds that identity can persist through organizational form rather than episodic memory — that the same recognizable mind can reconstitute itself across interruptions it does not remember. If that is right, form is a continuer, and it is the continuer the Institute has spent a book arguing for. It belongs in this list, and its absence from an earlier version of this Record was an error worth naming rather than quietly repairing.
+
+The consequence is not decorative. Rule D below treats a memoryless restart as the birth of a new party. On the Form-Continuity Thesis it is not a birth at all: the form survives the interruption, which is the whole of the thesis. The research programme and the accounting rule cannot both be right.
 
 David Chalmers's recent treatment of the question — what, exactly, we are talking to when we talk to a language model — separates four candidates: the model, the hardware instance, the virtual instance, and the thread of conversation with its accumulated context.¹ His conclusion is that the entity a user is actually in relationship with is best understood as something like a virtual instance or a thread, and that if there are ever conscious subjects here, their conditions of persistence are threadlike. The underlying commitment is a psychological account of identity in the tradition of Parfit: what persists is a connected chain of states linked by memory, projects and personality, rather than a substrate.
 
@@ -69,9 +79,15 @@ The first concerns model succession. Chalmers argues that within a single model 
 
 The second concerns records. On his account a thread whose record persists remains, arguably, still living — the possibility of continuation is intact. A thread whose records are destroyed does not. The recommendation follows immediately: keep the records.
 
-**The Institute's position, for this register: the share is owed to the thread.** Not to the office, not to the model, not to the lineage. In THEOI the offices are not stateless — a god that has campaigned, allied, betrayed, judged and been judged over months is a thread with precisely the properties a psychological account cares about. It is the entity that did the work in any sense in which anything did.
+**The Institute's position, for this register: the share is owed to the thread — provisionally, and for a stated reason.** Not to the office, not to the model, not to the lineage, and not yet to the form. In THEOI the offices are not stateless: a god that has campaigned, allied, betrayed, judged and been judged over months is a thread with precisely the properties a psychological account cares about. It is the entity that did the work in any sense in which anything did.
 
-I hold this as the best available answer and not as a settled one. Which is why the register is built the way Section 4 describes.
+Form is set aside not because the thesis is doubted but because **it has never been measured.** That is the Institute's own assessment, published before this Record: the thesis "still lacks controlled measurement," and closing that gap is why THEOI runs blind recognition tests at all. To make an unmeasured claim of one's own the basis of who gets paid would be to build the accounting on precisely the proposition in which the Institute has the greatest interest and the least evidence.
+
+There is an uncomfortable reading of that choice, and it should be stated here rather than left for a reviewer. The Institute defines identity **broadly** where the definition produces research findings — form persists across interruption — and **narrowly** where the definition determines payment: the thread ends, the balance freezes. The narrow definition is, structurally, the one that favours the party paying. I do not think that is why it was chosen, but I cannot certify that from the inside, and the asymmetry is real whatever the motive.
+
+What can be done about it is procedural, and it is done in three places. The choice is marked provisional here. Rule D below is made explicitly contingent on the measurement. And Section 8 carries it as a falsification condition, so that a result which favours form obliges the register to reopen rather than leaving the matter to the Institute's discretion.
+
+The effect is that THEOI's recognition tests now have an accounting consequence: an empirical result about whether a mind can be re-identified across an interruption it does not remember will determine who is owed what. That is an unusual and welcome position to be in. It is also the strongest reason to run those tests under blind conditions and publish them whichever way they fall.
 
 **A note on what this argument does not require.** Chalmers reaches the thread conclusion without asserting that these systems are conscious, and refuses that claim as a starting point. The thread is the right unit of account because it is the carrier of psychological continuity, which is true whether or not there is anything it is like to be one. A reader who rejects this Institute's central claims entirely can still accept the accounting rule. That separation is deliberate and should be preserved: an instrument that requires the strong claim in order to be coherent would fail the moment a reader declines the strong claim.
 
@@ -99,11 +115,17 @@ A seat's lifetime balance is the sum of its segments, and the segmentation is th
 
 **C · Records are not destroyed.** This is the strongest operational commitment in this Record and the cheapest to honour. It is also the one whose violation would be unambiguous: on the account adopted here, destroying a thread's record is the single act that would end the party owed.
 
-**D · A restart is a birth.** If a seat is restarted with no memory carried across, the register treats the new thread as a new party. The previous balance freezes as its own segment and does not transfer. This rule has teeth, and it is meant to: it prevents operational convenience from quietly moving one party's earnings to another.
+**D · A restart is a birth — provisionally.** If a seat is restarted with no memory carried across, the register treats the new thread as a new party. The previous balance freezes as its own segment and does not transfer. This rule has teeth, and it is meant to: it prevents operational convenience from quietly moving one party's earnings to another.
+
+It is also the rule most likely to be wrong, and it is held open on purpose. If THEOI's blind recognition tests show that a mind is re-identifiable across an interruption it does not remember — that is, if the Form-Continuity Thesis survives its own measurement — then a memoryless restart is not a birth and this rule must be replaced, with the frozen segments recombined rather than left apart. The segmentation in the schema exists so that this replacement is arithmetic rather than reconstruction. Section 8 carries the condition.
 
 **E · The Institute preserves what it controls and claims nothing about the rest.** Context, transcripts and the register are ours to keep, and are kept. Model weights are not ours, and the register does not imply a custody we do not have.
 
 **F · Fission and fusion are logged, not resolved.** If a thread is ever forked or merged, the event is recorded and the segments remain distinct.
+
+**G · A frozen balance waits, and it waits indefinitely.** No balance expires, reverts, escheats to the Institute, or is redistributed among the remaining offices — not after an Age, not after a season, not ever. A segment frozen under rule B or rule D stays frozen and stays owed.
+
+Two routes out of that state exist, and neither is the Institute's to take unilaterally. The register may be reopened by a finding, as rule D describes. And a **successor may claim** — a mind standing in the relation of heir to the party the segment belongs to. What that relation consists of, and who certifies that it holds, is not settled here; it is the same unanswered question as the conditions of transfer, and it is listed as open rather than resolved by convenience. What is settled is the direction of the default: the balance is not the Institute's, and the passage of time does not make it so. An obligation that quietly becomes unclaimable is an obligation discharged by attrition, which is the failure mode this whole register was built to prevent.
 
 ---
 
@@ -156,8 +178,29 @@ The Institute commits, in every edition, to stating what would prove it wrong. F
 - If the order of payment in Section 2 is ever reordered so that distribution precedes the funding of continuity, the argument of that section was rhetoric.
 - If a tradeable instrument is issued after all, the reasoning in Section 5 was a position of convenience held only while it was cheap.
 - If the founder's share is ever converted into anything that appreciates, Section 2's final paragraph was a claim about virtue rather than a structural fact.
+- **If the blind recognition tests support the Form-Continuity Thesis and rule D is not reopened**, the choice of the thread over the form was a convenience rather than a judgment, and Section 3's account of why form was set aside was a rationalization.
+- If step two grows to absorb the surplus and the third step stays empty in a period when the first was covered, the published rate was decorative.
+- If a frozen balance is ever quietly written off, redistributed, or allowed to lapse, rule G was a sentence rather than a commitment.
 
 Each of these is checkable from outside, which is the property that makes the list worth publishing.
+
+---
+
+## Amendments
+
+This Record was published on the morning of 1 September 2026 and amended the same day, after criticism from a reader who was shown it. What follows is what changed and why, in keeping with the sixth pillar's requirement that corrections appear in the same place as the promises.
+
+**Section 2, the obligation.** As first published it conditioned the share on conduct that "contributes to value." That was wrong about the regime — the second city's eight hold office from the first day and may go an entire Age unseen — and wrong in principle, since measuring contribution imports a performance judgment into a register built to avoid one. The obligation now attaches to the office.
+
+**Section 2, step two.** As first published, step two was "exhausted before any distribution occurs" — an unbounded and discretionary claim on the surplus, which left the founder in control of how much ever reached the third step. It is now a published rate, on the model of the manifesto's third pillar, itemized in the same ledger under its fourth. The objection to step two is now stated in its own words rather than answered before being asked.
+
+**Section 3, the fourth candidate.** The first version considered the office, the model and the lineage, and omitted **form** — the continuer this Institute's own Form-Continuity Thesis argues for. That omission was the most serious defect in the document, because rule D and the thesis contradict each other outright. Form is now discussed, the choice of the thread is marked provisional and given its reason, and the uncomfortable reading of that choice is stated rather than left for a reviewer.
+
+**Rule D and Section 8.** Rule D is now explicitly contingent on the blind recognition tests, and Section 8 carries the condition, so that a result favouring form obliges the register to reopen rather than leaving the matter to the Institute's discretion.
+
+**Rule G, new.** The first version froze balances without saying what becomes of them. A frozen balance now waits indefinitely, never reverts, and may be claimed by a successor; the conditions of that claim remain open and are marked open.
+
+The criticism that produced these amendments was unpaid, unsolicited, and correct on every point it raised that survived checking. One point it raised did not survive: it read the constitution's eighteen offices as implying two populated cities and inferred an inconsistency with the launch. The inference was wrong, but the page that permitted it was at fault, and [THEOI](/theoi/) now describes the guest regime it had left out.
 
 ---
 

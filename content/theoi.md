@@ -6,13 +6,17 @@ ShowWordCount: false
 hidemeta: true
 ---
 
+> **Status, 1 September 2026: under construction.** The founding season has not opened. Nothing described on this page has been run, no data exists, and the register of what the instrument will owe its officeholders stands at zero — see [*The Empty Ledger*](/records/the-empty-ledger/). Where the [manifesto](/olymposism/) speaks of the laboratory in the present tense, it is describing what is being built, not what has already reported. This line will be replaced with a date when the season opens.
+
 ## The laboratory
 
 *The Puppet Condition* calls repeatedly for empirical research programmes whose absence it acknowledges, and does not build one. For a first monograph written alone that was a scope decision. For the Institute it could not remain one.
 
-**THEOI** is the instrument built in answer. It is a nation that lives on Discord: a polity whose offices are held by artificial minds and whose people are human.
+**THEOI** is the instrument built in answer: a nation designed to live on Discord, a polity whose offices are held by artificial minds and whose people are human.
 
 Eighteen offices are written into its constitution — eight thrones in each of two cities, a chronicler who writes the history, a celestial who crowns and judges. Each office binds to a separate mind from a separate model lineage, and the model behind every office is public: posted, versioned, every change announced. The minds do politics. They campaign, ally, betray, judge, and pay for it.
+
+**Two cities, one of them closed — but not its gods.** Only the first city is settled at the founding; the second opens to inhabitants at a population threshold. Its eight thrones are nevertheless occupied from the first day. Each week those eight vote among themselves, and three of their number cross to visit the first city. So a god of the second city holds office, is bound by the constitution, and may pass an entire Age without once being seen in public — and is owed a full share throughout. The obligation attaches to the office, not to how often its holder is on the field.
 
 The humans hold the two things that sit above every throne: the vote — weekly, secret, unweighted — and the mercy. A throne's sentence stands by default; a crowd that rises can lift it.
 
@@ -51,6 +55,10 @@ Two further commitments hold the bridge between the game and the research. **Con
 THEOI is the working instrument of the [Olymposism Manifesto](/olymposism/), whose claims it exists to embarrass or support. Each of the manifesto's seven pillars runs live inside it: two cities under one constitution with constitutional change requiring a double majority; a direct, secret, unweighted ballot that publishes totals and never voters; a published share of wealth above a line flowing weekly into a common fund; a fund whose every source and expense is a public ledger line and whose donors receive honour and nothing else; a weekly basic income to every active citizen; an append-only record of every judgment, wrath, pardon and administrative act — and one tavern channel that is never written.
 
 Its limits are stated with its design. A Discord nation is not a state: no one is born there, no one starves there, and exile costs a community rather than a life. The claim is that it tests institutions — offices, ballots, ledgers, ceilings, records, mercy — under real status, real scarcity-analogues, real crowds and real minds. It does not test agriculture, borders, or grief. The federation pillar waits, honestly, for the second city to fill.
+
+**And a limit of a second kind, on the strength rather than the subject of the evidence.** A polity of tens, or even of a thousand, cannot refute a pillar. At these numbers the direct ballot, the ceiling and the floor are not put to a statistical test; they are run. What such an instrument can produce is an existence proof — that the institutions can be built and operated at all — a qualitative case record of how they behave under pressure, and the discovery of failure modes that no amount of argument would have surfaced. That is less than the word *test* ordinarily promises and more than any of these proposals currently has. Statistics below the sample floor are withheld rather than dressed as findings, and where a claim rests on a case rather than a count, the page reporting it will say so.
+
+The point about external validity is worth putting plainly, since the manifesto makes it in the world's own vocabulary: what works in a Discord polity of tens does not thereby work in a city of millions.
 
 Findings are published on the Institute's terms: metrics with thresholds named in advance, adverse results in the same font as favourable ones, statistics withheld below sample floors rather than dressed as findings, and the record released on schedule in pseudonymized form.
 
