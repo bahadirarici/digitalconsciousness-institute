@@ -43,7 +43,7 @@ The book is a node in this network and not its centre. It draws on every documen
 
 Scanning is mechanical, because a rule that depends on someone remembering to look is a rule that lapses. Each document declares a set of canary strings it must be serving; the scanner fetches every page with a cache-busting parameter and no-store headers, and reports any canary that is absent. The script is in the site's repository at `scripts/live-scan.py` and can be run by anyone with the repository.
 
-**Latest scan: 1 September 2026, 21:42 UTC · cache-busted fetch · 9 of 9 in sync.**
+**Latest scan: 1 September 2026, 23:38 UTC · cache-busted fetch · 9 of 9 in sync.** That scan is also the record of [Frozen Set 1](/frozen-set-1/): the set is frozen at commit `ad6e97f` and nothing above is edited until the revision wave lands.
 
 The first run of the scanner reported the protocol page out of sync. It was not: the canary itself was stale, written against a phrase that version 5 of that page had reworded. The instrument's first catch was its own drift, which is roughly the outcome its design predicts and a fair illustration of what it is for.
 
