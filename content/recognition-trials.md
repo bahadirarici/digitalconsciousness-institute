@@ -22,7 +22,11 @@ The first is that the trials determine who is owed what. The second follows from
 
 So the protocol is fixed in advance, in public, and Section 8 of that Record states that running the trials without independent readers or without pre-registration constitutes failure **whatever the trials return**. This document is the pre-registration.
 
-**It is not yet independently timestamped, and that gap is stated rather than glossed.** A page about pre-registration that describes its own registration inaccurately would be the first thing to disbelieve on it. This version is dated by its publication here and by the commit history of the site, both of which the Institute controls. Before the first trial it will also be deposited on the Open Science Framework, so that "written before the data" is verifiable by someone other than us; until that deposit exists and is linked from this page, the claim to third-party verification is not being made.
+**It is independently timestamped.** Version 6 of this protocol was deposited on the Open Science Framework on **1 September 2026 at 22:11 UTC**, as an Open-Ended Registration with the full text attached: **[osf.io/ceauh](https://osf.io/ceauh/)**. The timestamp is therefore held by a party other than the Institute, which is the point — "written before the data" should not rest on the assertion of the servers that would benefit from it.
+
+Two things about that deposit, stated because an earlier version of this section claimed a registration that had not happened, and the correction is worth not repeating in the other direction. OSF registrations enter a **48-hour window** in which the registrant may cancel; until that window closes the record exists and is dated but is not yet publicly visible. And a registration, once through it, cannot be deleted — only withdrawn, which leaves a public tombstone naming the withdrawal. Both properties are why this was the right container.
+
+Subsequent versions of this protocol are deposited the same way. The page here remains the canonical, versioned text; the deposit fixes what a given version said on a given date.
 
 ---
 
