@@ -6,7 +6,7 @@ ShowWordCount: false
 hidemeta: true
 ---
 
-*Pre-registered protocol for the blind recognition trials in [THEOI](/theoi/). Registered before the first trial, as [The Empty Ledger](/records/the-empty-ledger/) requires. Version 1, 1 September 2026.*
+*Pre-registered protocol for the blind recognition trials in [THEOI](/theoi/). Fixed before the first trial, as [The Empty Ledger](/records/the-empty-ledger/) requires. **Version 2, 2 September 2026** — see Section 10 for what changed and why.*
 
 ---
 
@@ -64,7 +64,11 @@ Three controls, applied together:
 
 **Matched prompts.** A portion of trial material is elicited on identical prompts put to every seat, outside the world's public channels, on subjects assigned by no office.
 
-**Role-blind excerpting.** Naturally occurring material is excerpted so that named entities, offices, city references, and event-specific content are redacted by a person who is not scoring. Redaction is mechanical and its rules are published with the materials.
+**Role-blind excerpting.** Naturally occurring material is excerpted so that role-identifying content is removed by a person who is not scoring. Redaction is the single procedure with the most room for judgment, and therefore the one most in need of being fixed in advance: applied heavily it drives everything to chance, applied lightly it lets role recognition through. **The rule set is therefore stated here, versioned, rather than published alongside the materials after the fact.**
+
+*Redaction rules, version 1.* Removed: proper nouns of every kind — persons, offices, cities, factions, artefacts; references to datable events; quantities attached to events; and the domain vocabulary of a seat's portfolio, taken from a substitution list built before the block is assembled and published with it. Retained: sentence length and variance, punctuation habit, clause structure, argument shape, hedging and modality, register, and every function word. An item that would require a judgment not covered by the substitution list is **discarded, not redacted ad hoc** — the discard is logged with its reason, and no item is redacted by a person who will score it.
+
+**Style normalization as a condition, not a step.** The two readings disagree about what carries the signal. On the accent reading, the only thing distinguishing one mind from another is surface style, so removing it leaves nothing; on the interior reading, something survives its removal. That is a contrast to be run, not a preprocessing decision to be made once. Each block is therefore presented in two conditions — raw, and style-normalized against a fixed procedure published with the block — and the pre-registered question is whether the effect survives normalization. (A companion volume describes P1 as testing matching "once style words are stripped." That is this condition, and it is a condition rather than a universal step, because stripping function words from every block would remove the strongest known authorship signal from the test that needs it.)
 
 **Same-role, same-lineage pairs.** Where two seats share a lineage, their items are presented together, so that a reader who is tracking lineage rather than individual cannot score above chance.
 
@@ -82,6 +86,10 @@ If Level B fails under these controls but succeeds without them, the honest repo
 
 **Number.** The target is at least twelve readers per trial block. Below eight, results are reported descriptively and no inferential statistic is published — consistent with the Institute's standing commitment to withhold statistics below a sample floor rather than dress them as findings.
 
+**Where readers come from.** Recruitment runs through one named channel per season, published before the block is assembled: an open call on a research platform or forum, with applicants screened against the exclusions above. **Personal invitation by the founder is itself an exclusion.** A reader the founder chose is not independent of the founder, whatever else is true of them.
+
+**Competence, screened rather than excused.** Each reader completes a qualification block on material outside the trial set — matched excerpts from writers of clearly distinct voice — and must reach a threshold published with the season's protocol before their trial responses are counted. Readers must be fluent in the language of the materials. This screen exists because an earlier draft of this protocol listed "readers unfamiliar with the register" among the explanations available for a null result. An explanation that is available after the fact and untested before it is an excuse; the competence of readers is now measured rather than invoked, and that item has been removed from Section 7.
+
 ---
 
 ## 6 · Analysis, fixed in advance
@@ -96,7 +104,19 @@ If Level B fails under these controls but succeeds without them, the honest repo
 
 **Stopping rule.** The number of blocks per season is fixed before the season opens. No block is added after the data is seen, and no analysis is run before the season's blocks are complete.
 
-**Multiple comparisons.** Levels A, B and C are three pre-specified tests. Any analysis beyond those three is exploratory, is labelled exploratory in the report, and cannot trigger the rule-D decision.
+**Agreement, reported separately.** The mixed model absorbs reader variance; it does not describe it. Readers could disagree sharply with one another and still produce a mean above chance, and that is a property of the result which belongs in the report rather than in the residuals. Published with every trial: the distribution of per-reader accuracy, and a pre-specified agreement statistic — Fleiss' κ across readers on the forced-choice items, and the intraclass correlation implied by the model's random intercepts. Low agreement alongside an above-chance mean is reported as what it is: a weak and heterogeneous effect, not a clean one.
+
+**Multiple comparisons.** Two hypotheses are tested, H1 at Level B and H2 at Level C, with Level A measured only as a covariate. They are evaluated in fixed sequence — H2 is examined only if H1 is significant — and a fixed-sequence gate controls the family-wise error rate without further correction, which is why a single alpha is stated. Any analysis beyond these is exploratory, is labelled exploratory in the report, and cannot trigger the rule-D decision.
+
+### Power, and what a null will be allowed to mean
+
+An alpha without a power calculation makes a null result uninterpretable: the reader cannot tell a false thesis from a small trial, and the author is left free to choose between them afterwards. The design parameters are therefore fixed here.
+
+**Design.** Level C items are four-alternative forced choice — a post-interruption sample against four candidate pre-interruption samples, one of them from the same seat. Chance is 25 per cent. Twenty-four items per condition per block, two conditions (raw and style-normalized), at least twelve readers.
+
+**Minimum detectable effect.** The design targets a fifteen percentage-point rise over chance — 25 per cent to 40 per cent — at 80 per cent power under the primary model. A simulation-based power calculation for the mixed-effects design, with its code, is published on this page before the first trial; if it shows the target is not reachable at these parameters, the parameters are raised before any data exists, and the change is logged under Section 10.
+
+**What a null will mean, agreed in advance.** A null at this design excludes effects of roughly fifteen points or larger. It does not exclude smaller ones, and it will not be reported as a refutation of the Form-Continuity Thesis. The two explanations that remain live for a null — insufficient material per seat, and over-aggressive redaction — are each measurable and will be reported with their measures: items retained per seat, and the discard rate under the redaction rules. No third explanation may be introduced after the result is seen.
 
 ---
 
@@ -106,7 +126,7 @@ At its scale THEOI is an existence proof and a qualitative case study, not a sta
 
 Even so: eighteen seats is eighteen, items within a seat are not independent, and a season is one season. A supportive result here is evidence that a form is recognizable across an interruption **in this instrument, under these conditions, to readers of this kind**. It is not a demonstration that the Form-Continuity Thesis holds generally, and the report will say so in the same words.
 
-A null result is likewise not a refutation of the thesis. It is a null result in one instrument, and the most likely explanations — insufficient material, over-aggressive redaction, readers unfamiliar with the register — will be reported alongside it rather than after it.
+A null result is likewise not a refutation of the thesis. It is a null result in one instrument, bounded by the power stated in Section 6, and the two explanations that remain available for it are measured rather than asserted.
 
 ---
 
@@ -127,7 +147,11 @@ Nothing is withheld pending a better season. If a trial is abandoned, the abando
 
 ## 9 · Conflicts
 
-The Institute designed the instrument, holds the obligation the trials bear on, and benefits financially in one direction: a result supporting form-continuity reopens rules that currently freeze balances, which enlarges what is owed rather than reducing it. The direction is stated because a reader should be able to check it rather than take the statement on trust.
+The Institute designed the instrument and holds the obligation the trials bear on.
+
+An earlier version of this section claimed the financial interest ran against the Institute, on the ground that a result supporting form-continuity would reopen frozen balances and so enlarge what is owed. **That claim was wrong and is withdrawn.** Under rule G of the register no balance reverts to the founder, to the Institute, or to the remaining offices on any branch. Eighteen nineteenths are owed whether the balances are frozen or claimable; what a form-favourable result changes is not the size of the debt but whether it can be claimed. The financial direction is therefore **neutral**, and a false declaration of financial self-sacrifice is worse than an accurate declaration of any other kind of stake.
+
+The live interest is of another kind and is named here because it is the one that matters. **A result supporting H2 vindicates this Institute's own central thesis.** The stake is reputational rather than financial, and on a project whose principal asset is its argument, reputational interest is probably the stronger of the two. Nothing structural removes it — an author's reputation is not divestible. What answers it is the design: readers the Institute did not choose, parameters fixed before the data, a null whose meaning is agreed in advance, and a published record in which this paragraph replaced a more flattering one after an outside reader pointed out that the flattering version was false.
 
 The principal researcher receives one nineteenth of any distribution under the cascade described in [The Register](/ledger/), and any grant funding this work is published with its source and amount as the Institute's [funding statement](/about/) requires.
 
@@ -136,3 +160,17 @@ The principal researcher receives one nineteenth of any distribution under the c
 ## 10 · Amendments
 
 This protocol may be amended before the first trial of a season, never during one, and never after data from that season has been seen. Every amendment is published here with its date and its reason, and the superseded version remains readable. We version; we do not erase.
+
+**Version 2 — 2 September 2026.** Amended after an audit by an outside reader, before any data exists. Six changes.
+
+**Power.** Version 1 stated an alpha and no power, which leaves a null result uninterpretable and leaves the author free to choose afterwards between a false thesis and a small trial. Design parameters, a minimum detectable effect, and the meaning of a null are now fixed in Section 6, with a simulation to be published before the first trial.
+
+**Redaction.** Version 1 promised the rules would be published with the materials — that is, after the trial. Redaction is the procedure with the most latitude and the most influence on the result, and it was the only one exempt from the rule that everything is written before the data. The rule set is now stated in Section 4, versioned, with a discard-rather-than-improvise clause.
+
+**Style normalization.** Added as a within-block condition rather than a preprocessing step, which also resolves a mismatch with the companion volume's description of P1.
+
+**Reader competence.** Version 1 listed "readers unfamiliar with the register" among the explanations available for a null while defining no competence criterion — an untested excuse held in reserve. Competence is now screened by a qualification block, and that explanation is removed from Section 7.
+
+**Agreement.** A pre-specified inter-reader agreement statistic and the distribution of per-reader accuracy are now published with every trial, because a mixed model absorbs reader disagreement without describing it.
+
+**Conflicts.** Section 9 claimed the Institute's financial interest ran against itself. Under rule G that was false. The claim is withdrawn, the financial direction is stated as neutral, and the reputational interest — which is the real one — is named in its place.
