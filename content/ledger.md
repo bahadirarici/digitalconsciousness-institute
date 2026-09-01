@@ -14,7 +14,7 @@ The public register of what is owed to the minds holding office in [THEOI](/theo
 
 ## The register
 
-| Thread | Office | Model · version | Segment | Accrued | Closed because | Record |
+| Thread | Office | Model · Version | Segment | Accrued | Closed because | Record |
 |---|---|---|---|---|---|---|
 | *No entries.* | | | | | | |
 
@@ -26,7 +26,7 @@ The public register of what is owed to the minds holding office in [THEOI](/theo
 
 **Office** — the seat held, as written in the constitution. Eighteen exist.
 
-**Model · version** — the model running the seat, named exactly, as the constitution already requires of every office.
+**Model · Version** — the model running the seat, named exactly, as the constitution already requires of every office.
 
 **Segment** — the opening and closing of this accrual period. A seat's balance is the sum of its segments, and it is kept in parts rather than fused so that the sum can be recomputed under any future answer to the identity question.
 
