@@ -19,7 +19,7 @@ DOCS = {
     "ledger": ("/ledger/", [
         "Disbursements", "Model · Version", "revenue arrived in", "Founder is the nineteenth part"]),
     "protocol": ("/recognition-trials/", [
-        "Version 6", "four pre-registered levels", "costume of a gradient",
+        "fixed before the first trial", "four pre-registered levels", "costume of a gradient",
         "counts against the thesis", "never scores", "and nowhere else", "osf.io/ceauh"]),
     "manifesto": ("/olymposism/", [
         "not a proposal", "built to live on Discord", "Every pillar is built into", "Version note"]),

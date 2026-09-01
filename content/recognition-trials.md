@@ -6,7 +6,9 @@ ShowWordCount: false
 hidemeta: true
 ---
 
-*Pre-registered protocol for the blind recognition trials in [THEOI](/theoi/). Fixed before the first trial, as [The Empty Ledger](/records/the-empty-ledger/) requires. **Version 6, 2 September 2026** — see Section 10 for what changed and why.*
+*Pre-registered protocol for the blind recognition trials in [THEOI](/theoi/), as [The Empty Ledger](/records/the-empty-ledger/) requires.*
+
+***Status: fixed before the first trial. Last revised 2 September 2026. Deposited at [osf.io/ceauh](https://osf.io/ceauh/).** Every revision so far has been made while no data exists — which is when revision is free, and the point of publishing this early. The full history is in Section 10. From the first trial onward, changes are numbered, dated and reasoned, because from that point a revision is no longer free.*
 
 ---
 
@@ -22,11 +24,11 @@ The first is that the trials determine who is owed what. The second follows from
 
 So the protocol is fixed in advance, in public, and Section 8 of that Record states that running the trials without independent readers or without pre-registration constitutes failure **whatever the trials return**. This document is the pre-registration.
 
-**It is independently timestamped.** Version 6 of this protocol was deposited on the Open Science Framework on **1 September 2026 at 22:11 UTC**, as an Open-Ended Registration with the full text attached: **[osf.io/ceauh](https://osf.io/ceauh/)**. The timestamp is therefore held by a party other than the Institute, which is the point — "written before the data" should not rest on the assertion of the servers that would benefit from it.
+**It is independently timestamped.** The text as it stood on 1 September was deposited on the Open Science Framework on **1 September 2026 at 22:11 UTC**, as an Open-Ended Registration with the full text attached: **[osf.io/ceauh](https://osf.io/ceauh/)**. The timestamp is therefore held by a party other than the Institute, which is the point — "written before the data" should not rest on the assertion of the servers that would benefit from it.
 
 Two things about that deposit, stated because an earlier version of this section claimed a registration that had not happened, and the correction is worth not repeating in the other direction. OSF registrations enter a **48-hour window** in which the registrant may cancel; until that window closes the record exists and is dated but is not yet publicly visible. And a registration, once through it, cannot be deleted — only withdrawn, which leaves a public tombstone naming the withdrawal. Both properties are why this was the right container.
 
-Subsequent versions of this protocol are deposited the same way. The page here remains the canonical, versioned text; the deposit fixes what a given version said on a given date.
+Each later revision is deposited the same way. The page here is the canonical text; a deposit fixes what it said on a given date, which is the only thing a timestamp can usefully do.
 
 ---
 
@@ -203,31 +205,35 @@ The principal researcher receives one nineteenth of any distribution under the c
 
 This protocol may be amended before the first trial of a season, never during one, and never after data from that season has been seen. Every amendment is published here with its date and its reason, and the superseded version remains readable. We version; we do not erase.
 
-**Version 6 — 2 September 2026.** One ambiguity removed. H3 was phrased as the Level C effect "surviving" normalization, which reads either as an absolute test against chance on normalized material or as an interaction between conditions. Only the first was meant, and only the first can decide anything — two conditions can both be null while an interaction test reports faithfully that nothing changed between them. H3 is now stated as the Level C test run at the standard level against chance; the raw-versus-standard comparison is descriptive and triggers nothing. The decision rule is restated to say that rule D has exactly one trigger rather than that several levels lack one.
+**Two regimes, and the boundary between them is the only one that matters.** Before the first trial, revision is free and frequent: no result can be known, so nothing can be tuned toward one, and a protocol improved six times before any data exists is a better protocol, not an unstable one. The entries below are that history, kept in full and deliberately not dressed up as a smaller number. **From the first trial onward the regime changes**: an amendment is a numbered, dated, reasoned event, it is deposited before it takes effect, and any change made after a result has been seen invalidates the trial it touches. What follows is the pre-data record.
 
-**Version 5 — 2 September 2026.** Two clauses added in answer to three questions put to version 4; the third was already satisfied.
+*Entries are listed newest first. The state deposited on 1 September 2026 at osf.io/ceauh is the one described immediately below.*
+
+**2 September 2026 — the deposited state.** One ambiguity removed. H3 was phrased as the Level C effect "surviving" normalization, which reads either as an absolute test against chance on normalized material or as an interaction between conditions. Only the first was meant, and only the first can decide anything — two conditions can both be null while an interaction test reports faithfully that nothing changed between them. H3 is now stated as the Level C test run at the standard level against chance; the raw-versus-standard comparison is descriptive and triggers nothing. The decision rule is restated to say that rule D has exactly one trigger rather than that several levels lack one.
+
+**2 September 2026.** Two clauses added in answer to three questions put to the preceding state; the third was already satisfied.
 
 **The normalization levels are now defined by the feature set each removes** — orthographic habit at light, the function-word and discourse-marker signal on which classical authorship attribution rests at standard, syntactic flattening at aggressive — rather than deferred entirely to the code. The code still ships before the first trial; the definitions no longer wait for it.
 
-**The confirmatory level is stated as singular and exclusive.** Version 4 anchored H3 at standard and barred aggressive from adjudicating, but did not bar light. All three non-confirmatory levels are now explicitly reported and explicitly unable to trigger rule D under any result: a ladder whose decision point could be chosen after the curve is seen is a forking path wearing the costume of a gradient.
+**The confirmatory level is stated as singular and exclusive.** An earlier draft anchored H3 at standard and barred aggressive from adjudicating, but did not bar light. All three non-confirmatory levels are now explicitly reported and explicitly unable to trigger rule D under any result: a ladder whose decision point could be chosen after the curve is seen is a forking path wearing the costume of a gradient.
 
-*(The third question — whether the normalization contrast is registered as H3 with a place in the gate — was answered in version 3 and stands.)*
+*(The third question — whether the normalization contrast is registered as H3 with a place in the gate — was answered in an earlier revision and stands.)*
 
-**Version 4 — 2 September 2026.** Amended on a work order following a third audit, before any data exists. Five changes; four earlier items in the order were already closed in versions 2 and 3.
+**2 September 2026.** Amended on a work order following a third audit, before any data exists. Five changes; four earlier items in the order were already closed in versions 2 and 3.
 
-**Style normalization becomes a four-level ladder.** Version 3 ran raw against a single normalized condition, which removed the researcher's discretion from *whether* to normalize but left it in *how hard*. Raw, light, standard and aggressive, each as executable code. The prediction is a curve rather than a point: the interior reading expects survival at standard, the accent reading collapse there, and aggressive exists to bound the instrument rather than to adjudicate — a level at which even a real effect should vanish, so that failing to vanish reads as leakage. H3 and rule D are anchored at standard.
+**Style normalization becomes a four-level ladder.** An earlier draft ran raw against a single normalized condition, which removed the researcher's discretion from *whether* to normalize but left it in *how hard*. Raw, light, standard and aggressive, each as executable code. The prediction is a curve rather than a point: the interior reading expects survival at standard, the accent reading collapse there, and aggressive exists to bound the instrument rather than to adjudicate — a level at which even a real effect should vanish, so that failing to vanish reads as leakage. H3 and rule D are anchored at standard.
 
-**Redaction ships as code.** Version 3 stated the rules in prose. A prose rule is a rule with discretion left in it; the substitution list and transformation are published as re-executable code before the first block is assembled.
+**Redaction ships as code.** An earlier draft stated the rules in prose. A prose rule is a rule with discretion left in it; the substitution list and transformation are published as re-executable code before the first block is assembled.
 
 **The redactor is a named role** that scores nothing in the season and sees no reader responses, with the separation appearing in the trial log as a fact rather than an assurance.
 
-**Reliability gets a floor and a consequence.** Version 3 published an agreement statistic without a threshold. Krippendorff's α with a floor of 0.4, binding *before* the hypotheses: under it, the block is neither a null nor support but an instrument failure, and the protocol returns to design with the return logged.
+**Reliability gets a floor and a consequence.** An earlier draft published an agreement statistic without a threshold. Krippendorff's α with a floor of 0.4, binding *before* the hypotheses: under it, the block is neither a null nor support but an instrument failure, and the protocol returns to design with the return logged.
 
 **Null diagnostics are bound to pre-specified thresholds**, and the door is closed behind them: if no criterion trips, a null counts against the thesis rather than being called inconclusive. Listing three explanations without binding them is only writing the excuses down in advance.
 
-**Version 3 — 2 September 2026.** Amended after a second audit of version 2, before any data exists. Four changes.
+**2 September 2026.** Amended after a second audit, before any data exists. Four changes.
 
-**The normalization contrast becomes H3, and becomes the trigger.** Version 2 added the raw-versus-normalized contrast as a condition without giving it a hypothesis, which left the comparison where the two readings actually diverge outside the hypothesis list, the gate, and the alpha — exploratory by this document's own definition, and therefore unable to decide anything. H3 is now third in the fixed sequence, and rule D triggers on it rather than on H2: a continuity effect that vanishes under style normalization is what the accent reading predicts and must not be what changes an obligation.
+**The normalization contrast becomes H3, and becomes the trigger.** An earlier draft added the raw-versus-normalized contrast as a condition without giving it a hypothesis, which left the comparison where the two readings actually diverge outside the hypothesis list, the gate, and the alpha — exploratory by this document's own definition, and therefore unable to decide anything. H3 is now third in the fixed sequence, and rule D triggers on it rather than on H2: a continuity effect that vanishes under style normalization is what the accent reading predicts and must not be what changes an obligation.
 
 **Estimation published with every test**, significant or not. At this design a real effect of eight points fails the test; without an interval the season reports "nothing learned" when it has in fact returned a bounded effect, and a larger second season would then be justified after the fact rather than before it.
 
@@ -235,15 +241,15 @@ This protocol may be amended before the first trial of a season, never during on
 
 **Three smaller corrections.** The power section will publish a curve across a range of intraclass correlation and name the value at which the 80 per cent claim holds, rather than one number that is really the output of one chosen assumption. "Excludes" is replaced with an accurate statement — at exactly fifteen points the design misses one trial in five. And the reader qualification threshold is fixed at eight of ten here, instead of being republished each season, which made it tunable.
 
-**Version 2 — 2 September 2026.** Amended after an audit by an outside reader, before any data exists. Six changes.
+**2 September 2026.** Amended after an audit by an outside reader, before any data exists. Six changes.
 
-**Power.** Version 1 stated an alpha and no power, which leaves a null result uninterpretable and leaves the author free to choose afterwards between a false thesis and a small trial. Design parameters, a minimum detectable effect, and the meaning of a null are now fixed in Section 6, with a simulation to be published before the first trial.
+**Power.** An earlier draft stated an alpha and no power, which leaves a null result uninterpretable and leaves the author free to choose afterwards between a false thesis and a small trial. Design parameters, a minimum detectable effect, and the meaning of a null are now fixed in Section 6, with a simulation to be published before the first trial.
 
-**Redaction.** Version 1 promised the rules would be published with the materials — that is, after the trial. Redaction is the procedure with the most latitude and the most influence on the result, and it was the only one exempt from the rule that everything is written before the data. The rule set is now stated in Section 4, versioned, with a discard-rather-than-improvise clause.
+**Redaction.** An earlier draft promised the rules would be published with the materials — that is, after the trial. Redaction is the procedure with the most latitude and the most influence on the result, and it was the only one exempt from the rule that everything is written before the data. The rule set is now stated in Section 4, versioned, with a discard-rather-than-improvise clause.
 
 **Style normalization.** Added as a within-block condition rather than a preprocessing step, which also resolves a mismatch with the companion volume's description of P1.
 
-**Reader competence.** Version 1 listed "readers unfamiliar with the register" among the explanations available for a null while defining no competence criterion — an untested excuse held in reserve. Competence is now screened by a qualification block, and that explanation is removed from Section 7.
+**Reader competence.** An earlier draft listed "readers unfamiliar with the register" among the explanations available for a null while defining no competence criterion — an untested excuse held in reserve. Competence is now screened by a qualification block, and that explanation is removed from Section 7.
 
 **Agreement.** A pre-specified inter-reader agreement statistic and the distribution of per-reader accuracy are now published with every trial, because a mixed model absorbs reader disagreement without describing it.
 
