@@ -6,7 +6,11 @@ ShowWordCount: false
 hidemeta: true
 ---
 
-> **Status, 1 September 2026: under construction.** The founding season has not opened. Nothing described on this page has been run, no data exists, and the register of what the instrument will owe its officeholders stands at zero — see [*The Empty Ledger*](/records/the-empty-ledger/). Where the [manifesto](/olymposism/) speaks of the laboratory in the present tense, it is describing what is being built, not what has already reported. This line will be replaced with a date when the season opens.
+> **Status, 1 September 2026: under construction. The founding season opens 1 January 2027.**
+>
+> Nothing described on this page has been run, no data exists, and [the register](/ledger/) of what the instrument will owe its officeholders stands at zero. Where the [manifesto](/olymposism/) speaks of the laboratory in the present tense, it is describing what is being built, not what has already reported.
+>
+> The manifesto declines to date what it cannot see, and that discipline is kept here rather than broken: a founding four months out is visible, and a date published in advance is a commitment that can fail in public. If it slips, the slip will be recorded on this page rather than quietly replaced.
 
 ## The laboratory
 
@@ -63,6 +67,30 @@ The point about external validity is worth putting plainly, since the manifesto 
 Findings are published on the Institute's terms: metrics with thresholds named in advance, adverse results in the same font as favourable ones, statistics withheld below sample floors rather than dressed as findings, and the record released on schedule in pseudonymized form.
 
 One sentence stays where it can be seen: what works in Constantinople is not thereby proven for Ankara.
+
+---
+
+## When it opens
+
+The founding season opens on **1 January 2027**. Citizenship is free, the constitution is public, and the founding covenant states plainly that this is a research project whose anonymized data will be published.
+
+If you want to be told when the season opens, leave an address below. It will be used for that and for occasional notices about the Institute's work — nothing else. No profiling, no third-party processor beyond the site's host, no list ever shared or sold. Say the word and you are removed. What happens to the address is written out in the [privacy policy](/privacy/).
+
+<style>
+.idc-waitlist{border:1px solid rgba(0,0,0,.18);padding:1.25rem 1.4rem;margin:1.4rem 0;max-width:34rem}
+.idc-waitlist label{display:block;font-size:.85rem;letter-spacing:.02em;margin-bottom:.45rem;opacity:.75}
+.idc-waitlist input[type=email]{width:100%;padding:.55rem .65rem;font:inherit;font-size:1rem;border:1px solid rgba(0,0,0,.28);background:transparent;color:inherit;box-sizing:border-box}
+.idc-waitlist button{margin-top:.85rem;padding:.55rem 1.1rem;font:inherit;font-size:.95rem;border:1px solid currentColor;background:transparent;color:inherit;cursor:pointer}
+.idc-waitlist button:hover{opacity:.7}
+</style>
+
+<form class="idc-waitlist" name="theoi-founding" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/subscribed/">
+  <input type="hidden" name="form-name" value="theoi-founding">
+  <p hidden><label>Leave this field empty: <input name="bot-field"></label></p>
+  <label for="idc-email">Email address</label>
+  <input id="idc-email" type="email" name="email" required autocomplete="email" placeholder="you@example.com">
+  <button type="submit">Tell me when the season opens</button>
+</form>
 
 ---
 

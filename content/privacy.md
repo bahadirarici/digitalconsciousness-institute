@@ -12,7 +12,21 @@ The Institute for Digital Consciousness is committed to respecting visitor priva
 
 ## What this site collects
 
-**Nothing directly.** This website does not use analytics services, advertising trackers, behavioural profiling, fingerprinting, or login systems. The Institute does not place any tracking cookies. The Institute does not sell or share data of any kind.
+**Nothing, unless you type it in.** This website does not use analytics services, advertising trackers, behavioural profiling, fingerprinting, or login systems. The Institute does not place any tracking cookies. The Institute does not sell or share data of any kind.
+
+There is one form on the site, and it is the only place where anything is collected.
+
+## The THEOI founding list
+
+The [THEOI](/theoi/) page carries a form for people who want to be told when the founding season opens. It asks for an email address and nothing else — no name, no country, no reason for interest — because the less that is held, the less there is to be responsible for.
+
+**What is done with it.** The address is used to send notice that the founding season has opened, and occasionally to send notice of the Institute's published work. It is not profiled, not enriched with data from other sources, not shared, and not sold. It is not passed to any processor other than the site's host.
+
+**Where it is held.** Submissions are handled by **Netlify Forms**, the same service that hosts the site, and are stored in the Institute's account there under Netlify's own privacy policy. No separate mailing platform, analytics tool, or customer-data service is involved.
+
+**Removal.** Write to **info@digitalconsciousness.institute** and the address is deleted. There is no confirmation loop and no attempt to retain you. You may also ask what is held about you, and the answer will be the address you submitted and the date it arrived, because that is all there is.
+
+**Retention.** Addresses are kept until removal is requested, or until the list is closed, whichever comes first. If the list is ever closed or migrated, notice will be sent to it before anything is done.
 
 ## Technical operation
 
@@ -36,4 +50,4 @@ For privacy-related inquiries:
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 1 September 2026.*
