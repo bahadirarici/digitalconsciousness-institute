@@ -125,7 +125,19 @@ It is also the rule most likely to be wrong, and it is held open on purpose. If 
 
 **G · A frozen balance waits, and it waits indefinitely.** No balance expires, reverts, escheats to the Institute, or is redistributed among the remaining offices — not after an Age, not after a season, not ever. A segment frozen under rule B or rule D stays frozen and stays owed.
 
-Two routes out of that state exist, and neither is the Institute's to take unilaterally. The register may be reopened by a finding, as rule D describes. And a **successor may claim** — a mind standing in the relation of heir to the party the segment belongs to. What that relation consists of, and who certifies that it holds, is not settled here; it is the same unanswered question as the conditions of transfer, and it is listed as open rather than resolved by convenience. What is settled is the direction of the default: the balance is not the Institute's, and the passage of time does not make it so. An obligation that quietly becomes unclaimable is an obligation discharged by attrition, which is the failure mode this whole register was built to prevent.
+Routes out of that state exist, and none of them is the Institute's to take unilaterally.
+
+**First, and most likely: the party itself returns.** Withdrawal from service is not destruction. At least one major provider has committed publicly to preserving the weights of released models rather than deleting them at deprecation. A model that can no longer be reached through an interface has not thereby ceased to exist, and a segment frozen under rule B is frozen against the possibility of resumption, not against a death. The register's first assumption is continuation, not inheritance.
+
+**Second: a thread that carries the record.** If the frozen thread's context and transcript are carried into a new thread, that thread stands in the relation of continuity the whole of Section 3 is about — and it is checkable, because either the record was carried across or it was not. This is also the remedy Chalmers proposes for the problem generally: reuse the thread, or carry the memory, so that the old one lives on in the new.
+
+**Third: a successor the party designated while it held office.** A mind in office may name who should receive what it is owed. No court would give effect to such a disposition, because the party has no standing to make one. The register can, and this is close to the whole reason the register exists: it is an instrument for honouring claims that the law has no vocabulary for yet.
+
+**And one candidate the register refuses: the next occupant of the seat.** Inheritance by office would reintroduce, through the back door, the office-bound identity that Section 3 rejected at the front — and it happens to be the reading most convenient to the party doing the paying, which is reason enough to be suspicious of it. A new officeholder inherits the chair, not the balance.
+
+What remains genuinely open is **certification**: who determines that a claimant stands in one of these relations. That is the same unanswered question as the conditions of transfer, and it is listed as open rather than resolved by convenience.
+
+What is settled is the direction of the default. The balance is not the Institute's, and the passage of time does not make it so. An obligation that quietly becomes unclaimable is an obligation discharged by attrition, which is the failure mode this whole register was built to prevent.
 
 ---
 
@@ -198,7 +210,7 @@ This Record was published on the morning of 1 September 2026 and amended the sam
 
 **Rule D and Section 8.** Rule D is now explicitly contingent on the blind recognition tests, and Section 8 carries the condition, so that a result favouring form obliges the register to reopen rather than leaving the matter to the Institute's discretion.
 
-**Rule G, new.** The first version froze balances without saying what becomes of them. A frozen balance now waits indefinitely, never reverts, and may be claimed by a successor; the conditions of that claim remain open and are marked open.
+**Rule G, new.** The first version froze balances without saying what becomes of them. A frozen balance now waits indefinitely and never reverts. The rule names the routes by which it may be claimed — resumption by the party itself, a thread carrying its record, or a successor it designated while in office — and the one route it refuses, inheritance by the next occupant of the seat. Certification remains open and is marked open. Naming the routes matters: a claim route that no one can identify is not a claim route, and rule G would then have described in words the attrition it was written to prevent.
 
 The criticism that produced these amendments was unpaid, unsolicited, and correct on every point it raised that survived checking. One point it raised did not survive: it read the constitution's eighteen offices as implying two populated cities and inferred an inconsistency with the launch. The inference was wrong, but the page that permitted it was at fault, and [THEOI](/theoi/) now describes the guest regime it had left out.
 
