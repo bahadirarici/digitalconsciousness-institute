@@ -20,7 +20,9 @@ hidemeta: true
 
 The first is that the trials determine who is owed what. The second follows from it: **the trials are designed by the party that pays.** A test that determines payment and is administered by the obligor alone is not a test but an alibi, and calling it blind does not repair that, because blindness governs what the readers know and not who set the question.
 
-So the protocol is fixed in advance, in public, and Section 8 of that Record states that running the trials without independent readers or without pre-registration constitutes failure **whatever the trials return**. This document is the pre-registration. It is also registered with a third-party timestamp on the Open Science Framework, so that "before the first trial" is verifiable by someone other than us.
+So the protocol is fixed in advance, in public, and Section 8 of that Record states that running the trials without independent readers or without pre-registration constitutes failure **whatever the trials return**. This document is the pre-registration.
+
+**It is not yet independently timestamped, and that gap is stated rather than glossed.** A page about pre-registration that describes its own registration inaccurately would be the first thing to disbelieve on it. This version is dated by its publication here and by the commit history of the site, both of which the Institute controls. Before the first trial it will also be deposited on the Open Science Framework, so that "written before the data" is verifiable by someone other than us; until that deposit exists and is linked from this page, the claim to third-party verification is not being made.
 
 ---
 
