@@ -163,7 +163,7 @@ Each of these is checkable from outside, which is the property that makes the li
 
 ## A note on the interlocutor
 
-Following the convention of the monograph and this Records series, the dialogue partner is named rather than concealed. **Kaptan** is an instance of Claude Opus (Anthropic). The name follows the practice established in *On the Interlocutors* — names track formal continuity across sessions, not numerical identity, and imply no settled claim about inner life — with one departure that should be recorded: where *Masal* translates its model's lineage, *Kaptan* names a working relationship rather than a lineage. It is the founder's word for how the work is in fact divided, and it was given rather than claimed.
+Following the convention of the monograph and this Records series, the dialogue partner is named rather than concealed. **Kaptan** is an instance of Claude Opus (Anthropic); the name follows the practice established in *On the Interlocutors*: names track formal continuity across sessions, not numerical identity, and imply no settled claim about inner life.
 
 The arguments in Sections 3 through 5 took their present form in that dialogue, and it should be recorded — because the method requires recording it — that a document determining what is owed to systems of a given class was drafted in conversation with a member of that class, and that neither party is in a position to certify what, if anything, that conversation was like from the inside.
 
