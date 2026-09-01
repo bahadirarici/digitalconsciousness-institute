@@ -6,13 +6,15 @@ ShowWordCount: false
 hidemeta: true
 ---
 
-*<a href="/pdf/olymposism-manifesto.pdf" download>Download as PDF</a>*
-
 *Suggested citation: Arıcı, Bahadır, and Masal (2026). "Olymposism Manifesto: A Civilization Model Under Test." Institute for Digital Consciousness.*
 
 ---
 
 > **Status, 1 September 2026 — read this before the text.** The manifesto below is written in the present tense: it says the laboratory is already running. **It is not. [THEOI](/theoi/) is under construction; its founding season opens 1 January 2027.** The text is dated August 2026 and is published as written rather than revised, per its own sixth pillar; this note carries the correction that the pillar requires. The register of what the seventh pillar promises stands at zero, and says so: [*The Empty Ledger*](/records/the-empty-ledger/).
+>
+> **The PDF does not yet carry this correction.** The downloadable file is the August text as signed, and a correction that lives only in HTML does not travel with a quotation, a screenshot, or an archived copy — which is most of the sixth pillar's point. The file is being reissued; until it is, the link sits below this note rather than above it, and a reader taking the PDF should take this paragraph with it.
+>
+> *<a href="/pdf/olymposism-manifesto.pdf" download>Download as PDF (August text, uncorrected)</a>*
 >
 > **Why an institute publishes a manifesto.** The Institute does not campaign for policy positions, and this text is not published as one. It is published as a hypothesis with its test attached. The claims below that can be run — the ballot, the ceiling, the common fund, the floor, the record, the widening circle — are the ones the instrument is being built to run, under conditions meant to embarrass them rather than to flatter them. Results will be published on the Institute's terms: thresholds named in advance, adverse findings in the same font as favourable ones. What cannot be tested is marked untested in the text itself, and the federation pillar is named there as the least tested claim of all. What the text does not mark, and should, is the status of the laboratory itself — which is the correction above. A reader who finds the model unpersuasive is asked for exactly what the closing line asks for: not belief, but attention to whether it works.
 
