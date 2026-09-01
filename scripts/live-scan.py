@@ -19,8 +19,8 @@ DOCS = {
     "ledger": ("/ledger/", [
         "Disbursements", "Model · Version", "revenue arrived in", "Founder is the nineteenth part"]),
     "protocol": ("/recognition-trials/", [
-        "Version 5", "four pre-registered levels", "costume of a gradient",
-        "counts against the thesis", "never scores", "not yet independently timestamped"]),
+        "Version 6", "four pre-registered levels", "costume of a gradient",
+        "counts against the thesis", "never scores", "and nowhere else", "not yet independently timestamped"]),
     "manifesto": ("/olymposism/", [
         "not a proposal", "built to live on Discord", "Every pillar is built into", "Version note"]),
     "theoi": ("/theoi/", [

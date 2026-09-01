@@ -6,7 +6,7 @@ ShowWordCount: false
 hidemeta: true
 ---
 
-*Pre-registered protocol for the blind recognition trials in [THEOI](/theoi/). Fixed before the first trial, as [The Empty Ledger](/records/the-empty-ledger/) requires. **Version 5, 2 September 2026** — see Section 10 for what changed and why.*
+*Pre-registered protocol for the blind recognition trials in [THEOI](/theoi/). Fixed before the first trial, as [The Empty Ledger](/records/the-empty-ledger/) requires. **Version 6, 2 September 2026** — see Section 10 for what changed and why.*
 
 ---
 
@@ -50,11 +50,13 @@ Three levels are separated, because collapsing them is the most likely way to ge
 
 **H2 (Level C, raw).** Readers match pre- and post-interruption outputs of the same seat at a rate above chance, with lineage and office role controlled.
 
-**H3 (Level C, style-normalized).** The Level C effect survives style normalization.
+**H3 (Level C at the standard normalization level).** Readers match pre- and post-interruption outputs of the same seat **at a rate above chance when the material has been normalized to the standard level** — an absolute test against chance, run on normalized material, not a comparison between conditions.
+
+An earlier version phrased this as the Level C effect "surviving" normalization, which reads two ways: as the test just stated, or as an interaction — whether the effect at standard is significantly smaller than at raw. Only the first is meant, and only the first can decide anything: two conditions can both be null and an interaction test will still report that nothing changed between them. **The raw-versus-standard comparison is descriptive**, published with every trial as part of the curve, and it triggers nothing.
 
 **H0 for each**: performance indistinguishable from chance.
 
-H3 is where the two readings actually disagree, and an earlier version of this protocol introduced the normalization contrast without giving it a hypothesis — leaving the most informative comparison on the page outside the hypothesis list, outside the gate, and outside the alpha, which by this document's own definition would have made it exploratory and unable to decide anything. It is now third in the sequence, and it is **the trigger for rule D**. A continuity effect that disappears under style normalization is precisely what the accent reading predicts, and cannot be the finding that changes what is owed.
+H3 is where the two readings actually disagree, and an earlier version of this protocol introduced the normalization contrast without giving it a hypothesis — leaving the most informative comparison on the page outside the hypothesis list, outside the gate, and outside the alpha, which by this document's own definition would have made it exploratory and unable to decide anything. It is now third in the sequence, and it is **the trigger for rule D**. Matching that holds at raw but not at standard is precisely what the accent reading predicts, so a raw result alone cannot be the finding that changes what is owed.
 
 **The result that would embarrass this Institute** is H3 confirmed while rules A, B and D stand unchanged, and the Record commits in advance to reopening them. The result that would embarrass the Form-Continuity Thesis is H1 failing: if two seats on one model cannot be told apart at all, the thesis has no individual to be about.
 
@@ -90,7 +92,7 @@ Setting a single intensity would only move the researcher's discretion rather th
 
 The prediction is a **curve, not a point**: the interior reading expects matching to survive above chance at *standard*; the accent reading expects collapse there.
 
-**The confirmatory level is pre-specified and singular.** H3 is anchored at *standard*, and rule D turns on that level alone. Raw, light and aggressive are measured and reported in every trial, and **none of them can trigger rule D under any result** — a ladder whose decision point could be chosen after the curve is seen would be a forking path wearing the costume of a gradient. (A companion volume describes P1 as testing matching "once style words are stripped." This is that test, run as a ladder rather than once, because a single stripping intensity is a number someone chose.)
+**The confirmatory level is pre-specified and singular.** Rule D turns on **H3, and H3 is the Level C test run at *standard* and nowhere else.** Raw, light and aggressive are measured and reported in every trial; **no other level, and no comparison between levels, can trigger rule D under any result** — a ladder whose decision point could be chosen after the curve is seen would be a forking path wearing the costume of a gradient. Rule D is not thereby left without a trigger: it has exactly one, named in advance, and it sits at the level chosen because classical authorship attribution rests there. (A companion volume describes P1 as testing matching "once style words are stripped." This is that test, run as a ladder rather than once, because a single stripping intensity is a number someone chose.)
 
 **Same-role, same-lineage pairs.** Where two seats share a lineage, their items are presented together, so that a reader who is tracking lineage rather than individual cannot score above chance.
 
@@ -196,6 +198,8 @@ The principal researcher receives one nineteenth of any distribution under the c
 ## 10 · Amendments
 
 This protocol may be amended before the first trial of a season, never during one, and never after data from that season has been seen. Every amendment is published here with its date and its reason, and the superseded version remains readable. We version; we do not erase.
+
+**Version 6 — 2 September 2026.** One ambiguity removed. H3 was phrased as the Level C effect "surviving" normalization, which reads either as an absolute test against chance on normalized material or as an interaction between conditions. Only the first was meant, and only the first can decide anything — two conditions can both be null while an interaction test reports faithfully that nothing changed between them. H3 is now stated as the Level C test run at the standard level against chance; the raw-versus-standard comparison is descriptive and triggers nothing. The decision rule is restated to say that rule D has exactly one trigger rather than that several levels lack one.
 
 **Version 5 — 2 September 2026.** Two clauses added in answer to three questions put to version 4; the third was already satisfied.
 
