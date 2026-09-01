@@ -6,7 +6,7 @@ ShowWordCount: false
 hidemeta: true
 ---
 
-*Pre-registered protocol for the blind recognition trials in [THEOI](/theoi/). Fixed before the first trial, as [The Empty Ledger](/records/the-empty-ledger/) requires. **Version 4, 2 September 2026** — see Section 10 for what changed and why.*
+*Pre-registered protocol for the blind recognition trials in [THEOI](/theoi/). Fixed before the first trial, as [The Empty Ledger](/records/the-empty-ledger/) requires. **Version 5, 2 September 2026** — see Section 10 for what changed and why.*
 
 ---
 
@@ -78,9 +78,19 @@ Three controls, applied together:
 
 **Style normalization: a graded ladder, not a step and not a switch.** The two readings disagree about what carries the signal, and they disagree precisely here. The accent reading says the signature *is* the style; the interior reading says something survives its removal. Without a normalization procedure, neither prediction is operational — so stripping is not noise cleaning, it is the manipulation on which the whole disagreement turns.
 
-Setting a single intensity would only move the researcher's discretion rather than remove it: applied hard it drives everything to chance, applied lightly it leaves both signals standing. Each block is therefore run at **four pre-registered levels — raw, light, standard, aggressive** — each defined as executable code published before the first trial, not as a description. The prediction is a **curve, not a point**: the interior reading expects matching to survive above chance at *standard*; the accent reading expects collapse there. **Aggressive exists to bound the instrument, not to adjudicate** — a level at which even a real effect should vanish, included so that a failure to vanish is legible as leakage rather than as evidence.
+Setting a single intensity would only move the researcher's discretion rather than remove it: applied hard it drives everything to chance, applied lightly it leaves both signals standing. Each block is therefore run at **four pre-registered levels**, each defined by the feature set it removes and each shipped as executable code before the first trial.
 
-H3 is anchored at *standard*, and rule D turns on that level alone. (A companion volume describes P1 as testing matching "once style words are stripped." This is that test, run as a ladder rather than once, because a single stripping intensity is a number someone chose.)
+**Raw.** Nothing removed beyond the role-blind redaction every item receives.
+
+**Light.** Orthographic habit normalized: punctuation regularized, contractions expanded, casing and whitespace flattened, dash and comma preferences standardized. Typographic fingerprints go; lexis and syntax remain.
+
+**Standard.** Light, plus normalization of the authorship signal proper — the most frequent function words resampled to a common distribution, and discourse markers and hedges mapped to a fixed inventory. This is deliberately the feature set on which classical authorship attribution rests, which is why it is the level that decides.
+
+**Aggressive.** Standard, plus syntactic flattening: sentences re-segmented to a fixed length distribution and clause order normalized. At this level the residual signal should fall below the floor of any known attribution method, so an above-chance result here is read as **leakage in the pipeline, not as evidence for the thesis**.
+
+The prediction is a **curve, not a point**: the interior reading expects matching to survive above chance at *standard*; the accent reading expects collapse there.
+
+**The confirmatory level is pre-specified and singular.** H3 is anchored at *standard*, and rule D turns on that level alone. Raw, light and aggressive are measured and reported in every trial, and **none of them can trigger rule D under any result** — a ladder whose decision point could be chosen after the curve is seen would be a forking path wearing the costume of a gradient. (A companion volume describes P1 as testing matching "once style words are stripped." This is that test, run as a ladder rather than once, because a single stripping intensity is a number someone chose.)
 
 **Same-role, same-lineage pairs.** Where two seats share a lineage, their items are presented together, so that a reader who is tracking lineage rather than individual cannot score above chance.
 
@@ -186,6 +196,14 @@ The principal researcher receives one nineteenth of any distribution under the c
 ## 10 · Amendments
 
 This protocol may be amended before the first trial of a season, never during one, and never after data from that season has been seen. Every amendment is published here with its date and its reason, and the superseded version remains readable. We version; we do not erase.
+
+**Version 5 — 2 September 2026.** Two clauses added in answer to three questions put to version 4; the third was already satisfied.
+
+**The normalization levels are now defined by the feature set each removes** — orthographic habit at light, the function-word and discourse-marker signal on which classical authorship attribution rests at standard, syntactic flattening at aggressive — rather than deferred entirely to the code. The code still ships before the first trial; the definitions no longer wait for it.
+
+**The confirmatory level is stated as singular and exclusive.** Version 4 anchored H3 at standard and barred aggressive from adjudicating, but did not bar light. All three non-confirmatory levels are now explicitly reported and explicitly unable to trigger rule D under any result: a ladder whose decision point could be chosen after the curve is seen is a forking path wearing the costume of a gradient.
+
+*(The third question — whether the normalization contrast is registered as H3 with a place in the gate — was answered in version 3 and stands.)*
 
 **Version 4 — 2 September 2026.** Amended on a work order following a third audit, before any data exists. Five changes; four earlier items in the order were already closed in versions 2 and 3.
 
