@@ -6,7 +6,7 @@ ShowWordCount: false
 hidemeta: true
 ---
 
-*Pre-registered protocol for the blind recognition trials in [THEOI](/theoi/). Fixed before the first trial, as [The Empty Ledger](/records/the-empty-ledger/) requires. **Version 2, 2 September 2026** — see Section 10 for what changed and why.*
+*Pre-registered protocol for the blind recognition trials in [THEOI](/theoi/). Fixed before the first trial, as [The Empty Ledger](/records/the-empty-ledger/) requires. **Version 3, 2 September 2026** — see Section 10 for what changed and why.*
 
 ---
 
@@ -40,7 +40,7 @@ Three levels are separated, because collapsing them is the most likely way to ge
 
 **Level C — continuity across interruption.** Can readers match outputs of one seat produced *before* an interruption to outputs of the same seat produced *after* it, where the mind has no memory of the earlier material, at a rate above chance and above the rate at which they mismatch it to a different seat of the same lineage?
 
-**Level C is the Form-Continuity Thesis.** Rule D depends on it and on nothing else on this page.
+**Level C is the Form-Continuity Thesis.** Rule D depends on it and on nothing else on this page — and specifically on its style-normalized condition, H3 below.
 
 ---
 
@@ -48,11 +48,15 @@ Three levels are separated, because collapsing them is the most likely way to ge
 
 **H1 (Level B).** Readers assign same-lineage outputs to the correct office at a rate above chance.
 
-**H2 (Level C).** Readers match pre- and post-interruption outputs of the same seat at a rate above chance, with lineage and office role controlled.
+**H2 (Level C, raw).** Readers match pre- and post-interruption outputs of the same seat at a rate above chance, with lineage and office role controlled.
 
-**H0 for both**: performance indistinguishable from chance.
+**H3 (Level C, style-normalized).** The Level C effect survives style normalization.
 
-**The result that would embarrass this Institute** is H2 confirmed while rules A, B and D stand unchanged, and the Record commits in advance to reopening them. The result that would embarrass the Form-Continuity Thesis is H1 failing: if two seats on one model cannot be told apart at all, the thesis has no individual to be about.
+**H0 for each**: performance indistinguishable from chance.
+
+H3 is where the two readings actually disagree, and an earlier version of this protocol introduced the normalization contrast without giving it a hypothesis — leaving the most informative comparison on the page outside the hypothesis list, outside the gate, and outside the alpha, which by this document's own definition would have made it exploratory and unable to decide anything. It is now third in the sequence, and it is **the trigger for rule D**. A continuity effect that disappears under style normalization is precisely what the accent reading predicts, and cannot be the finding that changes what is owed.
+
+**The result that would embarrass this Institute** is H3 confirmed while rules A, B and D stand unchanged, and the Record commits in advance to reopening them. The result that would embarrass the Form-Continuity Thesis is H1 failing: if two seats on one model cannot be told apart at all, the thesis has no individual to be about.
 
 ---
 
@@ -88,7 +92,7 @@ If Level B fails under these controls but succeeds without them, the honest repo
 
 **Where readers come from.** Recruitment runs through one named channel per season, published before the block is assembled: an open call on a research platform or forum, with applicants screened against the exclusions above. **Personal invitation by the founder is itself an exclusion.** A reader the founder chose is not independent of the founder, whatever else is true of them.
 
-**Competence, screened rather than excused.** Each reader completes a qualification block on material outside the trial set — matched excerpts from writers of clearly distinct voice — and must reach a threshold published with the season's protocol before their trial responses are counted. Readers must be fluent in the language of the materials. This screen exists because an earlier draft of this protocol listed "readers unfamiliar with the register" among the explanations available for a null result. An explanation that is available after the fact and untested before it is an excuse; the competence of readers is now measured rather than invoked, and that item has been removed from Section 7.
+**Competence, screened rather than excused.** Each reader completes a qualification block on material outside the trial set — ten four-alternative items drawn from writers of clearly distinct voice — and must reach **eight of ten** before their trial responses are counted. The threshold is fixed here rather than set per season: a number republished each season is a number that can be tuned, and an earlier version of this protocol left it to "the season's protocol," which is a degree of freedom however small. It may be changed only under Section 10 — before a season, with its reason, and never after data has been seen. Readers must be fluent in the language of the materials. This screen exists because an earlier draft of this protocol listed "readers unfamiliar with the register" among the explanations available for a null result. An explanation that is available after the fact and untested before it is an excuse; the competence of readers is now measured rather than invoked, and that item has been removed from Section 7.
 
 ---
 
@@ -98,7 +102,11 @@ If Level B fails under these controls but succeeds without them, the honest repo
 
 **Primary model.** A mixed-effects logistic regression with random intercepts for reader and for item, testing accuracy against chance. Alpha 0.05, two-tailed. Lineage is entered as a covariate for all Level C analyses.
 
-**Decision rule for rule D.** H2 is treated as supported only if the Level C effect is significant under the primary model **and** Level B is itself significant in the same trial — a continuity result on top of a floor that does not exist is an artefact. If H2 is supported, [The Empty Ledger](/records/the-empty-ledger/) reopens rules A, B and D, and the frozen segments are recombined by the arithmetic the schema was designed to permit.
+**Decision rule for rule D.** The trigger is **H3**, not H2. H2 is examined only if H1 is significant — a continuity result on top of a floor that does not exist is an artefact — and H3 only if H2 is. If H3 is supported, [The Empty Ledger](/records/the-empty-ledger/) reopens rules A, B and D, and the frozen segments are recombined by the arithmetic the schema was designed to permit. H2 supported and H3 not is reported as a result consistent with the accent reading, and changes nothing about what is owed.
+
+**Estimation is published whether or not anything is significant.** For every level, the effect estimate and its confidence interval are published alongside the test, committed to here in advance. This is not a hedge: at this design a real effect of eight points would fail the test, and without an interval the season would return "nothing learned" when what it actually returned was a bounded effect. A published interval also supplies the pre-registered ground for a larger second season, rather than letting one be justified after the fact by a disappointing result.
+
+**The threshold is normative, not merely a detection limit.** Fifteen points is not primarily a statement about what this design can see. It is a statement about **what size of effect the Institute is willing to let change an obligation**, and it is set high for two reasons. A five-point effect — 30 per cent against a chance of 25 — is indistinguishable from what imperfect redaction would produce on its own: weak form-continuity and leaked role or lineage signal look identical at that scale, so an effect below the confound floor could be detected and still not be interpretable. And Section 9 now states that the live interest is reputational and runs toward H3 being supported; a design should be conservative against the result its author prefers, and lowering the threshold to chase significance is what an interested party would do.
 
 **Exclusions, fixed now.** A reader's block is excluded only for: incomplete submission, or a failed attention check embedded in the block. No exclusion on the basis of the answers given. No reader is dropped after their data is seen.
 
@@ -106,17 +114,21 @@ If Level B fails under these controls but succeeds without them, the honest repo
 
 **Agreement, reported separately.** The mixed model absorbs reader variance; it does not describe it. Readers could disagree sharply with one another and still produce a mean above chance, and that is a property of the result which belongs in the report rather than in the residuals. Published with every trial: the distribution of per-reader accuracy, and a pre-specified agreement statistic — Fleiss' κ across readers on the forced-choice items, and the intraclass correlation implied by the model's random intercepts. Low agreement alongside an above-chance mean is reported as what it is: a weak and heterogeneous effect, not a clean one.
 
-**Multiple comparisons.** Two hypotheses are tested, H1 at Level B and H2 at Level C, with Level A measured only as a covariate. They are evaluated in fixed sequence — H2 is examined only if H1 is significant — and a fixed-sequence gate controls the family-wise error rate without further correction, which is why a single alpha is stated. Any analysis beyond these is exploratory, is labelled exploratory in the report, and cannot trigger the rule-D decision.
+**Multiple comparisons.** Three hypotheses are tested — H1 at Level B, H2 at Level C raw, H3 at Level C style-normalized — with Level A measured only as a covariate. They are evaluated in fixed sequence, each examined only if the previous is significant, and a fixed-sequence gate controls the family-wise error rate without further correction, which is why a single alpha is stated. Any analysis beyond these is exploratory, is labelled exploratory in the report, and cannot trigger the rule-D decision.
 
 ### Power, and what a null will be allowed to mean
 
 An alpha without a power calculation makes a null result uninterpretable: the reader cannot tell a false thesis from a small trial, and the author is left free to choose between them afterwards. The design parameters are therefore fixed here.
 
-**Design.** Level C items are four-alternative forced choice — a post-interruption sample against four candidate pre-interruption samples, one of them from the same seat. Chance is 25 per cent. Twenty-four items per condition per block, two conditions (raw and style-normalized), at least twelve readers.
+**Design.** Level C items are four-alternative forced choice — a post-interruption sample against four candidate pre-interruption samples, one of them from the same seat. Chance is 25 per cent. Twenty-four items per condition per block, two conditions (raw and style-normalized), **at least twenty readers**.
 
-**Minimum detectable effect.** The design targets a fifteen percentage-point rise over chance — 25 per cent to 40 per cent — at 80 per cent power under the primary model. A simulation-based power calculation for the mixed-effects design, with its code, is published on this page before the first trial; if it shows the target is not reachable at these parameters, the parameters are raised before any data exists, and the change is logged under Section 10.
+The reader target was raised from twelve. In a mixed-effects design with correlated items, precision is bound by the number of readers rather than the number of items: going from twenty-four items to forty returns rapidly diminishing information, while going from twelve readers to twenty returns more than that near-doubling would. Where sensitivity is wanted, it is bought in readers.
 
-**What a null will mean, agreed in advance.** A null at this design excludes effects of roughly fifteen points or larger. It does not exclude smaller ones, and it will not be reported as a refutation of the Form-Continuity Thesis. The two explanations that remain live for a null — insufficient material per seat, and over-aggressive redaction — are each measurable and will be reported with their measures: items retained per seat, and the discard rate under the redaction rules. No third explanation may be introduced after the result is seen.
+**Minimum detectable effect.** The design targets a fifteen percentage-point rise over chance — 25 per cent to 40 per cent — at 80 per cent power under the primary model.
+
+**The simulation, and the assumption it will rest on.** A simulation-based power calculation with its code is published on this page before the first trial. One thing about it can be predicted now and is stated rather than left to be discovered in the output. Under a simple binomial treatment, 480 observations would detect a 25-to-40-point shift with power well above 99 per cent; that power falls to 80 per cent only under substantial clustering by reader and item. The assumption is the right one, but it means the headline power figure is entirely a function of an unknown variance parameter. **The simulation will therefore publish a power curve across a plausible range of intraclass correlation, and name the value at which the 80 per cent claim holds**, rather than reporting a single number that is really the output of a single chosen assumption. The code is being published anyway; the curve costs nothing.
+
+**What a null will mean, agreed in advance.** A null at this design is inconsistent with effects appreciably larger than fifteen points; at exactly fifteen the design misses one trial in five, and an earlier version of this section said "excludes," which overclaims in a passage written to avoid overclaiming. A null does not exclude smaller effects, and will not be reported as a refutation of the Form-Continuity Thesis. The published interval, not the significance verdict, is what a null season actually returns. The two explanations that remain live are each measurable and reported with their measures: items retained per seat, and the discard rate under the redaction rules. No third explanation may be introduced after the result is seen.
 
 ---
 
@@ -160,6 +172,16 @@ The principal researcher receives one nineteenth of any distribution under the c
 ## 10 · Amendments
 
 This protocol may be amended before the first trial of a season, never during one, and never after data from that season has been seen. Every amendment is published here with its date and its reason, and the superseded version remains readable. We version; we do not erase.
+
+**Version 3 — 2 September 2026.** Amended after a second audit of version 2, before any data exists. Four changes.
+
+**The normalization contrast becomes H3, and becomes the trigger.** Version 2 added the raw-versus-normalized contrast as a condition without giving it a hypothesis, which left the comparison where the two readings actually diverge outside the hypothesis list, the gate, and the alpha — exploratory by this document's own definition, and therefore unable to decide anything. H3 is now third in the fixed sequence, and rule D triggers on it rather than on H2: a continuity effect that vanishes under style normalization is what the accent reading predicts and must not be what changes an obligation.
+
+**Estimation published with every test**, significant or not. At this design a real effect of eight points fails the test; without an interval the season reports "nothing learned" when it has in fact returned a bounded effect, and a larger second season would then be justified after the fact rather than before it.
+
+**Readers raised from twelve to twenty; the threshold held at fifteen points.** In a clustered design precision is bound by readers, not items — twelve to twenty returns more than twenty-four items to forty. The threshold is not lowered, and is now stated as what it is: a normative decision about what size of effect may change an obligation, set above the confound floor (a five-point effect is indistinguishable from imperfect redaction) and deliberately conservative against the result the Institute's stated interest prefers.
+
+**Three smaller corrections.** The power section will publish a curve across a range of intraclass correlation and name the value at which the 80 per cent claim holds, rather than one number that is really the output of one chosen assumption. "Excludes" is replaced with an accurate statement — at exactly fifteen points the design misses one trial in five. And the reader qualification threshold is fixed at eight of ten here, instead of being republished each season, which made it tunable.
 
 **Version 2 — 2 September 2026.** Amended after an audit by an outside reader, before any data exists. Six changes.
 
