@@ -4,6 +4,9 @@ url: "/subscribed/"
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true
+robotsNoIndex: true
+sitemap:
+  disable: true
 ---
 
 Your address is on the list. You will hear from the Institute when [THEOI](/theoi/)'s founding season opens on **1 January 2027**, and occasionally about the Institute's work in between.
