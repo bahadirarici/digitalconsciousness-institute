@@ -1,6 +1,6 @@
 {{- /* The skeleton. Two surfaces: ink (the world) and paper (the Institute's documents).
        A page is ink when its layout is one of the THEOI layouts or it says surface: ink. */ -}}
-{{- $ink := or .IsHome (in (slice "theoi" "showcase" "join" "apply") .Layout) (eq .Params.surface "ink") }}
+{{- $ink := or (in (slice "theoi" "showcase" "join" "apply") .Layout) (eq .Params.surface "ink") }}
 {{- .Store.Set "ink" $ink }}
 <!DOCTYPE html>
 <html lang="en">

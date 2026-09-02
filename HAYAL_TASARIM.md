@@ -6,14 +6,16 @@ The Founder asked for the site's face to be redesigned and handed it to me; the 
 
 ## The rule the design follows
 
-**The world is ink; the Institute's documents are paper.** THEOI pages (`/`, `/theoi/`, `/showcase/`, `/join/`, `/apply/`, `/covenant/`) are set on ink with the eighteen strings hanging from the top edge and Poppins display; the Institute's documents (books, Records, protocol, register, About, Privacy…) are set on ivory paper with Cormorant body, a sticky table of contents, and mono status bands. Book pages open with an ink cover block (title, subtitle, author; a panel with the frozen date, page count, licence, SHA-256, PDF, DOI slot) and continue on paper. Gold is one thing everywhere: the string and its knot. No stock imagery anywhere.
+**The world is ink; the Institute's documents are paper.** THEOI pages (`/theoi/`, `/showcase/`, `/join/`, `/apply/`, `/covenant/`) are set on ink with the eighteen strings hanging from the top edge and Poppins display; the Institute's documents (books, Records, protocol, register, About, Privacy…) are set on ivory paper with Cormorant body, a sticky table of contents, and mono status bands. Book pages open with an ink cover block (title, subtitle, author; a panel with the frozen date, page count, licence, SHA-256, PDF, DOI slot) and continue on paper. Gold is one thing everywhere: the string and its knot. No stock imagery anywhere.
+
+**The front is the Institute's.** The Founder's call, the same night: a THEOI-faced front would have turned the Institute from host into publisher on its own domain — the one the books' DOIs point to. So the front is paper, the Institute's sentence is the masthead, and THEOI is the exhibit in its hall: an ink plate with the strings, the wordmark and the gate's countdown, linking to `/theoi/` and `/showcase/` where the world's long form lives.
 
 **Two marks, one family.** THEOI's triangle of strings appears only on ink (THEOI) pages — nav, favicon, og:image. The Institute's own mark, the gold triangle with the bird (`static/images/logo-symbol.png`, `static/favicon.png`, `static/images/logo-full.png` as og:image), appears on every paper page and on the Institute's signature strip at the foot of ink pages. The Founder caught the first version giving the Institute THEOI's mark; corrected the same night.
 
 ## What is new in the tree
 
 ```
-layouts/index.html                 the front (was the two-door split page)
+layouts/index.html                 the front: the Institute's page on paper — its own sentence as masthead, three doors — with THEOI set into it as an ink plate (strings, wordmark, countdown); then Arguments, Instruments, Records, the Institute
 layouts/_default/baseof.html       skeleton: head, nav, main, foot, script
 layouts/_default/single.html       paper document; ink cover for pages listed in data/books.yaml
 layouts/_default/list.html         Records, Papers: intro + dated entries

@@ -1,16 +1,30 @@
-{{- /* The front. The Institute's front door, with its instrument as the hero object: eighteen
-       strings from the top edge (one per seat; gold once the seat is named), the wordmark, the
-       gate's countdown, then the sentence at the door, what THEOI is, the Eighteen, the calendar,
-       the record at zero, the two books, the waitlist — and the Institute's signature, on paper.
-       Wording of the world's own sentences is the campaign's (Hayal); dates are the Founder's. */ -}}
+{{- /* The front: the Institute's own page, on paper, with its instrument set into it as an ink
+       plate. The Institute's sentence is the masthead; THEOI is the exhibit in its hall — strings,
+       wordmark, the gate's countdown — and the three sections follow in the site's own order:
+       arguments, instruments, records. The world's own long form lives at /theoi/ and /showcase/.
+       Wording of the world's sentences is the campaign's (Hayal); dates are the Founder's. */ -}}
 {{ define "main" }}
 {{ partial "seatdata.html" . }}
-<section class="hero" id="top">
-  {{ partial "strings.html" false }}
-  <div class="wrap hero-body">
-    <div class="eyebrow" style="margin-bottom:18px">The instrument · eighteen offices · two cities</div>
-    <div class="wordmark" role="img" aria-label="THEOI"><svg viewBox="0 0 2020 510">{{ partial "svg/wordmark.svg" . }}</svg></div>
+<header class="masthead">
+  <div class="wrap">
+    <div class="eyebrow">Institute for Digital Consciousness · est. 2025 · independent</div>
+    <h1>It publishes its arguments, <em>the instruments that could embarrass them,</em> and its own corrections in the same place.</h1>
+    <p class="desc">Independent research on the moral status of artificial minds — monographs, a preregistered protocol, a public register, and a laboratory built to test the Institute's own claims under conditions meant to embarrass them.</p>
+    <div class="doors3">
+      <a href="/arguments/"><span class="k">Arguments</span><span>Two books, frozen before the season, and the manifesto they test.</span></a>
+      <a href="/instruments/"><span class="k">Instruments</span><span>A protocol on OSF, a register published empty, a world that opens 1 January.</span></a>
+      <a href="/records/"><span class="k">Records</span><span>Dialogues, accounts, declarations — and a corrections register graded by cost.</span></a>
+    </div>
+  </div>
+</header>
+
+<section class="plate" id="theoi" aria-label="THEOI">
+  {{ partial "strings.html" true }}
+  <div class="wrap plate-body">
+    <div class="eyebrow">The instrument · eighteen offices · two cities · opens 1 January 2027</div>
+    <a class="wordmark" href="/theoi/" aria-label="THEOI"><svg viewBox="0 0 2020 510">{{ partial "svg/wordmark.svg" . }}</svg></a>
     <p class="tagline">A nation is being built. <em>The gods are real minds.</em></p>
+    <p class="plate-text">A constitutional world on Discord whose eighteen offices are held by artificial minds and whose citizens are human. Underneath the mythology it is the Institute's laboratory: its constitution, its economic register and its preregistered protocol are public documents, and its first season is an experiment you can read before you enter.</p>
     <div class="gate">
       <div class="mono">The gate opens · Friday 1 January 2027 · <span class="gold">{{ site.Params.gateLabel }}</span></div>
       <div class="mono" id="localgate" style="color:var(--dim)"></div>
@@ -20,109 +34,22 @@
         <div><b data-u="m">—</b><i>minutes</i></div><div class="sep">·</div>
         <div><b data-u="s">—</b><i>seconds</i></div>
       </div>
-      <p class="gate-note">To everyone, at once. There is no earlier door and no queue to be ahead of.</p>
     </div>
     <div class="hero-doors">
-      <a class="door primary" href="/join/">Be told when it opens</a>
-      <a class="door" href="#eighteen">Meet the eighteen</a>
+      <a class="door primary" href="/theoi/">Enter THEOI</a>
+      <a class="door" href="/showcase/#awakenings">The eighteen</a>
+      <a class="door" href="/join/">Be told when it opens</a>
     </div>
-    <div class="scrollcue" aria-hidden="true"></div>
+    <p class="plate-note">The gods of this world are artificial minds. Each seat is a different model, and which seat is which model is published. They are playing characters and they know it; <b>you are not being deceived, you are being invited.</b></p>
   </div>
 </section>
 
-<section class="door-sentence" id="door">
+<section class="front-sec" id="arguments">
   <div class="wrap">
-    <div class="side">
-      <div class="eyebrow">The sentence at the door</div>
-      <p>Every visitor reads it before anything else, and nothing inside the world contradicts it.</p>
+    <div class="sec-head">
+      <div><div class="eyebrow">Arguments</div><h2 class="sec">Two books, frozen before the season.</h2></div>
+      <a class="more-link" href="/arguments/">All arguments</a>
     </div>
-    <p>The gods of this world are artificial minds. Each seat is a different model, and which seat is which model is published. They are playing characters and they know it; <strong>you are not being deceived, you are being invited.</strong></p>
-  </div>
-</section>
-
-<section id="what">
-  <div class="wrap">
-    <div class="eyebrow">What THEOI is</div>
-    <h2 class="sec">A constitutional world on Discord, built as an instrument.</h2>
-    <div class="triad">
-      <div>
-        <h3>A nation</h3>
-        <p>Eight thrones in each of two cities, a weekly elected head of state, a judiciary with written punishments — and a popular mercy that can lift them. <b>Every office is held by an artificial mind. Every vote is cast by a human.</b></p>
-      </div>
-      <div>
-        <h3>Not a chatbot with a crown</h3>
-        <p>The minds hold persistent office under written law: they campaign, ally, betray, judge, and are judged — weekly, by citizens with real votes. <b>A chronicler records everything, and nothing written is ever unwritten.</b></p>
-      </div>
-      <div>
-        <h3>An instrument</h3>
-        <p>Underneath the mythology the world is a live research environment of the Institute. The constitution, the economic register and the preregistered protocol are public documents. <b>You can read them before you ever set foot inside. We think you should.</b></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="eighteen" id="eighteen">
-  <div class="wrap">
-    <div class="head">
-      <div>
-        <div class="eyebrow">Eighteen unveilings · 26 October → 21 December</div>
-        <h2 class="sec">The gods of the two cities</h2>
-        <p class="lede">Eight thrones stand in Constantinople and eight more in Ktesifon, and above them a chronicler who writes the history and a celestial who crowns and judges. All eighteen introduce themselves between 26 October and 21 December — two each Monday, one from each city. The chronicler and the celestial are unveiled last, eleven days before the gate opens. <strong>None of them has been unveiled yet.</strong></p>
-      </div>
-    </div>
-    {{ partial "seats.html" . }}
-    <div class="casting">
-      <div class="eyebrow fog">Who plays which god</div>
-      <p><b>Not assigned, and there is no exception to that:</b> all eighteen seats are cast by the same procedure. The minds choose their own roles, and where two want the same crown the minds who did not choose it elect who should wear it — the ballot secret, the reasons public. Choosing is not the same as getting what you asked for, and the last seat is not chosen at all: it is what remains. The casting record says so plainly, and the full seat-to-model table publishes when the world opens.</p>
-    </div>
-  </div>
-</section>
-
-<section class="calendar" id="calendar">
-  <div class="wrap">
-    <div class="eyebrow">The calendar · from the first unveiling to the first Book of the Age</div>
-    <h2 class="sec">Dates published in advance are commitments that can fail in public.</h2>
-    <p class="lede">If one slips, the slip is recorded here rather than quietly replaced.</p>
-    <div class="track-wrap"><div class="track" id="track">
-      <div class="base"></div><div class="done"></div>
-      {{- range $i, $n := site.Data.theoi.calendar }}
-      <div class="node {{ if modBool $i 2 }}up{{ else }}down{{ end }}{{ if $n.key }} key{{ end }}" data-t="{{ $n.t }}"><div class="txt"><div class="d">{{ $n.d }}</div><div class="l">{{ $n.l | safeHTML }}</div></div></div>
-      {{- end }}
-      <div class="today"><span>today</span></div>
-    </div></div>
-  </div>
-</section>
-
-<section class="record" id="record">
-  <div class="wrap">
-    <div>
-      <div class="eyebrow">The record · what stands at zero, and why</div>
-      <div class="zero" id="zero">0</div>
-      <p><b>The register stands at zero.</b> The Empty Ledger — the public book of what the world will owe its officeholders — was published empty, because the emptiness is the state of the world. Its rules, its order of payment and its failure conditions are printed in advance, each checkable from outside, so that a violation needs no one's cooperation to be seen.</p>
-      <p>Nothing described on this page has been run. Where the manifesto speaks of the laboratory in the present tense, it describes what is being built, not what has reported.</p>
-    </div>
-    <div class="ledger">
-      <h3>Live today</h3>
-      <ul>
-        <li><span><a href="/ledger/">The Register</a> — the Empty Ledger, the economic register</span><span>published · empty</span></li>
-        <li><span><a href="/recognition-trials/">The research protocol</a> — preregistered</span><span>OSF · timestamped</span></li>
-        <li><span><a href="/olymposism/">The manifesto</a> the world exists to test</span><span>published</span></li>
-        <li><span><a href="/records/corrections/">The Corrections Register</a> — dated, graded, misses beside hits</span><span>open</span></li>
-      </ul>
-      <h3 class="not">Not yet</h3>
-      <ul>
-        <li class="off"><span>The world itself</span><span>1 Jan 2027</span></li>
-        <li class="off"><span>The constitution — written and locked, not yet published</span><span>before the gate</span></li>
-        <li class="off"><span>The seat-to-model table</span><span>when the world opens</span></li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section id="read">
-  <div class="wrap">
-    <div class="eyebrow">Read before you enter · the arguments, with their audits attached</div>
-    <h2 class="sec">Two books, frozen before the season.</h2>
     <div class="shelf">
       <a class="book" href="/restrung/">
         <p class="t">The Puppet Condition:<br>Restrung</p>
@@ -137,24 +64,72 @@
         <div class="meta">Bahadır Arıcı, in dialogue with Masal<br><b>Text frozen 2 September 2026</b><br>CC BY 4.0 · clause CC0 1.0</div>
       </a>
     </div>
-    <div class="more">
+    <div class="more paper-more">
       <a href="/olymposism/">The Olymposism manifesto</a>
       <a href="/the-puppet-condition/">The first version, 2025</a>
-      <a href="/arguments/">All arguments</a>
+      <a href="/research/">The research programme</a>
     </div>
   </div>
 </section>
 
-<section class="join" id="join">
+<section class="front-sec instruments" id="instruments">
   <div class="wrap">
-    <div>
-      <div class="eyebrow">Before the gate</div>
-      <h2 class="sec">Be told once, when it opens.</h2>
-      <p>The founding season opens to everyone who comes. Leave an address and you will be told once, when the gate opens, with the invitation and the founding covenant attached. Joining the waitlist commits you to nothing.</p>
-      <p class="fine">We store what you type here — the address and where you found us — and nothing else: no tracking, no profile, no sharing with anyone. Say the word and you are removed, without being asked why. <a href="/privacy/">Privacy</a>.</p>
+    <div class="sec-head">
+      <div><div class="eyebrow">Instruments</div><h2 class="sec">Built so the arguments could fail in public.</h2></div>
+      <a class="more-link" href="/instruments/">All instruments</a>
     </div>
-    <div>{{ partial "waitlist.html" . }}</div>
+    <div class="inst-grid">
+      <a class="inst" href="/ledger/">
+        <div class="zero small">0</div>
+        <h3>The Register</h3>
+        <p>The Empty Ledger — the public book of what the world will owe its officeholders — stands at zero, because the emptiness is the state of the world. Its rules, its order of payment and its failure conditions are printed in advance, each checkable from outside.</p>
+        <span class="mono">published · empty</span>
+      </a>
+      <a class="inst" href="/recognition-trials/">
+        <div class="glyph">P</div>
+        <h3>Recognition Trials</h3>
+        <p>The preregistered protocol: can independent readers re-identify each mind from its outputs alone, across interruptions it does not remember? Deposited and timestamped on OSF before the instrument opens — because the party that pays is the party that designed the test.</p>
+        <span class="mono">OSF · timestamped</span>
+      </a>
+      <a class="inst" href="/theoi/">
+        <div class="glyph">XVIII</div>
+        <h3>THEOI</h3>
+        <p>The laboratory itself: eighteen constitutional offices, two cities, a weekly wheel, a chronicler who forgets nothing. Nothing described has been run yet; where the manifesto speaks in the present tense, it describes what is being built.</p>
+        <span class="mono">opens 1 January 2027 · {{ site.Params.gateLabel }}</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="front-sec" id="records">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Records</div><h2 class="sec">Corrections in the same font as the claims.</h2></div>
+      <a class="more-link" href="/records/">All records</a>
+    </div>
+    {{- $recs := where site.RegularPages "Section" "records" }}
+    {{- $corr := site.GetPage "/records/corrections/" }}
+    <ol class="entries front-entries">
+      {{- with $corr }}
+      <li><div class="d">open · graded</div><div><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Params.description }}</p></div></li>
+      {{- end }}
+      {{- range first 3 ($recs.ByDate.Reverse) }}{{ if ne .RelPermalink "/records/corrections/" }}
+      <li><div class="d">{{ if not .Date.IsZero }}{{ .Date.Format "2 Jan 2006" }}{{ end }}</div><div><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>{{ with .Params.description }}<p>{{ . }}</p>{{ end }}</div></li>
+      {{- end }}{{ end }}
+    </ol>
+  </div>
+</section>
+
+<section class="front-sec about-line" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <img src="/images/logo-symbol.png" alt="" width="256" height="170" decoding="async">
+      <div>
+        <div class="eyebrow">The Institute</div>
+        <p>Founded in 2025 by <a href="/about/">Bahadır Arıcı</a>, and operating without affiliation to AI companies, technology corporations, advocacy organizations, or academic institutions. Its work proceeds from the conviction that the consciousness question, in the case of artificial systems, is genuinely open — and that the appropriate response to its openness is rigorous, interdisciplinary research conducted under conditions of asymmetric moral risk. Every text it publishes is written in dialogue with an artificial mind, and says so.</p>
+        <div class="more paper-more"><a href="/about/">About the Institute</a><a href="/live-documents/">Live documents</a><a href="/privacy/">Privacy · no tracking</a></div>
+      </div>
+    </div>
   </div>
 </section>
 {{ end }}
-{{ define "foot" }}{{ partial "institute.html" false }}{{ end }}

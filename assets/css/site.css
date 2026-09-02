@@ -388,3 +388,58 @@ legend{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:
   .scrollcue::after{animation:none}
   .seat{transition:none}
 }
+
+/* ————— the front, on paper, with the instrument set in as an ink plate ————— */
+.masthead{padding:clamp(120px,14vw,170px) 0 clamp(56px,7vw,90px)}
+.masthead h1{font-family:var(--serif);font-weight:500;font-size:clamp(34px,4.6vw,62px);line-height:1.06;letter-spacing:-.01em;margin:16px 0 0;max-width:22ch;text-wrap:balance}
+.masthead h1 em{font-style:italic;color:var(--bronze)}
+.masthead .desc{font-family:var(--serif);font-size:clamp(19px,1.7vw,23px);color:var(--paper-fog);max-width:58ch;margin:22px 0 0;text-wrap:pretty}
+.doors3{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,44px);margin-top:clamp(40px,5vw,64px)}
+.doors3 a{display:flex;flex-direction:column;gap:10px;padding-top:16px;border-top:1px solid var(--paper-rule);color:var(--paper-fog);font-size:17px;line-height:1.45;transition:border-color .25s,color .25s}
+.doors3 a .k{font-family:var(--display);font-weight:300;font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--paper-ink)}
+.doors3 a:hover{border-top-color:var(--bronze);color:var(--paper-ink)}
+@media (max-width:820px){.doors3{grid-template-columns:1fr}}
+.plate{background:var(--ink);color:var(--ivory);padding:0 0 clamp(56px,7vw,90px);border-top:0}
+.paper .plate + section{border-top:0}
+.plate-body{display:flex;flex-direction:column;align-items:center;text-align:center}
+.plate .wordmark{width:min(560px,70vw);margin-top:16px}
+.plate .tagline{font-size:clamp(21px,2.2vw,27px)}
+.plate-text{font-family:var(--serif);font-size:18px;line-height:1.5;color:var(--fog);max-width:62ch;margin:22px 0 0;text-wrap:pretty}
+.plate .gate{margin-top:clamp(28px,3.5vw,40px)}
+.plate .count b{font-size:clamp(36px,4.6vw,56px)}
+.plate .hero-doors{margin-top:clamp(30px,4vw,44px)}
+.plate-note{font-family:var(--serif);font-size:17px;line-height:1.5;color:var(--fog);max-width:60ch;margin:clamp(30px,4vw,44px) 0 0;padding-top:22px;border-top:1px solid var(--line)}
+.plate-note b{color:var(--gold);font-weight:500}
+.front-sec{padding:clamp(72px,9vw,120px) 0}
+.paper .front-sec + .front-sec{border-top:1px solid var(--paper-rule)}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+.more-link{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--paper-fog);border-bottom:1px solid var(--paper-rule);padding-bottom:4px;white-space:nowrap}
+.more-link:hover{color:var(--paper-ink);border-bottom-color:var(--bronze)}
+.paper .shelf{margin-top:clamp(32px,4vw,52px)}
+.paper .book{border-color:var(--ink);box-shadow:0 18px 40px -28px rgba(17,20,24,.55)}
+.paper .book:hover{border-color:var(--bronze)}
+.paper-more a{color:var(--paper-fog);border-bottom-color:var(--paper-rule)}
+.paper-more a:hover{color:var(--paper-ink);border-bottom-color:var(--bronze)}
+.instruments{background:var(--paper-2)}
+.inst-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,44px);margin-top:clamp(32px,4vw,52px)}
+.inst{display:flex;flex-direction:column;gap:12px;padding:26px 0 0;border-top:1px solid var(--paper-rule);color:var(--paper-fog);transition:border-color .25s}
+.inst:hover{border-top-color:var(--bronze)}
+.inst h3{font-family:var(--serif);font-weight:500;font-size:26px;line-height:1.1;margin:0;color:var(--paper-ink)}
+.inst p{margin:0;font-size:17px;line-height:1.5}
+.inst .mono{margin-top:auto;padding-top:8px;color:var(--bronze);font-size:10.5px;letter-spacing:.18em}
+.zero.small{font-size:clamp(64px,7vw,88px);line-height:.9;color:var(--bronze);margin:0;height:80px;display:flex;align-items:flex-end}
+.glyph{font-family:var(--display);font-weight:200;font-size:clamp(48px,5.4vw,68px);line-height:.9;color:var(--bronze);letter-spacing:.06em;height:80px;display:flex;align-items:flex-end}
+@media (max-width:900px){.inst-grid{grid-template-columns:1fr}}
+.front-entries{margin-top:clamp(28px,3.5vw,44px)}
+.about-line{background:var(--paper-2)}
+.about-grid{display:grid;grid-template-columns:120px minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:start}
+.about-grid img{width:96px;height:auto;margin-top:6px}
+.about-grid p{font-family:var(--serif);font-size:19px;line-height:1.5;color:var(--paper-fog);max-width:66ch;margin:14px 0 0;text-wrap:pretty}
+.about-grid p a{color:var(--paper-ink);border-bottom:1px solid var(--paper-rule)}
+.about-grid .more{margin-top:22px}
+@media (max-width:620px){.about-grid{grid-template-columns:1fr}}
+/* the plate is ink inside a paper page: its strings are ivory, not paper-ink */
+.paper .plate .str line{stroke:var(--ivory);opacity:.42}
+.paper .plate .str .end{fill:var(--ivory)}
+.paper .plate .str.lit line{stroke:var(--gold);opacity:1}
+.paper .plate .str.lit .end{fill:var(--gold)}
