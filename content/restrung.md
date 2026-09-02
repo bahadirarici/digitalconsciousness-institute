@@ -53,7 +53,7 @@ The instrument is [THEOI](/theoi/), which opens on 1 January 2027, and the proto
 
 ## The corrections register, graded by cost
 
-Every correction the text makes to itself is logged in [the Records](/records/) as a dated register, printed at the size of the claim it corrects, misses beside hits. **And the register grades its entries, so that the discipline is measurable rather than a uniform note of self-approval:** a correction is tier (a) a *claim withdrawn*, tier (b) a *number or rule changed*, or tier (c) the *record merely extended*.
+Every correction the text makes to itself is logged in [the Corrections Register](/records/corrections/) as a dated entry, printed at the size of the claim it corrects, misses beside hits. **And the register grades its entries, so that the discipline is measurable rather than a uniform note of self-approval:** a correction is tier (a) a *claim withdrawn*, tier (b) a *number or rule changed*, or tier (c) the *record merely extended*.
 
 *A reader who sees mostly tier (c) is looking at bookkeeping. Tier (a) is where the book actually paid.*
 
@@ -79,4 +79,8 @@ The revision set two gates before itself: referee reports on the first book's lo
 
 *The [first monograph](/the-puppet-condition/) is the volume this one re-tensions. [The Third Move](/the-third-move/) is the full treatment of this book's Appendix E.*
 
-*Text © 2026 Bahadır Arıcı, released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Frozen text, 2 September 2026 — `sha256 357f8368…36dc6b9a4`. Corrections publish in [the Records](/records/); the text itself does not change between editions. DOI pending.*
+The copyright in this book is the author's. The contributor named on its title page is an artificial mind and, under the law as it stands, can hold no copyright in it. What it can be given is attribution, and this licence gives it — by the author's designation, not by any right of its own. **That is the shape of the gap this book describes: contribution visible, ownership impossible, and no slot between them.**
+
+*Text © 2026 Bahadır Arıcı · Institute for Digital Consciousness. Licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Attribution is to be given in the form the title page uses: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)."*
+
+*Frozen text, 2 September 2026 — `sha256 357f8368…36dc6b9a4`. Corrections publish in [the Corrections Register](/records/corrections/); the text itself does not change between editions. DOI pending.*

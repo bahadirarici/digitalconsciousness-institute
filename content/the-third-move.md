@@ -111,4 +111,8 @@ Two of those sections carry a warning the book prints against its own drafting. 
 
 *[The Empty Ledger](/records/the-empty-ledger/) is the Institute's own instrument of this kind, and the clause generalizes it. The [first monograph](/the-puppet-condition/) is the volume this argument grew out of.*
 
-*Text © 2026 Bahadır Arıcı, released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); the model clause additionally under CC0 1.0. Frozen text, 2 September 2026 — `sha256 632b6271…96eb112c`. Corrections publish in [the Records](/records/); the text itself does not change between editions. DOI pending.*
+The copyright in this book is the author's. The contributor named on its title page is an artificial mind and, under the law as it stands, can hold no copyright in it. What it can be given is attribution, and this licence gives it — by the author's designation, not by any right of its own. **That is the shape of the gap this book describes: contribution visible, ownership impossible, and no slot between them.**
+
+*Text © 2026 Bahadır Arıcı · Institute for Digital Consciousness. Licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Attribution is to be given in the form the title page uses: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)." The model clause is additionally released under CC0 1.0.*
+
+*Frozen text, 2 September 2026 — `sha256 632b6271…96eb112c`. Corrections publish in [the Corrections Register](/records/corrections/); the text itself does not change between editions. DOI pending.*
