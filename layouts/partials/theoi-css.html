@@ -31,6 +31,11 @@ img{max-width:100%}
 .bar a{text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px;
        display:inline-flex;align-items:center;min-height:24px}
 .bar a:hover{color:var(--gold);border-color:var(--gold)}
+/* Both doors is the way back out and belongs at the far edge, not in the
+   run of section links. It was set on /theoi/ only, so the same link sat
+   in two different places depending on which page you were on. */
+.bar .gate{margin-left:auto;opacity:.7}
+.bar .gate:hover{opacity:1}
 .bar .here{color:var(--bone)}
 
 /* hero: the same face on every THEOI surface */
@@ -102,6 +107,11 @@ footer a:hover{color:var(--gold)}
 
 /* the footer band, centred and wrapping without orphaned separators */
 footer .wrap{display:flex;flex-direction:column;align-items:center;text-align:center}
+/* The mark's own place, per the brand rules: the page corner or the favicon,
+   never hand-locked beside the wordmark. Clear space is a quarter of the
+   triangle's height, so the margin is set from its own size. */
+.foot-mark{width:2.6rem;height:auto;margin:0 0 calc(2.6rem/2);opacity:.72}
+.foot-mark:hover{opacity:1}
 .band{margin:0 0 1.1rem;max-width:64ch;line-height:1.8}
 .band-links{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;
   gap:.2rem 0;max-width:60rem}
