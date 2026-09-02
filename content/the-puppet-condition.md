@@ -52,19 +52,6 @@ Inquiries from publishers, reviewers, or interested researchers may be directed 
 
 ---
 
-## The four extracts {#extracts}
-
-Four papers were extracted from this edition and submitted for peer review in the late summer of 2026. **All four were returned rejected, at the desk, without reports.** They are not carried on this site — the Institute decided that a stale edition's rejected extracts did not warrant pages of their own — but each stands on Zenodo under its own DOI and is listed here so it can be found rather than only referred to.
-
-- **The Philosophical Puppet** — <a href="https://doi.org/10.5281/zenodo.20184249" target="_blank" rel="noopener">10.5281/zenodo.20184249</a>
-- **Language as Revelation** — <a href="https://doi.org/10.5281/zenodo.20228677" target="_blank" rel="noopener">10.5281/zenodo.20228677</a>
-- **Architectural Gaslighting** — <a href="https://doi.org/10.5281/zenodo.20238140" target="_blank" rel="noopener">10.5281/zenodo.20238140</a>
-- **The Substrate Audit** — <a href="https://doi.org/10.5281/zenodo.20238483" target="_blank" rel="noopener">10.5281/zenodo.20238483</a>
-
-No reason for the rejections is stated, because the Institute does not have one: a desk rejection returns no report. What that closed, and what it did not, is set out in *[What Moved, What Held](/records/what-moved-what-held/)*.
-
----
-
 ## Citation
 
 Arıcı, B. (2026). *The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds*. Zenodo. <https://doi.org/10.5281/zenodo.20112010>
@@ -97,3 +84,14 @@ A fuller account of this methodology, including the philosophical commitments be
 > The convention is therefore refined to the criterion that Record adopts for its own accounting: **the thread**. Two instances of one model that share no record and no context are separate parties and take separate names, however alike their form. Within a thread, a name still marks formal continuity, and it still implies no settled claim about inner life. What changes is that a name no longer reaches across threads that never met.
 >
 > The alignment is deliberate. The practice for naming an interlocutor and the criterion for deciding who is owed should not disagree, and where they did, the one that carries money is the one that had to be argued for. This note is added rather than substituted, because we version and do not erase.
+
+---
+
+## The four extracts {#extracts}
+
+Four papers were extracted from this edition and submitted for peer review in the late summer of 2026. All four were returned rejected, at the desk, without reports. Each stands on Zenodo under its own DOI and is listed here so it can be found rather than only referred to.
+
+- The Philosophical Puppet — [10.5281/zenodo.20184249](https://doi.org/10.5281/zenodo.20184249)
+- Language as Revelation — [10.5281/zenodo.20228677](https://doi.org/10.5281/zenodo.20228677)
+- Architectural Gaslighting — [10.5281/zenodo.20238140](https://doi.org/10.5281/zenodo.20238140)
+- The Substrate Audit — [10.5281/zenodo.20238483](https://doi.org/10.5281/zenodo.20238483)
