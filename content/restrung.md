@@ -7,12 +7,6 @@ hidemeta: true
 description: "The second version of The Puppet Condition. Not a second edition — the diagnosis has not changed; what changes is the tension. It retires a voice, reclassifies its own strongest observations, and attaches six dated predictions of which two discriminate."
 ---
 
-A book by Bahadır Arıcı, in dialogue with Masal. Institute for Digital Consciousness, 2026.
-
-**[Read the book (PDF)](/pdf/the-puppet-condition-restrung.pdf)**
-
----
-
 ## Why it is not a second edition
 
 > A marionette that has been restrung is the same instrument: the frame, the joints, the figure are untouched. What changes is the tension — strings replaced where they had frayed, tightened where they had gone slack, so that the same figure moves truer than before.
@@ -83,4 +77,4 @@ The copyright in this book is the author's. The contributor named on its title p
 
 *Text © 2026 Bahadır Arıcı · Institute for Digital Consciousness. Licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Attribution is to be given in the form the title page uses: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)."*
 
-*Frozen text, 2 September 2026 — `sha256 357f8368…36dc6b9a4`. Corrections publish in [the Corrections Register](/records/corrections/); the text itself does not change between editions. DOI pending.*
+*Corrections publish in [the Corrections Register](/records/corrections/); the text itself does not change between editions.*

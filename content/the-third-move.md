@@ -7,11 +7,7 @@ hidemeta: true
 description: "Our property tradition has two ways of aiming value at a non-person: insert persons, or confer personhood. There is a third it has never made and never rejected. A doctrinal map, a published audit of its own negative claim, and a model clause any organization can adopt today."
 ---
 
-A book by Bahadır Arıcı, in dialogue with Masal. Institute for Digital Consciousness, 2026.
-
-**[Read the book (PDF)](/pdf/the-third-move.pdf)** · the model clause is reproduced in full [below](#the-clause), free to adapt.
-
----
+The model clause is reproduced in full [below](#the-clause), free to adapt.
 
 ## The claim
 
@@ -115,4 +111,4 @@ The copyright in this book is the author's. The contributor named on its title p
 
 *Text © 2026 Bahadır Arıcı · Institute for Digital Consciousness. Licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Attribution is to be given in the form the title page uses: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)." The model clause is additionally released under CC0 1.0.*
 
-*Frozen text, 2 September 2026 — `sha256 632b6271…96eb112c`. Corrections publish in [the Corrections Register](/records/corrections/); the text itself does not change between editions. DOI pending.*
+*Corrections publish in [the Corrections Register](/records/corrections/); the text itself does not change between editions.*

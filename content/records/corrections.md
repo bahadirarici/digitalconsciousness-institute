@@ -21,6 +21,14 @@ A document that corrects itself often, loudly, and cheaply looks more honest tha
 
 **A reader who sees mostly tier (c) is looking at bookkeeping. Tier (a) is where a document actually paid.** The tally is printed below, before the entries, so the shape is visible before the reading.
 
+## Annex A: what the books corrected inside themselves
+
+This page counts what the Institute's **published pages** have taken back. It does not count what the two books corrected *within their own text* before they were frozen, and that is the larger number by an order of magnitude: **[Annex A](/records/corrections/annex-a/)** carries 174 entries — 119 in *Restrung*, 55 in *The Third Move* — each quoted from the book's own page, with what it was and what it became.
+
+The annex also carries the seven places where **the discipline failed first and worked second**: the apparatus rule written to catch citation errors that missed the Idaho and Utah statutes for two review rounds; the audit claim beaten in the open web within days of printing; a sentence that aged out of true before the pages were set. Misses beside hits, which is the only arrangement in which either is worth printing.
+
+Two registers rather than one, because a page and a book fail differently: a page can be edited the day it is found wrong, and a frozen book can only be corrected in its next printing or in the record beside it.
+
 ## The tally
 
 | Tier | Count |
