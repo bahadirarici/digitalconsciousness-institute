@@ -70,6 +70,10 @@ menu:
       name: THEOI
       url: /theoi/
       weight: 15
+    - identifier: showcase
+      name: Showcase
+      url: /showcase/
+      weight: 16
     - identifier: olymposism
       name: Olymposism
       url: /olymposism/
