@@ -1,6 +1,15 @@
-{{- /* The founder application. Fields and their order follow the execution
-       package (MEYDAN_YURUTME_v1 §2); the scoring that reads them is internal
-       and is not on this page. Draft until the Covenant it links to is live. */ -}}
+{{- /* Two things on one page, because the Founder's decision of 2 September
+       separated them: registering for the founding season, which is open to
+       everyone who applies, and standing as one of the thirty founders, which
+       is a role and is chosen.
+
+       The founder section is visible in the HTML and hidden by script on load,
+       so a visitor without JS sees every field and no field is silently
+       required. Its inputs carry data-founder rather than required; the script
+       adds required only when the box is ticked, and strips it when unticked.
+
+       Copy still belongs to Hayal; this is the structure. Draft until the
+       Covenant's founder-and-citizen paragraph exists. */ -}}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,9 +76,9 @@ button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
       <a href="/">Both doors</a>
       <a href="/theoi/">THEOI</a>
       <a href="/showcase/">The Showcase</a>
-      <span class="here">Apply</span>
+      <span class="here">Join</span>
     </nav>
-    <p class="kicker">Thirty founders · applications close 22 November 2026</p>
+    <p class="kicker">Everyone who registers is in on 1 December · thirty of them found it</p>
     <h1>{{ .Title }}</h1>
   </div>
 </header>
@@ -83,7 +92,7 @@ button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
     <p hidden><label>Leave this empty: <input name="bot-field"></label></p>
 
     <fieldset>
-      <legend>Who is applying</legend>
+      <legend>Register for the founding season</legend>
 
       <div class="field">
         <label for="name">Name or handle</label>
@@ -97,8 +106,9 @@ button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
 
       <div class="field">
         <label for="tz">Timezone
-          <span class="hint">The week has fixed hours, and no eight-hour band may hold more than
-          three in five of the founders. This is why we ask.</span></label>
+          <span class="hint">The week has fixed hours and the founding thirty are balanced across
+          the clock, so no eight-hour band holds more than three in five of them. This is why we
+          ask; it does not affect your own place in the world.</span></label>
         <input id="tz" name="timezone" type="text" required placeholder="UTC+3, Istanbul">
       </div>
 
@@ -107,41 +117,52 @@ button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
         <input id="found" name="found" type="text" placeholder="A link, a person, a forum">
       </div>
 
-      <div class="field">
-        <label for="days">How many days a week can you realistically show up in the first four weeks?
-          <span class="hint">The covenant asks for twelve days across those four weeks, and the
-          distribution is yours. Answer with what is true, not with what sounds committed.</span></label>
-        <select id="days" name="days" required>
-          <option value="">Choose</option>
-          <option>1 day</option><option>2 days</option><option>3 days</option>
-          <option>4 days</option><option>5 days</option><option>6–7 days</option>
-        </select>
-      </div>
     </fieldset>
 
     <fieldset>
-      <legend>The one question that matters</legend>
-      <div class="field">
-        <label for="q">It is week one. The vote on the first Ferman is tomorrow, and your guild
-          disagrees with you. What do you do?
-          <span class="hint">150 words at most. There is no correct answer and no answer that
-          flatters. We are reading for whether you would act.</span></label>
-        <textarea id="q" name="answer" required maxlength="1200"
-                  aria-describedby="q-count"></textarea>
-        <p class="count" id="q-count" aria-live="polite">0 / 150 words</p>
-      </div>
-    </fieldset>
+      <legend>Standing as a founder — optional</legend>
+      <p class="hint" style="margin:0 0 1.2rem">Everyone who registers is in the world on 1
+      December. <b>Founder</b> is something else: thirty people whose names enter the founding
+      records, who hold the right to propose Experiment Records for the whole of the First Age,
+      and from whom two Founding Wardens are chosen. It asks for twelve days of presence in the
+      first four weeks. You do not need it to play, and not being chosen costs you nothing.</p>
 
-    <fieldset>
-      <legend>Optional</legend>
-      <div class="field">
-        <label for="office">Which of the eighteen offices would you watch most closely, and why?</label>
-        <input id="office" name="office" type="text">
-      </div>
-      <div class="field">
-        <label for="communities">Communities you are active in
-          <span class="hint">One or two links or names. Skip it if you would rather not.</span></label>
-        <input id="communities" name="communities" type="text">
+      <label class="check" for="stand"><input type="checkbox" id="stand" name="stand_as_founder"
+        value="yes" aria-controls="founder-fields" aria-expanded="true">
+        <span>I want to stand as one of the <b>thirty founders</b>.</span></label>
+
+      <div id="founder-fields">
+        <div class="field">
+          <label for="days">How many days a week can you realistically show up in the first four weeks?
+            <span class="hint">Twelve days across four weeks, and the distribution is yours. Answer
+            with what is true, not with what sounds committed.</span></label>
+          <select id="days" name="days" data-founder>
+            <option value="">Choose</option>
+            <option>1 day</option><option>2 days</option><option>3 days</option>
+            <option>4 days</option><option>5 days</option><option>6–7 days</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="q">It is week one. The vote on the first Ferman is tomorrow, and your guild
+            disagrees with you. What do you do?
+            <span class="hint">150 words at most. There is no correct answer and no answer that
+            flatters. We are reading for whether you would act.</span></label>
+          <textarea id="q" name="answer" maxlength="1200" data-founder
+                    aria-describedby="q-count"></textarea>
+          <p class="count" id="q-count" aria-live="polite">0 / 150 words</p>
+        </div>
+
+        <div class="field">
+          <label for="office">Which of the eighteen offices would you watch most closely, and why?
+            <span class="hint">Optional.</span></label>
+          <input id="office" name="office" type="text">
+        </div>
+        <div class="field">
+          <label for="communities">Communities you are active in
+            <span class="hint">Optional. One or two links or names.</span></label>
+          <input id="communities" name="communities" type="text">
+        </div>
       </div>
     </fieldset>
 
@@ -161,13 +182,16 @@ button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
 
     <button type="submit">Send the application</button>
 
-    <p class="after">Applications close 22 November. Everyone hears back on 28 November, including
-    those who are not chosen and those placed in reserve — an application that goes unanswered is
-    not a decision, it is a discourtesy. We store what you type here and nothing else.</p>
+    <p class="after">Registration stays open. If you stood as a founder, the thirty and the
+    reserve are decided on 28 November and <b>everyone hears back that day</b>, including those
+    not chosen — an application that goes unanswered is not a decision, it is a discourtesy. Not
+    being chosen changes nothing about your place on 1 December. We store what you type here and
+    nothing else.</p>
   </form>
 
-  <p class="after" id="sent" hidden>Your application is in. You will hear on 28 November, either
-  way. Nothing further is needed from you before then.</p>
+  <p class="after" id="sent" hidden>You are registered. The world opens to you on 1 December. If
+  you also stood as a founder you will hear on 28 November, either way, and nothing further is
+  needed from you before then.</p>
 </div>
 
 <footer>
@@ -183,18 +207,35 @@ button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
 </footer>
 
 <script>
-// Word count for the one question. The limit is advisory in the browser and
-// enforced when the application is read, so a browser without JS loses nothing.
 (function () {
-  var box = document.getElementById('q'), out = document.getElementById('q-count');
-  if (!box || !out) return;
-  function tick() {
-    var n = box.value.trim() ? box.value.trim().split(/\s+/).length : 0;
-    out.textContent = n + ' / 150 words';
-    out.classList.toggle('over', n > 150);
+  var box = document.getElementById('stand'),
+      panel = document.getElementById('founder-fields'),
+      fields = panel ? [].slice.call(panel.querySelectorAll('[data-founder]')) : [];
+  if (!box || !panel) return;
+
+  // The panel ships visible so a visitor without JS sees every field and none of
+  // them is silently required. Script takes over from here.
+  function sync() {
+    panel.hidden = !box.checked;
+    box.setAttribute('aria-expanded', String(box.checked));
+    fields.forEach(function (f) {
+      if (box.checked) { f.setAttribute('required', ''); }
+      else { f.removeAttribute('required'); f.value = ''; }
+    });
   }
-  box.addEventListener('input', tick);
-  tick();
+  box.addEventListener('change', sync);
+  sync();
+
+  var q = document.getElementById('q'), out = document.getElementById('q-count');
+  if (q && out) {
+    function tick() {
+      var n = q.value.trim() ? q.value.trim().split(/\s+/).length : 0;
+      out.textContent = n + ' / 150 words';
+      out.classList.toggle('over', n > 150);
+    }
+    q.addEventListener('input', tick);
+    tick();
+  }
 })();
 
 if (new URLSearchParams(location.search).get('sent')) {
