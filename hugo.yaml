@@ -62,39 +62,29 @@ params:
 
 menu:
   main:
-    - identifier: research
-      name: Research
-      url: /research/
+    # The site's own sentence, in its own navigation: it publishes its arguments,
+    # the instruments that could embarrass them, and its own corrections in the
+    # same place. The three sections are those three, in that order.
+    - identifier: arguments
+      name: Arguments
+      url: /arguments/
       weight: 10
-    - identifier: theoi
-      name: THEOI
-      url: /theoi/
-      weight: 15
-    - identifier: showcase
-      name: Showcase
-      url: /showcase/
-      weight: 16
-    - identifier: olymposism
-      name: Olymposism
-      url: /olymposism/
-      weight: 17
+    - identifier: instruments
+      name: Instruments
+      url: /instruments/
+      weight: 20
     - identifier: records
       name: Records
       url: /records/
-      weight: 20
-    - identifier: whitepaper
-      name: Whitepaper
-      url: /whitepaper/
+      weight: 30
+    - identifier: theoi
+      name: THEOI
+      url: /theoi/
       weight: 40
-    - identifier: monograph
-      name: Monograph
-      url: /the-puppet-condition/
-      weight: 50
     - identifier: about
       name: About
       url: /about/
-      weight: 60
-
+      weight: 50
 taxonomies:
   category: categories
   tag: tags
