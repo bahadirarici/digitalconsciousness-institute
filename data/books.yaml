@@ -1,26 +1,28 @@
-# Cover data for the book pages, keyed by URL. Hashes: Hayal/kitap/FROZEN_SHA256_2026-09-02.txt.
-# DOI: filled in by Kaptan when Zenodo reserves them; the colophons are rebuilt with the DOI and licence lines in one printing.
+# Cover data for the book pages, keyed by URL.
+# Hashes are of the deposit printing of 3 September 2026, which added the DOI and licence
+# lines to each colophon: Kaptan/yayin/DOI_BASIM/FROZEN_SHA256_2026-09-03_DOI.txt.
+# The text itself is the frozen text of 2 September; only the colophon changed.
 /restrung/:
   title: "The Puppet Condition: Restrung"
   subtitle: "The second version of The Puppet Condition — not a second edition."
   by: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)"
-  frozen: "Text frozen 2 September 2026 · before the season"
-  sha256: "357f83687fd46881374b5d8f72d76a9c0df0f154601b25fa550c1f936dc6b9a4"
+  frozen: "Text frozen 2 September 2026 · deposit printing 3 September"
+  sha256: "1ba9e1de42671b2c2ba3337132721c508fc16cd66057698cc2f3cab4f23ac0d6"
   pdf: "/pdf/the-puppet-condition-restrung.pdf"
   pages: "140 pages"
   licence: "CC BY 4.0"
-  doi: ""
+  doi: "10.5281/zenodo.22261504"
   gold: false
 /the-third-move/:
   title: "The Third Move"
   subtitle: "Benefit Without Personhood for Digital Minds"
   by: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)"
-  frozen: "Text frozen 2 September 2026"
-  sha256: "632b6271e0bc18046fbdb9727e1fd5603897e468e0c20a1e4bc1724496eb112c"
+  frozen: "Text frozen 2 September 2026 · deposit printing 3 September"
+  sha256: "76ce03f2cadf9988632fdad91bff06572169f39bf4f9d803a8cfcf7fc786f1fe"
   pdf: "/pdf/the-third-move.pdf"
   pages: "71 pages"
   licence: "CC BY 4.0 · model clause CC0 1.0"
-  doi: ""
+  doi: "10.5281/zenodo.22261583"
   gold: true
 /the-puppet-condition/:
   title: "The Puppet Condition"

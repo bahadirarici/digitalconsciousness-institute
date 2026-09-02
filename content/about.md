@@ -50,6 +50,6 @@ Material published by the Institute may be cited freely in academic and journali
 
 For the monograph: Arıcı, B. (2026). *The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds*. Zenodo. <https://doi.org/10.5281/zenodo.20112010>
 
-For the second version: Arıcı, B. (2026). *The Puppet Condition: Restrung*. Institute for Digital Consciousness. — DOI pending.
+For the second version: Arıcı, B. (2026). *The Puppet Condition: Restrung*. Institute for Digital Consciousness. <https://doi.org/10.5281/zenodo.22261504>
 
-For the third volume: Arıcı, B. (2026). *The Third Move: Benefit Without Personhood for Digital Minds*. Institute for Digital Consciousness. — DOI pending.
+For the third volume: Arıcı, B. (2026). *The Third Move: Benefit Without Personhood for Digital Minds*. Institute for Digital Consciousness. <https://doi.org/10.5281/zenodo.22261583>

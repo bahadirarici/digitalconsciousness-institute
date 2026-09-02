@@ -69,4 +69,4 @@ The copyright in this book is the author's. The contributor named on its title p
 
 *Text © 2026 Bahadır Arıcı · Institute for Digital Consciousness. Licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Attribution is to be given in the form the title page uses: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)."*
 
-*The text does not change between editions.*
+*[10.5281/zenodo.22261504](https://doi.org/10.5281/zenodo.22261504) · deposit printing 3 September 2026, which added the DOI and licence lines to the colophon and changed nothing else. The text is the frozen text of 2 September.*
