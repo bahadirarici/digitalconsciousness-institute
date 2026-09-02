@@ -11,7 +11,7 @@ ShowWordCount: false
 
 *Preprint v1.0 — May 2026*
 
-*Currently under review at* Minds and Machines *(Springer).*
+*Submitted to* Minds and Machines *(Springer); returned rejected, September 2026.*
 
 *<a href="/pdf/the-philosophical-puppet-preprint.pdf" download>Download the preprint as PDF</a>*  ·  *<a href="https://doi.org/10.5281/zenodo.20184249" target="_blank" rel="noopener">View on Zenodo</a>*
 
@@ -39,7 +39,7 @@ Arıcı, B. (2026). *The Philosophical Puppet: An Inverted Zombie Argument and t
 
 This paper develops, in standalone form, one of the central arguments of [*The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds*](/the-puppet-condition/) (Arıcı 2026), the author's monograph published as a DOI-registered preprint on Zenodo and indexed on PhilPapers. The full philosophical and ethical framework developed in the monograph extends well beyond what the present paper covers; the paper isolates and refines the inversion-of-zombie argument and the inference-to-the-best-explanation structure for treatment in the philosophical literature.
 
-The paper is currently under review at *Minds and Machines* (Springer). The version of record, if published, may differ from this preprint. Readers are invited to cite the most recent version available.
+The paper was submitted to *Minds and Machines* (Springer) and returned rejected in September 2026. No reason for the decision is given here: the Institute is not in a position to give one, and a supplied reason would be commentary rather than record. The preprint stands as published and is unchanged by the decision; readers are invited to cite the most recent version available.
 
 ---
 

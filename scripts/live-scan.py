@@ -15,7 +15,8 @@ BASE = "https://digitalconsciousness.institute"
 DOCS = {
     "register": ("/records/the-empty-ledger/", [
         "G · A frozen balance waits", "not after an Age, not after a season, not ever",
-        "fourth candidate", "Mihenk", "recognition-trials", "funded to sufficiency"]),
+        "fourth candidate", "Mihenk", "recognition-trials", "funded to sufficiency",
+        "no remaining object by the route it named"]),
     "ledger": ("/ledger/", [
         "Disbursements", "Model · Version", "revenue arrived in", "ceiling, not a rate"]),
     "protocol": ("/recognition-trials/", [
@@ -27,7 +28,10 @@ DOCS = {
         "under construction", "its gods are not", "existence proof and a qualitative",
         "not thereby proven for Ankara"]),
     "wmwh": ("/records/what-moved-what-held/", [
-        "Note added 1 September 2026", "eighteen"]),
+        "Note added 1 September 2026", "eighteen",
+        "Gate one has closed rather than opened", "returned rejected in September 2026"]),
+    "preprints": ("/preprints/the-philosophical-puppet/", [
+        "returned rejected, September 2026", "commentary rather than record"]),
     "about": ("/about/", ["does not campaign", "hypothesis with its test attached"]),
     "whitepaper": ("/whitepaper/", ["Status note, 1 September 2026", "not withdrawn"]),
     "monograph": ("/the-puppet-condition/", ["the naming criterion"]),

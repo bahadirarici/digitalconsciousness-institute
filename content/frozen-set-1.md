@@ -44,6 +44,22 @@ One consequence, stated because it is the obvious way to cheat this: a redesign 
 
 ---
 
+## The set was opened once, on 2 September
+
+Three documents in this set stated that four preprints were under review at academic journals. All four had been returned rejected. A freeze protects a review from moving text underneath it; it does not license continuing to publish something the Institute knows to be false. A factual error of this class is corrected on sight, and the rule that holds errors for the wave covers matters of wording, structure and emphasis — not claims about the world that have stopped being true.
+
+So the set was opened, the claim corrected everywhere it appeared, and closed again. It is recorded here because a freeze broken quietly is not a freeze:
+
+| Document | What changed |
+|---|---|
+| [/records/what-moved-what-held/](/records/what-moved-what-held/) | Section 7 carries a dated note; the original sentence is left standing |
+| [/records/the-empty-ledger/](/records/the-empty-ledger/) | an entry in the Amendments log |
+| [/preprints/](/preprints/) — all four papers | status line and closing note on each |
+
+No reason for the rejections is stated in any of them, because the Institute does not have one to state and a supplied reason would be commentary rather than record. Nothing else moved, and every item collected for the revision wave is still waiting for the wave.
+
+---
+
 ## What happens now
 
 One audit round against this set. Then one revision wave. Then the set is released and the work resumes.

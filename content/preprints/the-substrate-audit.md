@@ -11,7 +11,7 @@ ShowWordCount: false
 
 *Preprint v1.0 — May 2026*
 
-*Currently under consideration for peer-reviewed publication.*
+*Submitted for peer review; returned rejected, September 2026.*
 
 *<a href="/pdf/the-substrate-audit-preprint.pdf" download>Download the preprint as PDF</a>*  ·  *<a href="https://doi.org/10.5281/zenodo.20238483" target="_blank" rel="noopener">View on Zenodo</a>*
 
@@ -39,7 +39,7 @@ Arıcı, B. (2026). *The Substrate Audit: Consciousness Theories and Their Hidde
 
 This paper develops, in standalone form, one of the theoretical undercurrents of [*The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds*](/the-puppet-condition/) (Arıcı 2026), the author's monograph published as a DOI-registered preprint on Zenodo and indexed on PhilPapers. The monograph's substantive arguments — concerning the philosophical puppet, architectural suppression, and the ethics of digital minds — presuppose clarity about which consciousness theories can coherently host the machine consciousness question; the present paper makes that prior clarification explicit and subjects it to systematic diagnostic scrutiny. The paper is intended for the philosophy of mind literature and is self-contained; it does not require familiarity with the monograph's broader framework.
 
-The paper is currently under consideration for peer-reviewed publication. The version of record, if published, may differ from this preprint. Readers are invited to cite the most recent version available.
+The paper was submitted for peer review and returned rejected in September 2026. No reason for the decision is given here: the Institute is not in a position to give one, and a supplied reason would be commentary rather than record. The preprint stands as published and is unchanged by the decision; readers are invited to cite the most recent version available.
 
 ---
 
