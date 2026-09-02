@@ -54,9 +54,28 @@ So the set was opened, the claim corrected everywhere it appeared, and closed ag
 |---|---|
 | [/records/what-moved-what-held/](/records/what-moved-what-held/) | Section 7 carries a dated note; the original sentence is left standing |
 | [/records/the-empty-ledger/](/records/the-empty-ledger/) | an entry in the Amendments log |
-| [/preprints/](/preprints/) — all four papers | status line and closing note on each |
+| the four preprint pages | status line and closing note on each |
 
 No reason for the rejections is stated in any of them, because the Institute does not have one to state and a supplied reason would be commentary rather than record. Nothing else moved, and every item collected for the revision wave is still waiting for the wave.
+
+---
+
+## And a second time, on 2 September, for a decision rather than an error
+
+The first opening corrected something false. This one did not: the Founder decided that the four papers extracted from the first edition should not be carried on this site at all, and the pages were deleted.
+
+That is a decision, not a correction, and the difference is written here rather than blurred. A freeze can be opened for a factual error on sight; it should not be opened for a preference. It was opened anyway, because the alternative was leaving two documents pointing at pages that no longer exist, and a dead link is a smaller lie than a live one but it is still one.
+
+What moved, and only this:
+
+| Document | What changed |
+|---|---|
+| [/records/what-moved-what-held/](/records/what-moved-what-held/) | one sentence removed from the dated note — the one naming the preprint pages |
+| this page | the table row above no longer links to them |
+
+Both changes are **deletions**. Nothing was reworded and nothing was added, and that is deliberate: a deletion cannot introduce a claim, so an opening made only of deletions cannot smuggle a change in behind a correction. The same rule now governs errata in the canon, for the same reason.
+
+The papers themselves are unaffected. Each carries its own DOI on Zenodo and is indexed on PhilPapers; the site simply no longer hosts them. The account of why the second version waited — that four papers were under review, and what became of them — stands in the Records exactly as it was.
 
 ---
 

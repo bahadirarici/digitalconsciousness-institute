@@ -23,3 +23,11 @@
   from = "/admin"
   to = "/admin/index.html"
   status = 200
+
+# The four extracts were removed from the site on 2 September 2026. The papers
+# live on Zenodo with their own DOIs; anyone arriving on an old link lands where
+# the Institute's arguments now are rather than on a 404.
+[[redirects]]
+  from = "/preprints/*"
+  to = "/arguments/"
+  status = 301
