@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-55 -55 110 110" width="512" height="512">
+<g fill="#17161A">
+<mask id="cut"><rect x="-55" y="-55" width="110" height="110" fill="white"/><path d="M 0.5 -24 L 4 -6 L 0.5 24 L -3 -6 Z" fill="black"/></mask>
+<path mask="url(#cut)" d="M -9 -38 C -8 -10 -8 10 -7 38 L 8 38 C 9 10 9 -10 10 -38 Z"/>
+</g>
+</svg>

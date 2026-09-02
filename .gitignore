@@ -4,3 +4,4 @@ themes/
 .hugo_build.lock
 .claude-flow/
 .claude/
+run-hugo-server.bat

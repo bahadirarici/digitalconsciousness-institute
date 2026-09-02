@@ -154,3 +154,26 @@ and is not superseded: participants are the binding constraint, because without
 a population there is no season, no material, and no trial for assessors to
 score. Readers may fall to their published floor, which is rule-bound.
 Participants have no floor, which is why that line cannot go first.
+
+---
+
+## 8 · The privacy page must name the waitlist — found 2 September
+
+The Showcase at [/showcase/](/showcase/) collects an email address and an
+optional name through a Netlify form. The privacy page is in Frozen Set 1 and
+describes the site as it was before that form existed, so as of the Showcase's
+deployment it is a frozen document that is silent about the one thing on the
+site that collects personal data.
+
+This is the same defect the night of 1 September kept producing: a document
+saying something untrue about itself. It is recorded rather than patched,
+because the freeze exists precisely to stop one-at-a-time patching.
+
+Interim measure, already live: the Showcase states its own handling inline
+next to the form — what is stored, who holds it, what it is used for, and how
+to be removed — so no address is collected under an undisclosed policy while
+the wave is pending.
+
+Wave action: add a clause to the privacy page covering the waitlist, and check
+whether the same page needs a line about the seat imagery served from
+`/images/theoi/`.
