@@ -48,7 +48,7 @@
     <div class="gate">
       <div class="mono">The gate opens · Friday 1 January 2027 · <span class="gold">{{ site.Params.gateLabel }}</span></div>
       <div class="mono" id="localgate" style="color:var(--dim)"></div>
-      <div class="count" id="count" data-gate="{{ site.Params.gate }}" aria-live="off">
+      <div class="count is-idle" id="count" data-gate="{{ site.Params.gate }}" aria-live="off">
         <div><b data-u="d">—</b><i>days</i></div><div class="sep">·</div>
         <div><b data-u="h">—</b><i>hours</i></div><div class="sep">·</div>
         <div><b data-u="m">—</b><i>minutes</i></div><div class="sep">·</div>

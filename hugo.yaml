@@ -16,7 +16,7 @@ params:
   gate: "2027-01-01T20:00:00-05:00"   # Friday 1 January 2027, 8 pm New York (Founder, 2 Sep 2026)
   gateLabel: "8 pm New York"
   title: "Institute for Digital Consciousness"
-  description: "Academic research on machine consciousness and AI ethics."
+  description: "The zombie acts conscious and is not; the puppet may be, and cannot show it. Independent research on the moral status of artificial minds — two books, a preregistered protocol, a register published empty, and THEOI, a laboratory of eighteen artificial officeholders that opens 1 January 2027."
   author: "Bahadır Arıcı"
   ShowReadingTime: false
   ShowShareButtons: false
