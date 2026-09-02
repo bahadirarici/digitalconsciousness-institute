@@ -270,6 +270,12 @@ legend{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:
 .mast .wrap{text-align:left}
 .mast h1{font-family:var(--serif);font-weight:500;font-size:clamp(40px,6vw,76px);line-height:1;margin:14px 0 0;letter-spacing:-.01em;text-wrap:balance}
 .mast h1.wm{margin-top:6px}
+/* Only the lockup page centres its line. The other ink masts set a text h1
+   flush left, and a centred eyebrow over a left-aligned title reads as a
+   mistake rather than a choice. */
+.mast .mast-centred{text-align:center}
+.mast .mast-centred .meta{justify-content:center}
+.mast .mast-centred h1.wm{margin-top:14px}
 .mast h1.wm svg{width:min(560px,70vw);height:auto;display:block;color:var(--ivory);overflow:visible}
 .mast .desc{font-family:var(--serif);font-style:italic;font-size:clamp(19px,1.8vw,24px);color:var(--fog);max-width:56ch;margin:18px 0 0;text-wrap:pretty}
 .mast .meta{margin-top:22px;display:flex;gap:22px;flex-wrap:wrap;font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}

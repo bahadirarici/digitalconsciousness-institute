@@ -5,7 +5,7 @@
 {{ partial "seatdata.html" . }}
 <header class="mast">
   {{ partial "strings.html" true }}
-  <div class="wrap">
+  <div class="wrap{{ if eq .RelPermalink "/theoi/" }} mast-centred{{ end }}">
     <div class="eyebrow">{{ if eq .RelPermalink "/theoi/" }}The instrument · eighteen offices · two cities{{ else }}THEOI · {{ .Section | default "the world" }}{{ end }}</div>
     {{- if eq .RelPermalink "/theoi/" }}
     <h1 class="wm" aria-label="THEOI"><img src="/brand/theoi-lockup-ivory-transparent.svg"
