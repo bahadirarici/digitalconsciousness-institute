@@ -230,3 +230,32 @@ argument is that a rule which cannot be re-executed has not been pre-registered.
 
 Wave action: bump the printed version, list the new triggers, and state the
 neighbour-week material rule and the 46% of weeks it costs.
+
+---
+
+## 11 · Self-hosting the Garamonds would shorten the privacy page, not lengthen it
+
+The privacy page currently spends a paragraph explaining why the Google Fonts
+request is acceptable: cookieless since 2022, IP only, not used for advertising
+profiling, block it with an extension if you prefer. All of that is true and all
+of it exists because the request exists.
+
+Two things now argue for removing the request instead of explaining it.
+
+**Performance.** The Google stylesheet is the only render-blocking resource on
+the site — a third-party round trip before first paint, on pages whose own CSS
+is inline. Self-hosted WOFF2 removes the round trip entirely. Geist Mono already
+works this way and costs 20 KB for two weights.
+
+**The page gets shorter.** A whole paragraph of justification is replaced by one
+sentence: the site loads no third-party resources. A privacy page that has less
+to explain is a better privacy page.
+
+The reason this waits rather than being done is that the sentence naming Google
+Fonts is frozen text, and self-hosting would make it false the moment it shipped
+— the defect this project keeps catching in itself.
+
+Wave action: self-host EB Garamond and Cormorant Garamond as WOFF2 with the same
+subsets, replace the Google link on every layout, and rewrite the fonts clause to
+say what will then be true.
+
