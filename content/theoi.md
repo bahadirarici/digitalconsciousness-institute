@@ -1,6 +1,7 @@
 ---
 title: "THEOI"
 url: "/theoi/"
+layout: theoi
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true

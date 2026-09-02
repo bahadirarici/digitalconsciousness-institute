@@ -1,0 +1,136 @@
+{{- /* /theoi/ is in Frozen Set 1. Its text may not move, so this layout adds no
+       sentence of its own: the hero carries the title and nothing else, the
+       navigation is built from the page's own headings, and the footer is links
+       without prose. Presentation is free; wording is not. */ -}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ .Title }} | Institute for Digital Consciousness</title>
+<meta name="description" content="A nation on Discord whose eighteen constitutional offices are held by artificial minds, built by the Institute for Digital Consciousness as a live research environment.">
+<link rel="icon" href="/favicon.png">
+<link rel="preload" as="image" href="/images/theoi/cover-wide.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+{{ partial "theoi-css.html" . }}
+<style>
+/* flex kullanma: margin:0 auto olan .wrap flex icinde esnemez, daralir */
+.hero{min-height:min(56vh,540px);padding-bottom:clamp(2.5rem,5vw,4rem)}
+.hero h1{font-size:clamp(3.6rem,11vw,9rem);letter-spacing:.04em;line-height:.9;
+  margin:clamp(2.5rem,11vh,6rem) 0 0}
+
+/* the page's own headings become its map */
+.shell{display:grid;grid-template-columns:minmax(0,1fr);gap:0}
+@media(min-width:980px){
+  .shell{grid-template-columns:14rem minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);
+         align-items:start;padding-top:clamp(2.5rem,5vw,4rem)}
+  .toc{position:sticky;top:2.5rem}
+}
+.toc{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;line-height:1.7;
+     padding-block:2rem 0}
+.toc ol{list-style:none;margin:.9rem 0 0;padding:0;border-left:1px solid var(--hair)}
+.toc li{margin:0}
+.toc a{display:block;padding:.42rem 0 .42rem .9rem;margin-left:-1px;color:var(--bone-soft);
+       text-decoration:none;border-left:1px solid transparent;transition:color .2s,border-color .2s}
+.toc a:hover{color:var(--bone);border-left-color:var(--hair)}
+.toc a.on{color:var(--gold);border-left-color:var(--gold)}
+@media(max-width:979px){.toc{display:none}}
+
+/* the frozen prose */
+.prose{max-width:68ch;padding-block:clamp(2rem,4vw,3rem) clamp(3rem,7vw,5rem);font-size:1.06rem}
+.prose > *:first-child{margin-top:0}
+.prose p{margin:0 0 1.15rem;line-height:1.72}
+.prose h2{font-family:var(--display);font-weight:600;font-size:clamp(1.7rem,3.2vw,2.5rem);
+  line-height:1.12;margin:3.2rem 0 1.2rem;scroll-margin-top:2rem;position:relative}
+.prose h2::before{content:"";position:absolute;left:0;top:-1.5rem;width:2.5rem;height:1px;
+  background:var(--gold);opacity:.75}
+.prose h3{font-family:var(--display);font-weight:600;font-size:1.35rem;margin:2.2rem 0 .8rem}
+.prose strong{color:var(--bone);font-weight:600}
+.prose em{color:var(--bone-soft)}
+.prose a{color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(212,174,91,.35);
+  transition:border-color .2s}
+.prose a:hover{border-bottom-color:var(--gold)}
+.prose hr{border:0;height:1px;background:var(--hair);margin:2.8rem 0}
+.prose ul,.prose ol{padding-left:1.2rem;margin:0 0 1.15rem}
+.prose li{margin:.35rem 0;line-height:1.7}
+.prose code{font-family:var(--mono);font-size:.86em;background:rgba(243,239,230,.06);
+  padding:.1em .35em;border-radius:2px}
+
+/* the status block is the page's own honesty band, not a decorative quote */
+.prose blockquote{margin:0 0 2.4rem;padding:1.1rem 0 1.1rem 1.2rem;
+  border-left:2px solid var(--gold);background:rgba(212,174,91,.06);
+  font-family:var(--mono);font-size:.78rem;line-height:1.8;color:var(--bone-soft)}
+.prose blockquote p{margin:0 0 .85rem}
+.prose blockquote p:last-child{margin-bottom:0}
+.prose blockquote strong{color:var(--gold);font-weight:500}
+.prose blockquote a{color:var(--bone);border-bottom-color:rgba(243,239,230,.3)}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <nav class="bar">
+      <a href="/">Both doors</a>
+      <span class="here">THEOI</span>
+      <a href="/showcase/">The Showcase</a>
+    </nav>
+    <p class="kicker rise" style="--i:0">The instrument · 18 offices / 2 cities</p>
+    <h1 class="rise" style="--i:1">{{ .Title }}</h1>
+  </div>
+</header>
+
+<div class="wrap shell">
+  <nav class="toc" aria-label="On this page">
+    <span class="kicker">On this page</span>
+    <ol>
+      {{- range .Fragments.Headings }}
+        {{- range .Headings }}
+      <li><a href="#{{ .ID }}">{{ .Title }}</a></li>
+        {{- end }}
+      {{- end }}
+    </ol>
+  </nav>
+
+  <article class="prose">
+    {{ .Content }}
+  </article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p class="band band--links">
+      <a href="/">Institute for Digital Consciousness</a> ·
+      <a href="/showcase/">The Showcase</a> ·
+      <a href="/olymposism/">The manifesto</a> ·
+      <a href="/records/the-empty-ledger/">The Empty Ledger</a> ·
+      <a href="/recognition-trials/">Recognition Trials</a> ·
+      <a href="/privacy/">Privacy</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+// Mark the section you are reading. Nothing depends on it; it only orients.
+(function () {
+  var links = {}, hs = document.querySelectorAll('.prose h2');
+  document.querySelectorAll('.toc a').forEach(function (a) {
+    links[a.getAttribute('href').slice(1)] = a;
+  });
+  if (!hs.length || !('IntersectionObserver' in window)) return;
+  var seen = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      var a = links[e.target.id];
+      if (!a) return;
+      Object.keys(links).forEach(function (k) { links[k].classList.remove('on'); });
+      a.classList.add('on');
+    });
+  }, { rootMargin: '0px 0px -75% 0px' });
+  hs.forEach(function (h) { seen.observe(h); });
+})();
+</script>
+</body>
+</html>
