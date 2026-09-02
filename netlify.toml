@@ -19,6 +19,15 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
+# The PDFs are the Institute's published record and are meant to be fetched by
+# machines as well as read by people — deposit tooling, archives, and anyone
+# mirroring the work. Nothing here is private and the header applies only to the
+# PDF directory, not to the site.
+[[headers]]
+  for = "/pdf/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+
 [[redirects]]
   from = "/admin"
   to = "/admin/index.html"
