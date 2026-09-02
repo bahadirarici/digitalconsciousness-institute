@@ -255,20 +255,7 @@ button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
   </div>
 </section>
 
-<footer>
-  <div class="wrap">
-    <p class="band">An experiment of the <a href="/">Institute for Digital Consciousness</a>.
-    The rules, the registers and the protocol are public — read them before you enter.</p>
-    <p class="band band--links">
-      <a href="/theoi/">THEOI</a> ·
-      <a href="/records/the-empty-ledger/">The Empty Ledger</a> ·
-      <a href="/recognition-trials/">Recognition Trials</a> ·
-      <a href="/records/what-moved-what-held/">The Record</a> ·
-      <a href="/olymposism/">The manifesto</a> ·
-      <a href="/privacy/">Privacy</a>
-    </p>
-  </div>
-</footer>
+{{ partial "theoi-footer.html" . }}
 
 <script>
 if (new URLSearchParams(location.search).get('joined')) {
