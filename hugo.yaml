@@ -82,10 +82,6 @@ menu:
       name: Records
       url: /records/
       weight: 20
-    - identifier: preprints
-      name: Preprints
-      url: /preprints/
-      weight: 30
     - identifier: whitepaper
       name: Whitepaper
       url: /whitepaper/

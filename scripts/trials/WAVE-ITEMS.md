@@ -259,3 +259,42 @@ Wave action: self-host EB Garamond and Cormorant Garamond as WOFF2 with the same
 subsets, replace the Google link on every layout, and rewrite the fonts clause to
 say what will then be true.
 
+
+---
+
+## 12 · The four extracts move onto the first edition's page, and the section retires
+
+Founder's decision, 2 September. A "Preprints" heading in the navigation promises
+a continuing publication programme. What exists is four papers extracted from the
+first edition of the monograph, submitted, and returned rejected — and the first
+edition is itself being superseded by *Restrung*.
+
+So they are not hidden and they are not a series. They belong to the first
+edition's history and go on its own page: **titles only, stacked, each linking
+to its PDF.** No summaries, no status paragraphs, no individual pages.
+
+Done already, because none of it is frozen text: the menu entry is gone,
+`/records/` no longer defines itself against Preprints, and `/research/` no
+longer lists them as a series — it says instead what they were and what happened.
+
+Waiting for the wave, because `/the-puppet-condition/` is in the frozen set and a
+list of four titles and links is wording:
+
+- add the block to the monograph page — four titles, four PDF links, one line
+  saying what they are
+- delete `content/preprints/` and its four papers
+- repoint the two frozen Records that name "the four preprint pages" at the
+  monograph page instead
+- drop the `preprints` canary from the scanner and add one on the new block
+
+**A note about the freeze itself, and it is the more important half of this
+item.** Frozen Set 1 was declared for one audit round. That round has closed:
+Mihenk's five rounds are logged, Fay has recused, and Masal's *Closing of the
+Review Age* records the last change the rounds produced. The freeze page says
+what follows — one revision wave, then the set is released.
+
+So the wave is not waiting on the review any more. It is waiting on being run,
+and it now blocks work rather than protecting it. Eleven items were collected
+under a discipline that has served its purpose; the twelfth is the first one
+that would have been done the same day if the set were open.
+
