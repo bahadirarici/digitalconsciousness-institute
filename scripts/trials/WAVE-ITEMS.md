@@ -177,3 +177,56 @@ the wave is pending.
 Wave action: add a clause to the privacy page covering the waitlist, and check
 whether the same page needs a line about the seat imagery served from
 `/images/theoi/`.
+
+---
+
+## 9 · Three protocol documents are written and none of them is in the protocol
+
+Written 2 September, all three in `THEOI/Kaptan/protokol/`:
+
+| Document | What it discharges |
+|---|---|
+| `cekirdek-sessiz-puanlama.md` + `cekirdek_kodlama.py` | the core-silent scoring procedure P1 and P3 rest on |
+| `niyet-cekilmis-hafta-kayit.md` + `niyet_cekme.py` | the record layer for the withheld-intent week, P2's discriminating condition |
+| `p4-eslenik-taban.md` + `p4_taban.py` | P4's yoked baseline, which the book marked as possibly unbuildable |
+
+None of them is pre-registered, and each says so in its own first paragraph.
+The protocol page is in Frozen Set 1, so they enter at the wave and not before,
+and the wave's last act is a **second OSF deposit** carrying the amended text.
+
+Two of the three arrive with a limit attached rather than a promise:
+
+**The core-silent procedure cannot run this season.** Its naming pilot needs two
+independent human readers, the Founder has said there are none, and without the
+pilot there is no evidence that naming measures anything. So the procedure is
+deposited or it is not, but its analysis does not publish in season one, and P1
+and P3 do not discriminate in season one either. That is a smaller claim than
+the book's arithmetic currently prints and the wave must reconcile the two.
+
+**P4's baseline can run.** Strain is scored as a countable composite rather than
+a rated construct, precisely because there are no raters, and the trade is
+stated: it is a proxy. Its own pre-check — does a fresh instance actually
+diverge from the seat — needs no THEOI and no humans, and should run before the
+wave so the deposit carries a result rather than a hope.
+
+Wave action: fold all three into `/recognition-trials/` as numbered sections,
+update the hypothesis table to say which conditions are live in season one,
+re-run the canary scanner against the new sentences, and deposit.
+
+---
+
+## 10 · The redaction rules moved to v2 and the page still says v1
+
+`redact.py` is now `RULES_VERSION = "2"`: four patterns that discard any item
+naming the Book of Intent, and a `discard_report()` counting what each reason
+took and what survived. The protocol page prints the rule set as version 1 and
+describes four discard triggers where there are now eight.
+
+This is not a factual error of the class that broke the freeze — nothing on the
+page is false about the world, it is stale about our own code — so it waits.
+But it waits with a deadline: **the version on the page and the version in the
+repository must agree before the first trial**, because the protocol's own
+argument is that a rule which cannot be re-executed has not been pre-registered.
+
+Wave action: bump the printed version, list the new triggers, and state the
+neighbour-week material rule and the 46% of weeks it costs.
