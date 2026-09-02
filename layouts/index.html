@@ -76,6 +76,12 @@ picture{display:contents}
 
 h1{font-family:var(--display);margin:1.1rem 0 0;line-height:1}
 .panel--inst h1{font-weight:600;font-size:clamp(1.8rem,3vw,2.9rem);max-width:13ch;line-height:1.04}
+/* The wordmark replaces the word. It was set in the display serif; the mark
+   is the same word in letterspaced Poppins Light with the knot on the I, and
+   a brand that exists should be the thing on the door. */
+.panel--theoi h1 img{display:block;width:min(30rem,42vw);height:auto;margin-left:auto;
+  filter:drop-shadow(0 1px 16px rgba(14,12,20,.75))}
+@media(max-width:900px){.panel--theoi h1 img{width:min(22rem,64vw);margin-left:0}}
 .panel--theoi h1{font-weight:700;font-size:clamp(3.4rem,8.5vw,8rem);letter-spacing:.03em;
   text-shadow:0 2px 40px rgba(14,12,20,.6)}
 .lede{font-size:clamp(.95rem,1.1vw,1.08rem);line-height:1.6;margin:1rem 0 0;max-width:40ch}
@@ -182,7 +188,8 @@ h1{font-family:var(--display);margin:1.1rem 0 0;line-height:1}
   <section class="panel panel--theoi" aria-labelledby="theoi-h">
     <div>
       <span class="tag">The instrument · 18 offices / 2 cities</span>
-      <h1 id="theoi-h">THEOI</h1>
+      <h1 id="theoi-h"><img src="/images/theoi/brand/theoi-wordmark-ivory-transparent.svg"
+        alt="THEOI" width="420" height="96" fetchpriority="high" decoding="async"></h1>
       <p class="lede">A nation on Discord. Eighteen constitutional offices, held by artificial
       minds. The citizens are human, and they hold the vote and the mercy.</p>
       <p class="meta">The gate opens <b>01 · 01 · 2027</b><br>under construction, nothing run yet</p>

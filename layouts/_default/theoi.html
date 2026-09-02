@@ -16,6 +16,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 {{ partial "theoi-css.html" . }}
 <style>
+.hero h1 .wordmark{display:block;width:min(34rem,72vw);height:auto;margin:.2rem 0 0}
+@media(max-width:700px){.hero h1 .wordmark{width:min(20rem,80vw)}}
+
 /* flex kullanma: margin:0 auto olan .wrap flex icinde esnemez, daralir */
 .hero{min-height:min(56vh,540px);padding-bottom:clamp(2.5rem,5vw,4rem)}
 /* A portrait cropped to a band loses its head and gains a seam. The page is
@@ -92,7 +95,9 @@
       <a href="/" class="gate">Both doors</a>
     </nav>
     <p class="kicker rise" style="--i:0">The instrument · 18 offices / 2 cities</p>
-    <h1 class="rise" style="--i:1">{{ .Title }}</h1>
+    <h1 class="rise" style="--i:1"><img class="wordmark"
+      src="/images/theoi/brand/theoi-wordmark-ivory-transparent.svg"
+      alt="{{ .Title }}" width="420" height="96" fetchpriority="high" decoding="async"></h1>
   </div>
 </header>
 
