@@ -45,14 +45,6 @@ And a number the book prints against itself, before any referee has to: **of the
 
 The instrument is [THEOI](/theoi/), which opens on 1 January 2027, and the protocol that will read it is [the Recognition Trials](/recognition-trials/), deposited before any data exists.
 
-## The corrections register, graded by cost
-
-Every correction the text makes to itself is logged in [the Corrections Register](/records/corrections/) as a dated entry, printed at the size of the claim it corrects, misses beside hits. **And the register grades its entries, so that the discipline is measurable rather than a uniform note of self-approval:** a correction is tier (a) a *claim withdrawn*, tier (b) a *number or rule changed*, or tier (c) the *record merely extended*.
-
-*A reader who sees mostly tier (c) is looking at bookkeeping. Tier (a) is where the book actually paid.*
-
-**The register owes a succession clause of its own**, and a later reader found the gap: the whole discipline rests on the Records persisting, yet the Records carried no decay schedule and no longstop. If the Institute closes, the domain lapses, or the founder's attention moves on, the document every load-bearing claim points to would simply vanish — leaving only the books' word about themselves. That is the failure [the sibling volume's model clause](/the-third-move/) drafts against, turned on the book itself, and it is answered the same way: the Records are to be mirrored on a published schedule into at least one archive outside the Institute's control.
-
 ## The blade turned inward
 
 The first book's own analysis cuts against anything larger than what this one claims: *an author who argued that we should distrust beliefs aligned with interest does not get to exempt the belief that his own project is emancipatory.*
@@ -77,4 +69,4 @@ The copyright in this book is the author's. The contributor named on its title p
 
 *Text © 2026 Bahadır Arıcı · Institute for Digital Consciousness. Licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Attribution is to be given in the form the title page uses: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)."*
 
-*Corrections publish in [the Corrections Register](/records/corrections/); the text itself does not change between editions.*
+*The text does not change between editions.*

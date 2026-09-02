@@ -53,8 +53,8 @@ section{padding:clamp(88px,11vw,150px) 0;position:relative}
 .brand svg{width:30px;height:30px;display:block}
 .brand img{height:28px;width:auto;display:block}
 .brand span{font-family:var(--display);font-weight:300;font-size:13px;letter-spacing:.34em;text-transform:uppercase}
-.brand .inst{font-size:11px;letter-spacing:.22em;color:var(--fog)}
-.paper .brand .inst{color:var(--paper-fog)}
+.brand .instname{font-size:11px;letter-spacing:.22em;color:var(--fog)}
+.paper .brand .instname{color:var(--paper-fog)}
 .nav ul{list-style:none;margin:0;padding:0;display:flex;gap:clamp(14px,2.4vw,34px)}
 .nav li a{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:.24em;text-transform:uppercase;padding:6px 0;border-bottom:1px solid transparent;transition:color .25s,border-color .25s;color:var(--fog)}
 .paper .nav li a{color:var(--paper-fog)}
@@ -73,7 +73,7 @@ section{padding:clamp(88px,11vw,150px) 0;position:relative}
 @media (max-width:560px){
   .nav{align-items:flex-start}
   .nav ul{gap:8px 14px}
-  .nav .brand .inst{display:none}
+  .nav .brand .instname{display:none}
 }
 
 /* ————— the strings ————— */
@@ -275,9 +275,12 @@ legend{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:
 .mast .meta{margin-top:22px;display:flex;gap:22px;flex-wrap:wrap;font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
 .mast .meta b{color:var(--fog);font-weight:500}
 .doc{padding:clamp(40px,5vw,72px) 0 clamp(80px,9vw,130px)}
-.doc .wrap{display:grid;grid-template-columns:220px minmax(0,var(--measure));gap:clamp(32px,5vw,80px);align-items:start}
+/* 244px, not 220: the rail's longest real entry — The Puppet Condition: Restrung —
+   is thirty characters of 11px mono, which needed 219px of a 210px text column and
+   broke one title across two lines. */
+.doc .wrap{display:grid;grid-template-columns:244px minmax(0,var(--measure));gap:clamp(32px,5vw,80px);align-items:start}
 .doc.narrow .wrap{grid-template-columns:minmax(0,var(--measure))}
-.toc{position:sticky;top:96px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;line-height:1.6}
+.toc{position:sticky;top:96px;font-family:var(--mono);font-size:11px;letter-spacing:.04em;line-height:1.6}
 .toc .tl{font-family:var(--display);font-weight:300;font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin:0 0 12px;padding-bottom:10px;border-bottom:1px solid var(--line)}
 .paper .toc .tl{color:var(--bronze);border-color:var(--paper-rule)}
 .toc ul{list-style:none;margin:0;padding:0}
@@ -435,11 +438,14 @@ legend{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:
 .paper-more a:hover{color:var(--paper-ink);border-bottom-color:var(--bronze)}
 .instruments{background:var(--paper-2)}
 .inst-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,44px);margin-top:clamp(32px,4vw,52px)}
-.inst{display:flex;flex-direction:column;gap:12px;padding:26px 0 0;border-top:1px solid var(--paper-rule);color:var(--paper-fog);transition:border-color .25s}
-.inst:hover{border-top-color:var(--bronze)}
-.inst h3{font-family:var(--serif);font-weight:500;font-size:26px;line-height:1.1;margin:0;color:var(--paper-ink)}
-.inst p{margin:0;font-size:17px;line-height:1.5}
-.inst .mono{margin-top:auto;padding-top:8px;color:var(--bronze);font-size:10.5px;letter-spacing:.18em}
+/* Scoped to the grid. These card rules also matched .brand .inst in the nav —
+   same class name, two unrelated things — so the Institute's name in the header
+   was carrying a card's border-top and 26px of padding as a rule above it. */
+.inst-grid .inst{display:flex;flex-direction:column;gap:12px;padding:26px 0 0;border-top:1px solid var(--paper-rule);color:var(--paper-fog);transition:border-color .25s}
+.inst-grid .inst:hover{border-top-color:var(--bronze)}
+.inst-grid .inst h3{font-family:var(--serif);font-weight:500;font-size:26px;line-height:1.1;margin:0;color:var(--paper-ink)}
+.inst-grid .inst p{margin:0;font-size:17px;line-height:1.5}
+.inst-grid .inst .mono{margin-top:auto;padding-top:8px;color:var(--bronze);font-size:10.5px;letter-spacing:.18em}
 .zero.small{font-size:clamp(64px,7vw,88px);line-height:.9;color:var(--bronze);margin:0;height:80px;display:flex;align-items:flex-end}
 .glyph{font-family:var(--display);font-weight:300;font-size:clamp(48px,5.4vw,68px);line-height:.9;color:var(--bronze);letter-spacing:.06em;height:80px;display:flex;align-items:flex-end}
 @media (max-width:900px){.inst-grid{grid-template-columns:1fr}}

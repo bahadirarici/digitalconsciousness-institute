@@ -8,7 +8,8 @@
   <div class="wrap">
     <div class="eyebrow">{{ if eq .RelPermalink "/theoi/" }}The instrument · eighteen offices · two cities{{ else }}THEOI · {{ .Section | default "the world" }}{{ end }}</div>
     {{- if eq .RelPermalink "/theoi/" }}
-    <h1 class="wm" aria-label="THEOI"><svg viewBox="0 0 2020 510">{{ partial "svg/wordmark.svg" . }}</svg></h1>
+    <h1 class="wm" aria-label="THEOI"><img src="/brand/theoi-lockup-ivory-transparent.svg"
+      alt="THEOI" width="2599" height="510" fetchpriority="high" decoding="async"></h1>
     {{- else }}<h1>{{ .Title }}</h1>{{ end }}
     {{- with .Params.description }}<p class="desc">{{ . }}</p>{{ end }}
     <div class="meta">
