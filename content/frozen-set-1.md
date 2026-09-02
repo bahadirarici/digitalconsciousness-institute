@@ -108,7 +108,7 @@ What the wave changed, by document:
 
 That is the one thing a revision wave can most easily get wrong. A page that describes its own relationship to a deposit will be made false by the very edits the wave applies, and it will be made false quietly, in a paragraph nobody re-reads because it was not on the list. It was on this list because it was item 6.
 
-**One item did not ship.** The wave was to end with a second OSF deposit carrying the current state. The deposit is a permanent public research record and is the Founder's to authorize, so it waits. Section 1 is written against that fact rather than around it.
+**One item was withdrawn rather than deferred.** The wave was to end with a second OSF deposit carrying the current state. Put to the Founder, it did not survive the question *what is this deposit for* — and the answer is that it is for nothing yet. No data exists; the first trial follows the close of the first Age. The 1 September deposit already timestamps every clause that governs the trials, and this document is in the regime its own Section 10 calls free and frequent revision, so a deposit now would permanently record a state its successor supersedes. One deposit, when the protocol is final, before the first trial. Section 1 says so with its date rather than leaving an open promise.
 
 ## What happens now
 

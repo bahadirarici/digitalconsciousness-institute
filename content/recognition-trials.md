@@ -38,7 +38,9 @@ Sections 2, 3, 5, 7, 8 and 9 — what is being tested, the hypotheses, the reade
 
 That distinction is the one to check rather than take on trust, because it is the one that matters: an addition that fulfils a promise and a threshold that moved after the promise was made look alike in a summary and not at all in a diff. The deposited file is downloadable from the registration.
 
-**Until the next deposit is made, this page is ahead of its own timestamp**, and that is stated here rather than left for a reader to discover — **a timestamp is worth only what it can be diffed against.**
+**Until the next deposit is made, this page is ahead of its own timestamp**, and that is stated here rather than left for a reader to discover.
+
+**When the next deposit is made, and why not sooner.** One deposit, when this protocol is final and before the first trial — which follows the close of the first Age, in the spring of 2027. Depositing at every revision would be churn wearing the costume of rigour: this document is in its pre-data regime, where Section 10 says revision is free and frequent, so each intermediate deposit would permanently record a state its successor supersedes. What a timestamp has to establish is that the protocol was fixed before the data, and the deposit of 1 September already establishes it for every clause that governs the trials — the hypotheses, the thresholds, the decision rules and the exclusions are unchanged from it. The additions since fulfil what it promised. **A timestamp is worth only what it can be diffed against**, and it is worth nothing extra for being taken twice.
 
 ---
 

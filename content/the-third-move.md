@@ -1,6 +1,7 @@
 ---
 title: "The Third Move: Benefit Without Personhood for Digital Minds"
 url: "/the-third-move/"
+draft: true  # son surum Founder'dan gelince kalkar
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true
