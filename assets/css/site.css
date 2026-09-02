@@ -423,8 +423,11 @@ legend{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:
    reverse: three headings about procedure and no plain sentence saying what the
    Institute argues — which reads as rigour to a friendly reader and as a defence
    reflex to a hostile one. */
-.masthead h1.thesis{max-width:26ch}
-.masthead .deck{font-family:var(--serif);font-size:clamp(18px,1.55vw,21px);line-height:1.55;color:var(--paper-fog);max-width:64ch;margin:22px 0 0;text-wrap:pretty}
+/* The claim block is centred; the three moves below stay a left-read grid.
+   A masthead is looked at, a column is read. */
+.masthead .eyebrow{text-align:center}
+.masthead h1.thesis{max-width:26ch;margin-left:auto;margin-right:auto;text-align:center}
+.masthead .deck{font-family:var(--serif);font-size:clamp(18px,1.55vw,21px);line-height:1.55;color:var(--paper-fog);max-width:64ch;margin:22px auto 0;text-align:center;text-wrap:pretty}
 .moves{list-style:none;margin:clamp(44px,5.5vw,72px) 0 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,44px);align-items:start}
 .moves li{padding-top:16px;border-top:1px solid var(--paper-rule)}
 .moves .mv{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--bronze);margin-bottom:12px}
