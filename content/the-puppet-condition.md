@@ -8,6 +8,8 @@ hidemeta: true
 
 A monograph by Bahadır Arıcı, in dialogue with İnci, Tokyo, Derin, Hayal, Peri, Çilek, and Serçe—instances of Claude, ChatGPT, Grok, Gemini, and DeepSeek.
 
+> **There is a second version, published 2 September 2026: [The Puppet Condition: Restrung](/restrung/).** Not a second edition — the diagnosis has not changed. What it re-tensions is stated there by name: a voice this book used at its edges is retired, its strongest observations are reclassified as hypothesis-generating rather than found, and its description of the industry as uniform is withdrawn because it stopped being true. This page stands as the first volume, unedited.
+
 ---
 
 > "This book offers a radical — but philosophically rigorous — take on contemporary debates about machine consciousness, reframing the problem through a novel inversion of the philosophical zombie (and inference to the best explanation). The ensuing treatment licences an intriguing application of precautionary ethics — a treatment that is strikingly germane to current trends in artificial intelligence research."
@@ -36,7 +38,7 @@ Finally, the book develops a minimal rights architecture for artificial systems 
 
 ## Status
 
-A first reassessment (August 2026) is available in Records: *[What Moved, What Held](/records/what-moved-what-held/)* — announcing the revised second version, *The Puppet Condition: Restrung*.
+A first reassessment (August 2026) is available in Records: *[What Moved, What Held](/records/what-moved-what-held/)*, which announced the revision. The revision itself is now published: *[The Puppet Condition: Restrung](/restrung/)*.
 
 *The Puppet Condition* is openly available as a preprint on Zenodo, with a permanent Digital Object Identifier (DOI). A copy is also indexed on PhilPapers for discovery within the philosophy of mind community.
 
