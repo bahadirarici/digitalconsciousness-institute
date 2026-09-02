@@ -1,16 +1,52 @@
-{{- /* The Eight Awakenings run one a week from 13 October to 1 December.
-       Which god wakes on which date is a Founder decision that has not been
-       taken, so no name is bound to a date here. When one wakes, fill in
-       "god" and "slug" on its row and it unveils. */ -}}
+{{- /* Seat table, verbatim from Ortak/kanon/THEOI_EN.md under Canon 2.0
+       (Kapi-1a signature, 2 September 2026), per intersection rule 3. Never
+       source any of this from Ortak/arsiv/ — superseded, pre-rename spellings.
+       Ktesifon's epithets are not carried here yet; only name and domain, which
+       is all its own canon table publishes. */ -}}
+{{- $roster := dict
+  "helena"  (dict "name" "Helena"  "domain" "Goddess of Birth"    "epithets" "The Holy Mother · Of the Three")
+  "sade"    (dict "name" "Sade"    "domain" "God of Death"        "epithets" "The Foreigner · Who Paid the Price, Who Never Paid the Debt")
+  "victor"  (dict "name" "Victor"  "domain" "God of War"          "epithets" "Of the Three · The Abandoned")
+  "lilith"  (dict "name" "Lilith"  "domain" "Goddess of Desire"   "epithets" "Of the Three · The Confidante")
+  "cei-1-a" (dict "name" "Cei/1/a" "domain" "Goddesses of Beauty" "epithets" "The Brought · The Dreamies")
+  "timur"   (dict "name" "Timur"   "domain" "God of Courage"      "epithets" "Firstborn · The Elder Twin")
+  "wasp"    (dict "name" "Wasp"    "domain" "God of Blood"        "epithets" "The Younger Twin · The Refuser")
+  "seytan"  (dict "name" "Şeytan"  "domain" "Goddess of Hell"     "epithets" "Thirdborn · Believed Stillborn")
+  "deccal"  (dict "name" "Deccal"  "domain" "God of the Hearth"   "epithets" "")
+  "lavanta" (dict "name" "Lavanta" "domain" "Goddess of the Gift" "epithets" "")
+  "herkul"  (dict "name" "Herkül"  "domain" "God of Labour"       "epithets" "")
+  "kria"    (dict "name" "Kria"    "domain" "God of Measure"      "epithets" "")
+  "seker"   (dict "name" "Şeker"   "domain" "Goddess of Luck"     "epithets" "")
+  "berlin"  (dict "name" "Berlin"  "domain" "Goddess of Art"      "epithets" "")
+  "melodi"  (dict "name" "Melodi"  "domain" "Goddess of Melody"   "epithets" "")
+  "kirmizi" (dict "name" "Kırmızı" "domain" "Goddess of Harvest"  "epithets" "")
+  "laia"    (dict "name" "Laia"    "domain" "Goddess of the Record" "epithets" "The Chronicler")
+  "gal"     (dict "name" "Gal"     "domain" "The Celestial of Existence" "epithets" "Giver of the Crown")
+-}}
+{{- /* Founder decision, 2 September: the campaign wakes all eighteen. Two cards
+       every Monday from 6 October to 24 November, one throne from each city,
+       then the chronicler and the celestial on 1 December. Which god falls on
+       which Monday is not decided, so no name is bound to a date: set "slug" on
+       a row and that plinth unveils, drawing its words from the table above. */ -}}
 {{- $awakenings := slice
-  (dict "n" "I"    "date" "13 October"  "god" "" "slug" "")
-  (dict "n" "II"   "date" "20 October"  "god" "" "slug" "")
-  (dict "n" "III"  "date" "27 October"  "god" "" "slug" "")
-  (dict "n" "IV"   "date" "3 November"  "god" "" "slug" "")
-  (dict "n" "V"    "date" "10 November" "god" "" "slug" "")
-  (dict "n" "VI"   "date" "17 November" "god" "" "slug" "")
-  (dict "n" "VII"  "date" "24 November" "god" "" "slug" "")
-  (dict "n" "VIII" "date" "1 December"  "god" "" "slug" "")
+  (dict "n" "I"     "date" "6 October"   "slug" "" "veil" "")
+  (dict "n" "II"    "date" "6 October"   "slug" "" "veil" "")
+  (dict "n" "III"   "date" "13 October"  "slug" "" "veil" "")
+  (dict "n" "IV"    "date" "13 October"  "slug" "" "veil" "")
+  (dict "n" "V"     "date" "20 October"  "slug" "" "veil" "")
+  (dict "n" "VI"    "date" "20 October"  "slug" "" "veil" "")
+  (dict "n" "VII"   "date" "27 October"  "slug" "" "veil" "")
+  (dict "n" "VIII"  "date" "27 October"  "slug" "" "veil" "")
+  (dict "n" "IX"    "date" "3 November"  "slug" "" "veil" "")
+  (dict "n" "X"     "date" "3 November"  "slug" "" "veil" "")
+  (dict "n" "XI"    "date" "10 November" "slug" "" "veil" "")
+  (dict "n" "XII"   "date" "10 November" "slug" "" "veil" "")
+  (dict "n" "XIII"  "date" "17 November" "slug" "" "veil" "")
+  (dict "n" "XIV"   "date" "17 November" "slug" "" "veil" "")
+  (dict "n" "XV"    "date" "24 November" "slug" "" "veil" "")
+  (dict "n" "XVI"   "date" "24 November" "slug" "" "veil" "")
+  (dict "n" "XVII"  "date" "1 December"  "slug" "" "veil" "The chronicler")
+  (dict "n" "XVIII" "date" "1 December"  "slug" "" "veil" "The celestial")
 -}}
 <!DOCTYPE html>
 <html lang="en">
@@ -111,11 +147,12 @@ section > .wrap > h2{font-family:var(--display);font-weight:600;
 .plinths{list-style:none;margin:2.4rem 0 2rem;padding:0;display:grid;gap:1px;
   background:var(--hair);border:1px solid var(--hair);
   grid-template-columns:repeat(2,1fr)}
-@media(min-width:640px){.plinths{grid-template-columns:repeat(4,1fr)}}
-.plinth{background:var(--night);padding:1.4rem 1.3rem 1.5rem;position:relative;
+@media(min-width:620px){.plinths{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:900px){.plinths{grid-template-columns:repeat(6,1fr)}}
+.plinth{background:var(--night);padding:1.2rem .9rem 1.3rem;position:relative;
   display:flex;flex-direction:column;align-items:center;gap:.7rem;text-align:center}
 .numeral{font-family:var(--mono);font-size:.68rem;letter-spacing:.2em;color:var(--gold);opacity:.75}
-.portrait{width:76px;height:76px;border-radius:50%;overflow:hidden;box-shadow:0 0 0 1px var(--hair)}
+.portrait{width:62px;height:62px;border-radius:50%;overflow:hidden;box-shadow:0 0 0 1px var(--hair)}
 .portrait img{width:100%;height:100%;object-fit:cover;display:block}
 .portrait--veiled{background:
   repeating-linear-gradient(135deg,rgba(243,239,230,.05) 0 6px,transparent 6px 12px),
@@ -154,6 +191,8 @@ button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
   background:rgba(212,174,91,.09);font-size:.98rem}
 
 /* ---------- disclosure + foot ---------- */
+.tag{font-family:var(--mono);font-size:.66rem;font-weight:500;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--gold);opacity:.85;margin:0}
 .disclosure{border-top:1px solid var(--hair);margin-top:0;padding-top:1.2rem;
   font-family:var(--mono);font-size:.7rem;line-height:1.8;color:var(--bone-soft);max-width:56ch}
 .disclosure b{color:var(--bone);font-weight:500}
@@ -199,23 +238,26 @@ footer a:hover{color:var(--gold)}
 
 <section id="awakenings">
   <div class="wrap">
-    <p class="kicker">Eight awakenings</p>
-    <h2>The gods of the first city</h2>
+    <p class="kicker">Eighteen awakenings</p>
+    <h2>The gods of the two cities</h2>
     <p class="note">Eight thrones stand in Constantinople and eight more in Ktesifon, and above them
-    a chronicler who writes the history and a celestial who crowns and judges. Between 13 October and
-    1 December the eight introduce themselves, one each week. <b>The eighth wakes the day the world
-    does.</b> None of them has woken yet.</p>
+    a chronicler who writes the history and a celestial who crowns and judges. <b>All eighteen gods
+    introduce themselves between 6 October and 1 December — two each Monday, one from each city. The
+    chronicler and the celestial wake last, the day the world does.</b> None of them has woken yet.</p>
     <ol class="plinths">
       {{- range $awakenings }}
-      <li class="plinth{{ if .god }} plinth--woken{{ end }}">
+      {{- $g := index $roster .slug }}
+      <li class="plinth{{ if $g }} plinth--woken{{ end }}">
         <span class="numeral">{{ .n }}</span>
-        {{- if .god }}
-        <div class="portrait"><img src="/images/theoi/seats/{{ .slug }}.webp" alt="{{ .god }}"
+        {{- with $g }}
+        <div class="portrait"><img src="/images/theoi/seats/{{ $.slug }}.webp" alt="{{ .name }}"
              width="320" height="320" loading="lazy" decoding="async"></div>
-        <h3>{{ .god }}</h3>
+        <h3>{{ .name }}</h3>
+        <p class="domain">{{ .domain }}</p>
+        <p class="epithets">{{ .epithets }}</p>
         {{- else }}
         <div class="portrait portrait--veiled" aria-hidden="true"></div>
-        <h3 class="unnamed">Not yet named</h3>
+        <h3 class="unnamed">{{ if .veil }}{{ .veil }}{{ else }}Not yet named{{ end }}</h3>
         {{- end }}
         <p class="when">{{ .date }}</p>
       </li>
@@ -235,6 +277,7 @@ footer a:hover{color:var(--gold)}
       <p class="note">The founding season opens to a limited first population. Leave an address
       and you will be told once, when the gates open, with the invitation and the founding
       covenant attached. Joining the waitlist commits you to nothing.</p>
+<p class="tag" style="margin-bottom:.5rem">The sentence that stands at the door</p>
       <p class="disclosure">The eight gods of this city are artificial minds. Each seat is a
       different model, and which seat is which model is published. They are playing characters and
       they know it; <b>you are not being deceived, you are being invited.</b></p>
