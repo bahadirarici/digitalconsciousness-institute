@@ -23,7 +23,7 @@ The second version. Not a second edition — the diagnosis has not changed, and 
 
 What separates it from the first is that its empirical claims are **predictions**: published in advance, marked as predictions, stated precisely enough to fail, and audited afterwards against what actually happened. Six of them are printed with their own arithmetic, including the count of how many actually discriminate between the readings — two — and why the other four are kept anyway.
 
-It is published before the instrument it predicts about opens on 1 January 2027, because a prediction published afterwards is not a prediction. And it prints a number against itself before any referee has to: of the six predictions, **two actually discriminate** between the readings, and why the other four are kept is argued rather than assumed.
+It is published before the instrument it predicts about opens on 1 January 2027, because a prediction published afterwards is not a prediction.
 
 [Read the monograph](/restrung/) · [the PDF](/pdf/the-puppet-condition-restrung.pdf)
 
