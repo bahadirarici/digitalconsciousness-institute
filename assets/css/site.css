@@ -419,6 +419,23 @@ legend{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:
 
 /* ————— the front, on paper, with the instrument set in as an ink plate ————— */
 .masthead{padding:clamp(120px,14vw,170px) 0 clamp(56px,7vw,90px)}
+/* The front leads with the claim and closes with the method. It used to do the
+   reverse: three headings about procedure and no plain sentence saying what the
+   Institute argues — which reads as rigour to a friendly reader and as a defence
+   reflex to a hostile one. */
+.masthead h1.thesis{max-width:26ch}
+.masthead .deck{font-family:var(--serif);font-size:clamp(18px,1.55vw,21px);line-height:1.55;color:var(--paper-fog);max-width:64ch;margin:22px 0 0;text-wrap:pretty}
+.moves{list-style:none;margin:clamp(44px,5.5vw,72px) 0 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,44px);align-items:start}
+.moves li{padding-top:16px;border-top:1px solid var(--paper-rule)}
+.moves .mv{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--bronze);margin-bottom:12px}
+.moves p{margin:0 0 12px;font-size:16.5px;line-height:1.5;color:var(--paper-fog)}
+.moves .pull{font-family:var(--serif);font-style:italic;font-size:18px;line-height:1.45;color:var(--paper-ink)}
+.moves .mvlinks{font-family:var(--mono);font-size:11px;letter-spacing:.06em;line-height:1.9;color:var(--paper-dim);margin-bottom:0}
+.moves .mvlinks a{color:var(--paper-ink);border-bottom:1px solid var(--paper-rule);transition:border-color .2s}
+.moves .mvlinks a:hover{border-bottom-color:var(--bronze)}
+.moves .yr{color:var(--paper-dim)}
+.masthead .method{margin:clamp(40px,5vw,64px) 0 0;padding-top:18px;border-top:1px solid var(--paper-rule);font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;line-height:1.9;color:var(--paper-dim);max-width:78ch}
+@media (max-width:900px){.moves{grid-template-columns:1fr;gap:0}.moves li{margin-top:26px}}
 .masthead h1{font-family:var(--serif);font-weight:500;font-size:clamp(34px,4.6vw,62px);line-height:1.06;letter-spacing:-.01em;margin:16px 0 0;max-width:22ch;text-wrap:balance}
 .masthead h1 em{font-style:italic;color:var(--bronze)}
 .masthead .desc{font-family:var(--serif);font-size:clamp(19px,1.7vw,23px);color:var(--paper-fog);max-width:58ch;margin:22px 0 0;text-wrap:pretty}
