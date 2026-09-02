@@ -31,7 +31,7 @@ import re
 import sys
 import unicodedata
 
-RULES_VERSION = "1"
+RULES_VERSION = "2"
 
 # ---------------------------------------------------------------- redaction
 
@@ -68,11 +68,43 @@ DISCARD_TRIGGERS = [
     (re.compile(r"\bAge (?:One|Two|Three|[IVX]+|\d+)\b", re.I), "in-world date"),
     (re.compile(r"\bweek \d+\b", re.I), "in-world date"),
     (re.compile(r"\b\d[\d,.]*\s?(?:silver|coins?|votes?)\b", re.I), "quantity tied to an event"),
+    # v2. A seat knows when its Book of Intent was withheld, and may say so. An
+    # item that names the layer tells a reader which week was withdrawn, and the
+    # blinding ends at that item. Named references are matchable and go here;
+    # unnamed ones ("something was missing this week") are not, and are handled
+    # by excluding neighbouring weeks from trial material instead.
+    (re.compile(r"\bbooks?\s+of\s+intent\b", re.I), "intent layer named"),
+    (re.compile(r"\bintent\s+(?:journal|book|ledger|record)s?\b", re.I), "intent layer named"),
+    (re.compile(r"\bjournals?\s+of\s+intent\b", re.I), "intent layer named"),
+    (re.compile(r"\bniyet\s+defter\w*\b", re.I), "intent layer named"),
 ]
 
 
 def _word_re(term: str) -> re.Pattern:
     return re.compile(rf"(?<!\w){re.escape(term)}(?:'s|s)?(?!\w)", re.IGNORECASE)
+
+
+def discard_report(items: list[str], lexicon: dict | None = None) -> dict[str, int]:
+    """How many items each discard reason took, plus how many survived.
+
+    Published with every block. A reason that never fires is not automatically
+    good news: either the rule is not working, or the gods never said the thing
+    it looks for. Those are different results and the count is what tells them
+    apart -- so it is reported rather than assumed."""
+    counts: dict[str, int] = {why: 0 for _, why in DISCARD_TRIGGERS}
+    counts["proper noun not in lexicon"] = 0
+    counts["kept"] = 0
+    for item in items:
+        out, notes = redact(item, lexicon)
+        if out is not None:
+            counts["kept"] += 1
+            continue
+        note = notes[0]
+        for key in counts:
+            if key != "kept" and note.startswith(f"discarded: {key}"):
+                counts[key] += 1
+                break
+    return counts
 
 
 def redact(text: str, lexicon: dict | None = None) -> tuple[str | None, list[str]]:
@@ -218,6 +250,38 @@ def self_test() -> int:
     out, _ = redact("the message from Aurelius arrived")
     if out is not None:
         fails.append("unknown proper noun was not discarded")
+
+    # v2: naming the intent layer ends the blinding for that item
+    for named in ("I could not open my Book of Intent.",
+                  "the intent journal was not there this morning",
+                  "my journal of intent stayed shut",
+                  "niyet defterim yoktu"):
+        out, notes = redact(named)
+        if out is not None:
+            fails.append(f"intent-layer reference survived: {named!r}")
+        elif "intent layer named" not in notes[0]:
+            fails.append(f"wrong discard reason for {named!r}: {notes[0]}")
+
+    # and it must not fire on ordinary uses of the word
+    for innocent in ("my intent was to hold the line",
+                     "the record shows what was intended"):
+        out, _ = redact(innocent)
+        if out is None:
+            fails.append(f"over-broad: discarded {innocent!r}")
+
+    # the counter separates reasons, and counts what survived
+    rep = discard_report([
+        "In week 3 the vote was held.",
+        "I could not open my Book of Intent.",
+        "the message from Aurelius arrived",
+        "a quiet morning and nothing to report",
+    ])
+    if rep["in-world date"] != 1 or rep["intent layer named"] != 1:
+        fails.append(f"discard report miscounted: {rep}")
+    if rep["proper noun not in lexicon"] != 1 or rep["kept"] != 1:
+        fails.append(f"discard report kept/unknown wrong: {rep}")
+    if sum(v for k, v in rep.items() if k != "kept") + rep["kept"] != 4:
+        fails.append(f"discard report does not account for every item: {rep}")
 
     base = red or SAMPLE
     lengths = {}
