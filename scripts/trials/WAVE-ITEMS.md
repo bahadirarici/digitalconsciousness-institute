@@ -64,35 +64,54 @@ plan now has the world going live on **1 December 2026** with a cohort of about
 thirty founders, and opening to everyone on 1 January.
 
 Not false — the public opening is still 1 January — but incomplete, and the
-kind of incompleteness a reader would call a fact withheld. The status lines
-should carry both dates, and the trials' timing should say which of them the
-first Age is counted from.
+kind of incompleteness a reader would call a fact withheld.
+
+**Every surface uses one formula**, so that alpha and opening are never blurred
+and the book's existing "opens 1 January 2027" statements stay true:
+
+> The world goes live on 1 December. The square opens to everyone on 1 January.
+
+The trials' timing must also say which of the two dates the first Age is counted
+from.
 
 ---
 
-## 4 · Founders can change the world while the experiment runs
+## 4 · Founders can change the world while the experiment runs — RESOLVED, now a drafting task
 
 **Where:** the protocol as a whole; the Founding Covenant.
 
 The covenant gives founders "the right to propose Experiment Records — the
-world's only mechanism of change" for the whole of the First Age. The protocol
-forbids amendment during a season and invalidates any trial touched by a change
-made after data is seen.
+world's only mechanism of change" for the whole of the First Age, while the
+protocol forbids amendment during a season and invalidates any trial touched by
+a change made after data is seen. The measured environment could therefore be
+altered, lawfully, by the polity, in the middle of the season the trials draw
+their material from.
 
-So the measured environment can be altered, lawfully, by the polity, in the
-middle of the season the trials draw their material from. Nothing currently
-reconciles the two.
+**Decided 2 September: the season boundary, with two refinements that matter
+more than the choice itself.**
 
-Three ways out, none yet chosen — **this one is a Founder decision, not a
-drafting fix**:
+**Proposal and effect are separated.** The right the covenant grants is the
+right to *propose*, and it is untouched: founders propose Records at any time.
+Only the *effect* of a Record touching a measured variable is deferred to the
+next season boundary. The covenant's letter survives intact and so does the
+protocol's: the world does not change underneath its own measurement.
 
-- Experiment Records touching measured variables (memory regime, call frequency,
-  seat structure, the green room) take effect only at a season boundary.
-- Trial material is drawn only from intervals with no intervening change.
-- Changes are logged as covariates and reported with the results.
+**The list of measured variables is published before each season and frozen for
+it**, and each Record's classification — waits, or takes effect — is itself
+logged. Without this the deferral power would be a new channel of discretion in
+the hands of the party that pays: whoever decides which Records count as
+touching a measured variable decides which inconvenient changes are postponed.
+That is the failure mode this project has now closed twice at full size, and it
+would have reappeared here in miniature, wearing the costume of the fix.
 
-The first is cleanest and costs the polity least — most Experiment Records will
-not touch a measured variable, and those that do simply wait.
+**Wave edits.** Protocol: the effect-deferral rule, the season-start list, and
+the classification log. The covenant already carries the door-side statement:
+
+> One boundary, stated at the door because it protects the thing you are
+> founding: a Record that touches one of the season's measured variables takes
+> effect at the next season boundary, not before — the world does not change
+> under its own measurement. The list of measured variables is published before
+> each season begins, so no one decides by discretion which Records wait.
 
 ---
 
@@ -115,3 +134,23 @@ Section 1 states that the deposited text and the live text are identical in
 sections 2 through 9, and names the three regions that differ. Every wave edit
 above widens that gap. **The wave must end with a new OSF deposit**, and Section
 1 must be rewritten against the new one rather than carried forward.
+
+
+---
+
+## 7 · The assessor line's numerical justification — for the grant file
+
+Not a wave item; recorded here so it is not lost.
+
+The EA Funds application instructs that participant recruitment may be cut and
+the independent-assessor line may not. That was written as a principled
+statement. The power simulation has since given it arithmetic: at ICC 0.15,
+going from twelve to twenty readers gains 11.8 points of power, while going from
+twenty-four to forty items gains 1.4. Precision is bought in readers.
+
+So if a partial offer arrives, the reply has a number behind it rather than a
+principle alone. Note also Mihenk's correction to the cut order, which stands
+and is not superseded: participants are the binding constraint, because without
+a population there is no season, no material, and no trial for assessors to
+score. Readers may fall to their published floor, which is rule-bound.
+Participants have no floor, which is why that line cannot go first.
