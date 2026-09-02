@@ -5,3 +5,8 @@ themes/
 .claude-flow/
 .claude/
 run-hugo-server.bat
+
+# Python bytecode: the trial code lives under static/ so the site serves it,
+# which means a stray __pycache__ would be published too.
+__pycache__/
+*.pyc

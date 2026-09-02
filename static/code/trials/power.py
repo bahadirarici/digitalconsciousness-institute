@@ -105,6 +105,20 @@ def curve(effect_pp: float = 15.0, sims: int = SIMS) -> list[tuple[float, float]
     return [(icc, power_at(effect_pp, icc, sims, seed=int(icc * 1000))) for icc in iccs]
 
 
+def mde(icc: float, sims: int, target: float = 0.80) -> float | None:
+    """Smallest effect, in whole points, reaching `target` power at this ICC.
+
+    Reported to the nearest point on purpose: with a few thousand simulations
+    a tenth of a point is inside the noise, and publishing one would be false
+    precision on a page that asks readers to re-run this.
+    """
+    # ponytail: integer scan, 5..20 points. Bisection if the range ever widens.
+    for eff in range(5, 21):
+        if power_at(float(eff), icc, sims, seed=int(icc * 1000) + eff) >= target:
+            return float(eff)
+    return None
+
+
 def report(effect_pp: float, sims: int) -> None:
     print(f"Recognition trials — power for a {effect_pp:.0f} point effect "
           f"({CHANCE:.0%} -> {CHANCE + effect_pp/100:.0%})")
@@ -134,9 +148,32 @@ def report(effect_pp: float, sims: int) -> None:
         p = power_at(effect_pp, 0.15, max(400, sims // 4), seed=7, n_items=ni)
         print(f"  20 readers, {ni:2d} items, ICC 0.15 -> {p:5.1%}")
 
+    print()
+    print("Smallest effect this design can see at 80% power:")
+    margin = []
+    for icc in (0.0, 0.15, 0.30, 0.40):
+        m = mde(icc, max(400, sims // 4))
+        shown = f"{m:.0f} points" if m else "more than 20 points"
+        print(f"  ICC {icc:4.2f} -> {shown}")
+        margin.append((icc, m))
+    below = [icc for icc, m in margin if m is not None and m < effect_pp]
+    print(f"The protocol acts at {effect_pp:.0f}.")
+    if below:
+        print(f"  Up to ICC {max(below):.2f} the acting threshold sits above the "
+              f"detection threshold, on purpose.")
+    spent = [icc for icc, m in margin if m is None or m >= effect_pp]
+    if spent:
+        print(f"  At ICC {min(spent):.2f} and above the margin is gone: the effect "
+              f"the protocol acts on is the smallest one it can see. That is the "
+              f"edge of the instrument, and it is stated rather than rounded away.")
+
 
 def self_test() -> int:
     fails = []
+    # MDE must not shrink as clustering grows; if it does, the ICC is not biting.
+    m_lo, m_hi = mde(0.0, 400), mde(0.40, 400)
+    if m_lo is None or m_hi is None or m_hi < m_lo:
+        fails.append(f"MDE not monotone in ICC: {m_lo} at 0.00, {m_hi} at 0.40")
     rng = random.Random(1)
 
     s, t, _ = simulate_block(0.0, 0.0, rng)

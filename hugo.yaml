@@ -112,3 +112,8 @@ permalinks:
   records: /records/:slug/
   preprints: /preprints/:slug/
   posts: /:slug/
+
+# The trial code is served from static/; never ship its bytecode cache.
+ignoreFiles:
+  - __pycache__
+  - \.pyc$

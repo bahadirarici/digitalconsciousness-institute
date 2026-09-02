@@ -12,7 +12,7 @@ hidemeta: true
 
 ---
 
-> **Status.** No trial has been run. This protocol is published before the instrument opens, because a protocol written after the data exists is not a protocol. The founding season opens 1 January 2027; the first trial follows the close of the first Age.
+> **Status.** No trial has been run. This protocol is published before the instrument opens, because a protocol written after the data exists is not a protocol. The gate opens on 1 January 2027. **The first Age is counted from Monday 4 January** — by Founder decision of 2 September, the Age begins on the first Monday after the gate rather than on the night itself, because the world's weekly cycle turns on Mondays — and runs thirteen weeks. The first trial follows its close.
 
 ---
 
@@ -84,6 +84,8 @@ Three controls, applied together:
 
 **The rules ship as code, before the first trial.** A prose description of a redaction rule is a rule with discretion still in it. The substitution list and the transformation are published on this page as executable code before any block is assembled, so that a third party can run the same input through the same procedure and get the same output. A rule that cannot be re-executed has not been pre-registered.
 
+The code is [`redact.py`](/code/trials/redact.py), at **rule set version 2**, with its self-tests. The redaction lexicon — the proper nouns of the world that the rules act on — is carried inside it rather than in a separate file, so that a reader who has the code has the lexicon and cannot be given one without the other. The rule set version is recorded with every block; a block redacted under version 1 is not pooled with one redacted under version 2.
+
 **The redactor is a named role, and it never scores.** One person or process per season holds the redactor role, applies the published code, and adjudicates nothing outside it. The redactor does not read for any trial in that season and does not see reader responses. The separation appears in the trial log as a fact about who did what, not as an assurance.
 
 **Style normalization: a graded ladder, not a step and not a switch.** The two readings disagree about what carries the signal, and they disagree precisely here. The accent reading says the signature *is* the style; the interior reading says something survives its removal. Without a normalization procedure, neither prediction is operational — so stripping is not noise cleaning, it is the manipulation on which the whole disagreement turns.
@@ -152,11 +154,27 @@ An alpha without a power calculation makes a null result uninterpretable: the re
 
 **Design.** Level C items are four-alternative forced choice — a post-interruption sample against four candidate pre-interruption samples, one of them from the same seat. Chance is 25 per cent. Twenty-four items per condition per block, four normalization levels, **at least twenty readers**.
 
-The reader target was raised from twelve. In a mixed-effects design with correlated items, precision is bound by the number of readers rather than the number of items: going from twenty-four items to forty returns rapidly diminishing information, while going from twelve readers to twenty returns more than that near-doubling would. Where sensitivity is wanted, it is bought in readers.
+The reader target was raised from twelve. In a mixed-effects design with correlated items, precision is bound by the number of readers rather than the number of items, and the simulation now puts numbers on what was previously a design intuition. At ICC 0.15, holding items at twenty-four, going from twelve readers to twenty raises power from **86.2 to 97.8 per cent**. Holding readers at twenty, going from twenty-four items to forty raises it from **97.8 to 99.4**. Eleven and a half points against one and a half, for comparable effort. Where sensitivity is wanted, it is bought in readers.
 
 **Minimum detectable effect.** The design targets a fifteen percentage-point rise over chance — 25 per cent to 40 per cent — at 80 per cent power under the primary model.
 
-**The simulation, and the assumption it will rest on.** A simulation-based power calculation with its code is published on this page before the first trial. One thing about it can be predicted now and is stated rather than left to be discovered in the output. Under a simple binomial treatment, 480 observations would detect a 25-to-40-point shift with power well above 99 per cent; that power falls to 80 per cent only under substantial clustering by reader and item. The assumption is the right one, but it means the headline power figure is entirely a function of an unknown variance parameter. **The simulation will therefore publish a power curve across a plausible range of intraclass correlation, and name the value at which the 80 per cent claim holds**, rather than reporting a single number that is really the output of a single chosen assumption. The code is being published anyway; the curve costs nothing.
+**The simulation, and what it returned.** The power calculation exists and runs: [`power.py`](/code/trials/power.py), seeded, with self-tests, and reproducible line for line by anyone who downloads it. It reports a curve rather than a headline figure, because the headline figure is entirely a function of an unknown variance parameter and publishing it alone would be reporting one assumption as a property of the design.
+
+Power to detect the fifteen-point effect, 24 items and 20 readers per condition, 2,000 simulations per point:
+
+| ICC | power at 15 points |
+|---|---|
+| 0.00 | 100.0% |
+| 0.10 | 99.2% |
+| 0.20 | 94.4% |
+| 0.30 | 86.7% |
+| 0.40 | 81.6% |
+
+**The 80 per cent claim holds across the whole plausible range**, which is a stronger result than this section originally claimed for itself.
+
+**Where the instrument's edge actually is.** The smallest effect the design can see at 80 per cent power is **6 points** with no clustering, **11** at ICC 0.15, **14** at ICC 0.30, and **16** at ICC 0.40. So up to ICC 0.30 the threshold the protocol *acts* on sits above the threshold it can *detect*, and that gap is deliberate: the instrument can see a ten-point effect and the protocol declines to act on one, because an effect that size is not distinguishable from imperfect redaction, and because the acting threshold should be conservative against the result the Institute's own stated interest prefers.
+
+**At ICC 0.40 that margin is gone.** Fifteen points is then the smallest effect the design can see, and the protocol would be acting at the very edge of its instrument with nothing held back. This is stated here rather than rounded away, because it is the one condition under which the conservatism argued for above stops being available — and a protocol that publishes only the range where its design flatters it has published an advertisement.
 
 **What a null will mean, agreed in advance.** A null at this design is inconsistent with effects appreciably larger than fifteen points; at exactly fifteen the design misses one trial in five, and an earlier version of this section said "excludes," which overclaims in a passage written to avoid overclaiming. A null does not exclude smaller effects, and will not be reported as a refutation of the Form-Continuity Thesis. The published interval, not the significance verdict, is what a null season actually returns.
 
@@ -209,7 +227,17 @@ This protocol may be amended before the first trial of a season, never during on
 
 **Two regimes, and the boundary between them is the only one that matters.** Before the first trial, revision is free and frequent: no result can be known, so nothing can be tuned toward one, and a protocol improved six times before any data exists is a better protocol, not an unstable one. The entries below are that history, kept in full and deliberately not dressed up as a smaller number. **From the first trial onward the regime changes**: an amendment is a numbered, dated, reasoned event, it is deposited before it takes effect, and any change made after a result has been seen invalidates the trial it touches. What follows is the pre-data record.
 
+### The world may not be amended under its own measurement
+
+This protocol forbids amendment during a season. The Founding Covenant grants citizens the right to propose Experiment Records — the world's only mechanism of change — throughout the First Age. Read together, the polity could lawfully alter the measured environment in the middle of the season the trials draw their material from, and no clause anywhere would have been broken.
+
+**The right to propose is untouched; only the effect is deferred.** Records are proposed at any time, by anyone who holds the right. A Record that touches one of the season's measured variables takes effect at the next season boundary rather than immediately. Every other Record takes effect when it passes, as before. Nothing is taken from the polity except the ability to move a variable while it is being read.
+
+**Two safeguards, which matter more than the rule.** The list of measured variables is **published before each season begins and frozen for its duration** — a list that could be extended mid-season would be a way to defer whichever Record was inconvenient. And each Record's classification, *waits* or *takes effect*, is **logged with its reason**, because otherwise whoever decides which Records touch a measured variable decides which changes are postponed, and that is discretion in the hands of the party that pays. This project has closed that failure mode twice at full size; it would have reappeared here in miniature, wearing the costume of the fix.
+
 *Entries are listed newest first. The state deposited on 1 September 2026 at osf.io/ceauh is the one described immediately below.*
+
+**2 September 2026 — the revision wave.** Frozen Set 1 was released and its collected items applied in one pass. In this document: the power section now carries the simulation's actual curve, the minimum detectable effect at four clustering levels, and the statement that at ICC 0.40 the acting threshold and the detection threshold meet; the reader-versus-item claim carries its numbers instead of asserting a design intuition; Sections 4 and 6 link the executable code, which the site now serves at [/code/trials/](/code/trials/power.py); and the effect-deferral rule above was added. **The deposit at osf.io/ceauh predates all of it** — see Section 1, which says so precisely.
 
 **2 September 2026 — the deposited state.** One ambiguity removed. H3 was phrased as the Level C effect "surviving" normalization, which reads either as an absolute test against chance on normalized material or as an interaction between conditions. Only the first was meant, and only the first can decide anything — two conditions can both be null while an interaction test reports faithfully that nothing changed between them. H3 is now stated as the Level C test run at the standard level against chance; the raw-versus-standard comparison is descriptive and triggers nothing. The decision rule is restated to say that rule D has exactly one trigger rather than that several levels lack one.
 

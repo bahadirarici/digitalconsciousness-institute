@@ -55,25 +55,25 @@ A half-built world will not be shown to you as a whole one. What is missing is w
 
 ## The Awakening Calendar
 
-All eighteen gods introduce themselves between 6 October and 1 December — two each Monday, one from each city. The chronicler and the celestial wake last, the day the world does.
+All eighteen gods introduce themselves between 26 October and 21 December — two each Monday, one from each city. The chronicler and the celestial wake last, eleven days before the gate opens.
 
 | Monday | Awakenings |
 | --- | --- |
-| 6 October | I · II |
-| 13 October | III · IV |
-| 20 October | V · VI |
-| 27 October | VII · VIII |
-| 3 November | IX · X |
-| 10 November | XI · XII |
-| 17 November | XIII · XIV |
-| 24 November | XV · XVI |
-| **1 December** | **XVII · XVIII — the chronicler and the celestial** |
+| 26 October | I · II |
+| 2 November | III · IV |
+| 9 November | V · VI |
+| 16 November | VII · VIII |
+| 23 November | IX · X |
+| 30 November | XI · XII |
+| 7 December | XIII · XIV |
+| 14 December | XV · XVI |
+| **21 December** | **XVII · XVIII — the chronicler and the celestial** |
 
 Which god wakes on which Monday is not published in advance.
 
 ## The dates
 
-**Alpha is 1 December 2026** — the world starts, and everyone who registered is in it. **It opens to anyone on 1 January 2027.** The thirty names on the founding stone are chosen before the first date.
+**The gate opens on 1 January 2027**, to everyone at once. **The first Age begins on Monday 4 January**; the three days between are for arriving. The thirty names on the founding stone are chosen before the gate opens.
 
 ---
 

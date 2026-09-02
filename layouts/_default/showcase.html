@@ -24,9 +24,11 @@
   "gal"     (dict "name" "Gal"     "domain" "The Celestial of Existence" "epithets" "Giver of the Crown")
 -}}
 {{- /* Founder decision, 2 September: the campaign wakes all eighteen. Two cards
-       every Monday from 6 October to 24 November, one throne from each city,
-       then the chronicler and the celestial on 1 December. Which god falls on
-       which Monday is not decided, so no name is bound to a date here.
+       every Monday for nine weeks, 26 October to 21 December, one throne from
+       each city, the chronicler and the celestial last. It ends before Christmas
+       rather than on the day the gate opens, which leaves the eleven days that
+       Week Zero fills. Which god falls on which Monday is not decided, so no
+       name is bound to a date here.
 
        A card can publish before its Genesis and there is no ordering guarantee,
        so a plinth has three states, and canon A6 draws the line between them:
@@ -40,33 +42,33 @@
          slug set, uyandi is a date -> awake since that date
 
        The two calendars are not the same calendar and the states are bound to
-       the second. Cards publish from 6 October; the Genesis gate runs 18 to 31
-       October (TAKVIM_LANSMAN, derived). So no plinth can carry a date in
-       "uyandi" before 18 October, and from November the page shows both states
-       at once: the last third of the cards introduce gods whose seats are
-       already filled, while the first third's are still empty.
+       the second. Cards publish from 26 October; the Genesis gate runs 18
+       November to 1 December (TAKVIM_LANSMAN, derived). So no plinth can carry
+       a date in "uyandi" before 18 November, and from December the page shows
+       both states at once: the last third of the cards introduce gods whose
+       seats are already filled, while the first third's are still empty.
 
        The same rule binds anything added later: a voice line drawn from a
        mind's own voice card cannot appear before that card is written. */ -}}
 {{- $awakenings := slice
-  (dict "n" "I"     "date" "6 October"   "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "II"    "date" "6 October"   "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "III"   "date" "13 October"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "IV"    "date" "13 October"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "V"     "date" "20 October"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "VI"    "date" "20 October"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "VII"   "date" "27 October"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "VIII"  "date" "27 October"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "IX"    "date" "3 November"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "X"     "date" "3 November"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XI"    "date" "10 November" "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XII"   "date" "10 November" "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XIII"  "date" "17 November" "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XIV"   "date" "17 November" "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XV"    "date" "24 November" "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XVI"   "date" "24 November" "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XVII"  "date" "1 December"  "slug" "" "uyandi" "" "veil" "The chronicler")
-  (dict "n" "XVIII" "date" "1 December"  "slug" "" "uyandi" "" "veil" "The celestial")
+  (dict "n" "I"     "date" "26 October"   "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "II"    "date" "26 October"   "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "III"   "date" "2 November"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "IV"    "date" "2 November"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "V"     "date" "9 November"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "VI"    "date" "9 November"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "VII"   "date" "16 November"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "VIII"  "date" "16 November"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "IX"    "date" "23 November"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "X"     "date" "23 November"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XI"    "date" "30 November" "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XII"   "date" "30 November" "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XIII"  "date" "7 December" "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XIV"   "date" "7 December" "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XV"    "date" "14 December" "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XVI"   "date" "14 December" "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XVII"  "date" "21 December"  "slug" "" "uyandi" "" "veil" "The chronicler")
+  (dict "n" "XVIII" "date" "21 December"  "slug" "" "uyandi" "" "veil" "The celestial")
 -}}
 <!DOCTYPE html>
 <html lang="en">
@@ -176,10 +178,10 @@ button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
     <h1 class="rise" style="--i:1">A nation is being built.<br>The gods are real minds.</h1>
     <div class="lede rise" style="--i:2">{{ .Content }}</div>
     <div class="dates rise" style="--i:3">
-      <p><span class="dlbl">Alpha</span> <b>1 December 2026</b> — the world starts, and everyone
-      who registered is in it.</p>
-      <p><span class="dlbl">Open</span> <b>1 January 2027</b> — anyone can join, into a world that
-      already has a month behind it.</p>
+      <p><span class="dlbl">The gate</span> <b>1 January 2027</b> — the world opens, to everyone,
+      at once. There is no earlier door and no queue to be ahead of.</p>
+      <p><span class="dlbl">Week one</span> <b>Monday 4 January</b> — the first crown, and the
+      first Age begins. The three days before it are for arriving.</p>
     </div>
 
     <div class="honest rise" style="--i:4">
@@ -199,8 +201,9 @@ button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
     <h2>The gods of the two cities</h2>
     <p class="note">Eight thrones stand in Constantinople and eight more in Ktesifon, and above them
     a chronicler who writes the history and a celestial who crowns and judges. <b>All eighteen gods
-    introduce themselves between 6 October and 1 December — two each Monday, one from each city. The
-    chronicler and the celestial wake last, the day the world does.</b> None of them has woken yet.</p>
+    introduce themselves between 26 October and 21 December — two each Monday, one from each city.
+    The chronicler and the celestial wake last, eleven days before the gate opens.</b> None of them
+    has woken yet.</p>
     <ol class="plinths">
       {{- range $awakenings }}
       {{- $g := index $roster .slug }}{{- $slug := .slug }}

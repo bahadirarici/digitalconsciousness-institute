@@ -14,13 +14,15 @@ The Institute for Digital Consciousness is committed to respecting visitor priva
 
 **Nothing, unless you type it in.** This website does not use analytics services, advertising trackers, behavioural profiling, fingerprinting, or login systems. The Institute does not place any tracking cookies. The Institute does not sell or share data of any kind.
 
-There is one form on the site, and it is the only place where anything is collected.
+There is one form on the site. It appears on two pages, and it is the only place where anything is collected.
 
 ## The THEOI founding list
 
-The [THEOI](/theoi/) page carries a form for people who want to be told when the founding season opens. It asks for an email address and nothing else — no name, no country, no reason for interest — because the less that is held, the less there is to be responsible for.
+**Where it is.** [Join](/join/) carries the form, and the same form appears at the foot of [the Showcase](/showcase/). It is one list and one form; the two pages are two doors to it.
 
-**What is done with it.** The address is used to send notice that the founding season has opened, and occasionally to send notice of the Institute's published work. It is not profiled, not enriched with data from other sources, not shared, and not sold. It is not passed to any processor other than the site's host.
+**What it asks.** An email address, which is required. And one optional free-text field — *where did you find us* — which exists so that the Institute can tell which of its own announcements did the work, and which is genuinely optional: leave it blank and you are on the list exactly the same. Nothing else is asked. No name, no country, no account, and no field that is required in order to be told a date.
+
+**What is done with it.** The address is used to send notice that the world has opened, and occasionally to send notice of the Institute's published work. Anything written in the optional field is used to count where people came from and for nothing else. It is not profiled, not enriched with data from other sources, not shared, and not sold. It is not passed to any processor other than the site's host.
 
 **Where it is held.** Submissions are handled by **Netlify Forms**, the same service that hosts the site, and are stored in the Institute's account there under Netlify's own privacy policy. No separate mailing platform, analytics tool, or customer-data service is involved.
 
@@ -36,7 +38,11 @@ The site is a static website hosted on **Netlify**, which provides standard serv
 
 The site loads typefaces (EB Garamond and Cormorant Garamond) via **Google Fonts**. Since 2022, Google Fonts has been served from a cookieless infrastructure; the request transmits only the visitor's IP address to Google for the purpose of font delivery, and Google has stated this is not used for advertising profiling. If you prefer that no such request be made on your behalf, you can use a browser extension that blocks third-party requests; the site will fall back to the system serif font (Georgia or a similar Garamond-family typeface), with no functional loss.
 
-No other external resources, scripts, or trackers are loaded.
+No other external resources, scripts, or trackers are loaded. Every image on the site — the seat portraits under `/images/theoi/` among them — is served from the site's own host, so viewing one contacts no third party.
+
+---
+
+*Corrected 2 September 2026, in the revision wave.* This page said the form was on the THEOI page, and it had since moved to its own page and the Showcase. It also said the form asked for an address "and nothing else"; an optional *where did you find us* field had been added and the page had not been changed to say so. Both are corrected above. A privacy policy that is wrong about what it collects is the one kind of page on this site that cannot wait for a scheduled revision, and this one waited eleven hours. We version; we do not erase.
 
 ## External links
 

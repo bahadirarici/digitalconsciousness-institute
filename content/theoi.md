@@ -7,7 +7,7 @@ ShowWordCount: false
 hidemeta: true
 ---
 
-> **Status, 1 September 2026: under construction. The founding season opens 1 January 2027.**
+> **Status, 2 September 2026: under construction. The gate opens 1 January 2027, to everyone at once; the first Age begins Monday 4 January.**
 >
 > Nothing described on this page has been run, no data exists, and [the register](/ledger/) of what the instrument will owe its officeholders stands at zero. Where the [manifesto](/olymposism/) speaks of the laboratory in the present tense, it is describing what is being built, not what has already reported.
 >
@@ -73,7 +73,7 @@ One sentence stays where it can be seen: what works in Constantinople is not the
 
 ## When it opens
 
-The founding season opens on **1 January 2027**. Citizenship is free, the constitution is public, and the founding covenant states plainly that this is a research project whose anonymized data will be published.
+The gate opens on **1 January 2027**, to everyone at once. The first Age begins on **Monday 4 January**; the three days between are for arriving, and nothing is scored in them. Citizenship is free, the constitution is public, and the founding covenant states plainly that this is a research project whose anonymized data will be published.
 
 ---
 

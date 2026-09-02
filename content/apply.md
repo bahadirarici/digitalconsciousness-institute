@@ -3,7 +3,7 @@ title: "Join the founding season"
 url: "/apply/"
 layout: apply
 draft: true
-description: "Everyone who registers is in the world on 1 December 2026. Thirty of them found it."
+description: "Everyone who registers is in the world on 1 January 2027. Thirty of them found it."
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true
