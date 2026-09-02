@@ -34,6 +34,9 @@ DOCS = {
     "preprints": ("/preprints/the-philosophical-puppet/", [
         "returned rejected, September 2026", "commentary rather than record"]),
     "about": ("/about/", ["does not campaign", "hypothesis with its test attached"]),
+    "showcase": ("/showcase/", [
+        "The gods of this world are artificial minds", "all eighteen seats are cast by the same procedure",
+        "two each Monday, one from each city", "it is what remains"]),
     "whitepaper": ("/whitepaper/", ["Status note, 1 September 2026", "not withdrawn"]),
     "monograph": ("/the-puppet-condition/", ["the naming criterion"]),
 }
