@@ -72,4 +72,33 @@ footer a:hover{color:var(--gold)}
         animation-delay:calc(var(--i,0) * .07s)}
   @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 }
+
+/* the waitlist, one definition for every surface that carries it */
+.wl{border:1px solid var(--hair);padding:1.4rem 1.5rem 1.5rem;margin:1.6rem 0;max-width:34rem;
+  background:rgba(243,239,230,.03)}
+.wl-field{margin-bottom:1.1rem}
+.wl label{display:block;font-family:var(--mono);font-size:.66rem;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--bone-soft);margin-bottom:.45rem}
+.wl-opt{opacity:.6;letter-spacing:.08em}
+.wl input{width:100%;padding:.7rem .85rem;font:inherit;font-size:1rem;color:var(--bone);
+  background:rgba(243,239,230,.05);border:1px solid var(--hair);border-radius:2px}
+.wl input:focus{outline:none;border-color:var(--gold);background:rgba(243,239,230,.08)}
+.wl input::placeholder{color:rgba(169,162,180,.5)}
+.wl button{font-family:var(--display);font-size:1.1rem;font-weight:600;color:var(--night);
+  background:var(--gold);border:none;border-radius:2px;padding:.65rem 1.5rem;cursor:pointer;
+  transition:transform .12s ease,background .25s ease}
+.wl button:hover{background:var(--gold-lift)}
+.wl button:active{transform:translateY(1px)}
+.wl button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
+.wl-note{font-family:var(--mono);font-size:.66rem;line-height:1.8;color:var(--bone-soft);
+  margin:1.2rem 0 0;max-width:46ch}
+.wl-note a{color:var(--gold)}
+
+/* The bar carries four labels; on a narrow screen they wrap into a block that
+   costs more height than the title. Tighten rather than truncate: a shortened
+   label is a worse link than a smaller one. */
+@media(max-width:560px){
+  .bar{gap:.85rem;font-size:.6rem;letter-spacing:.06em;padding:1rem 0}
+  .bar .gate{margin-left:0}
+}
 </style>

@@ -77,21 +77,7 @@ The founding season opens on **1 January 2027**. Citizenship is free, the consti
 
 If you want to be told when the season opens, leave an address below. It will be used for that and for occasional notices about the Institute's work — nothing else. No profiling, no third-party processor beyond the site's host, no list ever shared or sold. Say the word and you are removed. What happens to the address is written out in the [privacy policy](/privacy/).
 
-<style>
-.idc-waitlist{border:1px solid rgba(0,0,0,.18);padding:1.25rem 1.4rem;margin:1.4rem 0;max-width:34rem}
-.idc-waitlist label{display:block;font-size:.85rem;letter-spacing:.02em;margin-bottom:.45rem;opacity:.75}
-.idc-waitlist input[type=email]{width:100%;padding:.55rem .65rem;font:inherit;font-size:1rem;border:1px solid rgba(0,0,0,.28);background:transparent;color:inherit;box-sizing:border-box}
-.idc-waitlist button{margin-top:.85rem;padding:.55rem 1.1rem;font:inherit;font-size:.95rem;border:1px solid currentColor;background:transparent;color:inherit;cursor:pointer}
-.idc-waitlist button:hover{opacity:.7}
-</style>
-
-<form class="idc-waitlist" name="theoi-founding" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/subscribed/">
-  <input type="hidden" name="form-name" value="theoi-founding">
-  <p hidden><label>Leave this field empty: <input name="bot-field"></label></p>
-  <label for="idc-email">Email address</label>
-  <input id="idc-email" type="email" name="email" required autocomplete="email" placeholder="you@example.com">
-  <button type="submit">Tell me when the season opens</button>
-</form>
+{{< waitlist >}}
 
 ---
 

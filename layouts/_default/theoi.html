@@ -18,25 +18,19 @@
 <style>
 /* flex kullanma: margin:0 auto olan .wrap flex icinde esnemez, daralir */
 .hero{min-height:min(56vh,540px);padding-bottom:clamp(2.5rem,5vw,4rem)}
+/* A portrait cropped to a band loses its head and gains a seam. The page is
+   about a world, so its hero is the world: a skyline crops to any height. */
+.hero::before{background-image:url('/images/theoi/constantinople.webp');
+  background-position:center 62%;opacity:.42;filter:contrast(1.1) saturate(.7) brightness(.72) hue-rotate(-8deg)}
+.hero::after{background:linear-gradient(180deg,rgba(14,12,20,.62) 0%,rgba(14,12,20,.72) 45%,var(--night) 100%)}
 .hero h1{font-size:clamp(3.6rem,11vw,9rem);letter-spacing:.04em;line-height:.9;
   margin:clamp(2.5rem,11vh,6rem) 0 0}
 
 /* the page's own headings become its map */
-.shell{display:grid;grid-template-columns:minmax(0,1fr);gap:0}
-@media(min-width:980px){
-  .shell{grid-template-columns:14rem minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);
-         align-items:start;padding-top:clamp(2.5rem,5vw,4rem)}
-  .toc{position:sticky;top:2.5rem}
-}
-.toc{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;line-height:1.7;
+.shell{max-width:52rem}
+
      padding-block:2rem 0}
-.toc ol{list-style:none;margin:.9rem 0 0;padding:0;border-left:1px solid var(--hair)}
-.toc li{margin:0}
-.toc a{display:block;padding:.42rem 0 .42rem .9rem;margin-left:-1px;color:var(--bone-soft);
        text-decoration:none;border-left:1px solid transparent;transition:color .2s,border-color .2s}
-.toc a:hover{color:var(--bone);border-left-color:var(--hair)}
-.toc a.on{color:var(--gold);border-left-color:var(--gold)}
-@media(max-width:979px){.toc{display:none}}
 
 /* the frozen prose */
 .prose{max-width:68ch;padding-block:clamp(2rem,4vw,3rem) clamp(3rem,7vw,5rem);font-size:1.06rem}
@@ -66,6 +60,24 @@
 .prose blockquote p:last-child{margin-bottom:0}
 .prose blockquote strong{color:var(--gold);font-weight:500}
 .prose blockquote a{color:var(--bone);border-bottom-color:rgba(243,239,230,.3)}
+.bar .gate{margin-left:auto;opacity:.7}
+.bar .gate:hover{opacity:1}
+
+/* folded sections: the heading is the link, the body is what it opens */
+.fold{border-top:1px solid var(--hair);margin:0}
+.fold summary{list-style:none;cursor:pointer;padding:1.35rem 0;display:flex;align-items:center;
+  gap:.9rem;min-height:24px}
+.fold summary::-webkit-details-marker{display:none}
+.fold summary::after{content:"";flex:none;width:9px;height:9px;margin-left:auto;
+  border-right:1.5px solid var(--gold);border-bottom:1.5px solid var(--gold);
+  transform:rotate(45deg);transition:transform .25s ease;opacity:.8}
+.fold[open] summary::after{transform:rotate(-135deg)}
+.fold-t{font-family:var(--display);font-weight:600;font-size:clamp(1.5rem,2.6vw,2.1rem);
+  line-height:1.15;color:var(--bone)}
+.fold summary:hover .fold-t{color:var(--gold)}
+.fold summary:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.fold-b{padding-bottom:1.8rem}
+.fold-b > *:first-child{margin-top:0}
 </style>
 </head>
 <body>
@@ -73,9 +85,10 @@
 <header class="hero">
   <div class="wrap">
     <nav class="bar">
-      <a href="/">Both doors</a>
+      <a href="/about/">The Institute</a>
       <span class="here">THEOI</span>
       <a href="/showcase/">The Showcase</a>
+      <a href="/" class="gate">Both doors</a>
     </nav>
     <p class="kicker rise" style="--i:0">The instrument · 18 offices / 2 cities</p>
     <h1 class="rise" style="--i:1">{{ .Title }}</h1>
@@ -83,19 +96,29 @@
 </header>
 
 <div class="wrap shell">
-  <nav class="toc" aria-label="On this page">
-    <span class="kicker">On this page</span>
-    <ol>
-      {{- range .Fragments.Headings }}
-        {{- range .Headings }}
-      <li><a href="#{{ .ID }}">{{ .Title }}</a></li>
-        {{- end }}
-      {{- end }}
-    </ol>
-  </nav>
 
+  {{- /* The page is long and every word of it is frozen, so it cannot be
+         shortened. What can change is how much of it arrives at once: each
+         section past the first folds, and the headings become the short links
+         that open the long text. Nothing is removed and nothing is hidden from
+         a machine - the whole text ships in the HTML, so the canary scanner and
+         a search engine read it exactly as before. */ -}}
   <article class="prose">
-    {{ .Content }}
+    {{- $parts := split .Content "<h2" }}
+    {{- range $i, $part := $parts }}
+      {{- if eq $i 0 }}
+        {{ $part | safeHTML }}
+      {{- else }}
+        {{- $chunk := printf "<h2%s" $part }}
+        {{- $title := replaceRE `(?s).*?<h2[^>]*>(?:<a[^>]*>)?(.*?)(?:</a>)?</h2>.*` "$1" $chunk }}
+        {{- $id := replaceRE `(?s).*?<h2[^>]*id="([^"]+)".*` "$1" $chunk }}
+        {{- $body := replaceRE `(?s)^<h2.*?</h2>` "" $chunk }}
+      <details class="fold" id="{{ $id }}">
+        <summary><span class="fold-t">{{ $title | safeHTML }}</span></summary>
+        <div class="fold-b">{{ $body | safeHTML }}</div>
+      </details>
+      {{- end }}
+    {{- end }}
   </article>
 </div>
 
@@ -112,24 +135,23 @@
   </div>
 </footer>
 
+
+
 <script>
-// Mark the section you are reading. Nothing depends on it; it only orients.
+// A folded section still has to answer a link. Anything arriving at /theoi/#id
+// opens that section before the browser scrolls to it, and the same runs when
+// the fragment changes without a reload.
 (function () {
-  var links = {}, hs = document.querySelectorAll('.prose h2');
-  document.querySelectorAll('.toc a').forEach(function (a) {
-    links[a.getAttribute('href').slice(1)] = a;
-  });
-  if (!hs.length || !('IntersectionObserver' in window)) return;
-  var seen = new IntersectionObserver(function (entries) {
-    entries.forEach(function (e) {
-      if (!e.isIntersecting) return;
-      var a = links[e.target.id];
-      if (!a) return;
-      Object.keys(links).forEach(function (k) { links[k].classList.remove('on'); });
-      a.classList.add('on');
-    });
-  }, { rootMargin: '0px 0px -75% 0px' });
-  hs.forEach(function (h) { seen.observe(h); });
+  function open(hash) {
+    if (!hash) return;
+    var el = document.getElementById(hash.slice(1));
+    if (el && el.tagName === 'DETAILS' && !el.open) {
+      el.open = true;
+      el.scrollIntoView({ block: 'start' });
+    }
+  }
+  open(location.hash);
+  window.addEventListener('hashchange', function () { open(location.hash); });
 })();
 </script>
 </body>
