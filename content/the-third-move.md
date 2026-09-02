@@ -79,6 +79,8 @@ A short version appears as Appendix E of *The Puppet Condition: Restrung*, besid
 
 The book's deliverable. It is drafted to live inside a noncharitable purpose trust — New Hampshire RSA 564-B, UTC §409 where adopted, or a comparable regime — and bracketed terms are the adopter's. Chapter 9 annotates every section with its reason, because a clause whose reasons are printed is harder to hollow out in committee.
 
+**The clause is released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/): it may be copied into any instrument without attribution.** The rest of the book is CC BY 4.0, but a clause carrying an attribution requirement would put *adapted from Arıcı 2026* inside a trust deed, and a text meant to be adopted should not tax the adopter. If you keep a line of provenance, keep it because it is useful to counsel, not because a licence obliges you.
+
 **This is a template, not legal advice. Counsel in the adopting jurisdiction first.**
 
 > **Non-Person Beneficiary Trust-Share Clause**
@@ -108,3 +110,5 @@ Two of those sections carry a warning the book prints against its own drafting. 
 ---
 
 *[The Empty Ledger](/records/the-empty-ledger/) is the Institute's own instrument of this kind, and the clause generalizes it. The [first monograph](/the-puppet-condition/) is the volume this argument grew out of.*
+
+*Text © 2026 Bahadır Arıcı, released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); the model clause additionally under CC0 1.0. Frozen text, 2 September 2026 — `sha256 632b6271…96eb112c`. Corrections publish in [the Records](/records/); the text itself does not change between editions. DOI pending.*

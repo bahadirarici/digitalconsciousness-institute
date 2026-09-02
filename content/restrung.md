@@ -78,3 +78,5 @@ The revision set two gates before itself: referee reports on the first book's lo
 ---
 
 *The [first monograph](/the-puppet-condition/) is the volume this one re-tensions. [The Third Move](/the-third-move/) is the full treatment of this book's Appendix E.*
+
+*Text © 2026 Bahadır Arıcı, released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Frozen text, 2 September 2026 — `sha256 357f8368…36dc6b9a4`. Corrections publish in [the Records](/records/); the text itself does not change between editions. DOI pending.*
