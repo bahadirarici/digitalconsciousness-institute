@@ -29,7 +29,8 @@ DOCS = {
         "not thereby proven for Ankara"]),
     "wmwh": ("/records/what-moved-what-held/", [
         "Note added 1 September 2026", "eighteen",
-        "Gate one has closed rather than opened", "returned rejected in September 2026"]),
+        "Gate one has closed rather than opened", "returned rejected in September 2026",
+        "were desk rejections"]),
     "preprints": ("/preprints/the-philosophical-puppet/", [
         "returned rejected, September 2026", "commentary rather than record"]),
     "about": ("/about/", ["does not campaign", "hypothesis with its test attached"]),
