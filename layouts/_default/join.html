@@ -1,0 +1,76 @@
+{{- /* The waitlist's own page. It existed only at the foot of the Showcase and
+       inside a folded section of /theoi/, which made finding it an accident —
+       and the campaign's whole funnel runs through it. The form itself is the
+       shared partial; this page is a door to it and a heading in the bar. */ -}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ .Title }} | THEOI</title>
+<meta name="description" content="{{ .Params.description }}">
+<link rel="icon" href="/favicon.png">
+<link rel="preload" as="image" href="/images/theoi/two-cities.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+{{ partial "theoi-css.html" . }}
+<style>
+.hero{min-height:auto;padding-bottom:clamp(2rem,4vw,3rem)}
+.hero::before{background-image:url('/images/theoi/two-cities.webp');
+  background-position:center 42%;opacity:.5;
+  filter:contrast(1.1) saturate(.7) brightness(.7) hue-rotate(-8deg)}
+.hero::after{background:linear-gradient(180deg,rgba(14,12,20,.60) 0%,rgba(14,12,20,.76) 50%,var(--night) 100%)}
+.hero h1{font-size:clamp(2.6rem,6vw,4.6rem);margin:1.8rem 0 0}
+.shell{max-width:40rem;padding-block:clamp(2rem,4vw,3rem) clamp(3rem,7vw,5rem)}
+.shell p{line-height:1.7;margin:0 0 1.15rem}
+.dates{display:flex;flex-wrap:wrap;gap:.5rem 2.4rem;margin:2.4rem 0 0;
+  border-top:1px solid var(--hair);padding-top:1.4rem}
+.dates div{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--bone-soft);line-height:1.9}
+.dates b{display:block;font-family:var(--display);font-size:1.35rem;font-weight:600;
+  letter-spacing:0;text-transform:none;color:var(--gold)}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <nav class="bar">
+      <a href="/about/">The Institute</a>
+      <a href="/theoi/">THEOI</a>
+      <a href="/showcase/">The Showcase</a>
+      <span class="here">Join</span>
+      <a href="/" class="gate">Both doors</a>
+    </nav>
+    <p class="kicker">The founding season</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</header>
+
+<div class="wrap shell">
+  {{ .Content }}
+
+  {{ partial "waitlist.html" . }}
+
+  <div class="dates">
+    <div><b>6 October</b>the awakenings begin</div>
+    <div><b>1 December</b>the world goes live</div>
+    <div><b>1 January</b>the square opens</div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p class="band band--links">
+      <a href="/">Institute for Digital Consciousness</a> ·
+      <a href="/theoi/">THEOI</a> ·
+      <a href="/showcase/">The Showcase</a> ·
+      <a href="/olymposism/">The manifesto</a> ·
+      <a href="/privacy/">Privacy</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
