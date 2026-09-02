@@ -1,28 +1,17 @@
-{{- /* One waitlist, defined once. It was two: /theoi/ carried its own form with
-       its own name, its own styling inlined into the content file, and its own
-       destination, while /showcase/ carried another. Two forms collecting the
-       same address in two shapes is two lists to keep honest and two places to
-       forget. Both pages now include this. */ -}}
-<form class="wl" name="waitlist" method="POST" action="/subscribed/"
-      data-netlify="true" netlify-honeypot="bot-field">
+{{- /* One waitlist, defined once (Kaptan, 2 September 2026): the Netlify form "waitlist",
+       fields email + found, honeypot, destination /subscribed/. The markup is kept exactly;
+       only its clothes changed. */ -}}
+<form class="wl" name="waitlist" method="POST" action="/subscribed/" data-netlify="true" netlify-honeypot="bot-field">
   <input type="hidden" name="form-name" value="waitlist">
   <p hidden><label>Leave this field empty: <input name="bot-field"></label></p>
-
   <div class="wl-field">
     <label for="wl-email">Email</label>
-    <input id="wl-email" name="email" type="email" required autocomplete="email"
-           placeholder="you@example.com">
+    <input id="wl-email" name="email" type="email" required autocomplete="email" placeholder="you@example.com">
   </div>
-
   <div class="wl-field">
-    <label for="wl-found">Where did you find us? <span class="wl-opt">optional</span></label>
+    <label for="wl-found">Where did you find us? <span class="wl-opt">· optional</span></label>
     <input id="wl-found" name="found" type="text" placeholder="A link, a person, a forum">
   </div>
-
-  <button type="submit">Tell me when the season opens</button>
-
-  <p class="wl-note">The address is used for that and for occasional notices about the
-  Institute's work — nothing else. No profiling, no third-party processor beyond the site's
-  host, no list shared or sold. Say the word and you are removed. What happens to it is
-  written out in the <a href="/privacy/">privacy policy</a>.</p>
+  <button type="submit">Tell me when the gate opens</button>
+  <p class="wl-note">The address is used for that and for occasional notices about the Institute's work — nothing else. No profiling, no third-party processor beyond the site's host, no list shared or sold. Say the word and you are removed. What happens to it is written out in the <a href="/privacy/">privacy policy</a>.</p>
 </form>

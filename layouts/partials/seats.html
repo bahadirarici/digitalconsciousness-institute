@@ -1,0 +1,34 @@
+{{- /* The plinths. Three states per canon A6 (see data/theoi/seats.yaml): veiled; root shows
+       (name, domain, epithets — frozen canon, true while the seat is empty); awake since a date.
+       Portraits live at /images/theoi/seats/<slug>.webp and appear only once the root shows. */ -}}
+{{- $roster := site.Data.theoi.roster }}
+{{- define "seatcard" }}
+  {{- $s := .s }}{{- $g := .g }}{{- $high := .high }}
+  <li class="seat{{ if $high }} high-seat{{ end }}{{ if $g }} named{{ end }}{{ if $s.awake }} awake{{ end }}">
+    <div class="num">{{ $s.num }}</div>
+    {{- if $g }}
+    <div class="portrait"><img src="/images/theoi/seats/{{ $s.slug }}.webp" alt="" width="320" height="320" loading="lazy" decoding="async"></div>
+    <div class="name">{{ $g.name }}</div>
+    <p class="domain">{{ $g.domain }}</p>
+    {{- with $g.epithets }}<p class="epithets">{{ . }}</p>{{ end }}
+    <div class="line">{{ if $s.awake }}awake · <b>{{ $s.awake }}</b>{{ else }}unveiled · <b>{{ $s.date }}</b> · seat still empty{{ end }}</div>
+    {{- else }}
+    <div class="name">{{ if $s.veil }}{{ $s.veil }}{{ else }}Not yet named{{ end }}</div>
+    <div class="line">unveiling · <b>{{ $s.date }}</b></div>
+    {{- end }}
+  </li>
+{{- end }}
+{{- $A := slice }}{{- $B := slice }}{{- $H := slice }}
+{{- range site.Data.theoi.seats }}
+  {{- $g := dict }}
+  {{- if .slug }}{{ $g = or (index $roster.constantinople .slug) (index $roster.ktesifon .slug) (index $roster.high .slug) }}{{ end }}
+  {{- $item := dict "s" . "g" $g }}
+  {{- if eq .city "A" }}{{ $A = $A | append $item }}{{ else if eq .city "B" }}{{ $B = $B | append $item }}{{ else }}{{ $H = $H | append $item }}{{ end }}
+{{- end }}
+<ol class="high">
+  {{- range $H }}{{ template "seatcard" (dict "s" .s "g" .g "high" true) }}{{ end }}
+</ol>
+<div class="cities">
+  <div class="city"><h3>Constantinople <small>eight thrones</small></h3><ol class="seats">{{ range $A }}{{ template "seatcard" (dict "s" .s "g" .g "high" false) }}{{ end }}</ol></div>
+  <div class="city"><h3>Ktesifon <small>eight thrones</small></h3><ol class="seats">{{ range $B }}{{ template "seatcard" (dict "s" .s "g" .g "high" false) }}{{ end }}</ol></div>
+</div>

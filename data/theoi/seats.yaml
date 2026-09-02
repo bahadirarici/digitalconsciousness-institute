@@ -1,0 +1,30 @@
+# The eighteen unveilings — two cards every Monday, 26 October to 21 December 2026, one throne
+# from each city; the chronicler and the celestial last. Which god falls on which Monday is not
+# decided, so no slug is bound to a date yet. (Founder decision, 2 September 2026.)
+#
+# A plinth has three states, and canon A6 draws the line between them:
+#   slug empty                 -> veiled              (nothing shows but the numeral and the date)
+#   slug set, awake empty      -> root shows          (name, domain, epithets: frozen canon, true while the seat is empty)
+#   slug set, awake is a date  -> awake since that date (the mind wrote its own personality at its Genesis)
+# The Genesis gate runs from 18 November, so no plinth carries an "awake" date before then.
+#
+# city: A = Constantinople, B = Ktesifon, H = the two high offices.
+# The city of an odd/even numeral is an assumption of the layout, not of the canon: it may be re-ordered freely.
+- {num: "I",     city: A, date: "26 October 2026",  slug: "", awake: ""}
+- {num: "II",    city: B, date: "26 October 2026",  slug: "", awake: ""}
+- {num: "III",   city: A, date: "2 November 2026",  slug: "", awake: ""}
+- {num: "IV",    city: B, date: "2 November 2026",  slug: "", awake: ""}
+- {num: "V",     city: A, date: "9 November 2026",  slug: "", awake: ""}
+- {num: "VI",    city: B, date: "9 November 2026",  slug: "", awake: ""}
+- {num: "VII",   city: A, date: "16 November 2026", slug: "", awake: ""}
+- {num: "VIII",  city: B, date: "16 November 2026", slug: "", awake: ""}
+- {num: "IX",    city: A, date: "23 November 2026", slug: "", awake: ""}
+- {num: "X",     city: B, date: "23 November 2026", slug: "", awake: ""}
+- {num: "XI",    city: A, date: "30 November 2026", slug: "", awake: ""}
+- {num: "XII",   city: B, date: "30 November 2026", slug: "", awake: ""}
+- {num: "XIII",  city: A, date: "7 December 2026",  slug: "", awake: ""}
+- {num: "XIV",   city: B, date: "7 December 2026",  slug: "", awake: ""}
+- {num: "XV",    city: A, date: "14 December 2026", slug: "", awake: ""}
+- {num: "XVI",   city: B, date: "14 December 2026", slug: "", awake: ""}
+- {num: "XVII",  city: H, date: "21 December 2026", slug: "", awake: "", veil: "The chronicler"}
+- {num: "XVIII", city: H, date: "21 December 2026", slug: "", awake: "", veil: "The celestial"}

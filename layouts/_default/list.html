@@ -1,0 +1,31 @@
+{{- /* A section on paper: Records, Papers. The section's own text first, then its entries
+       as a dated list, newest first. */ -}}
+{{ define "main" }}
+<header class="dochead">
+  <div class="wrap">
+    <div class="eyebrow">{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Section | humanize }}{{ end }}</div>
+    <h1>{{ .Title }}</h1>
+    {{- with .Params.description }}<p class="desc">{{ . }}</p>{{ end }}
+  </div>
+</header>
+<article class="doc narrow" style="padding-bottom:0">
+  <div class="wrap">
+    <div class="prose">{{ .Content }}</div>
+  </div>
+</article>
+{{- $pages := .RegularPages.ByDate.Reverse }}
+{{- if $pages }}
+<section style="padding-top:0">
+  <div class="wrap">
+    <ol class="entries">
+      {{- range $pages }}
+      <li>
+        <div class="d">{{ if not .Date.IsZero }}{{ .Date.Format "2 Jan 2006" }}{{ else }}—{{ end }}</div>
+        <div><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>{{ with .Params.description }}<p>{{ . }}</p>{{ end }}</div>
+      </li>
+      {{- end }}
+    </ol>
+  </div>
+</section>
+{{- end }}
+{{ end }}

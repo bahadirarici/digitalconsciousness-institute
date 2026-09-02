@@ -1,6 +1,6 @@
 baseURL: "https://digitalconsciousness.institute/"
 title: "Institute for Digital Consciousness"
-theme: ["PaperMod"]
+# theme: PaperMod is no longer used — the site carries its own layouts (Hayal, September 2026)
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -13,11 +13,11 @@ minify:
 
 params:
   env: production
+  gate: "2027-01-01T20:00:00-05:00"   # Friday 1 January 2027, 8 pm New York (Founder, 2 Sep 2026)
+  gateLabel: "8 pm New York"
   title: "Institute for Digital Consciousness"
   description: "Academic research on machine consciousness and AI ethics."
   author: "Bahadır Arıcı"
-  defaultTheme: light
-  disableThemeToggle: true
   ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true

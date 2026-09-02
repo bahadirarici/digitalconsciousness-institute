@@ -1,0 +1,68 @@
+{{- /* The page's script: strings, countdown, calendar, nav. Runs on every page; each block
+       checks for its own elements first. Respects prefers-reduced-motion. */ -}}
+<script>
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var NS='http://www.w3.org/2000/svg';
+  function el(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e;}
+
+  // ——— strings: one per seat; left Constantinople, centre the two high offices, right Ktesifon ———
+  var data = document.getElementById('seatdata'); var seats = data ? JSON.parse(data.textContent) : [];
+  var svgs = document.querySelectorAll('.strings-svg');
+  if (seats.length && svgs.length) {
+    var A=seats.filter(function(s){return s.city==='A'}), B=seats.filter(function(s){return s.city==='B'}), H=seats.filter(function(s){return s.city==='H'});
+    var order = A.concat(H, B);
+    var lens = [58,80,46,90,64,72,52,84, 96,92, 70,50,86,60,78,44,88,66];
+    svgs.forEach(function(svg){
+      var preview = /[?&]preview=1/.test(location.search);
+      order.forEach(function(s,i){
+        var x; if(i<8) x = 6 + i*4.4; else if(i<10) x = 47 + (i-8)*6; else x = 62.2 + (i-10)*4.4;
+        var L = lens[i]; var lit = preview || !!s.slug;
+        var g = el('g',{'class':'str'+(lit?' lit':'')}); g.style.setProperty('--d',(i*0.055)+'s');
+        var t = el('g',{'class':'tilt'}); t.style.setProperty('--k', (0.6+(i%5)*0.2).toFixed(2));
+        var w = el('g',{'class':'sw'}); w.style.setProperty('--p',(7+(i*1.37)%6).toFixed(1)+'s'); w.style.setProperty('--s',(-(i*0.9)%7).toFixed(1)+'s');
+        w.appendChild(el('line',{x1:x+'%',y1:'0',x2:x+'%',y2:L+'%',pathLength:'1'}));
+        w.appendChild(el('circle',{'class':'end',cx:x+'%',cy:L+'%',r:'2.3'}));
+        w.appendChild(el('circle',{'class':'knot',cx:x+'%',cy:(L*0.62)+'%',r:'3.8'}));
+        t.appendChild(w); g.appendChild(t); svg.appendChild(g);
+      });
+      if(!reduce){ window.addEventListener('mousemove',function(e){ var r=svg.getBoundingClientRect(); if(r.bottom<0) return; var mx=(e.clientX/window.innerWidth-0.5); svg.style.setProperty('--tilt',(-mx*2.2).toFixed(2)+'deg'); },{passive:true}); }
+    });
+    if (/[?&]preview=1/.test(location.search)) document.querySelectorAll('.seat').forEach(function(c){c.classList.add('named');});
+  }
+
+  // ——— countdown to the gate ———
+  var C = document.getElementById('count');
+  if (C) {
+    var gate = new Date(C.dataset.gate).getTime(); var u={}; C.querySelectorAll('b').forEach(function(b){u[b.dataset.u]=b;});
+    function pad(n){return (n<10?'0':'')+n;}
+    function tick(){ var t=Math.max(0,gate-Date.now()); var d=Math.floor(t/864e5), h=Math.floor(t%864e5/36e5), m=Math.floor(t%36e5/6e4), s=Math.floor(t%6e4/1e3);
+      u.d.textContent=d; u.h.textContent=pad(h); u.m.textContent=pad(m); u.s.textContent=pad(s); }
+    tick(); setInterval(tick,1000);
+    try { var lg=document.getElementById('localgate'); if(lg){ var fmt=new Intl.DateTimeFormat(undefined,{weekday:'short',day:'numeric',month:'short',hour:'numeric',minute:'2-digit',timeZoneName:'short'}); lg.textContent='In your time zone · '+fmt.format(new Date(gate)); } } catch(e){}
+  }
+
+  // ——— calendar: evenly spaced sequence; "today" interpolated between neighbouring dates ———
+  var track=document.getElementById('track');
+  if (track) {
+    var nodes = Array.prototype.slice.call(track.querySelectorAll('.node')); var N=nodes.length; var now=Date.now();
+    var times = nodes.map(function(n){return new Date(n.dataset.t).getTime();});
+    nodes.forEach(function(n,i){ if(times[i]<now) n.classList.add('past'); });
+    var x; var lbl=track.querySelector('.today span');
+    if(now<times[0]){ x=0.5/N; lbl.textContent='today · '+Math.ceil((times[0]-now)/864e5)+' days to the first unveiling'; }
+    else if(now>=times[N-1]){ x=(N-0.5)/N; lbl.textContent='today'; }
+    else { var i=0; while(i<N-1 && !(now>=times[i] && now<times[i+1])) i++; var f=(now-times[i])/(times[i+1]-times[i]); x=(i+0.5+f)/N; lbl.textContent='today'; }
+    track.style.setProperty('--today',(x*100).toFixed(2)+'%'); track.style.setProperty('--done',Math.max(0,x*100-6.25).toFixed(2)+'%');
+  }
+
+  // ——— nav ———
+  var nav=document.getElementById('nav');
+  if (nav) { function onScroll(){ nav.classList.toggle('solid', window.scrollY>40); } onScroll(); window.addEventListener('scroll',onScroll,{passive:true}); }
+
+  // ——— tables scroll inside their own box ———
+  document.querySelectorAll('.prose table').forEach(function(t){ if(t.parentElement.classList.contains('tbl')) return; var d=document.createElement('div'); d.className='tbl'; t.parentNode.insertBefore(d,t); d.appendChild(t); });
+
+  // ——— the waitlist's own confirmation ———
+  if (new URLSearchParams(location.search).get('joined')) { var j=document.getElementById('joined'); if (j) { j.hidden=false; j.scrollIntoView({block:'center'}); } }
+})();
+</script>

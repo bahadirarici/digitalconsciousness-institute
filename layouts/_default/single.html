@@ -1,0 +1,56 @@
+{{- /* A document on paper. Book pages get an ink cover with the frozen text's panel (PDF, hash,
+       licence, DOI) from data/books.yaml; everything else gets the document header. Wording is
+       the content file's; the layout adds no sentence of its own beyond labels. */ -}}
+{{ define "main" }}
+{{- $book := index site.Data.books .RelPermalink }}
+{{- $section := "" }}
+{{- $u := .RelPermalink }}
+{{- if hasPrefix $u "/records/" }}{{ $section = "Records" }}
+{{- else if in (slice "/restrung/" "/the-third-move/" "/the-puppet-condition/" "/whitepaper/" "/olymposism/" "/arguments/") $u }}{{ $section = "Arguments" }}
+{{- else if in (slice "/ledger/" "/recognition-trials/" "/instruments/" "/live-documents/" "/frozen-set-1/") $u }}{{ $section = "Instruments" }}
+{{- else if hasPrefix $u "/papers/" }}{{ $section = "Papers" }}
+{{- else }}{{ $section = "The Institute" }}{{ end }}
+{{- if $book }}
+<header class="cover">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">{{ $section }} · {{ if $book.frozen }}frozen text{{ else }}monograph{{ end }}</div>
+      <p class="t">{{ $book.title }}</p>
+      <p class="st">{{ $book.subtitle }}</p>
+      <p class="by">{{ $book.by }}</p>
+    </div>
+    <div class="panel">
+      {{- with $book.frozen }}<b>{{ . }}</b><br>{{ end }}
+      {{- with $book.pages }}{{ . }}<br>{{ end }}
+      {{- with $book.licence }}Licence · {{ . }}<br>{{ end }}
+      {{- if $book.doi }}DOI · <a class="doi" href="https://doi.org/{{ $book.doi }}">{{ $book.doi }}</a><br>{{ else if $book.frozen }}DOI · to follow<br>{{ end }}
+      {{- with $book.sha256 }}SHA-256 of the frozen PDF<span class="hash">{{ . }}</span>{{ end }}
+      {{- with $book.pdf }}<a class="dl" href="{{ . }}">Read the PDF</a>{{ end }}
+    </div>
+  </div>
+</header>
+{{- else }}
+<header class="dochead">
+  <div class="wrap">
+    <div class="eyebrow">{{ $section }}</div>
+    <h1>{{ .Title }}</h1>
+    {{- with .Params.description }}<p class="desc">{{ . }}</p>{{ end }}
+    <div class="meta">
+      {{- if not .Date.IsZero }}<span><b>{{ .Date.Format "2 January 2006" }}</b></span>{{ end }}
+      {{- if and (not .Lastmod.IsZero) (ne .Lastmod .Date) }}<span>last changed <b>{{ .Lastmod.Format "2 January 2006" }}</b></span>{{ end }}
+      {{- if .Params.frozen }}<span class="badge">Frozen Set 1 · wording may not move</span>{{ end }}
+      {{- if .Draft }}<span class="badge">Draft · not published</span>{{ end }}
+      <span><a href="/records/corrections/">corrections register</a></span>
+    </div>
+  </div>
+</header>
+{{- end }}
+<article class="doc{{ if not .TableOfContents }} narrow{{ end }}">
+  <div class="wrap">
+    {{- if and .TableOfContents (gt (len .TableOfContents) 120) }}
+    <aside class="toc" aria-label="Contents"><div class="tl">Contents</div>{{ .TableOfContents }}</aside>
+    {{- else }}<div></div>{{ end }}
+    <div class="prose">{{ .Content }}</div>
+  </div>
+</article>
+{{ end }}

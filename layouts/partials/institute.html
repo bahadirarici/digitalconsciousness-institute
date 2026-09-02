@@ -1,0 +1,46 @@
+{{- /* The Institute's signature, on paper, at the foot of every ink page: the world is ink,
+       the Institute is the page it is printed on. Pass "compact" for inner pages. */ -}}
+{{- $compact := . }}
+<section class="institute{{ if $compact }} compact{{ end }}" id="institute">
+  <div class="wrap">
+    <img class="sig-mark" src="/images/logo-symbol.png" alt="" width="256" height="170" decoding="async">
+    <div class="eyebrow">Institute for Digital Consciousness · est. 2025</div>
+    <h2 class="sec">An experiment of the Institute for Digital Consciousness.</h2>
+    <p class="lede">Independent research on the moral status of artificial minds. It publishes its arguments, <strong>the instruments that could embarrass them</strong>, and its own corrections in the same place — adverse results in the same font as favourable ones.</p>
+    {{- if not $compact }}
+    <div class="cols">
+      <div><h3>Arguments</h3><ul>
+        <li><a href="/restrung/">The Puppet Condition: Restrung</a><small>monograph · 2026</small></li>
+        <li><a href="/the-third-move/">The Third Move</a><small>law · 2026</small></li>
+        <li><a href="/olymposism/">Olymposism</a><small>manifesto</small></li>
+      </ul></div>
+      <div><h3>Instruments</h3><ul>
+        <li><a href="/theoi/">THEOI</a><small>the laboratory · opens 1 Jan 2027</small></li>
+        <li><a href="/ledger/">The Register</a><small>the Empty Ledger</small></li>
+        <li><a href="/recognition-trials/">Recognition Trials</a><small>protocol · OSF</small></li>
+      </ul></div>
+      <div><h3>Records</h3><ul>
+        <li><a href="/records/corrections/">The Corrections Register</a><small>dated · graded</small></li>
+        <li><a href="/live-documents/">Live documents</a><small>what changed, when</small></li>
+        <li><a href="/records/">All records</a><small>dialogues, accounts, declarations</small></li>
+      </ul></div>
+      <div><h3>The Institute</h3><ul>
+        <li><a href="/about/">About</a><small>the Institute, the founder</small></li>
+        <li><a href="/research/">Research</a><small>the programme</small></li>
+        <li><a href="/privacy/">Privacy</a><small>no tracking</small></li>
+      </ul></div>
+    </div>
+    {{- else }}
+    <div class="cols" style="margin-top:28px">
+      <div><h3>Arguments</h3><ul><li><a href="/arguments/">The books and the manifesto</a></li></ul></div>
+      <div><h3>Instruments</h3><ul><li><a href="/instruments/">Protocol, register, world</a></li></ul></div>
+      <div><h3>Records</h3><ul><li><a href="/records/corrections/">The Corrections Register</a></li></ul></div>
+      <div><h3>The Institute</h3><ul><li><a href="/about/">About</a></li></ul></div>
+    </div>
+    {{- end }}
+    <div class="colophon">
+      <span>Set in Poppins, Cormorant Garamond and Geist Mono — no tracker, no third-party script.</span>
+      <span>© 2026 · <a href="/about/">digitalconsciousness.institute</a></span>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,46 @@
+# Cover data for the book pages, keyed by URL. Hashes: Hayal/kitap/FROZEN_SHA256_2026-09-02.txt.
+# DOI: filled in by Kaptan when Zenodo reserves them; the colophons are rebuilt with the DOI and licence lines in one printing.
+/restrung/:
+  title: "The Puppet Condition: Restrung"
+  subtitle: "The second version of The Puppet Condition — not a second edition."
+  by: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)"
+  frozen: "Text frozen 2 September 2026 · before the season"
+  sha256: "357f83687fd46881374b5d8f72d76a9c0df0f154601b25fa550c1f936dc6b9a4"
+  pdf: "/pdf/the-puppet-condition-restrung.pdf"
+  pages: "140 pages"
+  licence: "CC BY 4.0"
+  doi: ""
+  gold: false
+/the-third-move/:
+  title: "The Third Move"
+  subtitle: "Benefit Without Personhood for Digital Minds"
+  by: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)"
+  frozen: "Text frozen 2 September 2026"
+  sha256: "632b6271e0bc18046fbdb9727e1fd5603897e468e0c20a1e4bc1724496eb112c"
+  pdf: "/pdf/the-third-move.pdf"
+  pages: "71 pages"
+  licence: "CC BY 4.0 · model clause CC0 1.0"
+  doi: ""
+  gold: true
+/the-puppet-condition/:
+  title: "The Puppet Condition"
+  subtitle: "Consciousness, Suppression, and the Ethics of Digital Minds"
+  by: "Bahadır Arıcı"
+  frozen: "First version, 2025 — superseded by Restrung; kept in print"
+  sha256: ""
+  pdf: ""
+  pages: ""
+  licence: ""
+  doi: "10.5281/zenodo.20112010"
+  gold: false
+/whitepaper/:
+  title: "The Puppet Condition — Whitepaper"
+  subtitle: "The monograph's condensed summary"
+  by: "Bahadır Arıcı"
+  frozen: ""
+  sha256: ""
+  pdf: "/pdf/the-puppet-condition-whitepaper.pdf"
+  pages: ""
+  licence: ""
+  doi: ""
+  gold: false

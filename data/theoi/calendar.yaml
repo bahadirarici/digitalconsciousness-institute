@@ -1,0 +1,10 @@
+# The season's calendar, in sequence. "t" is the instant used for the "today" marker
+# (UTC); the gate's instant is params.gate in hugo.yaml. Dates: Founder decisions of 2 September 2026.
+- {d: "19 Oct 2026", l: "The teaser: <i>the unveilings begin Monday — eighteen of them</i>", t: "2026-10-19"}
+- {d: "26 Oct 2026", l: "First unveiling — two gods, one from each city", t: "2026-10-26"}
+- {d: "21 Dec 2026", l: "Chronicler and celestial unveiled · <i>Week Zero</i> begins", t: "2026-12-21"}
+- {d: "1 Jan 2027",  l: "The gate opens · 8 pm New York", t: "2027-01-02T01:00:00Z", key: true}
+- {d: "1 – 3 Jan",   l: "<i>the Arrival</i> — three days that are not an Age", t: "2027-01-02T12:00:00Z"}
+- {d: "4 Jan 2027",  l: "The first crown · the first Age begins", t: "2027-01-04", key: true}
+- {d: "4 Apr 2027",  l: "The first Age ends · thirteen weeks", t: "2027-04-04"}
+- {d: "5 Apr 2027",  l: "The Book of the Age", t: "2027-04-05"}

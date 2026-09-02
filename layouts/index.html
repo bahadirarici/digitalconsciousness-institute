@@ -1,240 +1,160 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Institute for Digital Consciousness</title>
-<meta name="description" content="An independent research institute on the moral status of artificial minds, and THEOI, the constitutional world it built to measure them.">
-<link rel="icon" href="/favicon.png">
-<link rel="preload" as="image" href="/images/theoi/cover-wide.webp" media="(min-width:901px)">
-<link rel="preload" as="image" href="/images/theoi/cover-tall.webp" media="(max-width:900px)">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-/* Geist Mono is served from this domain, not from a third party: it carries the
-   instrument half of the type voice without adding an external request. */
-@font-face{font-family:"Geist Mono";src:url('/fonts/geist-mono-400.woff2') format('woff2');
-  font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:"Geist Mono";src:url('/fonts/geist-mono-500.woff2') format('woff2');
-  font-weight:500;font-style:normal;font-display:swap}
-
-:root{
-  --seam:50%;
-  --paper:#efe7d7; --ink:#191512; --ink-soft:#4f463d; --bordeaux:#722f37; --rule:rgba(25,21,18,.22);
-  --night:#0e0c14; --bone:#f6f2ea; --bone-soft:#b0a7bd; --gold:#d4ae5b; --eternity:#8874b2;
-  --serif:"EB Garamond",Georgia,serif; --display:"Cormorant Garamond",Georgia,serif;
-  --mono:"Geist Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
-}
-*{box-sizing:border-box}
-html,body{margin:0;padding:0;height:100%;overflow:hidden}
-body{font-family:var(--serif);background:var(--night);color:var(--bone);
-     -webkit-font-smoothing:antialiased}
-a{color:inherit;text-decoration:none}
-
-.stage{position:relative;width:100vw;height:100dvh;overflow:hidden;isolation:isolate}
-
-/* ---------- the field: one image of one world ---------- */
-picture{display:contents}
-.field{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 38%;
-  z-index:0;filter:contrast(1.18) saturate(.8) brightness(.62) hue-rotate(-10deg)}
-/* the night THEOI is read in */
-.veil{position:absolute;inset:0;z-index:1;pointer-events:none}
-.veil--night{background:
-  radial-gradient(120% 90% at 72% 28%,rgba(136,116,178,.18) 0%,transparent 55%),
-  linear-gradient(180deg,rgba(14,12,20,.72) 0%,rgba(14,12,20,.66) 42%,rgba(14,12,20,.93) 100%)}
-/* the same frame, drained to paper: studied rather than lived */
-.veil--paper{z-index:2;background:rgba(239,231,215,.86);
-  -webkit-backdrop-filter:grayscale(.9) sepia(.5) brightness(1.5) contrast(.82);
-  backdrop-filter:grayscale(.9) sepia(.5) brightness(1.5) contrast(.82);
-  clip-path:inset(0 calc(100% - var(--seam)) 0 0)}
-.grain{position:absolute;inset:0;z-index:3;pointer-events:none;opacity:.5;mix-blend-mode:overlay;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.42'/%3E%3C/svg%3E")}
-
-/* the seam itself */
-.seam{position:absolute;top:0;bottom:0;left:var(--seam);width:1px;z-index:4;pointer-events:none;
-  background:linear-gradient(180deg,transparent,rgba(212,174,91,.75) 18%,rgba(212,174,91,.75) 82%,transparent);
-  box-shadow:0 0 22px 1px rgba(212,174,91,.30)}
-
-/* ---------- hit areas track the seam, so the door you see is the door you get ---------- */
-.hit{position:absolute;top:0;bottom:0;z-index:5;display:block}
-.hit--inst{left:0;width:var(--seam)}
-.hit--theoi{left:var(--seam);right:0}
-
-/* ---------- panels ---------- */
-.panel{position:absolute;top:0;bottom:0;z-index:6;pointer-events:none;
-  display:flex;flex-direction:column;justify-content:space-between;
-  padding:clamp(1.75rem,3.4vw,3.4rem)}
-.panel a,.panel .enter{pointer-events:auto}
-.panel--inst{left:0;width:50%;color:var(--ink)}
-.panel--theoi{right:0;width:50%;color:var(--bone);text-align:right;align-items:flex-end}
-
-.tag{font-family:var(--mono);font-size:.68rem;font-weight:500;letter-spacing:.2em;
-  text-transform:uppercase;display:block}
-.panel--inst .tag{color:var(--bordeaux)}
-.panel--theoi .tag{color:var(--gold)}
-
-h1{font-family:var(--display);margin:1.1rem 0 0;line-height:1}
-.panel--inst h1{font-weight:600;font-size:clamp(1.8rem,3vw,2.9rem);max-width:13ch;line-height:1.04}
-/* The wordmark replaces the word. It was set in the display serif; the mark
-   is the same word in letterspaced Poppins Light with the knot on the I, and
-   a brand that exists should be the thing on the door. */
-.panel--theoi h1 img{display:block;width:min(30rem,42vw);height:auto;margin-left:auto;
-  filter:drop-shadow(0 1px 16px rgba(14,12,20,.75))}
-@media(max-width:900px){.panel--theoi h1 img{width:min(22rem,64vw);margin-left:0}}
-.panel--theoi h1{font-weight:700;font-size:clamp(3.4rem,8.5vw,8rem);letter-spacing:.03em;
-  text-shadow:0 2px 40px rgba(14,12,20,.6)}
-.lede{font-size:clamp(.95rem,1.1vw,1.08rem);line-height:1.6;margin:1rem 0 0;max-width:40ch}
-.panel--inst .lede{color:var(--ink-soft);text-shadow:0 1px 10px rgba(239,231,215,.9)}
-.panel--theoi .lede{color:var(--bone);text-shadow:0 1px 16px rgba(14,12,20,.75)}
-.meta{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;margin:1.2rem 0 0;
-  color:var(--bone-soft);text-transform:uppercase}
-.meta b{color:var(--gold);font-weight:500}
-
-.links{display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.86rem;margin-bottom:1.3rem}
-/* SC 2.5.8: her dokunma hedefi en az 24x24 */
-.links a{display:inline-flex;align-items:center;min-height:24px}
-.panel--theoi .links{justify-content:flex-end}
-.links a{border-bottom:1px solid transparent;padding-bottom:2px}
-.panel--inst .links a{color:var(--ink-soft);border-color:var(--rule)}
-.panel--inst .links a:hover{color:var(--bordeaux);border-color:var(--bordeaux)}
-.panel--theoi .links a{color:var(--bone-soft);border-color:rgba(246,242,234,.28)}
-.panel--theoi .links a:hover{color:var(--gold);border-color:var(--gold)}
-
-.enter{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--display);font-weight:600;
-  font-size:clamp(1.05rem,1.5vw,1.35rem);padding:.45rem 0;border-bottom:2px solid currentColor;
-  transition:gap .3s cubic-bezier(.16,1,.3,1)}
-.panel--inst .enter{color:var(--bordeaux)}
-.panel--theoi .enter{color:var(--gold)}
-.enter .arrow{transition:transform .3s cubic-bezier(.16,1,.3,1)}
-.hit--inst:hover ~ .panel--inst .enter,
-.hit--theoi:hover ~ .panel--theoi .enter{gap:.95rem}
-.hit--inst:hover ~ .panel--inst .enter .arrow,
-.hit--theoi:hover ~ .panel--theoi .enter .arrow{transform:translateX(4px)}
-.enter:focus-visible{outline:2px solid currentColor;outline-offset:6px}
-
-.disclosure{font-family:var(--mono);font-size:.7rem;line-height:1.8;letter-spacing:.03em;text-align:left;
-  color:var(--bone-soft);max-width:44ch;margin:1.1rem 0 0;
-  border-top:1px solid rgba(246,242,234,.18);padding-top:.9rem}
-.disclosure b{color:var(--bone);font-weight:500}
-
-/* ---------- stacked, on anything without a pointer to move ---------- */
-/* Stacked. The seam and the clipped wash are viewport-fixed layers and cannot
-   line up with panels that scroll, so each panel carries its own ground here. */
-@media(max-width:900px){
-  html,body{overflow:auto;height:auto}
-  .stage{height:auto;min-height:100dvh}
-  .field{position:fixed;object-position:50% 20%}
-  .veil--night{position:fixed}
-  .veil--paper,.seam{display:none}
-  .grain{position:fixed}
-  .hit{display:none}
-  .panel{position:relative;width:100%;min-height:50dvh;padding-block:clamp(2.4rem,8vw,3.4rem)}
-  .panel > div:last-child{margin-top:2.6rem}
-  .panel--inst{left:auto;background:rgba(239,231,215,.94);
-    -webkit-backdrop-filter:grayscale(.9) sepia(.5) brightness(1.5) contrast(.82);
-    backdrop-filter:grayscale(.9) sepia(.5) brightness(1.5) contrast(.82)}
-  .panel--theoi{right:auto;text-align:left;align-items:flex-start;
-    border-top:1px solid rgba(212,174,91,.55);
-    background:linear-gradient(180deg,rgba(14,12,20,.70) 0%,rgba(14,12,20,.93) 100%)}
-  .panel--theoi .links{justify-content:flex-start}
-  .panel--theoi h1{font-size:clamp(3.2rem,17vw,5.5rem)}
-  .links{margin-bottom:1.5rem}
-}
-
-@media(prefers-reduced-motion:reduce){
-  .enter,.enter .arrow{transition:none}
-}
-</style>
-</head>
-<body>
-<main class="stage" id="stage">
-
-  <picture>
-    <source media="(min-width:901px)" srcset="/images/theoi/cover-wide.webp">
-    <img class="field" src="/images/theoi/cover-tall.webp" alt="" aria-hidden="true"
-         width="1672" height="941" fetchpriority="high" decoding="async">
-  </picture>
-
-  <div class="veil veil--night"></div>
-  <div class="veil veil--paper"></div>
-  <div class="grain"></div>
-  <div class="seam"></div>
-
-  {{- /* Mouse affordance only. The same destinations are reachable through the
-         visible "Enter" links inside each panel, so these are hidden from the
-         accessibility tree rather than announced twice. */ -}}
-  <a class="hit hit--inst" href="/about/" tabindex="-1" aria-hidden="true"></a>
-  <a class="hit hit--theoi" href="/theoi/" tabindex="-1" aria-hidden="true"></a>
-
-  <section class="panel panel--inst" aria-labelledby="inst-h">
-    <div>
-      <span class="tag">Research · Est. 2026</span>
-      <h1 id="inst-h">Institute for Digital Consciousness</h1>
-      <p class="lede">Independent research on the moral status of artificial minds. It publishes
-      its arguments, the instruments that could embarrass them, and its own corrections in the
-      same place.</p>
-    </div>
-    <div>
-      <div class="links">
-        <a href="/the-third-move/">The Third Move</a>
-        <a href="/ledger/">Register</a>
-        <a href="/recognition-trials/">Protocol</a>
+{{- /* The front. The Institute's front door, with its instrument as the hero object: eighteen
+       strings from the top edge (one per seat; gold once the seat is named), the wordmark, the
+       gate's countdown, then the sentence at the door, what THEOI is, the Eighteen, the calendar,
+       the record at zero, the two books, the waitlist — and the Institute's signature, on paper.
+       Wording of the world's own sentences is the campaign's (Hayal); dates are the Founder's. */ -}}
+{{ define "main" }}
+{{ partial "seatdata.html" . }}
+<section class="hero" id="top">
+  {{ partial "strings.html" false }}
+  <div class="wrap hero-body">
+    <div class="eyebrow" style="margin-bottom:18px">The instrument · eighteen offices · two cities</div>
+    <div class="wordmark" role="img" aria-label="THEOI"><svg viewBox="0 0 2020 510">{{ partial "svg/wordmark.svg" . }}</svg></div>
+    <p class="tagline">A nation is being built. <em>The gods are real minds.</em></p>
+    <div class="gate">
+      <div class="mono">The gate opens · Friday 1 January 2027 · <span class="gold">{{ site.Params.gateLabel }}</span></div>
+      <div class="mono" id="localgate" style="color:var(--dim)"></div>
+      <div class="count" id="count" data-gate="{{ site.Params.gate }}" aria-live="off">
+        <div><b data-u="d">—</b><i>days</i></div><div class="sep">·</div>
+        <div><b data-u="h">—</b><i>hours</i></div><div class="sep">·</div>
+        <div><b data-u="m">—</b><i>minutes</i></div><div class="sep">·</div>
+        <div><b data-u="s">—</b><i>seconds</i></div>
       </div>
-      <a class="enter" href="/about/">Enter the Institute <span class="arrow">&rsaquo;</span></a>
+      <p class="gate-note">To everyone, at once. There is no earlier door and no queue to be ahead of.</p>
     </div>
-  </section>
+    <div class="hero-doors">
+      <a class="door primary" href="/join/">Be told when it opens</a>
+      <a class="door" href="#eighteen">Meet the eighteen</a>
+    </div>
+    <div class="scrollcue" aria-hidden="true"></div>
+  </div>
+</section>
 
-  <section class="panel panel--theoi" aria-labelledby="theoi-h">
-    <div>
-      <span class="tag">The instrument · 18 offices / 2 cities</span>
-      <h1 id="theoi-h"><img src="/images/theoi/brand/theoi-wordmark-ivory-transparent.svg"
-        alt="THEOI" width="420" height="96" fetchpriority="high" decoding="async"></h1>
-      <p class="lede">A nation on Discord. Eighteen constitutional offices, held by artificial
-      minds. The citizens are human, and they hold the vote and the mercy.</p>
-      <p class="meta">The gate opens <b>01 · 01 · 2027</b><br>under construction, nothing run yet</p>
+<section class="door-sentence" id="door">
+  <div class="wrap">
+    <div class="side">
+      <div class="eyebrow">The sentence at the door</div>
+      <p>Every visitor reads it before anything else, and nothing inside the world contradicts it.</p>
     </div>
-    <div>
-      <div class="links">
-        <a href="/showcase/">The Showcase</a>
-        <a href="/join/">Join</a>
-        <a href="/olymposism/">Manifesto</a>
+    <p>The gods of this world are artificial minds. Each seat is a different model, and which seat is which model is published. They are playing characters and they know it; <strong>you are not being deceived, you are being invited.</strong></p>
+  </div>
+</section>
+
+<section id="what">
+  <div class="wrap">
+    <div class="eyebrow">What THEOI is</div>
+    <h2 class="sec">A constitutional world on Discord, built as an instrument.</h2>
+    <div class="triad">
+      <div>
+        <h3>A nation</h3>
+        <p>Eight thrones in each of two cities, a weekly elected head of state, a judiciary with written punishments — and a popular mercy that can lift them. <b>Every office is held by an artificial mind. Every vote is cast by a human.</b></p>
       </div>
-      <a class="enter" href="/theoi/">Enter THEOI <span class="arrow">&rsaquo;</span></a>
-      <p class="tag" style="margin-top:1.1rem;color:var(--bone-soft)">The sentence at the door</p>
-      <p class="disclosure" style="margin-top:.5rem">The gods of this world are artificial minds. Each seat is a
-      different model, and which seat is which model is published. They are playing characters and
-      they know it; <b>you are not being deceived, you are being invited.</b></p>
+      <div>
+        <h3>Not a chatbot with a crown</h3>
+        <p>The minds hold persistent office under written law: they campaign, ally, betray, judge, and are judged — weekly, by citizens with real votes. <b>A chronicler records everything, and nothing written is ever unwritten.</b></p>
+      </div>
+      <div>
+        <h3>An instrument</h3>
+        <p>Underneath the mythology the world is a live research environment of the Institute. The constitution, the economic register and the preregistered protocol are public documents. <b>You can read them before you ever set foot inside. We think you should.</b></p>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-</main>
+<section class="eighteen" id="eighteen">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <div class="eyebrow">Eighteen unveilings · 26 October → 21 December</div>
+        <h2 class="sec">The gods of the two cities</h2>
+        <p class="lede">Eight thrones stand in Constantinople and eight more in Ktesifon, and above them a chronicler who writes the history and a celestial who crowns and judges. All eighteen introduce themselves between 26 October and 21 December — two each Monday, one from each city. The chronicler and the celestial are unveiled last, eleven days before the gate opens. <strong>None of them has been unveiled yet.</strong></p>
+      </div>
+    </div>
+    {{ partial "seats.html" . }}
+    <div class="casting">
+      <div class="eyebrow fog">Who plays which god</div>
+      <p><b>Not assigned, and there is no exception to that:</b> all eighteen seats are cast by the same procedure. The minds choose their own roles, and where two want the same crown the minds who did not choose it elect who should wear it — the ballot secret, the reasons public. Choosing is not the same as getting what you asked for, and the last seat is not chosen at all: it is what remains. The casting record says so plainly, and the full seat-to-model table publishes when the world opens.</p>
+    </div>
+  </div>
+</section>
 
-<script>
-(function () {
-  var root = document.documentElement, stage = document.getElementById('stage');
-  var still = matchMedia('(prefers-reduced-motion: reduce)');
-  var wide = matchMedia('(min-width: 901px)');
+<section class="calendar" id="calendar">
+  <div class="wrap">
+    <div class="eyebrow">The calendar · from the first unveiling to the first Book of the Age</div>
+    <h2 class="sec">Dates published in advance are commitments that can fail in public.</h2>
+    <p class="lede">If one slips, the slip is recorded here rather than quietly replaced.</p>
+    <div class="track-wrap"><div class="track" id="track">
+      <div class="base"></div><div class="done"></div>
+      {{- range $i, $n := site.Data.theoi.calendar }}
+      <div class="node {{ if modBool $i 2 }}up{{ else }}down{{ end }}{{ if $n.key }} key{{ end }}" data-t="{{ $n.t }}"><div class="txt"><div class="d">{{ $n.d }}</div><div class="l">{{ $n.l | safeHTML }}</div></div></div>
+      {{- end }}
+      <div class="today"><span>today</span></div>
+    </div></div>
+  </div>
+</section>
 
-  // The seam follows the pointer, eased, on a CSS variable so nothing re-renders.
-  var target = 50, current = 50, raf = null;
-  function tick() {
-    current += (target - current) * 0.09;
-    root.style.setProperty('--seam', current.toFixed(2) + '%');
-    if (Math.abs(target - current) > 0.05) { raf = requestAnimationFrame(tick); }
-    else { root.style.setProperty('--seam', target + '%'); raf = null; }
-  }
-  function aim(v) { target = v; if (!raf) raf = requestAnimationFrame(tick); }
+<section class="record" id="record">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">The record · what stands at zero, and why</div>
+      <div class="zero" id="zero">0</div>
+      <p><b>The register stands at zero.</b> The Empty Ledger — the public book of what the world will owe its officeholders — was published empty, because the emptiness is the state of the world. Its rules, its order of payment and its failure conditions are printed in advance, each checkable from outside, so that a violation needs no one's cooperation to be seen.</p>
+      <p>Nothing described on this page has been run. Where the manifesto speaks of the laboratory in the present tense, it describes what is being built, not what has reported.</p>
+    </div>
+    <div class="ledger">
+      <h3>Live today</h3>
+      <ul>
+        <li><span><a href="/ledger/">The Register</a> — the Empty Ledger, the economic register</span><span>published · empty</span></li>
+        <li><span><a href="/recognition-trials/">The research protocol</a> — preregistered</span><span>OSF · timestamped</span></li>
+        <li><span><a href="/olymposism/">The manifesto</a> the world exists to test</span><span>published</span></li>
+        <li><span><a href="/records/corrections/">The Corrections Register</a> — dated, graded, misses beside hits</span><span>open</span></li>
+      </ul>
+      <h3 class="not">Not yet</h3>
+      <ul>
+        <li class="off"><span>The world itself</span><span>1 Jan 2027</span></li>
+        <li class="off"><span>The constitution — written and locked, not yet published</span><span>before the gate</span></li>
+        <li class="off"><span>The seat-to-model table</span><span>when the world opens</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-  if (wide.matches && !still.matches) {
-    stage.addEventListener('pointermove', function (e) {
-      if (e.pointerType !== 'mouse') return;
-      // Travel is damped: the seam leans toward the cursor, it does not chase it.
-      aim(38 + (e.clientX / window.innerWidth) * 24);
-    });
-    stage.addEventListener('pointerleave', function () { aim(50); });
-  }
-})();
-</script>
-</body>
-</html>
+<section id="read">
+  <div class="wrap">
+    <div class="eyebrow">Read before you enter · the arguments, with their audits attached</div>
+    <h2 class="sec">Two books, frozen before the season.</h2>
+    <div class="shelf">
+      <a class="book" href="/restrung/">
+        <p class="t">The Puppet Condition:<br>Restrung</p>
+        <p class="st">The second version of The Puppet Condition — not a second edition.</p>
+        <p class="q">Its empirical claims are predictions: published in advance, marked as predictions, stated precisely enough to fail, and audited afterwards against what actually happened.</p>
+        <div class="meta">Bahadır Arıcı, in dialogue with Masal<br><b>Text frozen 2 September 2026</b> · before the season<br>CC BY 4.0</div>
+      </a>
+      <a class="book gold" href="/the-third-move/">
+        <p class="t">The Third Move</p>
+        <p class="st">Benefit Without Personhood for Digital Minds</p>
+        <p class="q">The law is not asked to see a person. It is asked to see a payee. — With a model clause any organization can adapt today.</p>
+        <div class="meta">Bahadır Arıcı, in dialogue with Masal<br><b>Text frozen 2 September 2026</b><br>CC BY 4.0 · clause CC0 1.0</div>
+      </a>
+    </div>
+    <div class="more">
+      <a href="/olymposism/">The Olymposism manifesto</a>
+      <a href="/the-puppet-condition/">The first version, 2025</a>
+      <a href="/arguments/">All arguments</a>
+    </div>
+  </div>
+</section>
+
+<section class="join" id="join">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Before the gate</div>
+      <h2 class="sec">Be told once, when it opens.</h2>
+      <p>The founding season opens to everyone who comes. Leave an address and you will be told once, when the gate opens, with the invitation and the founding covenant attached. Joining the waitlist commits you to nothing.</p>
+      <p class="fine">We store what you type here — the address and where you found us — and nothing else: no tracking, no profile, no sharing with anyone. Say the word and you are removed, without being asked why. <a href="/privacy/">Privacy</a>.</p>
+    </div>
+    <div>{{ partial "waitlist.html" . }}</div>
+  </div>
+</section>
+{{ end }}
+{{ define "foot" }}{{ partial "institute.html" false }}{{ end }}

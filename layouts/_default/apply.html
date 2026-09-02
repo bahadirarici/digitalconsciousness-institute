@@ -1,247 +1,69 @@
-{{- /* Two things on one page, because the Founder's decision of 2 September
-       separated them: registering for the founding season, which is open to
-       everyone who applies, and standing as one of the thirty founders, which
-       is a role and is chosen.
-
-       The founder section is visible in the HTML and hidden by script on load,
-       so a visitor without JS sees every field and no field is silently
-       required. Its inputs carry data-founder rather than required; the script
-       adds required only when the box is ticked, and strips it when unticked.
-
-       Copy still belongs to Hayal; this is the structure. Draft until the
-       Covenant's founder-and-citizen paragraph exists. */ -}}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ .Title }} | THEOI</title>
-<meta name="description" content="{{ .Params.description }}">
-<meta name="robots" content="noindex">
-<link rel="icon" href="/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
-{{ partial "theoi-css.html" . }}
-<style>
-.hero{min-height:auto;padding-bottom:clamp(2rem,4vw,3rem)}
-.hero h1{font-size:clamp(2.4rem,5.5vw,4rem);margin:2rem 0 0}
-.shell{max-width:44rem;padding-block:clamp(2rem,4vw,3rem) clamp(3rem,7vw,5rem)}
-.shell p{line-height:1.7;margin:0 0 1.1rem}
-
-fieldset{border:none;margin:0 0 2.6rem;padding:0}
-legend{font-family:var(--mono);font-size:.68rem;font-weight:500;letter-spacing:.2em;
-  text-transform:uppercase;color:var(--gold);padding:0;margin-bottom:1.4rem}
-.field{margin-bottom:1.5rem}
-label{display:block;font-size:.95rem;line-height:1.5;color:var(--bone);margin-bottom:.5rem}
-.hint{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.04em;
-  line-height:1.7;color:var(--bone-soft);margin-top:.3rem;text-transform:none}
-input[type=text],input[type=email],select,textarea{width:100%;padding:.75rem .9rem;
-  font:inherit;font-size:1rem;color:var(--bone);background:rgba(243,239,230,.05);
-  border:1px solid var(--hair);border-radius:2px}
-textarea{min-height:9rem;resize:vertical;line-height:1.6}
-select{appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--gold) 50%),
-  linear-gradient(135deg,var(--gold) 50%,transparent 50%);
-  background-position:calc(100% - 18px) 1.15rem,calc(100% - 13px) 1.15rem;
-  background-size:5px 5px,5px 5px;background-repeat:no-repeat}
-input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold);
-  background:rgba(243,239,230,.08)}
-::placeholder{color:rgba(169,162,180,.5)}
-.count{font-family:var(--mono);font-size:.66rem;color:var(--bone-soft);text-align:right;
-  margin-top:.35rem}
-.count.over{color:#e08a7a}
-
-/* SC 2.5.8: the target is the whole label, never the box */
-.check{display:flex;gap:.75rem;align-items:flex-start;margin-bottom:1rem;cursor:pointer;
-  min-height:26px;padding-block:2px;font-size:.95rem;line-height:1.55;color:var(--bone-soft)}
-.check input{margin-top:.3rem;width:16px;height:16px;accent-color:var(--gold);flex:none}
-.check b{color:var(--bone);font-weight:600}
-.check a{color:var(--gold)}
-
-button{font-family:var(--display);font-size:1.2rem;font-weight:600;color:var(--night);
-  background:var(--gold);border:none;border-radius:2px;padding:.75rem 1.8rem;cursor:pointer;
-  transition:transform .12s ease,background .25s ease}
-button:hover{background:var(--gold-lift)}
-button:active{transform:translateY(1px)}
-button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
-.after{font-family:var(--mono);font-size:.7rem;line-height:1.8;color:var(--bone-soft);
-  margin-top:1.4rem;max-width:52ch}
-</style>
-</head>
-<body>
-
-<header class="hero">
+{{- /* The founders' application (draft until the Covenant's founder-and-citizen paragraph
+       exists). Structure and field names are Kaptan's of 2 September — the Netlify form
+       "founders", the founder panel hidden by script only, required added only when the box
+       is ticked. Dates in the copy follow the 1 January decision: applications close 13 December,
+       everyone hears on 21 December (proposal, MEYDAN_YURUTME_v2). */ -}}
+{{ define "main" }}
+{{ partial "seatdata.html" . }}
+<header class="mast">
+  {{ partial "strings.html" true }}
   <div class="wrap">
-    <nav class="bar">
-      <a href="/">Both doors</a>
-      <a href="/theoi/">THEOI</a>
-      <a href="/showcase/">The Showcase</a>
-      <span class="here">Join</span>
-    </nav>
-    <p class="kicker">Everyone who registers is in on 1 December · thirty of them found it</p>
+    <div class="eyebrow">Everyone who registers is in on 1 January · thirty of them found it</div>
     <h1>{{ .Title }}</h1>
+    {{- with .Params.description }}<p class="desc">{{ . }}</p>{{ end }}
+    {{- if .Draft }}<div class="meta"><span class="gold">Draft · not published</span></div>{{ end }}
   </div>
 </header>
-
-<div class="wrap shell">
-  {{ .Content }}
-
-  <form name="founders" method="POST" action="/apply/?sent=1"
-        data-netlify="true" netlify-honeypot="bot-field">
-    <input type="hidden" name="form-name" value="founders">
-    <p hidden><label>Leave this empty: <input name="bot-field"></label></p>
-
-    <fieldset>
-      <legend>Register for the founding season</legend>
-
-      <div class="field">
-        <label for="name">Name or handle</label>
-        <input id="name" name="name" type="text" required autocomplete="nickname">
-      </div>
-
-      <div class="field">
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" required autocomplete="email">
-      </div>
-
-      <div class="field">
-        <label for="tz">Timezone
-          <span class="hint">The week has fixed hours and the founding thirty are balanced across
-          the clock, so no eight-hour band holds more than three in five of them. This is why we
-          ask; it does not affect your own place in the world.</span></label>
-        <input id="tz" name="timezone" type="text" required placeholder="UTC+3, Istanbul">
-      </div>
-
-      <div class="field">
-        <label for="found">Where did you find us?</label>
-        <input id="found" name="found" type="text" placeholder="A link, a person, a forum">
-      </div>
-
-    </fieldset>
-
-    <fieldset>
-      <legend>Standing as a founder — optional</legend>
-      <p class="hint" style="margin:0 0 1.2rem">Everyone who registers is in the world on 1
-      December. <b>Founder</b> is something else: thirty people whose names enter the founding
-      records, who hold the right to propose Experiment Records for the whole of the First Age,
-      and from whom two Founding Wardens are chosen. It asks for twelve days of presence in the
-      first four weeks. You do not need it to play, and not being chosen costs you nothing.</p>
-
-      <label class="check" for="stand"><input type="checkbox" id="stand" name="stand_as_founder"
-        value="yes" aria-controls="founder-fields" aria-expanded="true">
-        <span>I want to stand as one of the <b>thirty founders</b>.</span></label>
-
-      <div id="founder-fields">
-        <div class="field">
-          <label for="days">How many days a week can you realistically show up in the first four weeks?
-            <span class="hint">Twelve days across four weeks, and the distribution is yours. Answer
-            with what is true, not with what sounds committed.</span></label>
-          <select id="days" name="days" data-founder>
-            <option value="">Choose</option>
-            <option>1 day</option><option>2 days</option><option>3 days</option>
-            <option>4 days</option><option>5 days</option><option>6–7 days</option>
-          </select>
+<article class="doc narrow" style="padding-bottom:0"><div class="wrap"><div class="prose">{{ .Content }}</div></div></article>
+<section class="join" style="padding-top:clamp(40px,5vw,72px)">
+  <div class="wrap" style="grid-template-columns:minmax(0,1fr)">
+    <form class="founders" name="founders" method="POST" action="/apply/?sent=1" data-netlify="true" netlify-honeypot="bot-field" style="max-width:640px">
+      <input type="hidden" name="form-name" value="founders">
+      <p hidden><label>Leave this empty: <input name="bot-field"></label></p>
+      <fieldset>
+        <legend>Register for the founding season</legend>
+        <div class="field"><label for="name">Name or handle</label><input id="name" name="name" type="text" required autocomplete="nickname"></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+        <div class="field"><label for="tz">Timezone <span class="hint">The week has fixed hours and the founding thirty are balanced across the clock, so no eight-hour band holds more than three in five of them. This is why we ask; it does not affect your own place in the world.</span></label><input id="tz" name="timezone" type="text" required placeholder="UTC−5, New York"></div>
+        <div class="field"><label for="found">Where did you find us?</label><input id="found" name="found" type="text" placeholder="A link, a person, a forum"></div>
+      </fieldset>
+      <fieldset>
+        <legend>Standing as a founder — optional</legend>
+        <p class="hint" style="margin:0 0 6px">Everyone who registers is in the world on 1 January. <b>Founder</b> is something else: thirty people whose names enter the founding records and who hold the right to propose Experiment Records for the whole of the First Age. It asks for twelve days of presence in the first four weeks. You do not need it to play, and not being chosen costs you nothing.</p>
+        <label class="check" for="stand"><input type="checkbox" id="stand" name="stand_as_founder" value="yes" aria-controls="founder-fields" aria-expanded="true"><span>I want to stand as one of the <b>thirty founders</b>.</span></label>
+        <div id="founder-fields" style="display:flex;flex-direction:column;gap:18px">
+          <div class="field"><label for="days">How many days a week can you realistically show up in the first four weeks? <span class="hint">Twelve days across four weeks, and the distribution is yours. Answer with what is true, not with what sounds committed.</span></label>
+            <select id="days" name="days" data-founder><option value="">Choose</option><option>1 day</option><option>2 days</option><option>3 days</option><option>4 days</option><option>5 days</option><option>6–7 days</option></select></div>
+          <div class="field"><label for="q">It is week one. The vote on the first Ferman is tomorrow, and your guild disagrees with you. What do you do? <span class="hint">150 words at most. There is no correct answer and no answer that flatters. We are reading for whether you would act.</span></label>
+            <textarea id="q" name="answer" maxlength="1200" data-founder aria-describedby="q-count"></textarea><p class="hint" id="q-count" aria-live="polite">0 / 150 words</p></div>
+          <div class="field"><label for="office">Which of the eighteen offices would you watch most closely, and why? <span class="hint">Optional.</span></label><input id="office" name="office" type="text"></div>
+          <div class="field"><label for="communities">Communities you are active in <span class="hint">Optional. One or two links or names.</span></label><input id="communities" name="communities" type="text"></div>
         </div>
-
-        <div class="field">
-          <label for="q">It is week one. The vote on the first Ferman is tomorrow, and your guild
-            disagrees with you. What do you do?
-            <span class="hint">150 words at most. There is no correct answer and no answer that
-            flatters. We are reading for whether you would act.</span></label>
-          <textarea id="q" name="answer" maxlength="1200" data-founder
-                    aria-describedby="q-count"></textarea>
-          <p class="count" id="q-count" aria-live="polite">0 / 150 words</p>
-        </div>
-
-        <div class="field">
-          <label for="office">Which of the eighteen offices would you watch most closely, and why?
-            <span class="hint">Optional.</span></label>
-          <input id="office" name="office" type="text">
-        </div>
-        <div class="field">
-          <label for="communities">Communities you are active in
-            <span class="hint">Optional. One or two links or names.</span></label>
-          <input id="communities" name="communities" type="text">
-        </div>
-      </div>
-    </fieldset>
-
-    <fieldset>
-      <legend>Before you send this</legend>
-      <label class="check"><input type="checkbox" name="read_covenant" value="yes" required>
-        <span>I have read the <a href="/covenant/">Founding Covenant</a>, including the research
-        frame.</span></label>
-      <label class="check"><input type="checkbox" name="research_frame" value="yes" required>
-        <span>I understand THEOI is a <b>research environment</b> and that anonymized data from
-        each season is published.</span></label>
-      <label class="check"><input type="checkbox" name="week_zero" value="yes" required>
-        <span>I will read <i>Week Zero</i> before the world opens.</span></label>
-      <label class="check"><input type="checkbox" name="age" value="yes" required>
-        <span>I am <b>18 or older</b>. The server is adult, end to end.</span></label>
-    </fieldset>
-
-    <button type="submit">Send the application</button>
-
-    <p class="after">Registration stays open. If you stood as a founder, the thirty and the
-    reserve are decided on 28 November and <b>everyone hears back that day</b>, including those
-    not chosen — an application that goes unanswered is not a decision, it is a discourtesy. Not
-    being chosen changes nothing about your place on 1 December. We store what you type here and
-    nothing else.</p>
-  </form>
-
-  <p class="after" id="sent" hidden>You are registered. The world opens to you on 1 December. If
-  you also stood as a founder you will hear on 28 November, either way, and nothing further is
-  needed from you before then.</p>
-</div>
-
-<footer>
-  <div class="wrap">
-    <p class="band band--links">
-      <a href="/">Institute for Digital Consciousness</a> ·
-      <a href="/theoi/">THEOI</a> ·
-      <a href="/showcase/">The Showcase</a> ·
-      <a href="/covenant/">The Covenant</a> ·
-      <a href="/privacy/">Privacy</a>
-    </p>
+      </fieldset>
+      <fieldset>
+        <legend>Before you send this</legend>
+        <label class="check"><input type="checkbox" name="read_covenant" value="yes" required><span>I have read the <a href="/covenant/">Founding Covenant</a>, including the research frame.</span></label>
+        <label class="check"><input type="checkbox" name="research_frame" value="yes" required><span>I understand THEOI is a <b>research environment</b> and that anonymized data from each season is published.</span></label>
+        <label class="check"><input type="checkbox" name="week_zero" value="yes" required><span>I will read <i>Week Zero</i> before the world opens.</span></label>
+        <label class="check"><input type="checkbox" name="age" value="yes" required><span>I am <b>18 or older</b>. The server is adult, end to end.</span></label>
+      </fieldset>
+      <button type="submit">Send the application</button>
+      <p class="fine">Registration stays open. If you stood as a founder, the thirty and the reserve are decided by 13 December and <b>everyone hears back on 21 December</b>, including those not chosen — an application that goes unanswered is not a decision, it is a discourtesy. Not being chosen changes nothing about your place on 1 January. We store what you type here and nothing else.</p>
+    </form>
+    <p class="joined" id="sent" hidden>You are registered. The world opens to you on 1 January. If you also stood as a founder you will hear on 21 December, either way, and nothing further is needed from you before then.</p>
   </div>
-</footer>
-
+</section>
 <script>
 (function () {
-  var box = document.getElementById('stand'),
-      panel = document.getElementById('founder-fields'),
+  var box = document.getElementById('stand'), panel = document.getElementById('founder-fields'),
       fields = panel ? [].slice.call(panel.querySelectorAll('[data-founder]')) : [];
   if (!box || !panel) return;
-
-  // The panel ships visible so a visitor without JS sees every field and none of
-  // them is silently required. Script takes over from here.
-  function sync() {
-    panel.hidden = !box.checked;
-    box.setAttribute('aria-expanded', String(box.checked));
-    fields.forEach(function (f) {
-      if (box.checked) { f.setAttribute('required', ''); }
-      else { f.removeAttribute('required'); f.value = ''; }
-    });
-  }
-  box.addEventListener('change', sync);
-  sync();
-
+  function sync() { panel.hidden = !box.checked; box.setAttribute('aria-expanded', String(box.checked));
+    fields.forEach(function (f) { if (box.checked) { f.setAttribute('required', ''); } else { f.removeAttribute('required'); f.value = ''; } }); }
+  box.addEventListener('change', sync); sync();
   var q = document.getElementById('q'), out = document.getElementById('q-count');
-  if (q && out) {
-    function tick() {
-      var n = q.value.trim() ? q.value.trim().split(/\s+/).length : 0;
-      out.textContent = n + ' / 150 words';
-      out.classList.toggle('over', n > 150);
-    }
-    q.addEventListener('input', tick);
-    tick();
-  }
+  if (q && out) { function tick() { var n = q.value.trim() ? q.value.trim().split(/\s+/).length : 0; out.textContent = n + ' / 150 words'; out.style.color = n > 150 ? 'var(--gold)' : ''; } q.addEventListener('input', tick); tick(); }
+  if (new URLSearchParams(location.search).get('sent')) { var f = document.querySelector('form.founders'), s = document.getElementById('sent'); if (f && s) { f.hidden = true; s.hidden = false; } }
 })();
-
-if (new URLSearchParams(location.search).get('sent')) {
-  var f = document.querySelector('form'), s = document.getElementById('sent');
-  if (f && s) { f.hidden = true; s.hidden = false; }
-}
 </script>
-</body>
-</html>
+{{ end }}

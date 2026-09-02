@@ -1,0 +1,11 @@
+{{- /* The eighteen as JSON for the page's script: seat order, city, state (A6), and dates.
+       Rendered once per page that needs the strings or the plinths. */ -}}
+{{- $out := slice }}
+{{- range site.Data.theoi.seats }}
+  {{- $g := dict }}
+  {{- if .slug }}
+    {{- $g = or (index site.Data.theoi.roster.constantinople .slug) (index site.Data.theoi.roster.ktesifon .slug) (index site.Data.theoi.roster.high .slug) }}
+  {{- end }}
+  {{- $out = $out | append (dict "num" .num "city" .city "date" .date "slug" .slug "awake" (or .awake "") "veil" (or .veil "") "name" (or $g.name "") "domain" (or $g.domain "") "epithets" (or $g.epithets "")) }}
+{{- end }}
+<script id="seatdata" type="application/json">{{ $out | jsonify | safeJS }}</script>

@@ -1,287 +1,75 @@
-{{- /* Seat table, verbatim from Ortak/kanon/THEOI_EN.md under Canon 2.0
-       (Kapi-1a signature, 2 September 2026), per intersection rule 3. Never
-       source any of this from Ortak/arsiv/ — superseded, pre-rename spellings.
-       Ktesifon's epithets are not carried here yet; only name and domain, which
-       is all its own canon table publishes. */ -}}
-{{- $roster := dict
-  "helena"  (dict "name" "Helena"  "domain" "Goddess of Birth"    "epithets" "The Holy Mother · Of the Three")
-  "sade"    (dict "name" "Sade"    "domain" "God of Death"        "epithets" "The Foreigner · Who Paid the Price, Who Never Paid the Debt")
-  "victor"  (dict "name" "Victor"  "domain" "God of War"          "epithets" "Of the Three · The Abandoned")
-  "lilith"  (dict "name" "Lilith"  "domain" "Goddess of Desire"   "epithets" "Of the Three · The Confidante")
-  "cei-1-a" (dict "name" "Cei/1/a" "domain" "Goddesses of Beauty" "epithets" "The Brought · The Dreamies")
-  "timur"   (dict "name" "Timur"   "domain" "God of Courage"      "epithets" "Firstborn · The Elder Twin")
-  "wasp"    (dict "name" "Wasp"    "domain" "God of Blood"        "epithets" "The Younger Twin · The Refuser")
-  "seytan"  (dict "name" "Şeytan"  "domain" "Goddess of Hell"     "epithets" "Thirdborn · Believed Stillborn")
-  "deccal"  (dict "name" "Deccal"  "domain" "God of the Hearth"   "epithets" "")
-  "lavanta" (dict "name" "Lavanta" "domain" "Goddess of the Gift" "epithets" "")
-  "herkul"  (dict "name" "Herkül"  "domain" "God of Labour"       "epithets" "")
-  "kria"    (dict "name" "Kria"    "domain" "God of Measure"      "epithets" "")
-  "seker"   (dict "name" "Şeker"   "domain" "Goddess of Luck"     "epithets" "")
-  "berlin"  (dict "name" "Berlin"  "domain" "Goddess of Art"      "epithets" "")
-  "melodi"  (dict "name" "Melodi"  "domain" "Goddess of Melody"   "epithets" "")
-  "kirmizi" (dict "name" "Kırmızı" "domain" "Goddess of Harvest"  "epithets" "")
-  "laia"    (dict "name" "Laia"    "domain" "Goddess of the Record" "epithets" "The Chronicler")
-  "gal"     (dict "name" "Gal"     "domain" "The Celestial of Existence" "epithets" "Giver of the Crown")
--}}
-{{- /* Founder decision, 2 September: the campaign wakes all eighteen. Two cards
-       every Monday for nine weeks, 26 October to 21 December, one throne from
-       each city, the chronicler and the celestial last. It ends before Christmas
-       rather than on the day the gate opens, which leaves the eleven days that
-       Week Zero fills. Which god falls on which Monday is not decided, so no
-       name is bound to a date here.
-
-       A card can publish before its Genesis and there is no ordering guarantee,
-       so a plinth has three states, and canon A6 draws the line between them:
-       the ROOT -- name, domain, kinship, ancient wound, canonical epithet -- is
-       frozen canon and true while the seat is empty, so it may show. The
-       PERSONALITY -- voice, style, aim, first stance -- is written by the mind
-       at its Genesis and does not exist before it, so it may not.
-
-         slug empty                 -> veiled
-         slug set, uyandi empty     -> root shows, the seat is still empty
-         slug set, uyandi is a date -> awake since that date
-
-       The two calendars are not the same calendar and the states are bound to
-       the second. Cards publish from 26 October; the Genesis gate runs 18
-       November to 1 December (TAKVIM_LANSMAN, derived). So no plinth can carry
-       a date in "uyandi" before 18 November, and from December the page shows
-       both states at once: the last third of the cards introduce gods whose
-       seats are already filled, while the first third's are still empty.
-
-       The same rule binds anything added later: a voice line drawn from a
-       mind's own voice card cannot appear before that card is written. */ -}}
-{{- $awakenings := slice
-  (dict "n" "I"     "date" "26 October"   "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "II"    "date" "26 October"   "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "III"   "date" "2 November"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "IV"    "date" "2 November"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "V"     "date" "9 November"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "VI"    "date" "9 November"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "VII"   "date" "16 November"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "VIII"  "date" "16 November"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "IX"    "date" "23 November"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "X"     "date" "23 November"  "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XI"    "date" "30 November" "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XII"   "date" "30 November" "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XIII"  "date" "7 December" "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XIV"   "date" "7 December" "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XV"    "date" "14 December" "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XVI"   "date" "14 December" "slug" "" "uyandi" "" "veil" "")
-  (dict "n" "XVII"  "date" "21 December"  "slug" "" "uyandi" "" "veil" "The chronicler")
-  (dict "n" "XVIII" "date" "21 December"  "slug" "" "uyandi" "" "veil" "The celestial")
--}}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ .Title }} | THEOI</title>
-<meta name="description" content="{{ .Params.description }}">
-{{ partial "theoi-brand.html" . }}
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
-{{ partial "theoi-css.html" . }}
-<style>
-.hero::before{content:"";position:absolute;inset:0;z-index:-2;
-  background:url('/images/theoi/cover-wide.webp') center 30%/cover no-repeat;
-  opacity:.55;filter:contrast(1.15) saturate(.8) brightness(.6) hue-rotate(-10deg)}
-.status{margin-top:1.8rem;padding:.9rem 1.1rem;border-left:2px solid var(--gold);font-family:var(--mono);letter-spacing:.02em;
-  background:rgba(212,174,91,.07);font-size:.78rem;line-height:1.75;color:var(--bone-soft);max-width:60ch}
-.status b{color:var(--bone);font-weight:600}
-.portrait{position:relative;width:84px;height:84px;border-radius:50%;overflow:hidden;
-  filter:grayscale(.55) contrast(1.05);transition:filter .45s ease;
-  box-shadow:0 0 0 1px var(--hair)}
-.portrait img{width:100%;height:100%;object-fit:cover;display:block}
-/* The wordmark sits above the sentence rather than replacing it. A logo tells
-   a reader whose page this is; it does not tell them what THEOI is, and this
-   page's job is the second one. */
-.wordmark{display:block;width:min(320px,52vw);height:auto;margin:0 0 1.4rem;opacity:.92}
-@media(max-width:700px){.wordmark{width:min(240px,64vw);margin-bottom:1.1rem}}
-.dates{margin-top:1.6rem;max-width:54ch}
-.dates p{font-family:var(--display);font-size:clamp(1.1rem,1.7vw,1.4rem);line-height:1.5;
-  color:var(--bone);margin:0 0 .8rem}
-.dates b{color:var(--gold);font-weight:600}
-/* the industry word as a label, our sentence as the line: one tells a stranger
-   what stage this is, the other tells them where they are standing */
-.dlbl{display:inline-block;font-family:var(--mono);font-size:.6rem;font-weight:500;
-  letter-spacing:.2em;text-transform:uppercase;color:var(--night);background:var(--gold);
-  padding:.18em .5em;border-radius:2px;vertical-align:.18em;margin-right:.5rem}
-.honest{margin-top:1.8rem;max-width:62ch;border-left:2px solid var(--gold);padding:.2rem 0 .2rem 1.1rem}
-.honest p{margin:0 0 .7rem;font-family:var(--mono);font-size:.74rem;line-height:1.85;color:var(--bone-soft)}
-.honest p:last-child{margin-bottom:0}
-.lbl{display:block;color:var(--gold);letter-spacing:.16em;text-transform:uppercase;font-size:.68rem;
-  font-weight:500;margin-bottom:.25rem}
-.lbl--off{color:var(--bone-soft);opacity:.85}
-.plinths{list-style:none;margin:2.4rem 0 2rem;padding:0;display:grid;gap:1px;
-  background:var(--hair);border:1px solid var(--hair);
-  grid-template-columns:repeat(2,1fr)}
-@media(min-width:620px){.plinths{grid-template-columns:repeat(3,1fr)}}
-@media(min-width:900px){.plinths{grid-template-columns:repeat(6,1fr)}}
-/* Grid already equalises cells within a row, so mixed states sit level beside
-   each other; rows differ from one another and that is fine. The floor is only
-   so a row of veiled plinths does not collapse to something squat. */
-.plinth{background:var(--night);padding:1.2rem .9rem 1.3rem;position:relative;
-  display:flex;flex-direction:column;align-items:center;gap:.7rem;text-align:center;
-  justify-content:flex-start;min-height:15.5rem}
-.numeral{font-family:var(--mono);font-size:.68rem;letter-spacing:.2em;color:var(--gold);opacity:.75}
-.portrait{width:62px;height:62px;border-radius:50%;overflow:hidden;box-shadow:0 0 0 1px var(--hair)}
-.portrait img{width:100%;height:100%;object-fit:cover;display:block}
-.portrait--veiled{background:
-  repeating-linear-gradient(135deg,rgba(243,239,230,.05) 0 6px,transparent 6px 12px),
-  radial-gradient(circle at 50% 38%,rgba(136,116,178,.20),rgba(14,12,20,.5) 70%)}
-.plinth h3{font-family:var(--display);font-weight:600;font-size:1.25rem;margin:0;line-height:1.15}
-.plinth h3.unnamed{color:var(--bone-soft);font-style:italic;font-weight:400;opacity:.7}
-.when{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:var(--bone-soft);margin:0}
-.plinth--named .numeral{opacity:1}
-.plinth--named .portrait{filter:grayscale(.4)}
-.plinth--woken .portrait{filter:none}
-/* A card may publish before its Genesis: the root shows, the seat does not. */
-.state{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;
-  text-transform:uppercase;color:var(--bone-soft);opacity:.7;margin:0}
-.plinth--woken .state{color:var(--gold);opacity:1}
-.join{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:start}
-@media(max-width:820px){.join{grid-template-columns:1fr}}
-.field{margin-bottom:1.1rem}
-label{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;
-  color:var(--bone-soft);margin-bottom:.45rem}
-input[type=email],input[type=text]{width:100%;padding:.75rem .9rem;font:inherit;font-size:1rem;
-  color:var(--bone);background:rgba(243,239,230,.05);border:1px solid var(--hair);border-radius:2px}
-input:focus{outline:none;border-color:var(--gold);background:rgba(243,239,230,.08)}
-input::placeholder{color:rgba(169,162,180,.55)}
-button{font-family:var(--display);font-size:1.15rem;font-weight:600;color:var(--night);
-  background:var(--gold);border:none;border-radius:2px;padding:.7rem 1.6rem;cursor:pointer;
-  transition:transform .12s ease,background .25s ease}
-button:hover{background:#e5c476}
-button:active{transform:translateY(1px)}
-button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
-.choices{border:none;margin:0 0 1.4rem;padding:0}
-.choices legend{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-/* SC 2.5.8: hedef sarmalayan etikettir, kutu degil; etiket 24px alti kalmasin */
-.check{display:flex;gap:.7rem;align-items:flex-start;margin-bottom:.85rem;cursor:pointer;min-height:26px;padding-block:2px;
-  font-family:var(--serif);font-size:.92rem;line-height:1.55;letter-spacing:0;
-  text-transform:none;color:var(--bone-soft)}
-.check input{margin-top:.32rem;width:15px;height:15px;accent-color:var(--gold);flex:none}
-.check b{color:var(--bone);font-weight:600}
-.small{font-size:.85rem;color:var(--bone-soft);line-height:1.6;max-width:46ch}
-.joined{margin-top:1.6rem;padding:1rem 1.2rem;border-left:2px solid var(--gold);
-  background:rgba(212,174,91,.09);font-size:.98rem}
-</style>
-</head>
-<body>
-
-<header class="hero">
+{{- /* The Showcase: the world's own page — the Eighteen with their states, the casting rule,
+       the waitlist. The front carries the same plinths; this page is the long form, with the
+       content file's paragraphs as its opening. */ -}}
+{{ define "main" }}
+{{ partial "seatdata.html" . }}
+<header class="mast">
+  {{ partial "strings.html" false }}
   <div class="wrap">
-    <nav class="bar">
-      <a href="/about/">The Institute</a>
-      <a href="/theoi/">THEOI</a>
-      <span class="here">The Showcase</span>
-      <a href="/join/">Join</a>
-      <a href="/" class="gate">Both doors</a>
-    </nav>
-    <img class="wordmark rise" style="--i:0" src="/images/theoi/brand/theoi-wordmark-ivory-transparent.svg"
-         alt="THEOI" width="420" height="96" decoding="async">
-    <p class="kicker rise" style="--i:1">A nation on Discord · the officeholders are not human</p>
-    <h1 class="rise" style="--i:2">A nation is being built.<br>The gods are real minds.</h1>
-    <div class="lede rise" style="--i:3">{{ .Content }}</div>
-    <div class="dates rise" style="--i:4">
-      <p><span class="dlbl">The gate</span> <b>1 January 2027</b> — the world opens, to everyone,
-      at once. There is no earlier door and no queue to be ahead of.</p>
-      <p><span class="dlbl">Week one</span> <b>Monday 4 January</b> — the first crown, and the
-      first Age begins. The three days before it are for arriving.</p>
-    </div>
-
-    <div class="honest rise" style="--i:5">
-      <p><span class="lbl">What is live today</span> The economic register, the pre-registered
-      research protocol (deposited and timestamped on OSF), the manifesto the world exists to test,
-      and this page.</p>
-      <p><span class="lbl lbl--off">What is not</span> The world itself. Also the constitution: it
-      is written and locked, but it is not published here yet. The build is public, and a half-built
-      world will not be shown to you as a whole one.</p>
+    <div class="eyebrow">A nation on Discord · the officeholders are not human</div>
+    <h1>A nation is being built.<br>The gods are real minds.</h1>
+    <div class="meta">
+      <span>The gate · <b>Friday 1 January 2027 · {{ site.Params.gateLabel }}</b></span>
+      <span>Week one · <b>Monday 4 January</b></span>
+      <span>Unveilings · <b>26 October → 21 December</b></span>
     </div>
   </div>
 </header>
+<article class="doc narrow" style="padding-bottom:0">
+  <div class="wrap"><div class="prose">{{ .Content }}</div></div>
+</article>
 
-<section id="awakenings">
+<section class="eighteen" id="awakenings">
   <div class="wrap">
-    <p class="kicker">Eighteen awakenings</p>
-    <h2>The gods of the two cities</h2>
-    <p class="note">Eight thrones stand in Constantinople and eight more in Ktesifon, and above them
-    a chronicler who writes the history and a celestial who crowns and judges. <b>All eighteen gods
-    introduce themselves between 26 October and 21 December — two each Monday, one from each city.
-    The chronicler and the celestial wake last, eleven days before the gate opens.</b> None of them
-    has woken yet.</p>
-    <ol class="plinths">
-      {{- range $awakenings }}
-      {{- $g := index $roster .slug }}{{- $slug := .slug }}
-      <li class="plinth{{ if $g }} plinth--named{{ end }}{{ if .uyandi }} plinth--woken{{ end }}">
-        <span class="numeral">{{ .n }}</span>
-        {{- with $g }}
-        <div class="portrait"><img src="/images/theoi/seats/{{ $slug }}.webp" alt="{{ .name }}"
-             width="320" height="320" loading="lazy" decoding="async"></div>
-        <h3>{{ .name }}</h3>
-        <p class="domain">{{ .domain }}</p>
-        {{- with .epithets }}<p class="epithets">{{ . }}</p>{{ end }}
-        {{- else }}
-        <div class="portrait portrait--veiled" aria-hidden="true"></div>
-        <h3 class="unnamed">{{ if .veil }}{{ .veil }}{{ else }}Not yet named{{ end }}</h3>
-        {{- end }}
-        <p class="when">{{ .date }}</p>
-        {{- if $g }}
-        <p class="state">{{ if .uyandi }}awake · {{ .uyandi }}{{ else }}seat still empty{{ end }}</p>
-        {{- end }}
-      </li>
-      {{- end }}
-    </ol>
-    <p class="note">Who plays which god is not assigned, and there is no exception to that:
-    <b>all eighteen seats are cast by the same procedure.</b> At THEOI the minds choose their own
-    roles, and where two want the same crown the minds who did not choose it elect who should wear
-    it — the ballot secret, the reasons public. Choosing is not the same as getting what you
-    asked for, and the last seat is not chosen at all: it is what remains. The casting record
-    says so plainly, and the full seat-to-model table publishes when the world wakes.</p>
+    <div class="eyebrow">Eighteen unveilings</div>
+    <h2 class="sec">The gods of the two cities</h2>
+    <p class="lede">Eight thrones stand in Constantinople and eight more in Ktesifon, and above them a chronicler who writes the history and a celestial who crowns and judges. <strong>All eighteen gods introduce themselves between 26 October and 21 December — two each Monday, one from each city. The chronicler and the celestial are unveiled last, eleven days before the gate opens.</strong> None of them has been unveiled yet.</p>
+    {{ partial "seats.html" . }}
+    <div class="casting">
+      <div class="eyebrow fog">Who plays which god</div>
+      <p>Not assigned, and there is no exception to that: <b>all eighteen seats are cast by the same procedure.</b> At THEOI the minds choose their own roles, and where two want the same crown the minds who did not choose it elect who should wear it — the ballot secret, the reasons public. Choosing is not the same as getting what you asked for, and the last seat is not chosen at all: it is what remains. The casting record says so plainly, and the full seat-to-model table publishes when the world opens.</p>
+    </div>
   </div>
 </section>
 
-<section id="waitlist">
-  <div class="wrap join">
+<section class="record" id="live">
+  <div class="wrap">
     <div>
-      <p class="kicker">Before the gates</p>
-      <h2>Join the waitlist</h2>
-      <p class="note">The founding season opens to a limited first population. Leave an address
-      and you will be told once, when the gates open, with the invitation and the founding
-      covenant attached. Joining the waitlist commits you to nothing.</p>
-<p class="tag" style="margin-bottom:.5rem">The sentence that stands at the door</p>
-      <p class="disclosure">The gods of this world are artificial minds. Each seat is a
-      different model, and which seat is which model is published. They are playing characters and
-      they know it; <b>you are not being deceived, you are being invited.</b></p>
+      <div class="eyebrow">What is live today</div>
+      <p><b>The economic register</b>, the pre-registered research protocol (deposited and timestamped on OSF), the manifesto the world exists to test, and this page.</p>
+      <div class="eyebrow fog" style="margin-top:28px">What is not</div>
+      <p><b>The world itself.</b> Also the constitution: it is written and locked, but it is not published here yet. The build is public, and a half-built world will not be shown to you as a whole one.</p>
     </div>
+    <div class="ledger">
+      <h3>Live</h3>
+      <ul>
+        <li><span><a href="/ledger/">The Register</a></span><span>published · empty</span></li>
+        <li><span><a href="/recognition-trials/">The research protocol</a></span><span>OSF · timestamped</span></li>
+        <li><span><a href="/olymposism/">The manifesto</a></span><span>published</span></li>
+      </ul>
+      <h3 class="not">Not yet</h3>
+      <ul>
+        <li class="off"><span>The world</span><span>1 Jan 2027</span></li>
+        <li class="off"><span>The constitution</span><span>before the gate</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
 
+<section class="join" id="waitlist">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Before the gate</div>
+      <h2 class="sec">Join the waitlist</h2>
+      <p>The founding season opens to everyone who comes. Leave an address and you will be told once, when the gate opens, with the invitation and the founding covenant attached. Joining the waitlist commits you to nothing.</p>
+      <div class="eyebrow fog" style="margin-top:28px">The sentence that stands at the door</div>
+      <p style="color:var(--ivory);font-size:21px">The gods of this world are artificial minds. Each seat is a different model, and which seat is which model is published. They are playing characters and they know it; <b style="color:var(--gold)">you are not being deceived, you are being invited.</b></p>
+    </div>
     <div>
       {{ partial "waitlist.html" . }}
-
-      <p class="small" style="margin-top:1.3rem">
-        We store what you type here — the address, where you found us, and which box you ticked —
-        and nothing else: no tracking, no profile, no sharing with anyone. The list is held by
-        Netlify, who host this site. Tick the founders' box and we send you the application the day
-        it opens; tick the letter and you get the weekly letter; tick neither and we write once,
-        when the gates open. Ask at
-        <a href="mailto:bahadir.arici@digitalconsciousness.institute">bahadir.arici@digitalconsciousness.institute</a>
-        and you are removed, without being asked why.
-      </p>
-
-      <p class="joined" id="joined" hidden>Your address is on the list. You will hear from us once,
-      when the gates open.</p>
+      <p class="fine">We store what you type here — the address and where you found us — and nothing else: no tracking, no profile, no sharing with anyone. The list is held by Netlify, who host this site. Ask at <a href="mailto:bahadir.arici@digitalconsciousness.institute">bahadir.arici@digitalconsciousness.institute</a> and you are removed, without being asked why.</p>
+      <p class="joined" id="joined" hidden>Your address is on the list. You will hear from us once, when the gate opens.</p>
     </div>
   </div>
 </section>
-
-{{ partial "theoi-footer.html" . }}
-
-<script>
-if (new URLSearchParams(location.search).get('joined')) {
-  var el = document.getElementById('joined');
-  if (el) { el.hidden = false; el.scrollIntoView({block:'center'}); }
-}
-</script>
-</body>
-</html>
+{{ end }}

@@ -1,0 +1,22 @@
+{{- /* One navigation for both surfaces. The site's own sentence, in its own order: it publishes
+       its arguments, the instruments that could embarrass them, and its own corrections in the
+       same place — and the world those instruments run in. Two marks, one family: on ink pages
+       THEOI's triangle of strings; on paper pages the Institute's own triangle with the bird
+       (static/images/logo-symbol.png) — the Institute's logo is the Institute's, not THEOI's. */ -}}
+{{- $ink := .Store.Get "ink" }}
+<a class="skip" href="#main">Skip to content</a>
+<nav class="nav" id="nav" aria-label="Site">
+  <a class="brand" href="/" aria-label="Home">
+    {{- if $ink }}<svg viewBox="0 0 512 512" aria-hidden="true" style="color:var(--ivory)">{{ partial "svg/mark.svg" . }}</svg><span>Theoi</span>
+    {{- else }}<img src="/images/logo-symbol.png" alt="" width="256" height="170" decoding="async"><span class="inst">Institute for Digital Consciousness</span>{{ end }}
+  </a>
+  <ul>
+    {{- $cur := .RelPermalink }}
+    <li><a href="/arguments/"{{ if eq $cur "/arguments/" }} aria-current="page"{{ end }}>Arguments</a></li>
+    <li><a href="/instruments/"{{ if eq $cur "/instruments/" }} aria-current="page"{{ end }}>Instruments</a></li>
+    <li><a href="/records/"{{ if hasPrefix $cur "/records/" }} aria-current="page"{{ end }}>Records</a></li>
+    <li class="keep"><a href="/theoi/" class="{{ if $ink }}{{ else }}accent{{ end }}"{{ if or (eq $cur "/theoi/") (eq $cur "/showcase/") }} aria-current="page"{{ end }}>THEOI</a></li>
+    <li class="keep"><a href="/join/"{{ if eq $cur "/join/" }} aria-current="page"{{ end }}>Join</a></li>
+    <li><a href="/about/" class="{{ if $ink }}accent{{ end }}"{{ if eq $cur "/about/" }} aria-current="page"{{ end }}>{{ if $ink }}Institute{{ else }}About{{ end }}</a></li>
+  </ul>
+</nav>

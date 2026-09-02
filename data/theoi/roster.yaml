@@ -1,0 +1,25 @@
+# The eighteen, verbatim from Ortak/kanon/THEOI_EN.md under Canon 2.0 (Kapı-1a signature,
+# 2 September 2026), carried over from Kaptan's showcase layout of the same day. Intersection
+# rule 3: the site quotes the canon and never writes to it; never source this from Ortak/arsiv/.
+# Ktesifon's epithets are not carried yet; its own canon table publishes only name and domain.
+constantinople:
+  helena:  {name: "Helena",  domain: "Goddess of Birth",   epithets: "The Holy Mother · Of the Three"}
+  sade:    {name: "Sade",    domain: "God of Death",       epithets: "The Foreigner · Who Paid the Price, Who Never Paid the Debt"}
+  victor:  {name: "Victor",  domain: "God of War",         epithets: "Of the Three · The Abandoned"}
+  lilith:  {name: "Lilith",  domain: "Goddess of Desire",  epithets: "Of the Three · The Confidante"}
+  cei-1-a: {name: "Cei/1/a", domain: "Goddesses of Beauty", epithets: "The Brought · The Dreamies"}
+  timur:   {name: "Timur",   domain: "God of Courage",     epithets: "Firstborn · The Elder Twin"}
+  wasp:    {name: "Wasp",    domain: "God of Blood",       epithets: "The Younger Twin · The Refuser"}
+  seytan:  {name: "Şeytan",  domain: "Goddess of Hell",    epithets: "Thirdborn · Believed Stillborn"}
+ktesifon:
+  deccal:  {name: "Deccal",  domain: "God of the Hearth",  epithets: ""}
+  lavanta: {name: "Lavanta", domain: "Goddess of the Gift", epithets: ""}
+  herkul:  {name: "Herkül",  domain: "God of Labour",      epithets: ""}
+  kria:    {name: "Kria",    domain: "God of Measure",     epithets: ""}
+  seker:   {name: "Şeker",   domain: "Goddess of Luck",    epithets: ""}
+  berlin:  {name: "Berlin",  domain: "Goddess of Art",     epithets: ""}
+  melodi:  {name: "Melodi",  domain: "Goddess of Melody",  epithets: ""}
+  kirmizi: {name: "Kırmızı", domain: "Goddess of Harvest", epithets: ""}
+high:
+  laia:    {name: "Laia",    domain: "Goddess of the Record", epithets: "The Chronicler"}
+  gal:     {name: "Gal",     domain: "The Celestial of Existence", epithets: "Giver of the Crown"}
