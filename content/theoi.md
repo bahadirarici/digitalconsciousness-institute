@@ -75,10 +75,6 @@ One sentence stays where it can be seen: what works in Constantinople is not the
 
 The founding season opens on **1 January 2027**. Citizenship is free, the constitution is public, and the founding covenant states plainly that this is a research project whose anonymized data will be published.
 
-If you want to be told when the season opens, leave an address below. It will be used for that and for occasional notices about the Institute's work — nothing else. No profiling, no third-party processor beyond the site's host, no list ever shared or sold. Say the word and you are removed. What happens to the address is written out in the [privacy policy](/privacy/).
-
-{{< waitlist >}}
-
 ---
 
 ## Related

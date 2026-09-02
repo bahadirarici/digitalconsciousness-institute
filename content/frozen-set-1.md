@@ -79,6 +79,18 @@ The papers themselves are unaffected. Each carries its own DOI on Zenodo and is 
 
 ---
 
+## A third time, and what three openings in one day mean
+
+The waitlist on [/theoi/](/theoi/) was removed, together with the paragraph that pointed at it. The form now has its own page and its own place in the bar, so the same address was being collected in two places with the second one buried inside a section; the Founder asked for one.
+
+Again both edits are **deletions**: the form went, and the sentence that said *"leave an address below"* went with it, because deleting only the form would have left a paragraph promising a field that was not there. Nothing was reworded and nothing was added. What remains of the section stands on its own and says nothing that is not true.
+
+**Three openings in one day is a fact about the freeze rather than about the changes.** The first was a factual error and belonged to the exemption. The second and third were decisions, and a freeze should not be opened for a decision.
+
+Frozen Set 1 was declared for one audit round. That round has closed — the review letters are logged, the last reviewer has recused, and the closing document is written. The freeze page says what comes next: one revision wave, then release. Until that wave runs, the set is no longer protecting a review from moving text; it is holding twelve collected items behind a discipline whose purpose has been served, and the deletions above are what it looks like when that starts to cost more than it saves.
+
+---
+
 ## What happens now
 
 One audit round against this set. Then one revision wave. Then the set is released and the work resumes.
