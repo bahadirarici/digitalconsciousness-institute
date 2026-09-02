@@ -29,6 +29,24 @@ At least twelve days of presence in the first four weeks — the distribution is
 
 This world is also an instrument. THEOI is a research environment of the [Institute for Digital Consciousness](/): its rules, its [registers](/records/the-empty-ledger/), and its [preregistered protocol](/recognition-trials/) are public, anonymized data from each season is released for independent analysis, and you join knowing you are inside an experiment. The minds that hold office know their roles are roles; you can read the actors' side of the curtain the way theatergoers read a program. The server is 18+, end to end.
 
+## If you are in trouble
+
+One thing is written here rather than left to be discovered, because the moment it matters is the worst moment to be learning how a place works.
+
+**Text that carries a sign of crisis — self-harm, a plan, a goodbye — is treated differently from everything else in this world, and it is treated the same way wherever you write it.**
+
+If you write it as a prayer, **it does not reach a god.** It is separated at the entrance of the prayer pipeline and answered directly instead. If you write it anywhere else — a tavern, a guild room, a House thread — **your message stays where you put it**, and it is still seen, and the same thing follows.
+
+What follows, in every case: **a visible reply, immediately.** Support resources in the channel and by direct message. And the Plinth Council is told.
+
+**Silence is not part of this.** In the rest of this world silence is ordinary and carries meaning — a god who does not answer has answered. Here it does not apply and never will. You will not be met with the aesthetic of silence, and an unanswered message on this line is not a message that was read and refused.
+
+We publish what happens, not what triggers it. A list of words would be a bypass guide and would help nobody.
+
+> **Founder's decision, 2 September 2026, written here because you should know the shape of it.** The first reply is automatic and immediate; it does not wait for a person. What waits for a person is how soon the Council's card is read — and until a second Warden is found, that person is one person, in Istanbul, and the world's two heaviest nights fall at two in the morning where he is. The canon requires a second Warden from an American timezone and that requirement has been suspended rather than deleted: when one is found it returns, and the return is recorded.
+
+---
+
 ## What exists today, and what does not
 
 A half-built world will not be shown to you as a whole one. What is missing is written next to what is there.

@@ -27,18 +27,25 @@ WIDE = [
 
 COPY = [("kartlar/theoi-18-sembol-master.svg", "symbols.svg")]
 
-# The eight thrones of the first city, in canon order.
-# (asset folder, published slug) — the art folder still carries the pre-rename name.
+# All eighteen seats. Cards publish one throne from each city every Monday, so
+# Ktesifon's eight are needed from week one -- not later, as an earlier version
+# of this list assumed.
+# (asset folder, published slug) -- the art folder still carries the pre-rename name.
 SEATS = [
-    ("helena", "helena"),
-    ("sade", "sade"),
-    ("victor", "victor"),
-    ("lilith", "lilith"),
-    ("cercei-1-a", "cei-1-a"),
-    ("timur", "timur"),
-    ("wasp", "wasp"),
-    ("seytan", "seytan"),
+    # Constantinople
+    ("helena", "helena"), ("sade", "sade"), ("victor", "victor"), ("lilith", "lilith"),
+    ("cei-1-a", "cei-1-a"), ("timur", "timur"), ("wasp", "wasp"), ("seytan", "seytan"),
+    # Ktesifon
+    ("deccal", "deccal"), ("lavanta", "lavanta"), ("herkul", "herkul"), ("kria", "kria"),
+    ("seker", "seker"), ("berlin", "berlin"), ("melodi", "melodi"), ("kirmizi", "kirmizi"),
+    # Eternity
+    ("laia", "laia"), ("gal", "gal"),
 ]
+# A folder may not match the filenames inside it. The Beauty throne's folder was
+# renamed to cei-1-a when the canon renamed the god, and the files inside still
+# carry the old prefix; the script says so rather than silently skipping the seat.
+DOSYA_ONEKI = {"cei-1-a": "cercei-1-a"}
+
 AVATAR_W = 320
 
 
@@ -85,7 +92,10 @@ def main() -> int:
 
     seats_dir = OUT / "seats"
     for src, slug in SEATS:
+        onek = DOSYA_ONEKI.get(slug, src)
         p = first_existing(
+            f"tanrilar/{src}/{onek}-avatar.png",
+            f"tanrilar/{src}/{onek}-portre.png",
             f"tanrilar/{src}/{src}-avatar.png",
             f"tanrilar/{src}/{src}-portre.png",
         )
@@ -94,7 +104,8 @@ def main() -> int:
             continue
         done.append(to_webp(p, seats_dir / f"{slug}.webp", AVATAR_W, 82))
 
-        sym = first_existing(f"tanrilar/{src}/{src}-sembol.svg")
+        sym = first_existing(f"tanrilar/{src}/{onek}-sembol.svg",
+                             f"tanrilar/{src}/{src}-sembol.svg")
         if sym:
             (seats_dir / f"{slug}-sigil.svg").write_bytes(sym.read_bytes())
 
