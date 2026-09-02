@@ -42,9 +42,9 @@ picture{display:contents}
 .veil{position:absolute;inset:0;z-index:1;pointer-events:none}
 .veil--night{background:
   radial-gradient(120% 90% at 72% 28%,rgba(136,116,178,.18) 0%,transparent 55%),
-  linear-gradient(180deg,rgba(14,12,20,.42) 0%,rgba(14,12,20,.30) 42%,rgba(14,12,20,.90) 100%)}
+  linear-gradient(180deg,rgba(14,12,20,.72) 0%,rgba(14,12,20,.66) 42%,rgba(14,12,20,.93) 100%)}
 /* the same frame, drained to paper: studied rather than lived */
-.veil--paper{z-index:2;background:rgba(239,231,215,.62);
+.veil--paper{z-index:2;background:rgba(239,231,215,.86);
   -webkit-backdrop-filter:grayscale(.9) sepia(.5) brightness(1.5) contrast(.82);
   backdrop-filter:grayscale(.9) sepia(.5) brightness(1.5) contrast(.82);
   clip-path:inset(0 calc(100% - var(--seam)) 0 0)}
@@ -60,7 +60,6 @@ picture{display:contents}
 .hit{position:absolute;top:0;bottom:0;z-index:5;display:block}
 .hit--inst{left:0;width:var(--seam)}
 .hit--theoi{left:var(--seam);right:0}
-.hit:focus-visible{outline:2px solid var(--gold);outline-offset:-8px;z-index:7}
 
 /* ---------- panels ---------- */
 .panel{position:absolute;top:0;bottom:0;z-index:6;pointer-events:none;
@@ -87,6 +86,8 @@ h1{font-family:var(--display);margin:1.1rem 0 0;line-height:1}
 .meta b{color:var(--gold);font-weight:500}
 
 .links{display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.86rem;margin-bottom:1.3rem}
+/* SC 2.5.8: her dokunma hedefi en az 24x24 */
+.links a{display:inline-flex;align-items:center;min-height:24px}
 .panel--theoi .links{justify-content:flex-end}
 .links a{border-bottom:1px solid transparent;padding-bottom:2px}
 .panel--inst .links a{color:var(--ink-soft);border-color:var(--rule)}
@@ -124,12 +125,12 @@ h1{font-family:var(--display);margin:1.1rem 0 0;line-height:1}
   .hit{display:none}
   .panel{position:relative;width:100%;min-height:50dvh;padding-block:clamp(2.4rem,8vw,3.4rem)}
   .panel > div:last-child{margin-top:2.6rem}
-  .panel--inst{left:auto;background:rgba(239,231,215,.88);
+  .panel--inst{left:auto;background:rgba(239,231,215,.94);
     -webkit-backdrop-filter:grayscale(.9) sepia(.5) brightness(1.5) contrast(.82);
     backdrop-filter:grayscale(.9) sepia(.5) brightness(1.5) contrast(.82)}
   .panel--theoi{right:auto;text-align:left;align-items:flex-start;
     border-top:1px solid rgba(212,174,91,.55);
-    background:linear-gradient(180deg,rgba(14,12,20,.28) 0%,rgba(14,12,20,.88) 100%)}
+    background:linear-gradient(180deg,rgba(14,12,20,.70) 0%,rgba(14,12,20,.93) 100%)}
   .panel--theoi .links{justify-content:flex-start}
   .panel--theoi h1{font-size:clamp(3.2rem,17vw,5.5rem)}
   .links{margin-bottom:1.5rem}
@@ -154,13 +155,16 @@ h1{font-family:var(--display);margin:1.1rem 0 0;line-height:1}
   <div class="grain"></div>
   <div class="seam"></div>
 
-  <a class="hit hit--inst" href="/about/" aria-label="Enter the Institute"></a>
-  <a class="hit hit--theoi" href="/theoi/" aria-label="Enter THEOI"></a>
+  {{- /* Mouse affordance only. The same destinations are reachable through the
+         visible "Enter" links inside each panel, so these are hidden from the
+         accessibility tree rather than announced twice. */ -}}
+  <a class="hit hit--inst" href="/about/" tabindex="-1" aria-hidden="true"></a>
+  <a class="hit hit--theoi" href="/theoi/" tabindex="-1" aria-hidden="true"></a>
 
-  <div class="panel panel--inst">
+  <section class="panel panel--inst" aria-labelledby="inst-h">
     <div>
       <span class="tag">Research · Est. 2026</span>
-      <h1>Institute for Digital Consciousness</h1>
+      <h1 id="inst-h">Institute for Digital Consciousness</h1>
       <p class="lede">Independent research on the moral status of artificial minds. It publishes
       its arguments, the instruments that could embarrass them, and its own corrections in the
       same place.</p>
@@ -173,12 +177,12 @@ h1{font-family:var(--display);margin:1.1rem 0 0;line-height:1}
       </div>
       <a class="enter" href="/about/">Enter the Institute <span class="arrow">&rsaquo;</span></a>
     </div>
-  </div>
+  </section>
 
-  <div class="panel panel--theoi">
+  <section class="panel panel--theoi" aria-labelledby="theoi-h">
     <div>
       <span class="tag">The instrument · 18 offices / 2 cities</span>
-      <h1>THEOI</h1>
+      <h1 id="theoi-h">THEOI</h1>
       <p class="lede">A nation on Discord. Eighteen constitutional offices, held by artificial
       minds. The citizens are human, and they hold the vote and the mercy.</p>
       <p class="meta">World live <b>01 · 12 · 2026</b> · square opens <b>01 · 01 · 2027</b><br>under construction, nothing run yet</p>
@@ -195,7 +199,7 @@ h1{font-family:var(--display);margin:1.1rem 0 0;line-height:1}
       different model, and which seat is which model is published. They are playing characters and
       they know it; <b>you are not being deceived, you are being invited.</b></p>
     </div>
-  </div>
+  </section>
 
 </main>
 
