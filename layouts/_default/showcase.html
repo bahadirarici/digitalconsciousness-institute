@@ -26,27 +26,40 @@
 {{- /* Founder decision, 2 September: the campaign wakes all eighteen. Two cards
        every Monday from 6 October to 24 November, one throne from each city,
        then the chronicler and the celestial on 1 December. Which god falls on
-       which Monday is not decided, so no name is bound to a date: set "slug" on
-       a row and that plinth unveils, drawing its words from the table above. */ -}}
+       which Monday is not decided, so no name is bound to a date here.
+
+       A card can publish before its Genesis and there is no ordering guarantee,
+       so a plinth has three states, and canon A6 draws the line between them:
+       the ROOT -- name, domain, kinship, ancient wound, canonical epithet -- is
+       frozen canon and true while the seat is empty, so it may show. The
+       PERSONALITY -- voice, style, aim, first stance -- is written by the mind
+       at its Genesis and does not exist before it, so it may not.
+
+         slug empty                 -> veiled
+         slug set, uyandi empty     -> root shows, the seat is still empty
+         slug set, uyandi is a date -> awake since that date
+
+       The same rule binds anything added later: a voice line drawn from a
+       mind's own voice card cannot appear before that card is written. */ -}}
 {{- $awakenings := slice
-  (dict "n" "I"     "date" "6 October"   "slug" "" "veil" "")
-  (dict "n" "II"    "date" "6 October"   "slug" "" "veil" "")
-  (dict "n" "III"   "date" "13 October"  "slug" "" "veil" "")
-  (dict "n" "IV"    "date" "13 October"  "slug" "" "veil" "")
-  (dict "n" "V"     "date" "20 October"  "slug" "" "veil" "")
-  (dict "n" "VI"    "date" "20 October"  "slug" "" "veil" "")
-  (dict "n" "VII"   "date" "27 October"  "slug" "" "veil" "")
-  (dict "n" "VIII"  "date" "27 October"  "slug" "" "veil" "")
-  (dict "n" "IX"    "date" "3 November"  "slug" "" "veil" "")
-  (dict "n" "X"     "date" "3 November"  "slug" "" "veil" "")
-  (dict "n" "XI"    "date" "10 November" "slug" "" "veil" "")
-  (dict "n" "XII"   "date" "10 November" "slug" "" "veil" "")
-  (dict "n" "XIII"  "date" "17 November" "slug" "" "veil" "")
-  (dict "n" "XIV"   "date" "17 November" "slug" "" "veil" "")
-  (dict "n" "XV"    "date" "24 November" "slug" "" "veil" "")
-  (dict "n" "XVI"   "date" "24 November" "slug" "" "veil" "")
-  (dict "n" "XVII"  "date" "1 December"  "slug" "" "veil" "The chronicler")
-  (dict "n" "XVIII" "date" "1 December"  "slug" "" "veil" "The celestial")
+  (dict "n" "I"     "date" "6 October"   "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "II"    "date" "6 October"   "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "III"   "date" "13 October"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "IV"    "date" "13 October"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "V"     "date" "20 October"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "VI"    "date" "20 October"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "VII"   "date" "27 October"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "VIII"  "date" "27 October"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "IX"    "date" "3 November"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "X"     "date" "3 November"  "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XI"    "date" "10 November" "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XII"   "date" "10 November" "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XIII"  "date" "17 November" "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XIV"   "date" "17 November" "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XV"    "date" "24 November" "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XVI"   "date" "24 November" "slug" "" "uyandi" "" "veil" "")
+  (dict "n" "XVII"  "date" "1 December"  "slug" "" "uyandi" "" "veil" "The chronicler")
+  (dict "n" "XVIII" "date" "1 December"  "slug" "" "uyandi" "" "veil" "The celestial")
 -}}
 <!DOCTYPE html>
 <html lang="en">
@@ -96,7 +109,13 @@
 .plinth h3{font-family:var(--display);font-weight:600;font-size:1.25rem;margin:0;line-height:1.15}
 .plinth h3.unnamed{color:var(--bone-soft);font-style:italic;font-weight:400;opacity:.7}
 .when{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:var(--bone-soft);margin:0}
-.plinth--woken .numeral{opacity:1}
+.plinth--named .numeral{opacity:1}
+.plinth--named .portrait{filter:grayscale(.4)}
+.plinth--woken .portrait{filter:none}
+/* A card may publish before its Genesis: the root shows, the seat does not. */
+.state{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--bone-soft);opacity:.7;margin:0}
+.plinth--woken .state{color:var(--gold);opacity:1}
 .join{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:start}
 @media(max-width:820px){.join{grid-template-columns:1fr}}
 form{margin-top:1.6rem}
@@ -162,20 +181,23 @@ button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
     chronicler and the celestial wake last, the day the world does.</b> None of them has woken yet.</p>
     <ol class="plinths">
       {{- range $awakenings }}
-      {{- $g := index $roster .slug }}
-      <li class="plinth{{ if $g }} plinth--woken{{ end }}">
+      {{- $g := index $roster .slug }}{{- $slug := .slug }}
+      <li class="plinth{{ if $g }} plinth--named{{ end }}{{ if .uyandi }} plinth--woken{{ end }}">
         <span class="numeral">{{ .n }}</span>
         {{- with $g }}
-        <div class="portrait"><img src="/images/theoi/seats/{{ $.slug }}.webp" alt="{{ .name }}"
+        <div class="portrait"><img src="/images/theoi/seats/{{ $slug }}.webp" alt="{{ .name }}"
              width="320" height="320" loading="lazy" decoding="async"></div>
         <h3>{{ .name }}</h3>
         <p class="domain">{{ .domain }}</p>
-        <p class="epithets">{{ .epithets }}</p>
+        {{- with .epithets }}<p class="epithets">{{ . }}</p>{{ end }}
         {{- else }}
         <div class="portrait portrait--veiled" aria-hidden="true"></div>
         <h3 class="unnamed">{{ if .veil }}{{ .veil }}{{ else }}Not yet named{{ end }}</h3>
         {{- end }}
         <p class="when">{{ .date }}</p>
+        {{- if $g }}
+        <p class="state">{{ if .uyandi }}awake · {{ .uyandi }}{{ else }}seat still empty{{ end }}</p>
+        {{- end }}
       </li>
       {{- end }}
     </ol>
