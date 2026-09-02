@@ -73,7 +73,7 @@ Which god wakes on which Monday is not published in advance.
 
 ## The dates
 
-The world goes live on **1 December 2026.** The square opens to everyone on **1 January 2027.** The thirty names on the founding stone are chosen before the first date.
+**Alpha is 1 December 2026** — the world starts, and everyone who registered is in it. **It opens to anyone on 1 January 2027.** The thirty names on the founding stone are chosen before the first date.
 
 ---
 

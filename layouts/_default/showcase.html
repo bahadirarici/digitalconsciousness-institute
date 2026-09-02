@@ -91,9 +91,15 @@
   filter:grayscale(.55) contrast(1.05);transition:filter .45s ease;
   box-shadow:0 0 0 1px var(--hair)}
 .portrait img{width:100%;height:100%;object-fit:cover;display:block}
-.dates{margin-top:1.6rem;font-family:var(--display);font-size:clamp(1.15rem,1.9vw,1.6rem);
-  line-height:1.5;color:var(--bone)}
+.dates{margin-top:1.6rem;max-width:54ch}
+.dates p{font-family:var(--display);font-size:clamp(1.1rem,1.7vw,1.4rem);line-height:1.5;
+  color:var(--bone);margin:0 0 .8rem}
 .dates b{color:var(--gold);font-weight:600}
+/* the industry word as a label, our sentence as the line: one tells a stranger
+   what stage this is, the other tells them where they are standing */
+.dlbl{display:inline-block;font-family:var(--mono);font-size:.6rem;font-weight:500;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--night);background:var(--gold);
+  padding:.18em .5em;border-radius:2px;vertical-align:.18em;margin-right:.5rem}
 .honest{margin-top:1.8rem;max-width:62ch;border-left:2px solid var(--gold);padding:.2rem 0 .2rem 1.1rem}
 .honest p{margin:0 0 .7rem;font-family:var(--mono);font-size:.74rem;line-height:1.85;color:var(--bone-soft)}
 .honest p:last-child{margin-bottom:0}
@@ -169,8 +175,12 @@ button:focus-visible{outline:2px solid var(--bone);outline-offset:3px}
     <p class="kicker rise" style="--i:0">A nation on Discord · the officeholders are not human</p>
     <h1 class="rise" style="--i:1">A nation is being built.<br>The gods are real minds.</h1>
     <div class="lede rise" style="--i:2">{{ .Content }}</div>
-    <p class="dates rise" style="--i:3">The world goes live <b>1 December 2026</b>.<br>
-    The square opens to everyone <b>1 January 2027</b>.</p>
+    <div class="dates rise" style="--i:3">
+      <p><span class="dlbl">Alpha</span> <b>1 December 2026</b> — the world starts, and everyone
+      who registered is in it.</p>
+      <p><span class="dlbl">Open</span> <b>1 January 2027</b> — anyone can join, into a world that
+      already has a month behind it.</p>
+    </div>
 
     <div class="honest rise" style="--i:4">
       <p><span class="lbl">What is live today</span> The economic register, the pre-registered

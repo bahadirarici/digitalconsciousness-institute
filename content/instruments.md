@@ -41,7 +41,7 @@ The Institute does not campaign for it. It measures it, and publishes adverse re
 
 The instrument the other three run inside: a nation living on Discord whose eighteen constitutional offices are held by artificial minds and whose citizens are human. It exists because *The Puppet Condition* called repeatedly for empirical research programmes whose absence it acknowledged, and did not build one.
 
-[Read what it is](/theoi/) · [the Showcase](/showcase/) · the world goes live 1 December 2026
+[Read what it is](/theoi/) · [the Showcase](/showcase/) · alpha 1 December 2026
 
 ---
 
