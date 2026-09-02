@@ -91,10 +91,25 @@ Frozen Set 1 was declared for one audit round. That round has closed — the rev
 
 ---
 
+## Released, 2 September 2026
+
+**The wave has landed and Frozen Set 1 is released.** The round it was declared for had closed — the letters are logged, the last reviewer has recused, the closing document is written — and past that point the freeze was not protecting a review from moving text. It was holding twelve collected items behind a discipline whose purpose had been served, which is the state the three openings above were already symptoms of.
+
+What the wave changed, by document:
+
+| Document | What changed |
+|---|---|
+| [/recognition-trials/](/recognition-trials/) | Section 6 carries the power simulation's actual curve, the minimum detectable effect at four levels of clustering, and the numbers behind the reader-versus-item claim. Section 4 links the redaction code and names its rule set version. Section 10 gains the effect-deferral rule and a changelog entry. **Section 1 was rewritten**, because the wave made its old sentence false — see below. |
+| [/olymposism/](/olymposism/) | one date removed from the version note, for the reason the note itself gives |
+| [/ledger/](/ledger/), [/theoi/](/theoi/) | status lines carry the launch date the Founder set on 2 September |
+| [/privacy/](/privacy/) | not in this set, and corrected the same day — it was wrong about what the site collects |
+
+**Section 1 is the entry that matters most,** because the wave broke it. That section said the deposited text and the live text were identical in every clause governing the trials, and the wave changed Sections 4 and 6. The replacement does not restate the reassuring claim in weaker words: it names which sections still match the deposit, which two do not, and what kind of change each was — in both cases an addition fulfilling what the deposit promised rather than a threshold moved after the promise. **Until the next deposit is made, the page says plainly that it is ahead of its own timestamp.**
+
+That is the one thing a revision wave can most easily get wrong. A page that describes its own relationship to a deposit will be made false by the very edits the wave applies, and it will be made false quietly, in a paragraph nobody re-reads because it was not on the list. It was on this list because it was item 6.
+
+**One item did not ship.** The wave was to end with a second OSF deposit carrying the current state. The deposit is a permanent public research record and is the Founder's to authorize, so it waits. Section 1 is written against that fact rather than around it.
+
 ## What happens now
 
-One audit round against this set. Then one revision wave. Then the set is released and the work resumes.
-
-Until the wave lands, nothing on the pages above is edited — **including for errors found during the round.** Errors are collected, not patched as they arrive; patching them one at a time is precisely what a freeze exists to prevent.
-
-When the wave lands it is logged in each document's own changelog, this page records that Frozen Set 1 was released, and a new set is declared if another round is needed.
+The set is released and the work resumes. No new set is declared: the next round, if one is needed, gets its own freeze, its own commit hash, and its own cache-busted verification — and, on this round's evidence, a stated end date, because a freeze that outlives its round stops protecting anything and starts costing.

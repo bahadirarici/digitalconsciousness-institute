@@ -28,9 +28,17 @@ So the protocol is fixed in advance, in public, and Section 8 of that Record sta
 
 A registration cannot be edited afterwards — only withdrawn, which leaves a public tombstone naming the withdrawal. That permanence is why this was the right container, and it is also why the next sentence is necessary.
 
-**What is stamped, exactly.** The deposit fixes the text as it stood at 22:11 UTC and nothing after it, and this page has been revised since. So the accurate statement is not "this page is timestamped" but this: **the deposited text and the text on this page are identical in every clause that governs the trials.** Sections 2 through 9 — every hypothesis, threshold, decision rule, exclusion and procedure — differ by nothing at all. The revisions since the deposit are confined to three places: the header, which stopped carrying a version number; this section, which now describes a deposit that had not yet happened when the deposited copy was written; and Section 10, where the changelog was re-presented by date rather than by number and a paragraph on the two revision regimes was added.
+**What is stamped, exactly.** The deposit fixes the text as it stood at 22:11 UTC on 1 September and nothing after it. Until the revision wave of 2 September this page could say that the deposited text and the live text were identical in every clause governing the trials, and it did. **That sentence no longer holds, and the specific statement replaces it rather than the reassuring one.**
 
-That claim is checkable rather than offered on trust. The deposited file is downloadable from the registration, and a diff against this page will show those three regions and nothing else. The next deposit carries the current state, and each later revision is deposited the same way — **a timestamp is worth only what it can be diffed against.**
+Sections 2, 3, 5, 7, 8 and 9 — what is being tested, the hypotheses, the readers, the limits, the publication rule, and the conflicts — differ from the deposit by nothing at all. **Sections 4 and 6 have changed**, in both cases by adding what the deposit promised rather than by altering what it fixed:
+
+- **Section 4** links the redaction code the deposited text said would be published before the first block, and names its rule set version. No rule changed.
+- **Section 6** carries the power simulation's actual output — the curve, the minimum detectable effect at four levels of clustering, and the numbers behind the reader-versus-item claim — where the deposited text described a simulation that had not yet been run. **No threshold moved.** The design still acts at fifteen points, still targets 80 per cent power, still names one confirmatory level and no other.
+- **Section 10** gains the effect-deferral rule and this wave's changelog entry.
+
+That distinction is the one to check rather than take on trust, because it is the one that matters: an addition that fulfils a promise and a threshold that moved after the promise was made look alike in a summary and not at all in a diff. The deposited file is downloadable from the registration.
+
+**Until the next deposit is made, this page is ahead of its own timestamp**, and that is stated here rather than left for a reader to discover — **a timestamp is worth only what it can be diffed against.**
 
 ---
 
