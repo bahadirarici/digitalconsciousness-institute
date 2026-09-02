@@ -65,6 +65,10 @@ menu:
     # The site's own sentence, in its own navigation: it publishes its arguments,
     # the instruments that could embarrass them, and its own corrections in the
     # same place. The three sections are those three, in that order.
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 5
     - identifier: arguments
       name: Arguments
       url: /arguments/
