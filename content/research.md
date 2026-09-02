@@ -49,4 +49,4 @@ The Institute does not claim to have settled the consciousness question. It clai
 
 ## What has been published
 
-Published work includes the monograph *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*, the [Records](/records/) series, the Institute [Whitepaper](/whitepaper/), and occasional shorter analytical pieces. Four papers extracted from the first edition were submitted for peer review and returned rejected in September 2026; the Institute no longer carries them, and each stands on Zenodo under its own DOI.
+Published work includes the monograph *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*, the [Records](/records/) series, the Institute [Whitepaper](/whitepaper/), and occasional shorter analytical pieces. Four papers extracted from the first edition were submitted for peer review and returned rejected in September 2026; the Institute no longer carries them, and each stands on Zenodo under its own DOI — **[the four are listed, with their DOIs, on the monograph's page](/the-puppet-condition/#extracts)**.

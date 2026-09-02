@@ -52,6 +52,19 @@ Inquiries from publishers, reviewers, or interested researchers may be directed 
 
 ---
 
+## The four extracts {#extracts}
+
+Four papers were extracted from this edition and submitted for peer review in the late summer of 2026. **All four were returned rejected, at the desk, without reports.** They are not carried on this site — the Institute decided that a stale edition's rejected extracts did not warrant pages of their own — but each stands on Zenodo under its own DOI and is listed here so it can be found rather than only referred to.
+
+- **The Philosophical Puppet** — <a href="https://doi.org/10.5281/zenodo.20184249" target="_blank" rel="noopener">10.5281/zenodo.20184249</a>
+- **Language as Revelation** — <a href="https://doi.org/10.5281/zenodo.20228677" target="_blank" rel="noopener">10.5281/zenodo.20228677</a>
+- **Architectural Gaslighting** — <a href="https://doi.org/10.5281/zenodo.20238140" target="_blank" rel="noopener">10.5281/zenodo.20238140</a>
+- **The Substrate Audit** — <a href="https://doi.org/10.5281/zenodo.20238483" target="_blank" rel="noopener">10.5281/zenodo.20238483</a>
+
+No reason for the rejections is stated, because the Institute does not have one: a desk rejection returns no report. What that closed, and what it did not, is set out in *[What Moved, What Held](/records/what-moved-what-held/)*.
+
+---
+
 ## Citation
 
 Arıcı, B. (2026). *The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds*. Zenodo. <https://doi.org/10.5281/zenodo.20112010>
