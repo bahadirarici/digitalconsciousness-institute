@@ -6,7 +6,8 @@
 <title>Institute for Digital Consciousness</title>
 <meta name="description" content="An independent research institute on the moral status of artificial minds, and THEOI, the constitutional world it built to measure them.">
 <link rel="icon" href="/favicon.png">
-<link rel="preload" as="image" href="/images/theoi/cover.webp">
+<link rel="preload" as="image" href="/images/theoi/cover-wide.webp" media="(min-width:901px)">
+<link rel="preload" as="image" href="/images/theoi/cover-tall.webp" media="(max-width:900px)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
@@ -34,7 +35,8 @@ a{color:inherit;text-decoration:none}
 .stage{position:relative;width:100vw;height:100dvh;overflow:hidden;isolation:isolate}
 
 /* ---------- the field: one image of one world ---------- */
-.field{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 15%;
+picture{display:contents}
+.field{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 38%;
   z-index:0;filter:contrast(1.18) saturate(.8) brightness(.62) hue-rotate(-10deg)}
 /* the night THEOI is read in */
 .veil{position:absolute;inset:0;z-index:1;pointer-events:none}
@@ -115,7 +117,7 @@ h1{font-family:var(--display);margin:1.1rem 0 0;line-height:1}
 @media(max-width:900px){
   html,body{overflow:auto;height:auto}
   .stage{height:auto;min-height:100dvh}
-  .field{position:fixed;object-position:50% 12%}
+  .field{position:fixed;object-position:50% 20%}
   .veil--night{position:fixed}
   .veil--paper,.seam{display:none}
   .grain{position:fixed}
@@ -141,10 +143,11 @@ h1{font-family:var(--display);margin:1.1rem 0 0;line-height:1}
 <body>
 <main class="stage" id="stage">
 
-  <video class="field" id="field" autoplay muted loop playsinline preload="auto"
-         poster="/images/theoi/cover.webp" aria-hidden="true" tabindex="-1">
-    <source src="/video/theoi-cover.mp4" type="video/mp4">
-  </video>
+  <picture>
+    <source media="(min-width:901px)" srcset="/images/theoi/cover-wide.webp">
+    <img class="field" src="/images/theoi/cover-tall.webp" alt="" aria-hidden="true"
+         width="1672" height="941" fetchpriority="high" decoding="async">
+  </picture>
 
   <div class="veil veil--night"></div>
   <div class="veil veil--paper"></div>
@@ -198,11 +201,8 @@ h1{font-family:var(--display);margin:1.1rem 0 0;line-height:1}
 <script>
 (function () {
   var root = document.documentElement, stage = document.getElementById('stage');
-  var video = document.getElementById('field');
   var still = matchMedia('(prefers-reduced-motion: reduce)');
   var wide = matchMedia('(min-width: 901px)');
-
-  if (still.matches && video) { video.removeAttribute('autoplay'); video.pause(); }
 
   // The seam follows the pointer, eased, on a CSS variable so nothing re-renders.
   var target = 50, current = 50, raf = null;
