@@ -60,35 +60,10 @@ params:
     favicon32x32: "/favicon.png"
     apple_touch_icon: "/favicon.png"
 
-menu:
-  main:
-    # The site's own sentence, in its own navigation: it publishes its arguments,
-    # the instruments that could embarrass them, and its own corrections in the
-    # same place. The three sections are those three, in that order.
-    - identifier: research
-      name: Research
-      url: /research/
-      weight: 5
-    - identifier: arguments
-      name: Arguments
-      url: /arguments/
-      weight: 10
-    - identifier: instruments
-      name: Instruments
-      url: /instruments/
-      weight: 20
-    - identifier: records
-      name: Records
-      url: /records/
-      weight: 30
-    - identifier: theoi
-      name: THEOI
-      url: /theoi/
-      weight: 40
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 50
+# The navigation is not built from a menu definition any more: layouts/partials/nav.html
+# carries it, because the list turns with the surface (paper shows the Institute's
+# sections, ink shows the world's) and a flat menu cannot express that. A menu block
+# left here would be config nobody reads and everybody edits.
 taxonomies:
   category: categories
   tag: tags

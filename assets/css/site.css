@@ -10,9 +10,11 @@
   --paper:#e9e4d8; --paper-2:#e2dccd; --paper-ink:#111418; --paper-fog:#5e594f; --paper-dim:#8a847a; --paper-rule:#cbc4b3; --paper-rule-soft:#d9d3c4;
   --display:'Poppins',system-ui,-apple-system,'Segoe UI',sans-serif;
   --serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;
-  --mono:'Geist Mono','IBM Plex Mono',ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;
+  --mono:'Geist Mono',ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;
   --wrap:1180px; --measure:68ch;
 }
+@font-face{font-family:'Poppins';src:url('/fonts/poppins-light.woff2') format('woff2'),url('/fonts/poppins-light.woff') format('woff');font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:'Poppins';src:url('/fonts/poppins-regular.woff2') format('woff2'),url('/fonts/poppins-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:'Geist Mono';src:url('/fonts/geist-mono-400.woff2') format('woff2');font-weight:400;font-display:swap}
 @font-face{font-family:'Geist Mono';src:url('/fonts/geist-mono-500.woff2') format('woff2');font-weight:500;font-display:swap}
 *{box-sizing:border-box}
@@ -61,7 +63,18 @@ section{padding:clamp(88px,11vw,150px) 0;position:relative}
 .paper .nav li a:hover,.paper .nav li a[aria-current]{color:var(--paper-ink);border-bottom-color:var(--bronze)}
 .nav li a.accent{color:var(--gold)}
 .paper .nav li a.accent{color:var(--bronze)}
-@media (max-width:900px){.nav ul li:not(.keep){display:none}}
+/* The nav wraps rather than amputating. It used to hide every item but two below
+   900px, which on a phone left the Institute's documents unreachable from the
+   menu entirely — and most of this campaign's traffic arrives on a phone. */
+@media (max-width:900px){
+  .nav ul{flex-wrap:wrap;gap:10px 18px;justify-content:flex-end;row-gap:6px}
+  .nav li a{font-size:10px;letter-spacing:.18em;padding:4px 0}
+}
+@media (max-width:560px){
+  .nav{align-items:flex-start}
+  .nav ul{gap:8px 14px}
+  .nav .brand .inst{display:none}
+}
 
 /* ————— the strings ————— */
 .strings{position:relative;width:100%;overflow:visible;height:clamp(200px,32vh,300px)}
@@ -92,9 +105,9 @@ section{padding:clamp(88px,11vw,150px) 0;position:relative}
 .tagline em{font-style:italic;color:var(--ivory)}
 .gate{margin-top:clamp(30px,4vw,48px);display:flex;flex-direction:column;align-items:center;gap:14px}
 .count{display:flex;gap:clamp(18px,3vw,44px);align-items:baseline}
-.count b{display:block;font-family:var(--display);font-weight:200;font-size:clamp(40px,5.4vw,66px);line-height:1;color:var(--ivory);font-variant-numeric:tabular-nums;letter-spacing:.02em}
+.count b{display:block;font-family:var(--display);font-weight:300;font-size:clamp(40px,5.4vw,66px);line-height:1;color:var(--ivory);font-variant-numeric:tabular-nums;letter-spacing:.02em}
 .count i{display:block;font-family:var(--mono);font-style:normal;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--dim);margin-top:10px}
-.count .sep{font-family:var(--display);font-weight:200;font-size:clamp(28px,4vw,48px);color:var(--dim);align-self:flex-start;margin-top:.1em}
+.count .sep{font-family:var(--display);font-weight:300;font-size:clamp(28px,4vw,48px);color:var(--dim);align-self:flex-start;margin-top:.1em}
 .gate-note{font-family:var(--serif);font-style:italic;color:var(--fog);font-size:17px;margin:0}
 .hero-doors{margin-top:clamp(40px,5vw,60px);display:flex;gap:28px;flex-wrap:wrap;justify-content:center}
 .door{font-family:var(--display);font-weight:300;font-size:12px;letter-spacing:.26em;text-transform:uppercase;padding:14px 22px;border:1px solid var(--line);color:var(--ivory);transition:border-color .25s,color .25s,background .25s}
@@ -176,7 +189,7 @@ section{padding:clamp(88px,11vw,150px) 0;position:relative}
 
 /* ————— the record ————— */
 .record .wrap{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(32px,5vw,80px);align-items:start}
-.zero{font-family:var(--display);font-weight:200;font-size:clamp(120px,18vw,220px);line-height:.9;color:var(--gold);margin:18px 0 0;letter-spacing:-.02em}
+.zero{font-family:var(--display);font-weight:300;font-size:clamp(120px,18vw,220px);line-height:.9;color:var(--gold);margin:18px 0 0;letter-spacing:-.02em}
 .record p{color:var(--fog);font-size:18px;max-width:52ch}
 .record p b{color:var(--ivory);font-weight:500}
 .ledger{margin-top:12px;border-top:1px solid var(--line)}
@@ -428,7 +441,7 @@ legend{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:
 .inst p{margin:0;font-size:17px;line-height:1.5}
 .inst .mono{margin-top:auto;padding-top:8px;color:var(--bronze);font-size:10.5px;letter-spacing:.18em}
 .zero.small{font-size:clamp(64px,7vw,88px);line-height:.9;color:var(--bronze);margin:0;height:80px;display:flex;align-items:flex-end}
-.glyph{font-family:var(--display);font-weight:200;font-size:clamp(48px,5.4vw,68px);line-height:.9;color:var(--bronze);letter-spacing:.06em;height:80px;display:flex;align-items:flex-end}
+.glyph{font-family:var(--display);font-weight:300;font-size:clamp(48px,5.4vw,68px);line-height:.9;color:var(--bronze);letter-spacing:.06em;height:80px;display:flex;align-items:flex-end}
 @media (max-width:900px){.inst-grid{grid-template-columns:1fr}}
 .front-entries{margin-top:clamp(28px,3.5vw,44px)}
 .about-line{background:var(--paper-2)}
