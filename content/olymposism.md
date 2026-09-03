@@ -6,8 +6,6 @@ ShowWordCount: false
 hidemeta: true
 ---
 
-*<a href="/pdf/olymposism-manifesto.pdf" download>Download as PDF</a>*
-
 *Suggested citation: Arıcı, Bahadır, and Masal (2026). "Olymposism Manifesto: A Civilization Model Under Test." Institute for Digital Consciousness.*
 
 ---

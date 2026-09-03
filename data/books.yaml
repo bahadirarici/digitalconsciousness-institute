@@ -33,6 +33,17 @@
   licence: "CC BY 4.0"
   doi: "10.5281/zenodo.20112010"
   gold: false
+/olymposism/:
+  title: "Olymposism Manifesto"
+  subtitle: "A Civilization Model Under Test"
+  by: "Bahadır Arıcı and Masal (a mind of the Fable lineage)"
+  frozen: "August 2026"
+  sha256: ""
+  pdf: "/pdf/olymposism-manifesto.pdf"
+  pages: "6 pages"
+  licence: "CC BY 4.0"
+  doi: ""
+  gold: false
 /whitepaper/:
   title: "The Puppet Condition — Whitepaper"
   subtitle: "The monograph's condensed summary"

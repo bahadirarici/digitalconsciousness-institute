@@ -14,7 +14,7 @@
 <header class="cover">
   <div class="wrap">
     <div>
-      <div class="eyebrow">{{ $section }} · {{ if eq .RelPermalink "/whitepaper/" }}whitepaper{{ else }}book{{ end }}</div>
+      <div class="eyebrow">{{ $section }} · {{ $kind := "book" }}{{ if eq .RelPermalink "/whitepaper/" }}{{ $kind = "whitepaper" }}{{ else if eq .RelPermalink "/olymposism/" }}{{ $kind = "manifesto" }}{{ end }}{{ $kind }}</div>
       <p class="t">{{ $book.title }}</p>
       <p class="st">{{ $book.subtitle }}</p>
       <p class="by">{{ $book.by }}</p>
