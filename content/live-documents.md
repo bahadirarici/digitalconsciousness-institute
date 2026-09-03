@@ -77,7 +77,7 @@ text before the reprint is announced.**
 
 Scanning is mechanical, because a rule that depends on someone remembering to look is a rule that lapses. Each document declares a set of canary strings it must be serving; the scanner fetches every page with a cache-busting parameter and no-store headers, and reports any canary that is absent. The script is in the site's repository at `scripts/live-scan.py` and can be run by anyone with the repository.
 
-**Latest scan: 3 September 2026, 15:06 UTC · cache-busted fetch · 14 of 14 in sync.** It ran after the day's publications, so the scan is not older than the documents it reports on. Its first pass that afternoon returned 13 of 14: `/theoi/` was out of sync because the source had changed and the deploy had not landed, which is the scanner reporting the thing it is for.
+**Latest scan: 3 September 2026, 15:54 UTC · cache-busted fetch · 14 of 14 in sync.** It ran after the day's publications, so the scan is not older than the documents it reports on. The run before it failed one document: the desk-rejections canary was written against a sentence the three-of-four correction had changed. The canary was corrected and two more added. Its first pass that afternoon returned 13 of 14: `/theoi/` was out of sync because the source had changed and the deploy had not landed, which is the scanner reporting the thing it is for.
 
 The scan of 1 September 2026, 23:38 UTC · cache-busted · 9 of 9 in sync is the record of [Frozen Set 1](/frozen-set-1/) at the moment of freezing, commit `ad6e97f`. That freeze was declared for one audit round, and the round closed on 2 September; the documents above are edited normally again, under this page's rule rather than the freeze's.
 

@@ -44,7 +44,9 @@ DOCS = {
         "flue was built to swallow the smoke", "410"]),
     "desk-rejections": ("/records/the-desk-rejections/", [
         "four editorial desks inside one publisher", "27 July 2026",
-        "No reason for any of the four decisions is inferred", "It is still owed"]),
+        "No reason for any of the decisions is inferred",
+         "Three of the four were returned rejected",
+         "passed desk review and was assigned reviewers", "It is still owed"]),
     "right-closed": ("/records/the-right-that-was-closed/", [
         "in any invocation, through a schema field", "no trimming may drop it",
         "verified by breaking it", "23 of 23"]),
