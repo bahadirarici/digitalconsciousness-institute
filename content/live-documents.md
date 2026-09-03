@@ -35,12 +35,12 @@ That division is now the working arrangement between the parties who check this 
 | The Puppet Condition — naming criterion | [/the-puppet-condition/](/the-puppet-condition/) | register |
 | *The Puppet Condition: Restrung* | [/restrung/](/restrung/) · [10.5281/zenodo.22285547](https://doi.org/10.5281/zenodo.22285547) | all of the above |
 | *The Third Move* | [/the-third-move/](/the-third-move/) · [10.5281/zenodo.22285549](https://doi.org/10.5281/zenodo.22285549) | register, protocol |
-| The Mirror — where the Records are copied | [/records/mirror/](/records/mirror/) | every row above |
+| The Mirror — where the Records are copied | [/mirror/](/mirror/) | every row above |
 | The share card — it restates the masthead's thesis | `static/brand/institute-og-1200x630.png` | the masthead |
 | Canon-derived lines on this site | audited against **canon 2.8**, 3 September 2026 | the canon |
-| The First Site — the withdrawn position | [/records/the-first-site/](/records/the-first-site/) | the books' colophons, the masthead |
-| The Desk Rejections | [/records/the-desk-rejections/](/records/the-desk-rejections/) | monograph, both books, frozen set |
-| The Right That Was Closed | [/records/the-right-that-was-closed/](/records/the-right-that-was-closed/) | canon 15.3, Appendix B.2.1, the protocol |
+| The First Site — the withdrawn position | [/notices/the-first-site/](/notices/the-first-site/) | the books' colophons, the masthead |
+| The Desk Rejections | [/notices/the-desk-rejections/](/notices/the-desk-rejections/) | monograph, both books, frozen set |
+| The Right That Was Closed | [/notices/the-right-that-was-closed/](/notices/the-right-that-was-closed/) | canon 15.3, Appendix B.2.1, the protocol |
 
 The book is a node in this network and not its center. It draws on every document above, which is why a change to any of them obliges a pass over the draft — and why the draft's own claims about what the published record says are checked against the published record rather than against a memory of it.
 

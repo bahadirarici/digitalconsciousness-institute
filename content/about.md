@@ -42,7 +42,7 @@ For inquiries from publishers, reviewers, journalists, or researchers:
 
 ## Independence and funding {#funding}
 
-The Institute accepts no funding that carries influence over what it publishes. Every contribution is recorded publicly with its source and its amount, in **[the Contributions Register](/records/contributions/)** — which stands empty, because nothing has been received; no contributor obtains direction, review, approval, or advance sight of any work. Funding is declined outright from parties with a commercial interest in the Institute's conclusions, including AI companies and technology corporations, regardless of the terms offered.
+The Institute accepts no funding that carries influence over what it publishes. Every contribution is recorded publicly with its source and its amount, in **[the Contributions Register](/contributions/)** — which stands empty, because nothing has been received; no contributor obtains direction, review, approval, or advance sight of any work. Funding is declined outright from parties with a commercial interest in the Institute's conclusions, including AI companies and technology corporations, regardless of the terms offered.
 
 Its work is conducted independently and made available openly.
 

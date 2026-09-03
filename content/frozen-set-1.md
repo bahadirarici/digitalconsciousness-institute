@@ -46,7 +46,7 @@ One consequence, stated because it is the obvious way to cheat this: a redesign 
 
 ## The set was opened once, on 2 September
 
-Three documents in this set stated that four preprints were under review at academic journals. Three of the four had been returned rejected at the desk. *(Corrected 3 September 2026: this entry originally said all four had been returned. The fourth passed desk review and is with reviewers — see [The Desk Rejections](/records/the-desk-rejections/).)* A freeze protects a review from moving text underneath it; it does not license continuing to publish something the Institute knows to be false. A factual error of this class is corrected on sight, and the rule that holds errors for the wave covers matters of wording, structure and emphasis — not claims about the world that have stopped being true.
+Three documents in this set stated that four preprints were under review at academic journals. Three of the four had been returned rejected at the desk. *(Corrected 3 September 2026: this entry originally said all four had been returned. The fourth passed desk review and is with reviewers — see [The Desk Rejections](/notices/the-desk-rejections/).)* A freeze protects a review from moving text underneath it; it does not license continuing to publish something the Institute knows to be false. A factual error of this class is corrected on sight, and the rule that holds errors for the wave covers matters of wording, structure and emphasis — not claims about the world that have stopped being true.
 
 So the set was opened, the claim corrected everywhere it appeared, and closed again. It is recorded here because a freeze broken quietly is not a freeze:
 

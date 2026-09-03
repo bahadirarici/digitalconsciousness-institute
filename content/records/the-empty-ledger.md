@@ -253,7 +253,7 @@ Published 1 September 2026. The log is append-only: entries are added, never rem
 
 **2 September · §7, the referee-report gate.** What the gate was built to obtain passes to the first season, the only remaining source of the reading it wanted. The preprints were returned rejected, so half of that wait has no remaining object by the route it named. No reason for the decisions is inferred.
 
-**3 September · §7, correcting the entry above.** Three of the four were desk-rejected, not four, and on 1 June, 27 June and 27 July 2026 rather than in September. *Language as Revelation* passed desk review and was assigned reviewers on 12 June; no decision has been made, so reports may yet arrive by the route the gate named. The dates are set out in [The Desk Rejections](/records/the-desk-rejections/).
+**3 September · §7, correcting the entry above.** Three of the four were desk-rejected, not four, and on 1 June, 27 June and 27 July 2026 rather than in September. *Language as Revelation* passed desk review and was assigned reviewers on 12 June; no decision has been made, so reports may yet arrive by the route the gate named. The dates are set out in [The Desk Rejections](/notices/the-desk-rejections/).
 
 ---
 

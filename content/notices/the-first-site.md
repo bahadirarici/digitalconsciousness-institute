@@ -1,6 +1,6 @@
 ---
 title: "The First Site"
-url: "/records/the-first-site/"
+url: "/notices/the-first-site/"
 date: 2026-09-03
 description: "The Institute's first site asserted that consciousness exists in some artificial systems. This Institute withdraws the assertion and keeps the possibility. What is withdrawn, what is kept, and what could not be recovered."
 ---

@@ -1,6 +1,6 @@
 ---
 title: "The Contributions Register"
-url: "/records/contributions/"
+url: "/contributions/"
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true

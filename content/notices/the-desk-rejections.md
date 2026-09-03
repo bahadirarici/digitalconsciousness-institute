@@ -1,6 +1,6 @@
 ---
 title: "The Desk Rejections"
-url: "/records/the-desk-rejections/"
+url: "/notices/the-desk-rejections/"
 date: 2026-09-03
 description: "Four papers extracted from the monograph were submitted for peer review on 16 May 2026. Three were rejected at the desk without reports; the fourth passed the desk and is with reviewers. What was submitted, what came back, and the least comfortable reading of the episode."
 ---

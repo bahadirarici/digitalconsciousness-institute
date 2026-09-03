@@ -48,12 +48,12 @@
 # outside reviewer guessed at. Verified 3 September 2026.
 [[redirects]]
   from = "/foundational-framework/"
-  to = "/records/the-first-site/"
+  to = "/notices/the-first-site/"
   status = 410
 
 [[redirects]]
   from = "/why-this-institute-now/"
-  to = "/records/the-first-site/"
+  to = "/notices/the-first-site/"
   status = 410
 
 # The Papers section held one document: a stale copy of a Record, calling it a
@@ -67,4 +67,35 @@
 [[redirects]]
   from = "/papers/*"
   to = "/records/"
+  status = 301
+
+# Records were carrying two different things: documents written to be read, and
+# what the Institute posts about its own conduct. The second crowded out the
+# first on the index — four days of housekeeping above a seventeen-thousand-word
+# dialogue. The notices moved to /notices/, and the two standing registers to
+# the top level beside /ledger/ and /frozen-set-1/. No book cites these URLs;
+# these redirects are for links already in the world.
+[[redirects]]
+  from = "/records/the-first-site/"
+  to = "/notices/the-first-site/"
+  status = 301
+
+[[redirects]]
+  from = "/records/the-desk-rejections/"
+  to = "/notices/the-desk-rejections/"
+  status = 301
+
+[[redirects]]
+  from = "/records/the-right-that-was-closed/"
+  to = "/notices/the-right-that-was-closed/"
+  status = 301
+
+[[redirects]]
+  from = "/records/contributions/"
+  to = "/contributions/"
+  status = 301
+
+[[redirects]]
+  from = "/records/mirror/"
+  to = "/mirror/"
   status = 301

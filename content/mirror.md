@@ -1,6 +1,6 @@
 ---
 title: "The Mirror"
-url: "/records/mirror/"
+url: "/mirror/"
 date: 2026-09-03
 description: "Where the Records are copied outside the Institute's control, on what schedule, in what form — and what counts as the promise being broken."
 ---
@@ -39,7 +39,7 @@ Each round is logged below with the version DOI, the Wayback URLs and the manife
 
 The failure condition, written for the Records' own list and for the Empty Ledger's:
 
-> **Non-mirroring.** No snapshot of the Records dated within the last **45 days** exists outside the Institute's control; or a load-bearing change has stood for more than **14 days** without a mirrored snapshot that contains it. The check needs no one's cooperation: open the concept DOI, read the date of the newest version; open the Wayback calendar for `/records/corrections/`; compare the newest entry on this page with the newest entry there.
+> **Non-mirroring.** No snapshot of the Records dated within the last **45 days** exists outside the Institute's control; or a load-bearing change has stood for more than **14 days** without a mirrored snapshot that contains it. The check needs no one's cooperation: open the concept DOI, read the date of the newest version; open the Wayback calendar for `/notices/`; compare the newest entry on this page with the newest entry there.
 
 A missed round is entered on this page as a miss, with the date.
 

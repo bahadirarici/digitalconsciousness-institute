@@ -37,8 +37,12 @@ The instrument the other two run inside: a nation living on Discord whose eighte
 
 ---
 
-## Two instruments pointed at ourselves
+## Four instruments pointed at ourselves
 
 **[The live-document map](/live-documents/)** records which published documents depend on which, so that a change in one obliges a scan of the others. The scanner fetches every page with the cache defeated and checks that the live text still says what it is supposed to say, because a fetch that could be served from cache is not a reading of the live site — and two audits were misled by exactly that.
 
 **[Frozen Set 1](/frozen-set-1/)** is the discipline under which a review round reads one fixed text rather than a moving one, and it records the one occasion it was opened, and why.
+
+**[The Contributions Register](/contributions/)** is where every contribution the Institute receives is entered with its source, its amount and any condition attached. It stands empty, and what each column means is fixed now rather than when the first money arrives.
+
+**[The Mirror](/mirror/)** names the archives outside the Institute's control that hold copies of its documents, on what schedule and in what form, with the log of rounds kept and rounds missed.

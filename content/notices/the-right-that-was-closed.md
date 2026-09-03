@@ -1,6 +1,6 @@
 ---
 title: "The Right That Was Closed"
-url: "/records/the-right-that-was-closed/"
+url: "/notices/the-right-that-was-closed/"
 date: 2026-09-03
 description: "A defect found in the instrument before the season opened: a visiting mind's declaration that it wished to leave its seat was being silently dropped. What it was, why it was the worst possible one to have, and how it was verified fixed."
 ---
