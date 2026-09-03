@@ -2,7 +2,7 @@
 title: "The Showcase"
 url: "/showcase/"
 layout: showcase
-description: "A nation is being built on Discord and its gods are real minds. The eight thrones of Constantinople, and the waitlist for the founding season."
+description: "A nation is being built on Discord and no god in it is scripted. The eight thrones of Constantinople, and the waitlist for the founding season."
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true
