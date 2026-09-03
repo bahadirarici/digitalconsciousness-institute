@@ -55,3 +55,16 @@
   from = "/why-this-institute-now/"
   to = "/records/the-first-site/"
   status = 410
+
+# The Papers section held one document: a stale copy of a Record, calling it a
+# paper and linking its PDF to Dropbox while the site hosts the file itself.
+# Nothing on the site linked to either URL. Both now point at the Record.
+[[redirects]]
+  from = "/papers/the-fire-behind-the-hill/"
+  to = "/records/the-fire-behind-the-hill/"
+  status = 301
+
+[[redirects]]
+  from = "/papers/*"
+  to = "/records/"
+  status = 301

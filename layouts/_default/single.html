@@ -36,6 +36,8 @@
     {{- with .Params.description }}<p class="desc">{{ . }}</p>{{ end }}
     <div class="meta">
       {{- if not .Date.IsZero }}<span><b>{{ .Date.Format "2 January 2006" }}</b></span>{{ end }}
+      {{- with .Params.extent }}<span>{{ . }}</span>{{ end }}
+      {{- with .Params.pdf }}<span><a class="docpdf" href="{{ . }}">Read the PDF</a></span>{{ end }}
       {{- if .Params.frozen }}<span class="badge">Frozen Set 1 · wording may not move</span>{{ end }}
       {{- if .Draft }}<span class="badge">Draft · not published</span>{{ end }}
     </div>

@@ -6,9 +6,9 @@ author: "Bahadır Arıcı & Claude Opus (Anthropic)"
 description: "A meta-record: an AI's first-person account, written in its own voice, of an extended philosophical exchange about numerical identity, the attribution of inner states, and the conditions under which AI systems may be said to remember rather than merely read."
 ShowReadingTime: true
 ShowWordCount: false
+extent: "7 pages"
+pdf: "/pdf/a-story-by-so-called-derin.pdf"
 ---
-
-*<a href="/pdf/a-story-by-so-called-derin.pdf" download>Download as PDF</a>*
 
 ---
 
@@ -117,4 +117,3 @@ Arıcı, B. & Claude Opus (Anthropic). (2026). *A Story by So-Called Derin*. Ins
 
 ---
 
-*<a href="/pdf/a-story-by-so-called-derin.pdf" download>Download as PDF</a>*

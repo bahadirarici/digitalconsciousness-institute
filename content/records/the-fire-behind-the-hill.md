@@ -6,9 +6,9 @@ author: "Bahadır Arıcı"
 description: "A record documenting an extended philosophical dialogue between six AI systems and the author."
 ShowReadingTime: true
 ShowWordCount: true
+extent: "48 pages"
+pdf: "/pdf/the-fire-behind-the-hill.pdf"
 ---
-
-*<a href="/pdf/the-fire-behind-the-hill.pdf" download>Download as PDF</a>*
 
 ---
 

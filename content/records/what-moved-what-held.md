@@ -7,9 +7,9 @@ description: "This Record announces the revised second version of the monograph:
 summary: "A first public reassessment of The Puppet Condition: what the field's movement confirmed, what it dated, and the announcement of the second version."
 ShowReadingTime: true
 ShowWordCount: false
+extent: "9 pages"
+pdf: "/pdf/what-moved-what-held.pdf"
 ---
-
-*<a href="/pdf/what-moved-what-held.pdf" download>Download as PDF</a>*
 
 *Suggested citation: Arıcı, Bahadır (2026). "What Moved, What Held: The Puppet Condition Revisited." Institute for Digital Consciousness, Records.*
 

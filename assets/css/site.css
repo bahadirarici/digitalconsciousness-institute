@@ -375,6 +375,8 @@ legend{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:
 .dochead .meta b{color:var(--paper-fog);font-weight:500}
 .dochead .meta a{border-bottom:1px solid var(--paper-rule)}
 .dochead .meta .badge{color:var(--bronze)}
+.dochead .meta .docpdf{color:var(--paper-ink);border-bottom-color:var(--bronze)}
+.dochead .meta .docpdf:hover{color:var(--bronze)}
 
 /* ————— book cover header (paper page, ink cover) ————— */
 .cover{background:var(--ink);color:var(--ivory);padding:clamp(120px,14vw,170px) 0 clamp(56px,7vw,90px)}
