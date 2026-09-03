@@ -14,7 +14,7 @@
 <header class="cover">
   <div class="wrap">
     <div>
-      <div class="eyebrow">{{ $section }} · {{ if $book.frozen }}frozen text{{ else }}monograph{{ end }}</div>
+      <div class="eyebrow">{{ $section }} · {{ if eq .RelPermalink "/whitepaper/" }}whitepaper{{ else }}book{{ end }}</div>
       <p class="t">{{ $book.title }}</p>
       <p class="st">{{ $book.subtitle }}</p>
       <p class="by">{{ $book.by }}</p>
@@ -23,8 +23,7 @@
       {{- with $book.frozen }}<b>{{ . }}</b><br>{{ end }}
       {{- with $book.pages }}{{ . }}<br>{{ end }}
       {{- with $book.licence }}Licence · {{ . }}<br>{{ end }}
-      {{- if $book.doi }}DOI · <a class="doi" href="https://doi.org/{{ $book.doi }}">{{ $book.doi }}</a><br>{{ else if $book.frozen }}DOI · to follow<br>{{ end }}
-      {{- with $book.sha256 }}SHA-256 of the frozen PDF<span class="hash">{{ . }}</span>{{ end }}
+      {{- with $book.doi }}DOI · <a class="doi" href="https://doi.org/{{ . }}">{{ . }}</a><br>{{ end }}
       {{- with $book.pdf }}<a class="dl" href="{{ . }}">Read the PDF</a>{{ end }}
     </div>
   </div>
