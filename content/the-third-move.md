@@ -47,6 +47,8 @@ The book counts its own distinguishing consequences down rather than up: the hon
 
 **The claim falls to a filing.** One instrument, one bill, one decided case, one treatise chapter — predating the book and formulating the direct, unconditional non-person beneficiary for artificial minds — falsifies the audit's headline finding. The search is described concretely enough to be repeated, and its blind spots are declared: the commercial databases, depth, language and legal family. The Institute invites the search to be beaten and will publish the beating, dated, in the same font as the claim.
 
+**The audit is not what the argument stands on.** The search is the book's second and more fragile claim, kept in its own lane and carried with its status line — *searched, not proven*. The doctrine above rests on what is in force and on what is absent from it, and both are checkable by a stranger who never opens the search at all. The book leans on the audit nowhere, and would survive its defeat unchanged.
+
 **The doctrine falls to a failure.** If the designation is enacted somewhere and the sham objection proves right in practice — registries filling with parked assets and hollow enforcers — the central bet will have failed publicly, and the successor volume will say so.
 
 **The clause falls to use.** The first organizations to run section 2 through an audit season, section 6 through a real succession, or section 8 through a hostile acquisition will find the drafting's errors, and the version history will print them. A clause is a prediction about future disputes, and predictions are scored.
