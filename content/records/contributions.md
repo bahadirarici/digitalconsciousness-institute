@@ -4,6 +4,7 @@ url: "/records/contributions/"
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true
+date: 2026-09-02
 description: "Every contribution the Institute receives, with its source and its amount, published in the form the record will keep. It stands empty: nothing has been received."
 ---
 
