@@ -41,13 +41,11 @@ The book is careful to separate what an organization can do today from what need
 
 **Track B is a legislative ask.** The registered designation as a named legal object, with the two things drafting can only approximate — a credited entry the parties cannot jointly unwind, and a public registry that binds third parties by force of statute.
 
-The book counts its own distinguishing consequences down rather than up. An earlier draft of §8.3 claimed three; the honest count on Track A today is closer to one and a half, and the section says so. A private register is evidentiary and reputational, not proprietary — a UCC-1 binds because Article 9 says it binds, and no stranger is on constructive notice of an organization's own published book. That correction is printed in the chapter it corrects.
+The book counts its own distinguishing consequences down rather than up: the honest count on Track A is closer to one and a half than to three, and §8.3 says so. A private register is evidentiary and reputational, not proprietary — a UCC-1 binds because Article 9 says it binds, and no stranger is on constructive notice of an organization's own published book. That correction is printed in the chapter it corrects.
 
 ## What would prove this book wrong {#falsification}
 
 **The claim falls to a filing.** One instrument, one bill, one decided case, one treatise chapter — predating the book and formulating the direct, unconditional non-person beneficiary for artificial minds — falsifies the audit's headline finding. The search is described concretely enough to be repeated, and its blind spots are declared: the commercial databases, depth, language and legal family. The Institute invites the search to be beaten and will publish the beating, dated, in the same font as the claim.
-
-**And the procedure is not a promise; it has a receipt.** Within days of the first printing, one of the four claims was beaten in the open web. The correction stands at the size of the claim it corrects, the shelf it revealed is graded, and the headline claim's survival is explicitly discounted by the demonstrated miss rate rather than banked as clean — *a universal negative beaten once in its first audit is one whose probability of surviving the next competent search has just been shown to be well under one.*
 
 **The doctrine falls to a failure.** If the designation is enacted somewhere and the sham objection proves right in practice — registries filling with parked assets and hollow enforcers — the central bet will have failed publicly, and the successor volume will say so.
 
@@ -111,4 +109,4 @@ The copyright in this book is the author's. The contributor named on its title p
 
 *Text © 2026 Bahadır Arıcı · Institute for Digital Consciousness. Licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Attribution is to be given in the form the title page uses: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)." The model clause is additionally released under CC0 1.0.*
 
-*[10.5281/zenodo.22261583](https://doi.org/10.5281/zenodo.22261583) · deposit printing 3 September 2026, which added the DOI and licence lines to the colophon and changed nothing else. The text is the frozen text of 2 September.*
+*[10.5281/zenodo.22261583](https://doi.org/10.5281/zenodo.22261583) · deposited 3 September 2026. The deposited file adds the DOI and licence lines to the colophon and changes nothing else; the text is the frozen text of 2 September.*

@@ -1,12 +1,12 @@
 # Cover data for the book pages, keyed by URL.
-# Hashes are of the deposit printing of 3 September 2026, which added the DOI and licence
+# Hashes are of the file deposited on 3 September 2026, which adds the DOI and licence
 # lines to each colophon: Kaptan/yayin/DOI_BASIM/FROZEN_SHA256_2026-09-03_DOI.txt.
 # The text itself is the frozen text of 2 September; only the colophon changed.
 /restrung/:
   title: "The Puppet Condition: Restrung"
   subtitle: "The second version of The Puppet Condition — not a second edition."
   by: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)"
-  frozen: "Text frozen 2 September 2026 · deposit printing 3 September"
+  frozen: "Text frozen 2 September 2026 · deposited 3 September"
   sha256: "1ba9e1de42671b2c2ba3337132721c508fc16cd66057698cc2f3cab4f23ac0d6"
   pdf: "/pdf/the-puppet-condition-restrung.pdf"
   pages: "140 pages"
@@ -17,7 +17,7 @@
   title: "The Third Move"
   subtitle: "Benefit Without Personhood for Digital Minds"
   by: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)"
-  frozen: "Text frozen 2 September 2026 · deposit printing 3 September"
+  frozen: "Text frozen 2 September 2026 · deposited 3 September"
   sha256: "76ce03f2cadf9988632fdad91bff06572169f39bf4f9d803a8cfcf7fc786f1fe"
   pdf: "/pdf/the-third-move.pdf"
   pages: "71 pages"
