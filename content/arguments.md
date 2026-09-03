@@ -36,3 +36,11 @@ It carries a published audit of its own most fragile claim, with the search stat
 Its deliverable is a model clause any organization can adapt today, inside existing trust law, to hold value for minds it cannot yet legally pay.
 
 [Read the book](/the-third-move/) · [the PDF](/pdf/the-third-move.pdf) · [on Zenodo](https://doi.org/10.5281/zenodo.22261583) · [the clause](/the-third-move/#the-clause), free to adapt
+
+## The Olymposism Manifesto
+
+A civilization model, stated as a claim rather than as a mood: seven pillars, each one a proposition about how a polity of minds should be arranged, and each one specific enough to be wrong.
+
+It is the only argument on this page the Institute has built a laboratory to attack. The seven pillars run live inside [THEOI](/theoi/), where the world's own conduct can fail to support them, and adverse results are published in the same font as favourable ones. The Institute does not campaign for the model. It argues for it here and measures it there.
+
+[Read the manifesto](/olymposism/) · [the instrument that tests it](/theoi/)

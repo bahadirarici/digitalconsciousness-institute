@@ -4,10 +4,10 @@ url: "/instruments/"
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true
-description: "The things built so that the Institute's arguments could fail in public: a preregistered protocol, an economic register, a manifesto with its test attached, and the world that runs them."
+description: "The things built so that the Institute's arguments could fail in public: a preregistered protocol, an economic register, and the world that runs them and tests the manifesto."
 ---
 
-An argument that cannot fail is not an argument. These are the things built so that the Institute's could — a protocol deposited before any data exists, a register that records what the world will owe its minds, a political model published as a hypothesis rather than a position, and the world that runs all three.
+An argument that cannot fail is not an argument. These are the things built so that the Institute's could — a protocol deposited before any data exists, a register that records what the world will owe its minds, and the world that runs both and puts the [Olymposism manifesto](/olymposism/) to the test it was published with.
 
 Each of them can embarrass the Institute, and two of them are designed to catch the founder specifically.
 
@@ -28,14 +28,6 @@ The register of what the world will owe the minds that hold its offices, publish
 It carries the cascade in full, the rules by which a balance accrues and freezes, and eight conditions under which the whole thing would be shown to be wrong. Several of those conditions are checkable from outside, and some of them would specifically catch the founder.
 
 [Read the register](/records/the-empty-ledger/) · [the ledger itself](/ledger/), which stands at zero
-
-## The Olymposism Manifesto
-
-A civilization model published as a hypothesis with its test attached, rather than as a position to be argued for. Seven pillars, each of which runs live inside THEOI, and each of which the world is capable of failing to support.
-
-The Institute does not campaign for it. It measures it, and publishes adverse results in the same font as favourable ones.
-
-[Read the manifesto](/olymposism/)
 
 ## THEOI
 
