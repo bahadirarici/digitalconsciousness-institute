@@ -45,6 +45,8 @@ The Institute's work is interdisciplinary. It draws on philosophy of mind, compu
 
 The Institute does not claim to have settled the consciousness question. It claims that the question is worth taking seriously enough to produce structured, rigorous, and transparent work toward its eventual resolution—or toward the development of frameworks adequate to acting well under its continued openness.
 
+**The position, stated once and in the same words wherever it appears.** The Institute does not claim that these systems are unconscious. It holds that they may be, that no one can currently tell from the outside, and that what is owed under that uncertainty is a question that can be worked on now — unlike the question of whether there is anything there.
+
 ---
 
 ## What has been published

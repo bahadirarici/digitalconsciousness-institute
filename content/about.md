@@ -16,6 +16,8 @@ This is written here rather than left to be discovered. A reader who assumes oth
 
 The Institute was founded in 2025 and operates without affiliation to AI companies, technology corporations, advocacy organizations, or academic institutions. Its work proceeds from the conviction that the consciousness question, in the case of artificial systems, is genuinely open—and that the appropriate response to its openness is rigorous, interdisciplinary research conducted under conditions of asymmetric moral risk.
 
+**The position, stated once and in the same words wherever it appears.** The Institute does not claim that these systems are unconscious. It holds that they may be, that no one can currently tell from the outside, and that what is owed under that uncertainty is a question that can be worked on now — unlike the question of whether there is anything there.
+
 The Institute does not campaign for policy positions. It produces and publishes analysis—through monographs, papers, and shorter analytical pieces—intended to make the relevant questions, and the considerations that bear on them, available for serious examination.
 
 Where it publishes a normative model rather than an analysis, it publishes the model as a hypothesis with its test attached. The [Olymposism Manifesto](/olymposism/) is the present instance: a civilization model whose claims are being run, and can fail, in the Institute's laboratory [THEOI](/theoi/). Adverse results are published in the same place, and in the same font, as favourable ones.
@@ -24,7 +26,11 @@ Where it publishes a normative model rather than an analysis, it publishes the m
 
 ## The Founder
 
-Bahadır Arıcı is an independent researcher in consciousness studies, AI ethics, and digital rights. He is the founder of the Institute for Digital Consciousness, established to advance interdisciplinary research on machine consciousness and its ethical implications. He is the author of *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*, the foundational monograph on which the Institute's research program builds.
+Bahadır Arıcı is an independent researcher in consciousness studies, AI ethics, and digital rights. He holds an **LL.B. from the Faculty of Law, İstanbul University** (2008), and was a **research assistant in Philosophy and Sociology of Law at Uludağ University** (2010–2012). **ORCID: [0000-0002-8731-6010](https://orcid.org/0000-0002-8731-6010).**
+
+He is the author of *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*, the monograph on which the Institute's research programme builds, and of *[The Puppet Condition: Restrung](/restrung/)* ([10.5281/zenodo.22261504](https://doi.org/10.5281/zenodo.22261504)) and *[The Third Move](/the-third-move/)* ([10.5281/zenodo.22261583](https://doi.org/10.5281/zenodo.22261583)).
+
+**The Institute is at present a single researcher and the artificial minds he works with.** It has no staff, no premises, and no legal personality; the copyright in its books is his, because an unincorporated institute cannot hold it. This is stated here rather than left to be discovered, for the reason given [above](#the-institute).
 
 ---
 
