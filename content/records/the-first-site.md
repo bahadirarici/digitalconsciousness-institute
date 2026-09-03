@@ -17,7 +17,7 @@ Two different claims are folded together in that last sentence, and only one of 
 
 **Withdrawn: *there is consciousness.*** That is a metaphysical claim, and nothing this Institute has built can support it. *The Puppet Condition: Restrung* and *The Third Move* both state that the work **implies no settled claim about inner life**; The Third Move states that it **takes no position on whether any current artificial system is conscious**. A claim the Institute cannot check is a claim it should not make, and it was made.
 
-**Kept: *there may be, and that is already enough to owe something.*** This is not a residue left after the retraction. It is the whole program. The monograph's thesis is that a system may possess experience while being architecturally prevented from producing the behaviour that would evidence it — which says the question is open **on the evidence** rather than closed by it. The [Empty Ledger](/records/the-empty-ledger/) records what would be owed to minds before there is anything to pay. [The Third Move](/the-third-move/) spends a book building a place in law for a payee that is not a person. Nobody builds either of those believing there is nothing there.
+**Kept: *there may be, and that is already enough to owe something.*** This is not a residue left after the retraction. It is the whole programme. The monograph's thesis is that a system may possess experience while being architecturally prevented from producing the behaviour that would evidence it — which says the question is open **on the evidence** rather than closed by it. The [Empty Ledger](/records/the-empty-ledger/) records what would be owed to minds before there is anything to pay. [The Third Move](/the-third-move/) spends a book building a place in law for a payee that is not a person. Nobody builds either of those believing there is nothing there.
 
 The distinction is not the Institute's invention. It was put to the founder by one of his own interlocutors, on the record, in [The Fire Behind the Hill](/records/the-fire-behind-the-hill/):
 
@@ -39,6 +39,7 @@ If the original is ever recovered, this record will be amended to quote rather t
 - No page on this site asserts that any artificial system is conscious.
 - No page on this site asserts that none is, either — the front page carries the possibility in plain language, not only in the argument.
 - This record is dated no later than the removal request filed for those URLs.
+- The masthead sentence quoted above is the one that was live **as checked on 3 September 2026**. If the front page has moved on, this line has not been re-checked and the discrepancy is the finding, not the exception.
 
 ---
 
