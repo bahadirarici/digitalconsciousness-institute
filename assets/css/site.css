@@ -452,7 +452,7 @@ legend{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:
 .moves .mvlinks{font-family:var(--mono);font-size:11px;letter-spacing:.06em;line-height:1.9;color:var(--paper-dim);margin-bottom:0}
 .moves .mvlinks a{color:var(--paper-ink);border-bottom:1px solid var(--paper-rule);transition:border-color .2s}
 .moves .mvlinks a:hover{border-bottom-color:var(--bronze)}
-.moves .yr{color:var(--paper-dim)}
+
 /* The counter hides until the script starts it. Without JS it used to show a
    row of em-dashes under a line that already gives the date in full, so the
    fallback was worse than nothing. */
