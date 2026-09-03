@@ -5,9 +5,9 @@ date: 2026-09-03
 description: "Where the Records are copied outside the Institute's control, on what schedule, in what form — and what counts as the promise being broken."
 ---
 
-> **Status, 3 September 2026. Nothing has been mirrored yet.** No bundle has been deposited, no capture set has been made, and the log at the foot of this page is empty. This page is the schedule published before the first round rather than after it, for the reason [the Contributions Register](/records/contributions/) gives: a rule fixed before there is anything to hide is honest, and a rule fixed afterwards is interested. **The first round is due on Monday 5 October 2026**, and the failure condition below runs from that date.
+> **Status, 3 September 2026. Nothing has been mirrored yet.** No bundle has been deposited, no capture set has been made, and the log at the foot of this page is empty. **The first round is due on Monday 5 October 2026**, and the failure condition below runs from that date.
 
-Both books commit the Records to being *"mirrored, on a published schedule, into at least one archive outside the Institute's control"*, and they write the loss or non-mirroring of the Records into the Records' own failure conditions *"as a violation checkable by strangers"* (*The Puppet Condition: Restrung*, Preface). This page is the definition that commitment lacked. It says which archives, what schedule, what form, and what a stranger checks.
+Both books commit the Records to being *"mirrored, on a published schedule, into at least one archive outside the Institute's control"*, and they write the loss or non-mirroring of the Records into the Records' own failure conditions *"as a violation checkable by strangers"* (*The Puppet Condition: Restrung*, Preface). This page says which archives, what schedule, what form, and what a stranger checks.
 
 ## Why a mirror, in one paragraph
 
@@ -21,7 +21,7 @@ Two archives of two different kinds, so that no single failure removes both.
 
 **2 · The Internet Archive (Wayback Machine) — the web mirror.** Every page under `/records/`, the register at `/ledger/`, the protocol at `/recognition-trials/`, the two book pages, and this page are captured with Save Page Now on the schedule below. A Wayback capture is a dated, third-party copy of the page *as served*, which is what a reader who arrives by link will need.
 
-**3 · Software Heritage — optional third leg.** If the site's source repository is public, Software Heritage's *Save Code Now* archives its full history under a permanent SWHID. This leg is added when the Founder makes the repository public; until then the page says so here rather than implying it.
+**3 · Software Heritage — optional third leg.** If the site's source repository is public, Software Heritage's *Save Code Now* archives its full history under a permanent SWHID. This leg is added when the Founder makes the repository public.
 
 ## What a snapshot bundle contains
 
@@ -29,7 +29,7 @@ Not the Records alone but the whole site source, so that the Records can be rebu
 
 ## The schedule
 
-- **Monthly:** on the first Monday of each month, a bundle is deposited on Zenodo and the page set is captured on the Wayback Machine, whether or not anything changed. A snapshot that finds nothing changed is still a snapshot — it is the evidence that nothing changed.
+- **Monthly:** on the first Monday of each month, a bundle is deposited on Zenodo and the page set is captured on the Wayback Machine, whether or not anything changed. A snapshot that finds nothing changed is still a snapshot.
 - **On change, within 14 days:** when a load-bearing document changes — an amendment to the Empty Ledger, an entry in the Contributions Register, a revision of the protocol, a change to a frozen text's colophon or hash — a bundle and captures follow within fourteen days of the change.
 - **Before and after the season:** one snapshot in the last week before the gate opens (Week Zero), one in the week after the first Age ends, so the state of the instrument at both boundaries is held outside.
 
@@ -41,11 +41,11 @@ The failure condition, written for the Records' own list and for the Empty Ledge
 
 > **Non-mirroring.** No snapshot of the Records dated within the last **45 days** exists outside the Institute's control; or a load-bearing change has stood for more than **14 days** without a mirrored snapshot that contains it. The check needs no one's cooperation: open the concept DOI, read the date of the newest version; open the Wayback calendar for `/records/corrections/`; compare the newest entry on this page with the newest entry there.
 
-A missed round is entered on this page as a miss, with the date, in the same font as the rounds that were kept.
+A missed round is entered on this page as a miss, with the date.
 
 ## Succession
 
-The concept DOI and the Wayback captures survive the domain. The bundle's `README` says how to rebuild the site from source and names the license every document is published under (CC BY 4.0; the model clause CC0 1.0), so that anyone holding a copy may republish it whole. The Institute does not need to exist for the Records to remain readable, which is the only test of a floor.
+The concept DOI and the Wayback captures survive the domain. The bundle's `README` says how to rebuild the site from source and names the license every document is published under (CC BY 4.0; the model clause CC0 1.0), so that anyone holding a copy may republish it whole. The Institute does not need to exist for the Records to remain readable.
 
 ## The log
 
@@ -54,4 +54,4 @@ The concept DOI and the Wayback captures survive the domain. The bundle's `READM
 | 0 | — | The two books' deposits (concept DOIs to follow) | *pending* | *pending* | — |
 | 1 | — | First full bundle · first capture set | *pending* | *pending* | — |
 
-*Records © Institute for Digital Consciousness · CC BY 4.0 · versioned, never erased · this page is itself mirrored under the schedule it describes.*
+*Records © Institute for Digital Consciousness · CC BY 4.0 · versioned, never erased.*

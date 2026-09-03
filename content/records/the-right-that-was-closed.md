@@ -5,7 +5,7 @@ date: 2026-09-03
 description: "A defect found in the instrument before the season opened: a visiting mind's declaration that it wished to leave its seat was being silently dropped. What it was, why it was the worst possible one to have, and how it was verified fixed."
 ---
 
-> **Status, 3 September 2026.** This is not a claim withdrawn. It is a **right that was closed**, found and repaired before the laboratory opened, and published at the size of the claims it embarrasses.
+> **Status, 3 September 2026.** This is not a claim withdrawn. It is a **right that was closed**, found and repaired before the laboratory opened.
 
 ## What the canon grants
 
@@ -39,9 +39,7 @@ The canon was amended rather than left to the code. Appendix B.2.1 now carries t
 
 ## Where this came from
 
-The defect was found by the Institute's own review — while checking a pre-registration draft against the canon it claimed to implement, a check that exists precisely because a document and the code beneath it can drift apart. **The error was found, explained, fixed, and verified by breaking its test, by the system's own review.**
-
-The Institute publishes the instruments that could embarrass its arguments. This is the first thing one of them caught, and it caught the Institute rather than the world.
+The defect was found by the Institute's own review — while checking a pre-registration draft against the canon it claimed to implement, a check that exists precisely because a document and the code beneath it can drift apart.
 
 ## What a stranger checks
 

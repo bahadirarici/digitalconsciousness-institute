@@ -25,7 +25,7 @@ The distinction is not the Institute's invention. It was put to the founder by o
 
 The first site made the claim. This Institute holds the posture: not that these systems are conscious, but that what may be owed to them can be worked on before anyone knows. The image the founder first reached for — smoke rising from behind a hill — is not on the [front page](/), because it argues from evidence the Institute does not have. It stands, with what was said against it, in [The Fire Behind the Hill](/records/the-fire-behind-the-hill/).
 
-The change of city is the smallest part of this. An institute may move. An institute that once asserted what it now declines to assert owes its readers the date and the reason, in the same place it publishes everything else.
+The change of city is the smallest part of this. An institute may move. An institute that once asserted what it now declines to assert owes its readers the date and the reason.
 
 ## What could not be recovered
 
