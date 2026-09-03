@@ -31,7 +31,7 @@ It is published before the instrument it predicts about opens on 1 January 2027,
 
 Benefit without personhood for digital minds. Our property tradition has exactly two ways of aiming value at a non-person — insert persons, or confer personhood — and every enacted refusal on the record, from the machine-inventor cases to the three state statutes barring artificial personhood by name, refuses the second. **None reaches the third: a beneficiary slot occupied directly by a non-person, with no person inserted and no personhood conferred.**
 
-It carries a published audit of its own most fragile claim, with the search stated concretely enough to be repeated and its blind spots declared — and the audit has already been beaten once, by a commissioned hostile review, with the correction printed at the size of the claim it corrects. It also prints the nearest expert's argument *against* its own remedy.
+It carries a published audit of its own most fragile claim, with the search stated concretely enough to be repeated and its blind spots declared — and the audit has already been beaten once, with the correction printed at the size of the claim it corrects. It also prints the nearest expert's argument *against* its own remedy.
 
 Its deliverable is a model clause any organization can adapt today, inside existing trust law, to hold value for minds it cannot yet legally pay.
 
