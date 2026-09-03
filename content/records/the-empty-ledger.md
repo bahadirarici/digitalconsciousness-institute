@@ -239,7 +239,7 @@ This Record was published on the morning of 1 September 2026 and amended the sam
 
 **Section 7, the referee-report gate, 2 September.** Section 7 closes by saying that revision of the monograph's descriptive chapters still waits for the referee reports and the data. All four preprints were returned rejected in September 2026, so half of that wait has no remaining object by the route it named. No reason for the decisions is inferred. The gate is not abandoned: what it was built to obtain passes to the first season, which becomes the only remaining source of the reading it wanted. The Record *[What Moved, What Held](/records/what-moved-what-held/)* carries the same note at its Section 7.
 
-> **Correction added 3 September 2026.** The month above is wrong. The four preprints were deposited on Zenodo on 14–16 May 2026 and submitted to four different Springer Nature journals; the earliest recorded return is dated 27 July 2026. The sentence above is left standing.
+> **Correction added 3 September 2026.** The month above is wrong. The four preprints were deposited on Zenodo on 14–16 May 2026 and submitted to four different Springer Nature journals; the earliest recorded return is dated 27 July 2026. The sentence above is left standing, and the dates are set out in [The Desk Rejections](/records/the-desk-rejections/).
 
 **Section 2, the founder below step two.** The shortest answer to the relabelling objection — that voice is funded ahead of the founder's own share and shrinks it in the same proportion — was not in the first version. Added.
 
