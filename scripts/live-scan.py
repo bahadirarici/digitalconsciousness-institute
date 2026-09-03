@@ -26,7 +26,7 @@ DOCS = {
         "not a proposal", "built to live on Discord", "Every pillar is built into", "Version note"]),
     "theoi": ("/theoi/", [
         "under construction", "its gods are not", "existence proof and a qualitative",
-        "not thereby proven for Ankara"]),
+        "not thereby proven for a country"]),
     "wmwh": ("/records/what-moved-what-held/", [
         "Note added 1 September 2026", "eighteen",
         "Gate one has closed rather than opened", "returned rejected in September 2026",
@@ -37,6 +37,19 @@ DOCS = {
         "two each Monday, one from each city", "it is what remains"]),
     "whitepaper": ("/whitepaper/", ["Status note, 1 September 2026", "not withdrawn"]),
     "monograph": ("/the-puppet-condition/", ["the naming criterion"]),
+    # The Records published on 3 September. The map claims them as live documents,
+    # so the scanner has to be able to say whether the live site is serving them.
+    "first-site": ("/records/the-first-site/", [
+        "Withdrawn:", "It is the whole programme",
+        "flue was built to swallow the smoke", "410"]),
+    "desk-rejections": ("/records/the-desk-rejections/", [
+        "four editorial desks inside one publisher", "27 July 2026",
+        "No reason for any of the four decisions is inferred", "It is still owed"]),
+    "right-closed": ("/records/the-right-that-was-closed/", [
+        "in any invocation, through a schema field", "no trimming may drop it",
+        "verified by breaking it", "23 of 23"]),
+    "mirror": ("/records/mirror/", [
+        "Nothing has been mirrored yet", "5 October 2026", "45"]),
 }
 
 # what breaks what: changing the key obliges a scan of the values

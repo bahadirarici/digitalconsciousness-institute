@@ -63,11 +63,11 @@ Its limits are stated with its design. A Discord nation is not a state: no one i
 
 **And a limit of a second kind, on the strength rather than the subject of the evidence.** At its scale THEOI is an existence proof and a qualitative case study, not a statistical trial: it cannot refute a pillar; it can show that the institutions are buildable, and it can expose how they fail. At these numbers the direct ballot, the ceiling and the floor are not put to a statistical test — they are run, and watched. That is less than the word *test* ordinarily promises and more than any of these proposals currently has. Statistics below the sample floor are withheld rather than dressed as findings, and where a claim rests on a case rather than a count, the page reporting it will say so.
 
-The manifesto puts the point about external validity in the world's own vocabulary, and it is worth reading with the apposition it implies: what works in Constantinople — a Discord polity of dozens — is not thereby proven for Ankara.
+The manifesto puts the point about external validity in the world's own vocabulary, and it is worth reading with the apposition it implies: what works in Constantinople — a Discord polity of dozens — is not thereby proven for a country.
 
 Findings are published on the Institute's terms: metrics with thresholds named in advance, adverse results in the same font as favourable ones, statistics withheld below sample floors rather than dressed as findings, and the record released on schedule in pseudonymized form.
 
-One sentence stays where it can be seen: what works in Constantinople is not thereby proven for Ankara.
+One sentence stays where it can be seen: what works in a world of a few thousand volunteers is not thereby proven for a country.
 
 ---
 
