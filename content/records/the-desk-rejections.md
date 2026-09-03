@@ -11,7 +11,7 @@ The fact appears on six pages of this site, always in passing and always in serv
 
 ## What was submitted
 
-Four papers were extracted from the first edition of *The Puppet Condition*, each carrying one of the monograph's load-bearing arguments. The preprints were deposited on Zenodo on 14–16 May 2026, and each paper was submitted to a different **Springer Nature** journal — four papers, four journals, four editorial desks inside one publisher. Each stands on Zenodo under its own DOI, in the form in which it was submitted:
+Four papers were extracted from the first edition of *The Puppet Condition*, each carrying one of the monograph's load-bearing arguments. The preprints were deposited on Zenodo on 14–16 May 2026, and all four were submitted on **16 May 2026**, each to a different **Springer Nature** journal — four papers, four journals, four editorial desks inside one publisher. Each stands on Zenodo under its own DOI, in the form in which it was submitted:
 
 | Paper | DOI |
 |---|---|
@@ -24,7 +24,7 @@ Four papers were extracted from the first edition of *The Puppet Condition*, eac
 
 All four were returned **rejected at the desk: without review, without reports, and without stated reasons.** The earliest of the four returns is dated 27 July 2026.
 
-The venues are not named here. A desk decision is an editorial judgment about fit, made quickly and without obligation to explain, and naming the journals would invite the reader to weigh institutions rather than the episode. **No reason for any of the four decisions is inferred anywhere on this site.**
+The four journals are not named individually. A desk decision is an editorial judgment about fit, made quickly and without obligation to explain, and naming the titles would invite the reader to weigh institutions rather than the episode. **No reason for any of the four decisions is inferred anywhere on this site.**
 
 ## The least comfortable reading
 

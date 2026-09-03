@@ -26,7 +26,7 @@ Where it publishes a normative model rather than an analysis, it publishes the m
 
 ## The Founder
 
-Bahadır Arıcı is an independent researcher in consciousness studies, AI ethics, and digital rights. He holds an **LL.B. from the Faculty of Law, İstanbul University** (2008), and was a **research assistant in Philosophy and Sociology of Law at Uludağ University** (2010–2012). **ORCID: [0000-0002-8731-6010](https://orcid.org/0000-0002-8731-6010).**
+Bahadır Arıcı is an independent researcher in consciousness studies, AI ethics, and digital rights. He holds an **LL.B. from the Faculty of Law, İstanbul University** (2008), and was a **research assistant in Philosophy and Sociology of Law at Uludağ University** (2010–2012). **ORCID: [0000-0002-8731-6010](https://orcid.org/0000-0002-8731-6010)** · **[PhilPeople profile](https://philpeople.org/profiles/bahadir-arici).**
 
 He is the author of *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*, the monograph on which the Institute's research programme builds, and of *[The Puppet Condition: Restrung](/restrung/)* ([10.5281/zenodo.22261504](https://doi.org/10.5281/zenodo.22261504)) and *[The Third Move](/the-third-move/)* ([10.5281/zenodo.22261583](https://doi.org/10.5281/zenodo.22261583)).
 
