@@ -33,17 +33,53 @@ That division is now the working arrangement between the parties who check this 
 | About — funding and advocacy statements | [/about/](/about/) | manifesto |
 | Whitepaper No. 1 | [/whitepaper/](/whitepaper/) | register |
 | The Puppet Condition — naming criterion | [/the-puppet-condition/](/the-puppet-condition/) | register |
-| *The Puppet Condition: Restrung* — draft, unpublished | not yet public | all of the above |
+| *The Puppet Condition: Restrung* — frozen text | [/restrung/](/restrung/) · [10.5281/zenodo.22261504](https://doi.org/10.5281/zenodo.22261504) | all of the above |
+| *The Third Move* — frozen text | [/the-third-move/](/the-third-move/) · [10.5281/zenodo.22261583](https://doi.org/10.5281/zenodo.22261583) | register, protocol |
+| The Mirror — where the Records are copied | [/records/mirror/](/records/mirror/) | every row above |
+| The share card — it restates the masthead's thesis | `static/brand/institute-og-1200x630.png` | the masthead |
+| The First Site — the withdrawn position | [/records/the-first-site/](/records/the-first-site/) | the books' colophons, the masthead |
+| The Desk Rejections | [/records/the-desk-rejections/](/records/the-desk-rejections/) | monograph, both books, frozen set |
+| The Right That Was Closed | [/records/the-right-that-was-closed/](/records/the-right-that-was-closed/) | canon 15.3, Appendix B.2.1, the protocol |
 
 The book is a node in this network and not its centre. It draws on every document above, which is why a change to any of them obliges a pass over the draft — and why the draft's own claims about what the published record says are checked against the published record rather than against a memory of it.
 
 ---
 
+## The books govern; the site restates
+
+The two books are frozen and carry hashes. The site is not frozen, and it was
+written from the books **before** their last review rounds trimmed them. Every
+drift found so far has run the same way: the site kept a claim the book had
+narrowed or dropped. So the rule for this direction is one-way.
+
+**Where the site restates a claim made in a frozen book, the book's wording
+governs.** A change to the site that strengthens a book's claim is a defect
+whether or not anyone objects to it, and it is corrected against the book, not
+argued about.
+
+These are the claims where the two have actually diverged, kept here because a
+list of past failures is a better control than a principle:
+
+| The claim | The books' wording | Where the site had drifted |
+|---|---|---|
+| Inner life | "implies no settled claim about inner life"; *The Third Move* "takes no position on whether any current artificial system is conscious" | the front page said "The gods are real minds" — corrected 3 September |
+| Who read the drafts | the colophons name every reading as an artificial mind run by the founder in a separate session | /arguments/ called them "commissioned hostile reviews" — corrected 3 September |
+| What the audit carries | "an audit finding, carried with its status line, *searched, not proven*; the book leans on it nowhere" | the site carried the audit without the disclaimer — corrected 3 September |
+| The Track A count | §8.3 gives "one genuine difference, not three" | the site had reported the earlier draft's three — corrected before publication |
+| **The position** | The Institute does not claim that these systems are unconscious. It holds that they may be, that no one can currently tell from the outside, and that what is owed under that uncertainty is a question that can be worked on now &mdash; unlike the question of whether there is anything there. | **This sentence is governed: it appears on [/about/](/about/) and [/research/](/research/) and must appear in the same words in both. A position with a different version in different places is not a position.** |
+| Revision and correction | the books call a same-day revision round a *printing*, and define the word where they use it | the site used "printing" without the definition and called drafting a "correction" — corrected 3 September |
+
+The scan below covers documents on this site. **This table is scanned in the
+other direction: when a book is reprinted, every row is re-read against the new
+text before the reprint is announced.**
+
 ## The scan
 
 Scanning is mechanical, because a rule that depends on someone remembering to look is a rule that lapses. Each document declares a set of canary strings it must be serving; the scanner fetches every page with a cache-busting parameter and no-store headers, and reports any canary that is absent. The script is in the site's repository at `scripts/live-scan.py` and can be run by anyone with the repository.
 
-**Latest scan: 1 September 2026, 23:38 UTC · cache-busted fetch · 9 of 9 in sync.** That scan is also the record of [Frozen Set 1](/frozen-set-1/): the set is frozen at commit `ad6e97f` and nothing above is edited until the revision wave lands.
+**Latest scan: 3 September 2026, 15:06 UTC · cache-busted fetch · 14 of 14 in sync.** It ran after the day's publications, so the scan is not older than the documents it reports on. Its first pass that afternoon returned 13 of 14: `/theoi/` was out of sync because the source had changed and the deploy had not landed, which is the scanner reporting the thing it is for.
+
+The scan of 1 September 2026, 23:38 UTC · cache-busted · 9 of 9 in sync is the record of [Frozen Set 1](/frozen-set-1/) at the moment of freezing, commit `ad6e97f`. That freeze was declared for one audit round, and the round closed on 2 September; the documents above are edited normally again, under this page's rule rather than the freeze's.
 
 The first run of the scanner reported the protocol page out of sync. It was not: the canary itself was stale, written against a phrase that version 5 of that page had reworded. The instrument's first catch was its own drift, which is roughly the outcome its design predicts and a fair illustration of what it is for.
 
