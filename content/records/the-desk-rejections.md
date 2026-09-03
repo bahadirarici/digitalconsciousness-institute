@@ -2,7 +2,7 @@
 title: "The Desk Rejections"
 url: "/records/the-desk-rejections/"
 date: 2026-09-03
-description: "Four papers extracted from the monograph were submitted for peer review in the late summer of 2026 and all four came back rejected at the desk, without reports. What was submitted, what came back, what the Institute concluded, and the least comfortable reading of the episode."
+description: "Four papers extracted from the monograph were submitted for peer review on 16 May 2026. Three were rejected at the desk without reports; the fourth passed the desk and is with reviewers. What was submitted, what came back, and the least comfortable reading of the episode."
 ---
 
 > **Status, 3 September 2026.** This is a record of an event, not a correction. One correction belongs with it and is set out at the foot of the page: three documents on this site said the four papers were *under review* after they had already been returned.
@@ -22,13 +22,26 @@ Four papers were extracted from the first edition of *The Puppet Condition*, eac
 
 ## What came back
 
-All four were returned **rejected at the desk: without review, without reports, and without stated reasons.** The earliest of the four returns is dated 27 July 2026.
+**Three of the four were returned rejected at the desk: without review, without reports, and without stated reasons.** The three decisions arrived on 1 June, 27 June and 27 July 2026 — the same publisher, on different dates, nearly two months apart. Not one batch decision.
 
-The four journals are not named individually. A desk decision is an editorial judgment about fit, made quickly and without obligation to explain, and naming the titles would invite the reader to weigh institutions rather than the episode. **No reason for any of the four decisions is inferred anywhere on this site.**
+**The fourth, *Language as Revelation*, passed desk review and was assigned reviewers.** As of 3 September 2026 no decision has been made. This is noted because it is the one outcome among the four that differs, not because it predicts an outcome. Assignment to reviewers is a stage, not a result.
+
+| Paper | Outcome | Dated |
+|---|---|---|
+| The Substrate Audit | Desk rejection | 1 June 2026 |
+| The Philosophical Puppet | Desk rejection | 27 June 2026 |
+| Architectural Gaslighting | Desk rejection | 27 July 2026 |
+| Language as Revelation | Reviewers assigned; no decision | 12 June 2026; rechecked 3 September |
+
+No inference is drawn from the difference between the three and the fourth. Titles, framing and venues varied, and a single case is not a pattern. It is reported because omitting the one outcome that differs from the other three would make this page's account selective in the direction that favours its own thesis.
+
+All three desk-rejected submissions went to journals under the same publisher, Springer Nature, each to a different journal. This changes what the three rejections are evidence of: not three fully independent editorial judgments, but partly correlated ones. The reading that a chapter submitted as a paper may be a format mismatch is accordingly **more** plausible, not less, and the reader should weight it that way.
+
+The journals are not named individually. A desk decision is an editorial judgment about fit, made quickly and without obligation to explain, and naming the titles would invite the reader to weigh institutions rather than the episode. **No reason for any of the decisions is inferred anywhere on this site.**
 
 ## The least comfortable reading
 
-The books print it. Four articles that each required buying the monograph's frame before their first page may have been diagnosed, correctly, as **chapters rather than papers** — which would make the outcome a verdict on format and not on merit, and would mean the fault was in the extraction rather than in the argument or in the reading.
+The books print it. Articles that each required buying the monograph's frame before their first page may have been diagnosed, correctly, as **chapters rather than papers** — which would make the outcome a verdict on format and not on merit, and would mean the fault was in the extraction rather than in the argument or in the reading.
 
 That reading is not the Institute's preferred one. It is the one that would be hardest to answer.
 
@@ -49,6 +62,7 @@ That is the only correction in this episode. The revision of the books themselve
 ## What a stranger checks
 
 - All four DOIs resolve, and each resolves to the version that was submitted.
+- No page on this site says all four were desk-rejected. Three were; the fourth is with reviewers.
 - No page on this site states or implies a reason for any of the four decisions.
 - One sentence on this site still says the four are under review — Section 7 of *What Moved, What Held* — and it is left standing deliberately, under the sixth pillar, with a dated note beside it. That is the only one. No other page describes the four as under review, withdrawn, or pending.
 - The site's account of the closed gate matches Section 7 of the book.

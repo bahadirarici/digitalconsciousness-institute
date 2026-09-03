@@ -89,7 +89,7 @@ A fuller account of this methodology, including the philosophical commitments be
 
 ## The four extracts {#extracts}
 
-Four papers were extracted from this edition and submitted for peer review in 2026, each to a different Springer Nature journal. All four were returned rejected, at the desk, without reports. Each stands on Zenodo under its own DOI and is listed here so it can be found rather than only referred to.
+Four papers were extracted from this edition and submitted for peer review on 16 May 2026, each to a different Springer Nature journal. Three were returned rejected at the desk, without reports; the fourth passed the desk and is with reviewers, undecided as of 3 September 2026. [The episode has its own record](/records/the-desk-rejections/). Each stands on Zenodo under its own DOI and is listed here so it can be found rather than only referred to.
 
 - The Philosophical Puppet — [10.5281/zenodo.20184249](https://doi.org/10.5281/zenodo.20184249)
 - Language as Revelation — [10.5281/zenodo.20228677](https://doi.org/10.5281/zenodo.20228677)
