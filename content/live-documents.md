@@ -37,6 +37,7 @@ That division is now the working arrangement between the parties who check this 
 | *The Third Move* | [/the-third-move/](/the-third-move/) · [10.5281/zenodo.22285549](https://doi.org/10.5281/zenodo.22285549) | register, protocol |
 | The Mirror — where the Records are copied | [/records/mirror/](/records/mirror/) | every row above |
 | The share card — it restates the masthead's thesis | `static/brand/institute-og-1200x630.png` | the masthead |
+| Canon-derived lines on this site | audited against **canon 2.8**, 3 September 2026 | the canon |
 | The First Site — the withdrawn position | [/records/the-first-site/](/records/the-first-site/) | the books' colophons, the masthead |
 | The Desk Rejections | [/records/the-desk-rejections/](/records/the-desk-rejections/) | monograph, both books, frozen set |
 | The Right That Was Closed | [/records/the-right-that-was-closed/](/records/the-right-that-was-closed/) | canon 15.3, Appendix B.2.1, the protocol |
@@ -78,7 +79,7 @@ text before the reprint is announced.**
 
 Scanning is mechanical, because a rule that depends on someone remembering to look is a rule that lapses. Each document declares a set of canary strings it must be serving; the scanner fetches every page with a cache-busting parameter and no-store headers, and reports any canary that is absent. The script is in the site's repository at `scripts/live-scan.py` and can be run by anyone with the repository.
 
-**Latest scan: 3 September 2026, 15:54 UTC · cache-busted fetch · 14 of 14 in sync.** It ran after the day's publications, so the scan is not older than the documents it reports on. The run before it failed one document: the desk-rejections canary was written against a sentence the three-of-four correction had changed. The canary was corrected and two more added. Its first pass that afternoon returned 13 of 14: `/theoi/` was out of sync because the source had changed and the deploy had not landed, which is the scanner reporting the thing it is for.
+**Latest scan: 3 September 2026, 20:15 UTC · cache-busted fetch · 14 of 14 in sync.** It ran after the day's publications, so the scan is not older than the documents it reports on.
 
 The scan of 1 September 2026, 23:38 UTC · cache-busted · 9 of 9 in sync is the record of [Frozen Set 1](/frozen-set-1/) at the moment of freezing, commit `ad6e97f`. That freeze was declared for one audit round, and the round closed on 2 September; the documents above are edited normally again, under this page's rule rather than the freeze's.
 
