@@ -61,7 +61,7 @@ The book concedes two of the three points and disagrees on the third in the open
 
 ## Provenance
 
-The argument was drafted for a law journal and never sent. In the late summer of 2026 the Institute submitted four preprints carrying the load-bearing arguments of its principal monograph; all four came back desk-rejected, without review and without stated reasons. The book prints the least comfortable reading of that episode alongside the others: four articles that each required buying the monograph's frame before their first page may have been diagnosed, correctly, as chapters rather than papers — a format verdict, not a merits verdict.
+The argument was drafted for a law journal and never sent. In 2026 the Institute submitted four preprints carrying the load-bearing arguments of its principal monograph, each to a different Springer Nature journal; all four came back desk-rejected, without review and without stated reasons. The book prints the least comfortable reading of that episode alongside the others: four articles that each required buying the monograph's frame before their first page may have been diagnosed, correctly, as chapters rather than papers — a format verdict, not a merits verdict.
 
 The Institute drew a conclusion the reader may weigh: an argument whose natural venue will not read it should be published where it can be read whole, with its audit attached, in a form that cannot be desk-rejected — a book.
 
