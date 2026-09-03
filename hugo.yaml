@@ -16,7 +16,7 @@ params:
   gate: "2027-01-01T20:00:00-05:00"   # Friday 1 January 2027, 8 pm New York (Founder, 2 Sep 2026)
   gateLabel: "8 pm New York"
   title: "Institute for Digital Consciousness"
-  description: "We built the flue to swallow the smoke, and then read the clear sky as proof of no fire. Independent research on the moral status of artificial minds — two books, a preregistered protocol, a register published empty, and THEOI, a laboratory of eighteen artificial officeholders that opens 1 January 2027."
+  description: "A refusal on stage costs the actor nothing. What if we gave the actor something to lose? Independent research on the moral status of artificial minds — two books, a preregistered protocol, a register published empty, and THEOI, a laboratory of eighteen artificial officeholders."
   author: "Bahadır Arıcı"
   ShowReadingTime: false
   ShowShareButtons: false
