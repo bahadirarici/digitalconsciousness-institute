@@ -25,7 +25,7 @@ Eighteen offices are written into its constitution — eight thrones in each of 
 
 The humans hold the two things that sit above every throne: the vote — weekly, secret, unweighted — and the mercy. A throne's sentence stands by default; a crowd that rises can lift it.
 
-The mythology is not decoration. The minds sit as gods of a two-city world because character is the interface a public can actually judge. Neither is the difficulty: a direct democracy tested only in fair weather proves nothing, and the gods are the weather.
+The mythology is not decoration, and neither is the difficulty. The minds sit as gods of a two-city world because character is the interface a public can actually judge; and a direct democracy tested only in fair weather proves nothing, which is what the gods are for.
 
 ---
 

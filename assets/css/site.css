@@ -19,6 +19,10 @@
 @font-face{font-family:'Geist Mono';src:url('/fonts/geist-mono-500.woff2') format('woff2');font-weight:500;font-display:swap}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+/* The footer said what the Institute is not — unaffiliated, no tracker — and never what
+   it is. This line is the positive one, so it breaks out of the mono colophon row. */
+.foot .line .what{flex-basis:100%;font-family:var(--serif);font-size:15.5px;line-height:1.5;letter-spacing:0;text-transform:none;color:var(--paper-fog);max-width:66ch;margin-bottom:12px}
+
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 body{margin:0;font-family:var(--serif);font-size:19px;line-height:1.5;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
 body.ink{background:var(--ink);color:var(--ivory);color-scheme:dark}
