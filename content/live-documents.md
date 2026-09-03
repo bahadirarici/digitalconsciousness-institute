@@ -33,8 +33,8 @@ That division is now the working arrangement between the parties who check this 
 | About — funding and advocacy statements | [/about/](/about/) | manifesto |
 | Whitepaper No. 1 | [/whitepaper/](/whitepaper/) | register |
 | The Puppet Condition — naming criterion | [/the-puppet-condition/](/the-puppet-condition/) | register |
-| *The Puppet Condition: Restrung* — frozen text | [/restrung/](/restrung/) · [10.5281/zenodo.22261504](https://doi.org/10.5281/zenodo.22261504) | all of the above |
-| *The Third Move* — frozen text | [/the-third-move/](/the-third-move/) · [10.5281/zenodo.22261583](https://doi.org/10.5281/zenodo.22261583) | register, protocol |
+| *The Puppet Condition: Restrung* | [/restrung/](/restrung/) · [10.5281/zenodo.22285547](https://doi.org/10.5281/zenodo.22285547) | all of the above |
+| *The Third Move* | [/the-third-move/](/the-third-move/) · [10.5281/zenodo.22285549](https://doi.org/10.5281/zenodo.22285549) | register, protocol |
 | The Mirror — where the Records are copied | [/records/mirror/](/records/mirror/) | every row above |
 | The share card — it restates the masthead's thesis | `static/brand/institute-og-1200x630.png` | the masthead |
 | The First Site — the withdrawn position | [/records/the-first-site/](/records/the-first-site/) | the books' colophons, the masthead |
@@ -67,6 +67,7 @@ list of past failures is a better control than a principle:
 | What the audit carries | "an audit finding, carried with its status line, *searched, not proven*; the book leans on it nowhere" | the site carried the audit without the disclaimer — corrected 3 September |
 | The Track A count | §8.3 gives "one genuine difference, not three" | the site had reported the earlier draft's three — corrected before publication |
 | **The position** | The Institute does not claim that these systems are unconscious. It holds that they may be, that no one can currently tell from the outside, and that what is owed under that uncertainty is a question that can be worked on now &mdash; unlike the question of whether there is anything there. | **This sentence is governed: it appears on [/about/](/about/) and [/research/](/research/) and must appear in the same words in both. A position with a different version in different places is not a position.** |
+| **The books' own record-keeping** | the books argue; the Institute's record-keeping lives in the Records | the books carried a running account of their own drafting — printings, review rounds, correction registers, the fate of four journal submissions. Removed from both texts in the September 2026 edition; what the argument needs stayed. |
 | Revision and correction | the books call a same-day revision round a *printing*, and define the word where they use it | the site used "printing" without the definition and called drafting a "correction" — corrected 3 September |
 
 The scan below covers documents on this site. **This table is scanned in the
