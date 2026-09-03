@@ -40,3 +40,18 @@
   from = "/preprints/*"
   to = "/arguments/"
   status = 301
+
+# The two pages of the Institute's first site that Google still indexes. They
+# have been gone since the site was rebuilt, but a 404 tells a crawler "maybe
+# later" and the entries persist; 410 says the resource is permanently gone.
+# The list is exactly what a site: query returns — two paths, not the five an
+# outside reviewer guessed at. Verified 3 September 2026.
+[[redirects]]
+  from = "/foundational-framework/"
+  to = "/records/the-first-site/"
+  status = 410
+
+[[redirects]]
+  from = "/why-this-institute-now/"
+  to = "/records/the-first-site/"
+  status = 410
