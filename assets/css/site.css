@@ -21,7 +21,7 @@
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 /* The footer said what the Institute is not — unaffiliated, no tracker — and never what
    it is. This line is the positive one, so it breaks out of the mono colophon row. */
-.foot .line .what{flex-basis:100%;font-family:var(--serif);font-size:15.5px;line-height:1.5;letter-spacing:0;text-transform:none;color:var(--paper-fog);max-width:66ch;margin-bottom:12px}
+.foot .line .what{flex-basis:100%;font-family:var(--serif);font-size:15.5px;line-height:1.5;letter-spacing:0;text-transform:none;color:var(--paper-fog);max-width:66ch;margin:0 auto 12px;text-align:center}
 
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 body{margin:0;font-family:var(--serif);font-size:19px;line-height:1.5;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
@@ -411,6 +411,12 @@ legend{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:
 .foot nav a{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--paper-fog);border-bottom:1px solid transparent}
 .foot nav a:hover{color:var(--paper-ink);border-bottom-color:var(--bronze)}
 .foot .line{width:100%;margin-top:26px;padding-top:18px;border-top:1px solid var(--paper-rule-soft);font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--paper-dim);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+/* The footer reads as one centred colophon rather than three left-hung rows. */
+.foot .wrap{justify-content:center;text-align:center}
+.foot .sig{justify-content:center}
+.foot nav{justify-content:center}
+.foot .line{justify-content:center;text-align:center;gap:8px 22px}
+.foot .line .what{flex-basis:100%;margin-left:auto;margin-right:auto;text-align:center}
 
 @media (prefers-reduced-motion:reduce){
   .str line{animation:none;stroke-dashoffset:0}
