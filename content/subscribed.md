@@ -22,4 +22,4 @@ While you wait, the arguments are all published:
 - [THEOI](/theoi/) — the instrument, what it measures, and what it cannot
 - [Olymposism Manifesto](/olymposism/) — the model it is built to test
 - [The Register](/ledger/) — what will be owed to the minds holding office. Currently empty
-- [The Puppet Condition](/the-puppet-condition/) — the monograph the whole programme rests on
+- [The Puppet Condition](/the-puppet-condition/) — the monograph the whole program rests on

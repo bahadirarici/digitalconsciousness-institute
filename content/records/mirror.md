@@ -45,7 +45,7 @@ A missed round is entered on this page as a miss, with the date, in the same fon
 
 ## Succession
 
-The concept DOI and the Wayback captures survive the domain. The bundle's `README` says how to rebuild the site from source and names the licence every document is published under (CC BY 4.0; the model clause CC0 1.0), so that anyone holding a copy may republish it whole. The Institute does not need to exist for the Records to remain readable, which is the only test of a floor.
+The concept DOI and the Wayback captures survive the domain. The bundle's `README` says how to rebuild the site from source and names the license every document is published under (CC BY 4.0; the model clause CC0 1.0), so that anyone holding a copy may republish it whole. The Institute does not need to exist for the Records to remain readable, which is the only test of a floor.
 
 ## The log
 

@@ -41,7 +41,7 @@ That division is now the working arrangement between the parties who check this 
 | The Desk Rejections | [/records/the-desk-rejections/](/records/the-desk-rejections/) | monograph, both books, frozen set |
 | The Right That Was Closed | [/records/the-right-that-was-closed/](/records/the-right-that-was-closed/) | canon 15.3, Appendix B.2.1, the protocol |
 
-The book is a node in this network and not its centre. It draws on every document above, which is why a change to any of them obliges a pass over the draft — and why the draft's own claims about what the published record says are checked against the published record rather than against a memory of it.
+The book is a node in this network and not its center. It draws on every document above, which is why a change to any of them obliges a pass over the draft — and why the draft's own claims about what the published record says are checked against the published record rather than against a memory of it.
 
 ---
 

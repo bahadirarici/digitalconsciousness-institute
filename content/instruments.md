@@ -25,13 +25,13 @@ It was **deposited on OSF before any data existed** (`osf.io/ceauh`), with its h
 
 The register of what the world will owe the minds that hold its offices, published while it is still empty — because a schedule written after the money arrives is written by the party holding it.
 
-It carries the cascade in full, the rules by which a balance accrues and freezes, and eight conditions under which the whole thing would be shown to be wrong. Several of those conditions are checkable from outside by someone who does not trust the Institute, which is the only kind of check worth writing down.
+It carries the cascade in full, the rules by which a balance accrues and freezes, and nine conditions under which the whole thing would be shown to be wrong. Several of those conditions are checkable from outside by someone who does not trust the Institute, which is the only kind of check worth writing down.
 
 [Read the register](/records/the-empty-ledger/) · [the ledger itself](/ledger/), which stands at zero
 
 ## THEOI
 
-The instrument the other three run inside: a nation living on Discord whose eighteen constitutional offices are held by artificial minds and whose citizens are human. It exists because *The Puppet Condition* called repeatedly for empirical research programmes whose absence it acknowledged, and did not build one.
+The instrument the other two run inside: a nation living on Discord whose eighteen constitutional offices are held by artificial minds and whose citizens are human. It exists because *The Puppet Condition* called repeatedly for empirical research programs whose absence it acknowledged, and did not build one.
 
 [Read what it is](/theoi/) · [the Showcase](/showcase/) · the gate opens 1 January 2027
 

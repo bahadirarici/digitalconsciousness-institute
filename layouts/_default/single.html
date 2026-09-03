@@ -1,5 +1,5 @@
 {{- /* A document on paper. Book pages get an ink cover with the frozen text's panel (PDF, hash,
-       licence, DOI) from data/books.yaml; everything else gets the document header. Wording is
+       license, DOI) from data/books.yaml; everything else gets the document header. Wording is
        the content file's; the layout adds no sentence of its own beyond labels. */ -}}
 {{ define "main" }}
 {{- $book := index site.Data.books .RelPermalink }}
@@ -22,7 +22,7 @@
     <div class="panel">
       {{- with $book.frozen }}<b>{{ . }}</b><br>{{ end }}
       {{- with $book.pages }}{{ . }}<br>{{ end }}
-      {{- with $book.licence }}Licence · {{ . }}<br>{{ end }}
+      {{- with $book.license }}License · {{ . }}<br>{{ end }}
       {{- with $book.doi }}DOI · <a class="doi" href="https://doi.org/{{ . }}">{{ . }}</a><br>{{ end }}
       {{- with $book.pdf }}<a class="dl" href="{{ . }}">Read the PDF</a>{{ end }}
     </div>

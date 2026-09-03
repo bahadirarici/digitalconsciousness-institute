@@ -64,9 +64,11 @@ params:
 # carries it, because the list turns with the surface (paper shows the Institute's
 # sections, ink shows the world's) and a flat menu cannot express that. A menu block
 # left here would be config nobody reads and everybody edits.
-taxonomies:
-  category: categories
-  tag: tags
+# No taxonomies: the site has no categories or tags, and Hugo would otherwise
+# publish two empty listing pages and put them in the sitemap.
+disableKinds:
+  - taxonomy
+  - term
 
 markup:
   goldmark:

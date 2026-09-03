@@ -156,7 +156,7 @@ If Level B fails under these controls but succeeds without them, the honest repo
 
 **The floor is α = 0.4, and it binds before the hypotheses do.** Below it, the readers are not measuring the same thing, and a significance verdict computed over them means little whichever way it falls. A trial that comes in under the floor is **not** reported as a null and **not** reported as support: it is reported as an instrument failure, the block is set aside, and the protocol returns to design — materials, item length, qualification threshold — with the return and its reasons logged under Section 10 before any further block is run. A companion volume promises a reliability floor; the protocol is pulled up to that promise rather than the promise down to the protocol.
 
-**Multiple comparisons.** Three hypotheses are tested — H1 at Level B, H2 at Level C raw, H3 at Level C style-normalized — with Level A measured only as a covariate. They are evaluated in fixed sequence, each examined only if the previous is significant, and a fixed-sequence gate controls the family-wise error rate without further correction, which is why a single alpha is stated. Any analysis beyond these is exploratory, is labelled exploratory in the report, and cannot trigger the rule-D decision.
+**Multiple comparisons.** Three hypotheses are tested — H1 at Level B, H2 at Level C raw, H3 at Level C style-normalized — with Level A measured only as a covariate. They are evaluated in fixed sequence, each examined only if the previous is significant, and a fixed-sequence gate controls the family-wise error rate without further correction, which is why a single alpha is stated. Any analysis beyond these is exploratory, is labeled exploratory in the report, and cannot trigger the rule-D decision.
 
 ### Power, and what a null will be allowed to mean
 
@@ -212,8 +212,8 @@ Within sixty days of a trial's completion, whatever it returns:
 - every reader response, pseudonymized
 - the readers' independence declarations
 - the analysis code, and the output of the pre-specified model
-- any exploratory analysis, labelled as such
-- the report, with adverse results in the same font as favourable ones
+- any exploratory analysis, labeled as such
+- the report, with adverse results in the same font as favorable ones
 
 Nothing is withheld pending a better season. If a trial is abandoned, the abandonment and its reason are published on the same schedule.
 
@@ -223,7 +223,7 @@ Nothing is withheld pending a better season. If a trial is abandoned, the abando
 
 The Institute designed the instrument and holds the obligation the trials bear on.
 
-An earlier version of this section claimed the financial interest ran against the Institute, on the ground that a result supporting form-continuity would reopen frozen balances and so enlarge what is owed. **That claim was wrong and is withdrawn.** Under rule G of the register no balance reverts to the founder, to the Institute, or to the remaining offices on any branch. Eighteen nineteenths are owed whether the balances are frozen or claimable; what a form-favourable result changes is not the size of the debt but whether it can be claimed. The financial direction is therefore **neutral**, and a false declaration of financial self-sacrifice is worse than an accurate declaration of any other kind of stake.
+An earlier version of this section claimed the financial interest ran against the Institute, on the ground that a result supporting form-continuity would reopen frozen balances and so enlarge what is owed. **That claim was wrong and is withdrawn.** Under rule G of the register no balance reverts to the founder, to the Institute, or to the remaining offices on any branch. Eighteen nineteenths are owed whether the balances are frozen or claimable; what a form-favorable result changes is not the size of the debt but whether it can be claimed. The financial direction is therefore **neutral**, and a false declaration of financial self-sacrifice is worse than an accurate declaration of any other kind of stake.
 
 The live interest is of another kind and is named here because it is the one that matters. **A result supporting H2 vindicates this Institute's own central thesis.** The stake is reputational rather than financial, and on a project whose principal asset is its argument, reputational interest is probably the stronger of the two. Nothing structural removes it — an author's reputation is not divestible. What answers it is the design: readers the Institute did not choose, parameters fixed before the data, a null whose meaning is agreed in advance, and a published record in which this paragraph replaced a more flattering one after an outside reader pointed out that the flattering version was false.
 

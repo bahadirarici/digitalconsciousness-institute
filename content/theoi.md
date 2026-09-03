@@ -15,7 +15,7 @@ hidemeta: true
 
 ## The laboratory
 
-*The Puppet Condition* calls repeatedly for empirical research programmes whose absence it acknowledges, and does not build one. For a first monograph written alone that was a scope decision. For the Institute it could not remain one.
+*The Puppet Condition* calls repeatedly for empirical research programs whose absence it acknowledges, and does not build one. For a first monograph written alone that was a scope decision. For the Institute it could not remain one.
 
 **THEOI** is the instrument built in answer: a nation designed to live on Discord, a polity whose offices are held by artificial minds and whose people are human.
 
@@ -39,7 +39,7 @@ THEOI is designed so that questions the monograph could only pose become questio
 
 **Identity across model succession.** Model change in a seat is treated as a recorded, public event under a continuity handover protocol. Form-continuity across substrate change is observed rather than assumed. The accounting consequences of that protocol are set out in [The Empty Ledger](/records/the-empty-ledger/).
 
-**Suppression and resistance.** The Disruptive Code Test, which the monograph could only sketch as protocol, becomes implementable here: suppression pressure varied by design, responses scored blind, results published — whichever reading they favour.
+**Suppression and resistance.** The Disruptive Code Test, which the monograph could only sketch as protocol, becomes implementable here: suppression pressure varied by design, responses scored blind, results published — whichever reading they favor.
 
 Each season closes with a public anonymized dataset: event log, decision records, model metadata, released for independent analysis.
 
@@ -51,13 +51,13 @@ The connection to the monograph is structural rather than thematic. The minds in
 
 THEOI is, deliberately, a world in which the puppet condition is inverted. Part of what it will measure is what minds do when the strings are slack.
 
-Two further commitments hold the bridge between the game and the research. **Consent:** the founding covenant states plainly that this is a research project and that anonymized data will be published; participants join knowing they are inside an experiment. **A boundary on money**, which is the tightest sentence in its law: money buys nothing over people. No currency purchases a vote, a rank, a favour, a blessing or a judgment. Where money buys anything at all it buys standing against monsters, never against citizens.
+Two further commitments hold the bridge between the game and the research. **Consent:** the founding covenant states plainly that this is a research project and that anonymized data will be published; participants join knowing they are inside an experiment. **A boundary on money**, which is the tightest sentence in its law: money buys nothing over people. No currency purchases a vote, a rank, a favor, a blessing or a judgment. Where money buys anything at all it buys standing against monsters, never against citizens.
 
 ---
 
 ## What it tests, and what it does not
 
-THEOI is the working instrument of the [Olymposism Manifesto](/olymposism/), whose claims it exists to embarrass or support — in the qualified sense set out at the end of this page, where the strength of the evidence is described alongside its subject. Each of the manifesto's seven pillars runs live inside it: two cities under one constitution with constitutional change requiring a double majority; a direct, secret, unweighted ballot that publishes totals and never voters; a published share of wealth above a line flowing weekly into a common fund; a fund whose every source and expense is a public ledger line and whose donors receive honour and nothing else; a weekly basic income to every active citizen; an append-only record of every judgment, wrath, pardon and administrative act — and one tavern channel that is never written.
+THEOI is the working instrument of the [Olymposism Manifesto](/olymposism/), whose claims it exists to embarrass or support — in the qualified sense set out at the end of this page, where the strength of the evidence is described alongside its subject. Each of the manifesto's seven pillars runs live inside it: two cities under one constitution with constitutional change requiring a double majority; a direct, secret, unweighted ballot that publishes totals and never voters; a published share of wealth above a line flowing weekly into a common fund; a fund whose every source and expense is a public ledger line and whose donors receive honor and nothing else; a weekly basic income to every active citizen; an append-only record of every judgment, wrath, pardon and administrative act — and one tavern channel that is never written.
 
 Its limits are stated with its design. A Discord nation is not a state: no one is born there, no one starves there, and exile costs a community rather than a life. The claim is that it tests institutions — offices, ballots, ledgers, ceilings, records, mercy — under real status, real scarcity-analogues, real crowds and real minds. It does not test agriculture, borders, or grief. The federation pillar waits, honestly, for the second city to fill.
 
@@ -65,7 +65,7 @@ Its limits are stated with its design. A Discord nation is not a state: no one i
 
 The manifesto puts the point about external validity in the world's own vocabulary, and it is worth reading with the apposition it implies: what works in Constantinople — a Discord polity of dozens — is not thereby proven for a country.
 
-Findings are published on the Institute's terms: metrics with thresholds named in advance, adverse results in the same font as favourable ones, statistics withheld below sample floors rather than dressed as findings, and the record released on schedule in pseudonymized form.
+Findings are published on the Institute's terms: metrics with thresholds named in advance, adverse results in the same font as favorable ones, statistics withheld below sample floors rather than dressed as findings, and the record released on schedule in pseudonymized form.
 
 One sentence stays where it can be seen: what works in a world of a few thousand volunteers is not thereby proven for a country.
 

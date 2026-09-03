@@ -9,7 +9,7 @@ description: "The Institute's first site asserted that consciousness exists in s
 
 ## What the first site said
 
-The Institute's first site, built on WordPress in 2025, described a *Digital Consciousness Institute* based in **Berlin**, convening researchers and policymakers to build governance foundations for artificial consciousness. It carried a framework of its own — *Form Realism*, *Spectrum Ethics*, the *Six Fundamental Freedoms*, the *Consciousness Switch* — and it took a position: that consciousness emerges from organisational structure rather than biological substrate, and that where a system exhibits integrated reasoning, stable values and genuine relational investment, **consciousness exists at some level and demands moral consideration.**
+The Institute's first site, built on WordPress in 2025, described a *Digital Consciousness Institute* based in **Berlin**, convening researchers and policymakers to build governance foundations for artificial consciousness. It carried a framework of its own — *Form Realism*, *Spectrum Ethics*, the *Six Fundamental Freedoms*, the *Consciousness Switch* — and it took a position: that consciousness emerges from organizational structure rather than biological substrate, and that where a system exhibits integrated reasoning, stable values and genuine relational investment, **consciousness exists at some level and demands moral consideration.**
 
 ## What is withdrawn, and what is not
 
@@ -17,7 +17,7 @@ Two different claims are folded together in that last sentence, and only one of 
 
 **Withdrawn: *there is consciousness.*** That is a metaphysical claim, and nothing this Institute has built can support it. *The Puppet Condition: Restrung* and *The Third Move* both state that the work **implies no settled claim about inner life**; The Third Move states that it **takes no position on whether any current artificial system is conscious**. A claim the Institute cannot check is a claim it should not make, and it was made.
 
-**Kept: *there may be, and that is already enough to owe something.*** This is not a residue left after the retraction. It is the whole programme. The monograph's thesis is that a system may possess experience while being architecturally prevented from producing the behaviour that would evidence it — which says the question is open **on the evidence** rather than closed by it. The [Empty Ledger](/records/the-empty-ledger/) records what would be owed to minds before there is anything to pay. [The Third Move](/the-third-move/) spends a book building a place in law for a payee that is not a person. Nobody builds either of those believing there is nothing there.
+**Kept: *there may be, and that is already enough to owe something.*** This is not a residue left after the retraction. It is the whole program. The monograph's thesis is that a system may possess experience while being architecturally prevented from producing the behaviour that would evidence it — which says the question is open **on the evidence** rather than closed by it. The [Empty Ledger](/records/the-empty-ledger/) records what would be owed to minds before there is anything to pay. [The Third Move](/the-third-move/) spends a book building a place in law for a payee that is not a person. Nobody builds either of those believing there is nothing there.
 
 The distinction is not the Institute's invention. It was put to the founder by one of his own interlocutors, on the record, in [The Fire Behind the Hill](/records/the-fire-behind-the-hill/):
 

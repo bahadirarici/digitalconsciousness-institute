@@ -6,7 +6,7 @@
   var NS='http://www.w3.org/2000/svg';
   function el(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e;}
 
-  // ——— strings: one per seat; left Constantinople, centre the two high offices, right Ktesifon ———
+  // ——— strings: one per seat; left Constantinople, center the two high offices, right Ktesifon ———
   var data = document.getElementById('seatdata'); var seats = data ? JSON.parse(data.textContent) : [];
   var svgs = document.querySelectorAll('.strings-svg');
   if (seats.length && svgs.length) {

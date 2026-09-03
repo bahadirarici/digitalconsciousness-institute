@@ -38,7 +38,7 @@ The protocol's deposit at [osf.io/ceauh](https://osf.io/ceauh/) carries the text
 
 **The freeze is on the text, not on its presentation.** The audits under way are reading claims, thresholds and rules; none of them is reading a stylesheet. Holding the site's appearance hostage to a text review would stop work that no reviewer is waiting on, for no gain to the review.
 
-So: **wording, structure, numbers and links are frozen** — every sentence a reader could audit stays exactly as it is until the wave. **Typography, layout, colour, imagery and navigation are not**, and may change while the set is frozen.
+So: **wording, structure, numbers and links are frozen** — every sentence a reader could audit stays exactly as it is until the wave. **Typography, layout, color, imagery and navigation are not**, and may change while the set is frozen.
 
 One consequence, stated because it is the obvious way to cheat this: a redesign that adds, removes or rewrites any sentence is a text change and waits for the wave, whatever it is called. The scanner enforces the line mechanically — its canaries are strings from the frozen text, so any presentation change that disturbs a sentence fails the scan on the next run.
 
