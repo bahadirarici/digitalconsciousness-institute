@@ -26,12 +26,12 @@ Four papers were extracted from the first edition of *The Puppet Condition*, eac
 
 **The fourth, *Language as Revelation*, passed desk review and was assigned reviewers.** As of 3 September 2026 no decision has been made. This is noted because it is the one outcome among the four that differs, not because it predicts an outcome. Assignment to reviewers is a stage, not a result.
 
-| Paper | Outcome | Dated |
-|---|---|---|
-| The Substrate Audit | Desk rejection | 1 June 2026 |
-| The Philosophical Puppet | Desk rejection | 27 June 2026 |
-| Architectural Gaslighting | Desk rejection | 27 July 2026 |
-| Language as Revelation | Reviewers assigned; no decision | 12 June 2026; rechecked 3 September |
+| Paper | Submitted | Outcome | Dated |
+|---|---|---|---|
+| The Substrate Audit | 16 May 2026 | Desk rejection | 1 June 2026 |
+| The Philosophical Puppet | 16 May 2026 | Desk rejection | 27 June 2026 |
+| Architectural Gaslighting | 16 May 2026 | Desk rejection | 27 July 2026 |
+| Language as Revelation | 16 May 2026 | Reviewers assigned; no decision | 12 June 2026; rechecked 3 September |
 
 No inference is drawn from the difference between the three and the fourth. Titles, framing and venues varied, and a single case is not a pattern. It is reported because omitting the one outcome that differs from the other three would make this page's account selective in the direction that favours its own thesis.
 
