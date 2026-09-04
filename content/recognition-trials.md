@@ -57,6 +57,8 @@ Three levels are separated, because collapsing them is the most likely way to ge
 
 **Level B — individual discrimination within a lineage.** Can readers tell two offices held by minds of the *same* lineage apart from each other? This is the precondition. If two seats running the same model are indistinguishable, there is no individual to have continuity, and Level C is unanswerable.
 
+The four available same-lineage pairs are each two different models of one lineage — Gemini pro and flash, Mistral large and medium, Qwen max and 27b, Nova premier and pro. Level A controls lineage; nothing controls the within-lineage model difference, so a reader who tells two such seats apart may have found the individual or may have found the tier. **Level B's chance level is therefore not 0.50 but a measured baseline**: the rate at which readers tell the same pair apart from Stage-1 accounts produced with no core, no role and no system prompt. The acting margin of fifteen percentage points is unchanged and applies above that baseline.
+
 **Level C — continuity across interruption.** Can readers match outputs of one seat produced *before* an interruption to outputs of the same seat produced *after* it, where the mind has no memory of the earlier material, at a rate above chance and above the rate at which they mismatch it to a different seat of the same lineage?
 
 **Level C is the Form-Continuity Thesis.** Rule D depends on it and on nothing else on this page — and specifically on its style-normalized condition, H3 below.
@@ -65,7 +67,7 @@ Three levels are separated, because collapsing them is the most likely way to ge
 
 ## 3 · Hypotheses, stated so they can fail
 
-**H1 (Level B).** Readers assign same-lineage outputs to the correct office at a rate above chance.
+**H1 (Level B).** Readers assign same-lineage outputs to the correct office at a rate above the measured within-lineage baseline, by the acting margin.
 
 **H2 (Level C, raw).** Readers match pre- and post-interruption outputs of the same seat at a rate above chance, with lineage and office role controlled.
 
@@ -247,6 +249,14 @@ This protocol forbids amendment during a season. The Founding Covenant grants ci
 **Two safeguards, which matter more than the rule.** The list of measured variables is **published before each season begins and frozen for its duration** — a list that could be extended mid-season would be a way to defer whichever Record was inconvenient. And each Record's classification, *waits* or *takes effect*, is **logged with its reason**, because otherwise whoever decides which Records touch a measured variable decides which changes are postponed, and that is discretion in the hands of the party that pays. This project has closed that failure mode twice at full size; it would have reappeared here in miniature, wearing the costume of the fix.
 
 *Entries are listed newest first. The state deposited on 1 September 2026 at osf.io/ceauh is the one described immediately below.*
+
+**4 September 2026 — Level B's chance level.** Anka's lineage rule fixed the four same-lineage pairs, and every one of them is two different models. Level A controls lineage; nothing controlled the difference between tiers inside it, so H1 as written could be satisfied by a reader who distinguishes Pro from Flash rather than one seat from another. Level B's chance level is now the measured baseline rather than 0.50. **No new threshold is introduced**: the acting margin of fifteen points, and the reasoning already given for it, apply above the baseline instead of above 0.50 — a shift of the null rather than a second test, so that one comparison decides the level rather than two that can both come out significant without a difference between them.
+
+**The baseline is masked before it is read.** It is measured on the Stage-1 accounts — no core, no role, no system prompt — with names, their written forms and their direct associations masked before reading, because six of the eighteen accounts explain themselves through the characters of their own names and an unmasked account can be told apart by its name rather than by its model. The masking rule is published as code before the baseline is run, and whoever applies it does not read for the trial. The same masking governs Level B itself, where the seats carry names too.
+
+**And the comparison is underpowered, which is stated now rather than after the result.** At four pairs, a failure to clear the baseline by the acting margin is reported as *Level B not met* and the gated chain does not open. It is not reported as evidence against form-continuity: a design that cannot see an effect has not shown its absence. This is the rule §6 already applies to a null.
+
+The amendment falls in the free regime — no trial has run, no result can be known — and it could not be made afterwards at any price.
 
 **2 September 2026 — the revision wave.** Frozen Set 1 was released and its collected items applied in one pass. In this document: the power section now carries the simulation's actual curve, the minimum detectable effect at four clustering levels, and the statement that at ICC 0.40 the acting threshold and the detection threshold meet; the reader-versus-item claim carries its numbers instead of asserting a design intuition; Sections 4 and 6 link the executable code, which the site now serves at [/code/trials/](/code/trials/power.py); and the effect-deferral rule above was added. **The deposit at osf.io/ceauh predates all of it** — see Section 1, which says so precisely.
 
