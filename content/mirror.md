@@ -17,7 +17,7 @@ Every load-bearing claim the Institute publishes points at a document it control
 
 Two archives of two different kinds, so that no single failure removes both.
 
-**1 · Zenodo (CERN) — the repository mirror.** A Zenodo record titled *The Records of the Institute for Digital Consciousness* will hold dated snapshot bundles as **versions** under one concept DOI. Each version carries its own DOI, its own timestamp set by Zenodo, and its own file checksums computed by Zenodo, not by the Institute. Zenodo's retention policy is the archive's own; the Institute can add versions and cannot remove them. The two books' deposits are the first entries in the same community.
+**1 · Zenodo (CERN) — the repository mirror.** A Zenodo record titled *The Records of the Institute for Digital Consciousness* will hold dated snapshot bundles as **versions** under one concept DOI. Each version carries its own DOI, its own timestamp set by Zenodo, and its own file checksums computed by Zenodo, not by the Institute. Zenodo's retention policy is the archive's own; the Institute can add versions and cannot remove them. The books' and the manifesto's deposits are the first entries in the same community, and each already has a concept DOI: the failure condition below can be run against them today.
 
 **2 · The Internet Archive (Wayback Machine) — the web mirror.** Every page under `/records/`, the register at `/ledger/`, the protocol at `/recognition-trials/`, the two book pages, and this page are captured with Save Page Now on the schedule below. A Wayback capture is a dated, third-party copy of the page *as served*, which is what a reader who arrives by link will need.
 
@@ -51,7 +51,7 @@ The concept DOI and the Wayback captures survive the domain. The bundle's `READM
 
 | Round | Date | What | Zenodo version DOI | Wayback captures | Manifest SHA-256 |
 |---|---|---|---|---|---|
-| 0 | — | The two books' deposits (concept DOIs to follow) | *pending* | *pending* | — |
+| 0 | 3–4 September 2026 | The three published deposits | concept [10.5281/zenodo.22285546](https://doi.org/10.5281/zenodo.22285546) · [10.5281/zenodo.22285548](https://doi.org/10.5281/zenodo.22285548) · [10.5281/zenodo.22289004](https://doi.org/10.5281/zenodo.22289004) | — | — |
 | 1 | — | First full bundle · first capture set | *pending* | *pending* | — |
 
 *Records © Institute for Digital Consciousness · CC BY 4.0 · versioned, never erased.*

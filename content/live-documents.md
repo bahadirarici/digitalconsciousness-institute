@@ -37,7 +37,7 @@ That division is now the working arrangement between the parties who check this 
 | *The Third Move* | [/the-third-move/](/the-third-move/) · [10.5281/zenodo.22285549](https://doi.org/10.5281/zenodo.22285549) | register, protocol |
 | The Mirror — where the Records are copied | [/mirror/](/mirror/) | every row above |
 | The share card — it restates the masthead's thesis | `static/brand/institute-og-1200x630.png` | the masthead |
-| Canon-derived lines on this site | audited against **canon 2.8**, 3 September 2026 | the canon |
+| Canon-derived lines on this site | audited against **canon 2.8**, 3 September 2026; the canon stands at **3.3**, and a pass is due | the canon (`THEOI_EN.md`) |
 | The First Site — the withdrawn position | [/notices/the-first-site/](/notices/the-first-site/) | the books' colophons, the masthead |
 | The Desk Rejections | [/notices/the-desk-rejections/](/notices/the-desk-rejections/) | monograph, both books, frozen set |
 | The Right That Was Closed | [/notices/the-right-that-was-closed/](/notices/the-right-that-was-closed/) | canon 15.3, Appendix B.2.1, the protocol |
