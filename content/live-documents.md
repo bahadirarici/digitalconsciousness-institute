@@ -32,7 +32,6 @@ That division is now the working arrangement between the parties who check this 
 | THEOI | [/theoi/](/theoi/) | manifesto, register |
 | What Moved, What Held | [/records/what-moved-what-held/](/records/what-moved-what-held/) | — |
 | About — funding and advocacy statements | [/about/](/about/) | manifesto |
-| Whitepaper No. 1 | [/whitepaper/](/whitepaper/) | register |
 | The Puppet Condition — naming criterion | [/the-puppet-condition/](/the-puppet-condition/) | register |
 | *The Puppet Condition: Restrung* | [/restrung/](/restrung/) · [10.5281/zenodo.22285547](https://doi.org/10.5281/zenodo.22285547) | all of the above |
 | *The Third Move* | [/the-third-move/](/the-third-move/) · [10.5281/zenodo.22285549](https://doi.org/10.5281/zenodo.22285549) | register, protocol |

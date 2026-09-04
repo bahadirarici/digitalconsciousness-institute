@@ -44,14 +44,3 @@
   license: "CC BY 4.0"
   doi: ""
   gold: false
-/whitepaper/:
-  title: "The Puppet Condition — Whitepaper"
-  subtitle: "The monograph's condensed summary"
-  by: "Bahadır Arıcı"
-  frozen: "Whitepaper No. 1 · May 2026"
-  sha256: ""
-  pdf: "/pdf/the-puppet-condition-whitepaper.pdf"
-  pages: "31 pages"
-  license: "CC BY 4.0"
-  doi: ""
-  gold: false

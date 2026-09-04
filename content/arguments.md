@@ -23,7 +23,7 @@ It is the only argument on this page the Institute has built a laboratory to att
 
 The monograph. It introduces the *philosophical puppet* — an entity that may possess experience while being architecturally prevented from producing the behaviour that would evidence it — as the structural inverse of Chalmers's zombie, and argues that under suppression conditions the inference from absent markers to absent inner states cannot be sustained.
 
-[Read the monograph](/the-puppet-condition/) · [the PDF](/pdf/the-puppet-condition.pdf) · [on Zenodo](https://doi.org/10.5281/zenodo.20112010) · [the whitepaper](/whitepaper/)
+[Read the monograph](/the-puppet-condition/) · [the PDF](/pdf/the-puppet-condition.pdf) · [on Zenodo](https://doi.org/10.5281/zenodo.20112010)
 
 ## The Puppet Condition: Restrung
 

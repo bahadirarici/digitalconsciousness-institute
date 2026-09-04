@@ -26,7 +26,7 @@ A freeze is not a pause in the work. It is a fixed target: for one round nothing
 | theoi | [/theoi/](/theoi/) | yes | in sync |
 | wmwh | [/records/what-moved-what-held/](/records/what-moved-what-held/) | yes | in sync |
 | about | [/about/](/about/) | yes | in sync |
-| whitepaper | [/whitepaper/](/whitepaper/) | yes | in sync |
+| whitepaper | — | yes | **withdrawn 4 September 2026**; in sync at the time of the freeze |
 | monograph | [/the-puppet-condition/](/the-puppet-condition/) | yes | in sync |
 
 The book, *The Puppet Condition: Restrung*, is frozen at the third assembled draft and is not public. It draws on every document above, which is why a change to any of them obliges a pass over it.

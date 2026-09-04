@@ -99,3 +99,14 @@
   from = "/records/mirror/"
   to = "/mirror/"
   status = 301
+
+# Whitepaper No. 1 condensed the monograph for readers who wanted the argument
+# before the book. It is withdrawn rather than superseded: the second version and
+# The Third Move now carry the work, and a condensed summary of a superseded first
+# edition points readers at the weakest of the three. The page it summarised takes
+# its traffic. Its row in Frozen Set 1 stays, because that page records what one
+# review round actually read.
+[[redirects]]
+  from = "/whitepaper/"
+  to = "/the-puppet-condition/"
+  status = 301

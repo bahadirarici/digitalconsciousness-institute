@@ -46,7 +46,6 @@ The full manuscript is approximately 200 pages and includes an extensive critica
 
 - **Primary:** <a href="https://doi.org/10.5281/zenodo.20112010" target="_blank" rel="noopener">Read on Zenodo</a>
 - **Also indexed at:** <a href="https://philpapers.org/" target="_blank" rel="noopener">PhilPapers</a>
-- **Condensed summary:** [Read the Whitepaper](/whitepaper/)
 
 Inquiries from publishers, reviewers, or interested researchers may be directed via the [About](/about/) page.
 

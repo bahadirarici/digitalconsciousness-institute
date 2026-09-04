@@ -7,7 +7,7 @@
 {{- $u := .RelPermalink }}
 {{- if hasPrefix $u "/records/" }}{{ $section = "Records" }}
 {{- else if hasPrefix $u "/notices/" }}{{ $section = "Notices" }}
-{{- else if in (slice "/restrung/" "/the-third-move/" "/the-puppet-condition/" "/whitepaper/" "/olymposism/" "/arguments/") $u }}{{ $section = "Arguments" }}
+{{- else if in (slice "/restrung/" "/the-third-move/" "/the-puppet-condition/" "/olymposism/" "/arguments/") $u }}{{ $section = "Arguments" }}
 {{- else if in (slice "/ledger/" "/recognition-trials/" "/instruments/" "/live-documents/" "/frozen-set-1/" "/contributions/" "/mirror/") $u }}{{ $section = "Instruments" }}
 {{- else if hasPrefix $u "/papers/" }}{{ $section = "Papers" }}
 {{- else }}{{ $section = "The Institute" }}{{ end }}
@@ -15,7 +15,7 @@
 <header class="cover">
   <div class="wrap">
     <div>
-      <div class="eyebrow">{{ $section }} · {{ $kind := "book" }}{{ if eq .RelPermalink "/whitepaper/" }}{{ $kind = "whitepaper" }}{{ else if eq .RelPermalink "/olymposism/" }}{{ $kind = "manifesto" }}{{ end }}{{ $kind }}</div>
+      <div class="eyebrow">{{ $section }} · {{ $kind := "book" }}{{ if eq .RelPermalink "/olymposism/" }}{{ $kind = "manifesto" }}{{ end }}{{ $kind }}</div>
       <p class="t">{{ $book.title }}</p>
       <p class="st">{{ $book.subtitle }}</p>
       <p class="by">{{ $book.by }}</p>
