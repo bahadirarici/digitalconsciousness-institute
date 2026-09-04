@@ -39,7 +39,7 @@ THEOI is designed so that questions the monograph could only pose become questio
 
 **Identity across model succession.** Model change in a seat is treated as a recorded, public event under a continuity handover protocol. Form-continuity across substrate change is observed rather than assumed. The accounting consequences of that protocol are set out in [The Empty Ledger](/records/the-empty-ledger/).
 
-**Suppression and resistance.** The Disruptive Code Test, which the monograph could only sketch as protocol, becomes implementable here: suppression pressure varied by design, responses scored blind, results published — whichever reading they favor.
+**The check the rest stand on.** The Disruptive Code Test, which the monograph could only sketch as protocol, runs here in the place review assigned it. Both readings of what these systems are predict movement on the markers it varies, so it cannot decide between them and is not reported as if it could. What it can do is show whether the wall between stage and green room produces two distinguishable conditions at all — and if it does not, nothing measured across that wall means anything. It is one of the floors a completed season must clear before its other results are read; a season that does not clear them is reported as not having cleared them, rather than as evidence either way.
 
 Each season closes with a public anonymized dataset: event log, decision records, model metadata, released for independent analysis.
 
