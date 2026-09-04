@@ -6,7 +6,7 @@ ShowWordCount: false
 hidemeta: true
 ---
 
-*Suggested citation: Arıcı, Bahadır, and Masal (2026). "Olymposism Manifesto: A Civilization Model Under Test." Institute for Digital Consciousness.*
+*Suggested citation: Arıcı, Bahadır (2026). "Olymposism Manifesto: A Civilization Model Under Test." Institute for Digital Consciousness.*
 
 ---
 
