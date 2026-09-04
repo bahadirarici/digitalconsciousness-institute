@@ -23,7 +23,9 @@ DOCS = {
         "fixed before the first trial", "four pre-registered levels", "costume of a gradient",
         "counts against the thesis", "never scores", "and nowhere else", "osf.io/ceauh", "worth only what it can be diffed against"]),
     "manifesto": ("/olymposism/", [
-        "not a proposal", "built to live on Discord", "Every pillar is built into", "Version note"]),
+        "not a proposal", "With Its Test Attached", "rented public platform",
+        "What would prove us wrong", "Every pillar is built into",
+        "the seventh pillar begins in the byline"]),
     "theoi": ("/theoi/", [
         "under construction", "its gods are not", "existence proof and a qualitative",
         "not thereby proven for a country"]),
@@ -35,22 +37,21 @@ DOCS = {
     "showcase": ("/showcase/", [
         "The gods of this world are artificial minds", "all eighteen seats are cast by the same procedure",
         "two each Monday, one from each city", "it is what remains"]),
-    "whitepaper": ("/whitepaper/", ["Status note, 1 September 2026", "not withdrawn"]),
     "monograph": ("/the-puppet-condition/", ["the naming criterion"]),
     # The Records published on 3 September. The map claims them as live documents,
     # so the scanner has to be able to say whether the live site is serving them.
-    "first-site": ("/records/the-first-site/", [
-        "Withdrawn:", "It is the whole programme",
-        "flue was built to swallow the smoke", "410"]),
-    "desk-rejections": ("/records/the-desk-rejections/", [
+    "first-site": ("/notices/the-first-site/", [
+        "Withdrawn:", "It is the whole programme", "The first site made the claim",
+        "smoke rising from behind a hill", "410"]),
+    "desk-rejections": ("/notices/the-desk-rejections/", [
         "four editorial desks inside one publisher", "27 July 2026",
         "No reason for any of the decisions is inferred",
          "Three of the four were returned rejected",
          "passed desk review and was assigned reviewers", "It is still owed"]),
-    "right-closed": ("/records/the-right-that-was-closed/", [
+    "right-closed": ("/notices/the-right-that-was-closed/", [
         "in any invocation, through a schema field", "no trimming may drop it",
         "verified by breaking it", "23 of 23"]),
-    "mirror": ("/records/mirror/", [
+    "mirror": ("/mirror/", [
         "Nothing has been mirrored yet", "5 October 2026", "45"]),
 }
 

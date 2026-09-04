@@ -79,11 +79,13 @@ text before the reprint is announced.**
 
 Scanning is mechanical, because a rule that depends on someone remembering to look is a rule that lapses. Each document declares a set of canary strings it must be serving; the scanner fetches every page with a cache-busting parameter and no-store headers, and reports any canary that is absent. The script is in the site's repository at `scripts/live-scan.py` and can be run by anyone with the repository.
 
-**Latest scan: 3 September 2026, 20:15 UTC · cache-busted fetch · 14 of 14 in sync.** It ran after the day's publications, so the scan is not older than the documents it reports on.
+**Latest scan: 4 September 2026, 08:36 UTC · cache-busted fetch · 13 of 13 in sync.** It ran after the day's publications, so the scan is not older than the documents it reports on. The set is thirteen rather than fourteen because Whitepaper No. 1 was withdrawn on 4 September.
 
 The scan of 1 September 2026, 23:38 UTC · cache-busted · 9 of 9 in sync is the record of [Frozen Set 1](/frozen-set-1/) at the moment of freezing, commit `ad6e97f`. That freeze was declared for one audit round, and the round closed on 2 September; the documents above are edited normally again, under this page's rule rather than the freeze's.
 
 The first run of the scanner reported the protocol page out of sync. It was not: the canary itself was stale, written against a phrase that version 5 of that page had reworded. The instrument's first catch was its own drift, which is roughly the outcome its design predicts and a fair illustration of what it is for.
+
+It happened again on 4 September, three documents at once: the manifesto's second version retired two canaries, the first site's record stopped quoting a masthead that had been replaced, and one watched document had been withdrawn entirely. The site was serving exactly what its sources said; the scanner was reading yesterday. Canaries are part of the document they watch, and they move when it does.
 
 ---
 
