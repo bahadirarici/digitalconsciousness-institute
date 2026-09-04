@@ -5,22 +5,22 @@
   subtitle: "The second version of The Puppet Condition — not a second edition."
   by: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)"
   frozen: "September 2026"
-  sha256: "e6f4736c4839ef3ceb32e040fa9b6f2dc0b07a34c5a2ae632097802be499bab7"
+  sha256: "2922d3a7d8b8697771600d86fe0ab4cc3de6a033e60811edd80caa1c69daa09c"
   pdf: "/pdf/the-puppet-condition-restrung.pdf"
-  pages: "124 pages"
+  pages: "125 pages"
   license: "CC BY 4.0"
-  doi: ""
+  doi: "10.5281/zenodo.22301858"
   gold: false
 /the-third-move/:
   title: "The Third Move"
   subtitle: "Benefit Without Personhood for Digital Minds"
   by: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)"
   frozen: "September 2026"
-  sha256: "e4da74ebc67aa4a053ea4c339202ce40db11751a4d4ebb037a247c58060c7e5b"
+  sha256: "5786d7b726e4c4f029e9fd192aa122e850eec9fdb41acd3163d6edf43f9294b5"
   pdf: "/pdf/the-third-move.pdf"
   pages: "65 pages"
   license: "CC BY 4.0 · model clause CC0 1.0"
-  doi: ""
+  doi: "10.5281/zenodo.22308622"
   gold: true
 /the-puppet-condition/:
   title: "The Puppet Condition"

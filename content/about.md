@@ -29,7 +29,7 @@ Where it publishes a normative model rather than an analysis, it publishes the m
 
 Bahadır Arıcı is an independent researcher in consciousness studies, AI ethics, and digital rights. He holds an **LL.B. from the Faculty of Law, İstanbul University** (2008), and was a **research assistant in Philosophy and Sociology of Law at Uludağ University** (2010–2012). **ORCID: [0000-0002-8731-6010](https://orcid.org/0000-0002-8731-6010)** · **[PhilPeople profile](https://philpeople.org/profiles/bahadir-arici).**
 
-He is the author of *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*, the monograph on which the Institute's research program builds, and of *[The Puppet Condition: Restrung](/restrung/)* and *[The Third Move](/the-third-move/)*.
+He is the author of *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*, the monograph on which the Institute's research program builds, and of *[The Puppet Condition: Restrung](/restrung/)* ([10.5281/zenodo.22301858](https://doi.org/10.5281/zenodo.22301858)) and *[The Third Move](/the-third-move/)* ([10.5281/zenodo.22308622](https://doi.org/10.5281/zenodo.22308622)).
 
 ---
 
@@ -55,6 +55,6 @@ Material published by the Institute may be cited freely in academic and journali
 
 For the monograph: Arıcı, B. (2026). *The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds*. Zenodo. <https://doi.org/10.5281/zenodo.20112010>
 
-For the second version: Arıcı, B. (2026). *The Puppet Condition: Restrung*. Institute for Digital Consciousness.
+\1 <https://doi.org/10.5281/zenodo.22301858>
 
-For the third volume: Arıcı, B. (2026). *The Third Move: Benefit Without Personhood for Digital Minds*. Institute for Digital Consciousness.
+\1 <https://doi.org/10.5281/zenodo.22308622>

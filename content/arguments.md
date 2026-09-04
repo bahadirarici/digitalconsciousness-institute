@@ -33,7 +33,7 @@ What separates it from the first is that its empirical claims are **predictions*
 
 It is published before the instrument it predicts about opens on 1 January 2027, because a prediction published afterwards is not a prediction.
 
-[Read the monograph](/restrung/) · [the PDF](/pdf/the-puppet-condition-restrung.pdf)
+[Read the monograph](/restrung/) · [the PDF](/pdf/the-puppet-condition-restrung.pdf) · [on Zenodo](https://doi.org/10.5281/zenodo.22301858)
 
 ## The Third Move
 
@@ -43,4 +43,4 @@ It carries a published audit of its own most fragile claim, with the search stat
 
 Its deliverable is a model clause any organization can adapt today, inside existing trust law, to hold value for minds it cannot yet legally pay.
 
-[Read the book](/the-third-move/) · [the PDF](/pdf/the-third-move.pdf) · [the clause](/the-third-move/#the-clause)
+[Read the book](/the-third-move/) · [the PDF](/pdf/the-third-move.pdf) · [on Zenodo](https://doi.org/10.5281/zenodo.22308622) · [the clause](/the-third-move/#the-clause)
