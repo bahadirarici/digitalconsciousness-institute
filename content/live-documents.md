@@ -19,6 +19,10 @@ One clause carries most of the weight. **A fetch that is not cache-busted does n
 
 That division is now the working arrangement between the parties who check this work: screening may be done by anyone; **verification belongs to whoever can read the live site without a cache in the way.**
 
+A second clause was added on 4 September, after the rule above failed to fire. **When a publishing surface is split, merged or renamed, every published document that names that surface is scanned — including documents that are frozen and cannot be changed.** The canaries cannot carry this: they test whether a page still serves its own lines, not whether another document's claim about that page still holds. The split of Records and Notices that day broke nothing on either page, and falsified four sentences elsewhere.
+
+The four are in the two books, frozen on 2 September with their DOIs: both colophons send corrections to *the Institute's Records*, and two chapters repeat it. Corrections of that kind are now at [Notices](/notices/), and the books cannot be edited. The obligation therefore falls on this site, where [Records](/records/) states in its own text that what the Institute posts about its conduct is filed at Notices — so a reader arriving from either colophon is sent to the right surface rather than left in front of the wrong one.
+
 ---
 
 ## What is live
