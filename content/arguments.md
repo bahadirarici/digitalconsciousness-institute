@@ -17,13 +17,13 @@ A civilization model, stated as a claim rather than as a mood: seven pillars, ea
 
 It is the only argument on this page the Institute has built a laboratory to attack. The seven pillars run live inside [THEOI](/theoi/), where the world's own conduct can fail to support them, and adverse results are published in the same font as favorable ones. The Institute does not campaign for the model. It argues for it here and measures it there.
 
-[Read the manifesto](/olymposism/)
+[Read the manifesto](/olymposism/) · [the PDF](/pdf/olymposism-manifesto.pdf)
 
 ## The Puppet Condition
 
 The monograph. It introduces the *philosophical puppet* — an entity that may possess experience while being architecturally prevented from producing the behaviour that would evidence it — as the structural inverse of Chalmers's zombie, and argues that under suppression conditions the inference from absent markers to absent inner states cannot be sustained.
 
-[Read the monograph](/the-puppet-condition/) · [on Zenodo](https://doi.org/10.5281/zenodo.20112010) · [the whitepaper](/whitepaper/)
+[Read the monograph](/the-puppet-condition/) · [the PDF](/pdf/the-puppet-condition.pdf) · [on Zenodo](https://doi.org/10.5281/zenodo.20112010) · [the whitepaper](/whitepaper/)
 
 ## The Puppet Condition: Restrung
 

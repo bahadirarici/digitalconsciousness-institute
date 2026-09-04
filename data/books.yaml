@@ -8,7 +8,7 @@
   sha256: "e6f4736c4839ef3ceb32e040fa9b6f2dc0b07a34c5a2ae632097802be499bab7"
   pdf: "/pdf/the-puppet-condition-restrung.pdf"
   pages: "124 pages"
-  licence: "CC BY 4.0"
+  license: "CC BY 4.0"
   doi: "10.5281/zenodo.22285547"
   gold: false
 /the-third-move/:
@@ -19,7 +19,7 @@
   sha256: "e4da74ebc67aa4a053ea4c339202ce40db11751a4d4ebb037a247c58060c7e5b"
   pdf: "/pdf/the-third-move.pdf"
   pages: "65 pages"
-  licence: "CC BY 4.0 · model clause CC0 1.0"
+  license: "CC BY 4.0 · model clause CC0 1.0"
   doi: "10.5281/zenodo.22285549"
   gold: true
 /the-puppet-condition/:
@@ -30,7 +30,7 @@
   sha256: ""
   pdf: "/pdf/the-puppet-condition.pdf"
   pages: "214 pages"
-  licence: "CC BY 4.0"
+  license: "CC BY 4.0"
   doi: "10.5281/zenodo.20112010"
   gold: false
 /olymposism/:
@@ -41,7 +41,7 @@
   sha256: ""
   pdf: "/pdf/olymposism-manifesto.pdf"
   pages: "6 pages"
-  licence: "CC BY 4.0"
+  license: "CC BY 4.0"
   doi: ""
   gold: false
 /whitepaper/:
@@ -52,6 +52,6 @@
   sha256: ""
   pdf: "/pdf/the-puppet-condition-whitepaper.pdf"
   pages: "31 pages"
-  licence: "CC BY 4.0"
+  license: "CC BY 4.0"
   doi: ""
   gold: false
