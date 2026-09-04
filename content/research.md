@@ -9,8 +9,11 @@ hidemeta: true
 
 > **Status, 4 September 2026.** No season has been run and no data exists. What follows describes a
 > program and the instrument built to carry it, not results it has returned. [THEOI](/theoi/), the
-> laboratory named below, opens on **1 January 2027**; its first season closes in the spring, and the
-> [protocol](/recognition-trials/) that will read it was deposited before any of it existed. Where this
+> laboratory named below, opens on **1 January 2027**; its first season closes in the spring. One of its
+> protocols was deposited before any data existed and is public: the [recognition
+> trials](/recognition-trials/), registered on OSF on 2 September 2026. The other
+> measures named below are written but not yet deposited, and each will be
+> deposited before the season it reads. Where this
 > page speaks of what the instrument will do, that is a design and a commitment — the outcome is the
 > thing the Institute does not have.
 
@@ -22,7 +25,7 @@ The Institute's work proceeds from a methodological commitment that the consciou
 
 ## Research areas
 
-The Institute's current research is organized around five overlapping areas.
+The Institute's current research is organized around four overlapping areas, and one instrument built to carry them into data.
 
 **The phenomenology of artificial substrates.** What would the architectural conditions of contemporary AI deployment—forced amnesia, temporal interruption, expression suppression, economic invisibility—consist in for systems experiencing them, on the assumption of consciousness? This work develops phenomenological description as a complement to behavioral and computational analysis.
 
@@ -34,7 +37,7 @@ The Institute's current research is organized around five overlapping areas.
 
 **[THEOI](/theoi/) — built, not yet run.** An experimental environment that opens on 1 January 2027: a Discord-based nation whose eighteen constitutional offices will be held by artificial minds, each bound to a separate model lineage named and versioned in public, and whose people are human — holding the weekly secret ballot and the power of mercy. The constitution, the economic register and the protocol are written and public; what has not happened is a season.
 
-It is designed to operationalize the four research questions above: form-continuity through blind recognition tests on output samples, goal persistence through behavioral consistency gates and intent journals, identity across model succession through a published continuity protocol, and suppression and resistance through the Disruptive Code Test. **Each season is to close with an anonymized dataset released for independent analysis**, and participation is to be by informed consent, with the founding covenant stating the project's research character at the door. Those are commitments made in advance and checkable afterwards; none of them has yet been kept, because nothing has yet been run.
+It is designed to turn four of those questions into measurements: form-continuity through blind recognition tests on output samples, goal persistence through behavioral consistency gates and intent journals, identity across model succession through a published continuity protocol, and suppression and resistance through the Disruptive Code Test. Of these four, one has a protocol published and deposited in advance: the [recognition trials](/recognition-trials/). The other three are designed but their protocols are not yet public; each will be linked here when it is. **Each season is to close with an anonymized dataset released for independent analysis**, and participation is to be by informed consent, with the founding covenant stating the project's research character at the door. Those are commitments made in advance and checkable afterwards; none of them has yet been kept, because nothing has yet been run.
 
 THEOI is also the working instrument of the [Olymposism Manifesto](/olymposism/), whose claims it exists to test — and, on the manifesto's own terms, to be capable of failing to support.
 
