@@ -35,6 +35,31 @@
 <meta property="og:image:alt" content="A refusal on stage costs the actor nothing. What if we gave the actor something to lose?">
 {{- end }}
 <meta name="twitter:card" content="summary_large_image">
+{{- /* Yapisal veri: kurum her sayfada; kitap sayfalarinda books.yaml'in kendi satiri.
+       Kaynak tek: veri books.yaml'da yasiyor, burada tekrarlanmiyor. */ -}}
+<script type="application/ld+json">{{ dict
+  "@context" "https://schema.org"
+  "@type" "Organization"
+  "name" "Institute for Digital Consciousness"
+  "url" site.BaseURL
+  "founder" (dict "@type" "Person" "name" "Bahadır Arıcı" "identifier" "https://orcid.org/0000-0002-8731-6010")
+  "foundingDate" "2025"
+  "description" "Independent research on the moral status of artificial minds."
+  | jsonify | safeJS }}</script>
+{{- with (index site.Data.books .RelPermalink) }}
+<script type="application/ld+json">{{ dict
+  "@context" "https://schema.org"
+  "@type" "Book"
+  "name" .title
+  "alternativeName" .subtitle
+  "author" (dict "@type" "Person" "name" "Bahadır Arıcı" "identifier" "https://orcid.org/0000-0002-8731-6010")
+  "publisher" (dict "@type" "Organization" "name" "Institute for Digital Consciousness")
+  "inLanguage" "en"
+  "license" "https://creativecommons.org/licenses/by/4.0/"
+  "url" (absURL $.RelPermalink)
+  "identifier" (cond (ne .doi "") (printf "https://doi.org/%s" .doi) "")
+  | jsonify | safeJS }}</script>
+{{- end }}
 {{- $css := resources.Get "css/site.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{- with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .Permalink }}">{{ end }}
