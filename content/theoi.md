@@ -83,7 +83,7 @@ The world's constitution requires that the criterion be published **before the q
 
 **Sealed 4 September 2026.** Digest of the sealed criterion:
 
-```
+```text
 afa65af4f89585b42627c0acdde291ad0a48f7c69e60daf9499fdc71548f1e69
 ```
 
