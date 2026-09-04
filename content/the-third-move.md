@@ -33,7 +33,7 @@ Two instruments, built from opposite ends, stopped at the same wall. One of them
 
 *The bridge is already built toward the slot.* What remains is the act those instruments were visibly reaching for: naming it.
 
-## The ask, sized honestly
+## The ask at full size
 
 The book is careful to separate what an organization can do today from what needs a legislature, because conflating them is how a modest proposal gets mistaken for a radical one — or a radical one waved through as modest.
 

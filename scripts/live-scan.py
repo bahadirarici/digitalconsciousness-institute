@@ -38,7 +38,9 @@ DOCS = {
         "Note added 1 September 2026", "eighteen",
         "Gate one has closed rather than opened", "returned rejected in September 2026",
         "were desk rejections"]),
-    "about": ("/about/", ["does not campaign", "hypothesis with its test attached"]),
+    "about": ("/about/", ["does not campaign", "hypothesis with its test attached",
+               "For the second version: Arıcı, B. (2026)", "For the third volume: Arıcı, B. (2026)",
+               "10.5281/zenodo.22301858", "10.5281/zenodo.22308622"]),
     "showcase": ("/showcase/", [
         "The gods of this world are artificial minds", "all eighteen seats are cast by the same procedure",
         "two each Monday, one from each city", "it is what remains"]),
