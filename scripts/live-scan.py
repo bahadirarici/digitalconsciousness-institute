@@ -26,6 +26,11 @@ DOCS = {
         "not a proposal", "With Its Test Attached", "rented public platform",
         "What would prove us wrong", "Every pillar is built into",
         "the seventh pillar begins in the byline"]),
+    # Published 4 September, before the season it declines to measure. Its
+    # freeze rule is the canary that matters: the page changes only by addition.
+    "limits": ("/limits/", [
+        "Thirteen limits", "Corpus contamination", "changes only by addition",
+        "no criterion that distinguishes the two", "First published 4 September 2026"]),
     "theoi": ("/theoi/", [
         "under construction", "its gods are not", "existence proof and a qualitative",
         "not thereby proven for a country"]),
