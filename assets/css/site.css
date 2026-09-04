@@ -296,6 +296,11 @@ legend{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:
    broke one title across two lines. */
 .doc .wrap{display:grid;grid-template-columns:244px minmax(0,var(--measure));gap:clamp(32px,5vw,80px);align-items:start}
 .doc.narrow .wrap{grid-template-columns:minmax(0,var(--measure))}
+/* A section index opens with one paragraph over a full-width list; left-hugging,
+   it read as a stray narrow column. Centred, it is a plaque above the entries. */
+.doc.narrow.secpage .wrap{justify-content:center}
+.secpage .prose{text-align:center}
+@media (max-width:640px){.secpage .prose{text-align:left}}
 .toc{position:sticky;top:96px;font-family:var(--mono);font-size:11px;letter-spacing:.04em;line-height:1.6}
 .toc .tl{font-family:var(--display);font-weight:300;font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin:0 0 12px;padding-bottom:10px;border-bottom:1px solid var(--line)}
 .paper .toc .tl{color:var(--bronze);border-color:var(--paper-rule)}
