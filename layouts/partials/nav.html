@@ -30,6 +30,7 @@
     <li><a href="/arguments/"{{ if eq $cur "/arguments/" }} aria-current="page"{{ end }}>Arguments</a></li>
     <li><a href="/instruments/"{{ if eq $cur "/instruments/" }} aria-current="page"{{ end }}>Instruments</a></li>
     <li><a href="/records/"{{ if hasPrefix $cur "/records/" }} aria-current="page"{{ end }}>Records</a></li>
+      <li><a href="/notices/"{{ if hasPrefix $cur "/notices/" }} aria-current="page"{{ end }}>Notices</a></li>
     <li><a href="/about/"{{ if eq $cur "/about/" }} aria-current="page"{{ end }}>About</a></li>
     <li><a href="/theoi/" class="accent"{{ if or (eq $cur "/theoi/") (eq $cur "/showcase/") }} aria-current="page"{{ end }}>THEOI</a></li>
     {{- end }}

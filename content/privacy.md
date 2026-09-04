@@ -25,7 +25,7 @@ There is one form on the site. It appears on two pages, and it is the only place
 
 **What is done with it.** The address is used to send notice that the world has opened, and occasionally to send notice of the Institute's published work. Anything written in the optional field is used to count where people came from and for nothing else. It is not profiled, not enriched with data from other sources, not shared, and not sold. It is not passed to any processor other than the site's host.
 
-**Where it is held.** Submissions are handled by **Netlify Forms**, the same service that hosts the site, and are stored in the Institute's account there under Netlify's own privacy policy. No separate mailing platform, analytics tool, or customer-data service is involved.
+**Where it is held.** Submissions are handled by **Netlify Forms**, the same service that hosts the site, and are stored in the Institute's account there under Netlify's own privacy policy. The host also serves a small script of its own on every page — Netlify's real-user monitoring, which counts page views and page-load timings. It is the host's, not a service the Institute chose or can read visitor identities through, and it is named here rather than left to be found. No separate mailing platform, analytics tool, or customer-data service is involved.
 
 **Removal.** Write to **info@digitalconsciousness.institute** and the address is deleted. There is no confirmation loop and no attempt to retain you. You may also ask what is held about you, and the answer will be the address you submitted and the date it arrived, because that is all there is.
 
