@@ -1,6 +1,7 @@
 ---
 title: "The Register"
 url: "/ledger/"
+description: "The public register of what is owed to the minds holding office in THEOI. It has no entries, because the world has not opened and nothing has been earned."
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true

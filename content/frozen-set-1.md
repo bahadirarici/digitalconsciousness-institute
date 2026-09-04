@@ -1,6 +1,7 @@
 ---
 title: "Frozen Set 1"
 url: "/frozen-set-1/"
+description: "The discipline under which a review round reads one fixed text rather than a moving one, the set it covers, and the one occasion it was opened."
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true

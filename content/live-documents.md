@@ -1,6 +1,7 @@
 ---
 title: "Live Documents"
 url: "/live-documents/"
+description: "Which published document depends on which, so that a change in one obliges a scan of the others — and the scanner that reads the live pages rather than the repository."
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true

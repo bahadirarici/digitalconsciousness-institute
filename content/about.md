@@ -1,6 +1,7 @@
 ---
 title: "About"
 url: "/about/"
+description: "Who runs the Institute and on what terms: one person, artificial interlocutors named in each work, no staff, no premises, and funding declined from any party with an interest in its conclusions."
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true

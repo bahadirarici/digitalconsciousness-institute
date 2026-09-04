@@ -1,6 +1,7 @@
 ---
 title: "Records"
 url: "/records/"
+description: "Documents written to be read whole: a long dialogue, a story, a public reassessment of the first book, and the text that opened the register."
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true

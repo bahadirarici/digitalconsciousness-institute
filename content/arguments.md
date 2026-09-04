@@ -7,7 +7,7 @@ hidemeta: true
 description: "What the Institute has argued: the monograph, its condensed summary, and the second version."
 ---
 
-The Institute publishes arguments, the instruments that could embarrass them, and its own corrections in the same place. This page is the first of the three. The [instruments](/instruments/) are on their own page, and the [records](/records/) carry the corrections.
+The Institute publishes arguments, the instruments that could embarrass them, and its own corrections in the same place. This page is the first of the three. The [instruments](/instruments/) are on their own page, and the corrections are at [Notices](/notices/).
 
 ---
 

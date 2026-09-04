@@ -1,6 +1,7 @@
 ---
 title: "Notices"
 url: "/notices/"
+description: "Three so far: a claim withdrawn from the Institute's first site, what came back when four papers were put to peer review, and a right the code was silently dropping."
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true

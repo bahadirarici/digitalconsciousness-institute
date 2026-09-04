@@ -1,6 +1,7 @@
 ---
 title: "Research"
 url: "/research/"
+description: "The four questions the Institute is trying to answer and the laboratory built to answer them. No season has been run and no data exists yet."
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true

@@ -1,6 +1,7 @@
 ---
 title: "The Recognition Trials — Pre-Registration"
 url: "/recognition-trials/"
+description: "The preregistered protocol: whether independent readers can re-identify a mind from its outputs alone, across interruptions it does not remember. Deposited on OSF before any data existed."
 ShowReadingTime: true
 ShowWordCount: false
 hidemeta: true

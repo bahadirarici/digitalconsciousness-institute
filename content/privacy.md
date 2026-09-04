@@ -1,6 +1,7 @@
 ---
 title: "Privacy Policy"
 url: "/privacy/"
+description: "The site collects nothing unless you type it in: no analytics, no trackers, no cookies of the Institute's own. One form, one optional field, and one third-party font service."
 ShowReadingTime: false
 ShowWordCount: false
 hidemeta: true
