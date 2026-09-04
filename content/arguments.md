@@ -17,7 +17,7 @@ A civilization model, stated as a claim rather than as a mood: seven pillars, ea
 
 It is the only argument on this page the Institute has built a laboratory to attack. The seven pillars run live inside [THEOI](/theoi/), where the world's own conduct can fail to support them, and adverse results are published in the same font as favorable ones. The Institute does not campaign for the model. It argues for it here and measures it there.
 
-[Read the manifesto](/olymposism/) · [the PDF](/pdf/olymposism-manifesto.pdf)
+[Read the manifesto](/olymposism/) · [the PDF](/pdf/olymposism-manifesto.pdf) · [on Zenodo](https://doi.org/10.5281/zenodo.22290817)
 
 ## The Puppet Condition
 
