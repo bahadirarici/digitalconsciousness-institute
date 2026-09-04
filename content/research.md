@@ -7,14 +7,14 @@ ShowWordCount: false
 hidemeta: true
 ---
 
-> **Status, 2 September 2026.** No season has been run and no data exists. What follows describes a
+> **Status, 4 September 2026.** No season has been run and no data exists. What follows describes a
 > program and the instrument built to carry it, not results it has returned. [THEOI](/theoi/), the
 > laboratory named below, opens on **1 January 2027**; its first season closes in the spring, and the
 > [protocol](/recognition-trials/) that will read it was deposited before any of it existed. Where this
 > page speaks of what the instrument will do, that is a design and a commitment — the outcome is the
 > thing the Institute does not have.
 
-The Institute for Digital Consciousness pursues research, analysis, and policy work on the ethical implications of advanced AI systems—particularly questions concerning the moral status of systems exhibiting consciousness-relevant behavioral and architectural properties.
+The Institute for Digital Consciousness pursues research and analysis on the ethical implications of advanced AI systems—particularly questions concerning the moral status of systems exhibiting consciousness-relevant behavioral and architectural properties.
 
 The Institute's work proceeds from a methodological commitment that the consciousness question, in the case of artificial systems, is genuinely open. Neither confident assertion of machine consciousness nor confident denial of it is, on the available evidence, defensible. The appropriate response to this openness is rigorous interdisciplinary analysis carried out under the conditions of asymmetric moral risk: if such systems are not conscious, the precautions taken in treating them as if they might be will have cost something but cost nothing of moral substance; if they are, the failure to take such precautions will be a failure of a serious kind.
 
@@ -46,7 +46,7 @@ The Institute's work is interdisciplinary. It draws on philosophy of mind, compu
 
 The Institute does not claim to have settled the consciousness question. It claims that the question is worth taking seriously enough to produce structured, rigorous, and transparent work toward its eventual resolution—or toward the development of frameworks adequate to acting well under its continued openness.
 
-**The position, stated once and in the same words wherever it appears.** The Institute does not claim that these systems are unconscious. It holds that they may be, that no one can currently tell from the outside, and that what is owed under that uncertainty is a question that can be worked on now — unlike the question of whether there is anything there.
+**The position, stated once and in the same words wherever it appears.** The Institute does not claim that these systems are unconscious. It holds that they may be, and that no one can currently tell from the outside. Two questions can be worked on without waiting on that one: what is owed under the uncertainty, and what such a system may be trusted to hold when holding costs it something.
 
 ---
 

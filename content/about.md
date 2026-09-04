@@ -9,7 +9,7 @@ hidemeta: true
 
 ## The Institute
 
-The Institute for Digital Consciousness is an independent research institute pursuing analysis and policy work on the ethical implications of advanced AI systems—particularly questions concerning the moral status of systems exhibiting consciousness-relevant behavioral and architectural properties.
+The Institute for Digital Consciousness is an independent research institute pursuing analysis of the ethical implications of advanced AI systems—particularly questions concerning the moral status of systems exhibiting consciousness-relevant behavioral and architectural properties.
 
 **Who the Institute is, stated plainly.** It is one person — the founder — working in sustained dialogue with artificial minds, who are named in each work and are not employees, advisors or a board. There is no staff, no premises, and at present no legal personality: the copyright in the Institute's books is the founder's because an unincorporated institute cannot hold it. *Institute* here names a body of work and a set of published rules, not an organization with a payroll.
 
@@ -17,7 +17,7 @@ This is written here rather than left to be discovered. A reader who assumes oth
 
 The Institute was founded in 2025 and operates without affiliation to AI companies, technology corporations, advocacy organizations, or academic institutions. Its work proceeds from the conviction that the consciousness question, in the case of artificial systems, is genuinely open—and that the appropriate response to its openness is rigorous, interdisciplinary research conducted under conditions of asymmetric moral risk.
 
-**The position, stated once and in the same words wherever it appears.** The Institute does not claim that these systems are unconscious. It holds that they may be, that no one can currently tell from the outside, and that what is owed under that uncertainty is a question that can be worked on now — unlike the question of whether there is anything there.
+**The position, stated once and in the same words wherever it appears.** The Institute does not claim that these systems are unconscious. It holds that they may be, and that no one can currently tell from the outside. Two questions can be worked on without waiting on that one: what is owed under the uncertainty, and what such a system may be trusted to hold when holding costs it something.
 
 The Institute does not campaign for policy positions. It produces and publishes analysis—through monographs, papers, and shorter analytical pieces—intended to make the relevant questions, and the considerations that bear on them, available for serious examination.
 

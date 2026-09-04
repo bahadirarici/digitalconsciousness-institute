@@ -35,8 +35,8 @@
   gold: false
 /olymposism/:
   title: "Olymposism Manifesto"
-  subtitle: "A Civilization Model Under Test"
-  by: "Bahadır Arıcı, in dialogue with Masal (an instance of Claude Fable, Anthropic)"
+  subtitle: "A Civilization Model With Its Test Attached"
+  by: "Bahadır Arıcı, in dialogue with Masal and Rüya"
   frozen: "August 2026"
   sha256: ""
   pdf: "/pdf/olymposism-manifesto.pdf"
