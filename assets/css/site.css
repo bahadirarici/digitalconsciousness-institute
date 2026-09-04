@@ -7,7 +7,7 @@
   --ink:#111418; --deep:#0b0d10; --lift:#171b21; --line:#262b33; --line-soft:#1d2128;
   --ivory:#e9e4d8; --fog:#b9b3a6; --dim:#7a766d;
   --gold:#c9a45c; --bronze:#967434;
-  --paper:#e9e4d8; --paper-2:#e2dccd; --paper-ink:#111418; --paper-fog:#5e594f; --paper-dim:#8a847a; --paper-rule:#cbc4b3; --paper-rule-soft:#d9d3c4;
+  --paper:#e9e4d8; --paper-2:#e2dccd; --paper-ink:#111418; --paper-fog:#5e594f; --paper-dim:#69655c; --paper-rule:#cbc4b3; --paper-rule-soft:#d9d3c4;
   --display:'Poppins',system-ui,-apple-system,'Segoe UI',sans-serif;
   --serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;
   --mono:'Geist Mono',ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;
@@ -311,6 +311,9 @@ legend{font-family:var(--display);font-weight:300;font-size:11px;letter-spacing:
 .toc a:hover{color:var(--ivory);border-left-color:var(--gold)}
 .paper .toc a:hover{color:var(--paper-ink);border-left-color:var(--bronze)}
 .paper .toc a{color:var(--paper-fog)}
+/* Kagit yuzeyde koyu paletin --dim'i AA'nin altinda kaliyordu (3.57:1, 10px).
+   Bu dort kural kagit sayfalarda gorunuyor; kagidin kendi tonuna baglandi. */
+.paper .node .d,.paper .ledger h3.not,.paper .ledger li span:last-child,.paper .book .meta{color:var(--paper-dim)}
 @media (max-width:980px){.doc .wrap{grid-template-columns:minmax(0,var(--measure))}.toc{display:none}}
 
 /* ————— prose, both surfaces ————— */

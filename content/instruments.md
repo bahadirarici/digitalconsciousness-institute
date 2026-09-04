@@ -47,4 +47,4 @@ The instrument the other two run inside: a nation living on Discord whose eighte
 
 **[The Mirror](/mirror/)** names the archives outside the Institute's control that hold copies of its documents, on what schedule and in what form, with the log of rounds kept and rounds missed.
 
-**[What this instrument does not measure](/limits/)** lists the nine things THEOI cannot establish, why, and what would have to change — published before the first season, because a list of limits written afterwards is a defence rather than a declaration.
+**[What this instrument does not measure](/limits/)** lists the thirteen things THEOI cannot establish, why, and what would have to change — published before the first season, because a list of limits written afterwards is a defence rather than a declaration.

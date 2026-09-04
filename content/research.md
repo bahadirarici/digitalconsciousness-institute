@@ -12,7 +12,7 @@ hidemeta: true
 > laboratory named below, opens on **1 January 2027**; its first season closes in the spring. What it
 > [cannot establish](/limits/) is published before it opens rather than after. One of its
 > protocols was deposited before any data existed and is public: the [recognition
-> trials](/recognition-trials/), registered on OSF on 2 September 2026. The other
+> trials](/recognition-trials/), deposited on OSF on 1 September 2026. The other
 > measures named below are written but not yet deposited, and each will be
 > deposited before the season it reads. Where this
 > page speaks of what the instrument will do, that is a design and a commitment — the outcome is the
