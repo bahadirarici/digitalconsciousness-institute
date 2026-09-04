@@ -87,6 +87,8 @@ The world's constitution requires that the criterion be published **before the q
 afa65af4f89585b42627c0acdde291ad0a48f7c69e60daf9499fdc71548f1e69
 ```
 
+**One run condition, sealed with the rest and not a scoring lever:** a reply is capped at **30,000 tokens**. A cap set low would not score a reasoning model short — it would return no scorable reply at all, and the same cap on the retry would return none again, so the model would leave the pool for a reason that is not its ability. The cap is in the seal so that it cannot be changed quietly.
+
 Scoring has three layers and their weights were fixed before the first call:
 
 | Layer | Weight | What it reads |
