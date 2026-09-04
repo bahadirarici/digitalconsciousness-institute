@@ -51,6 +51,18 @@ The book is a node in this network and not its center. It draws on every documen
 
 ---
 
+## Promised, with a date
+
+A document that has been committed to in public, but does not exist here yet, is tracked the same way a live one is — otherwise a dated promise is announced in one place and followed nowhere.
+
+| Document | Committed in | Due | Status |
+| --- | --- | --- | --- |
+| **Costed Binding Protocol v3** | *The Actor and the Role*, §7 | with a DOI, by **31 December 2026** — before the world opens on 1 January 2027 | **not yet deposited** |
+
+The status column is the part that does the work. A row without it announces the date and says nothing about whether the date is being kept.
+
+---
+
 ## The books govern; the site restates
 
 The two books are frozen and carry hashes. The site is not frozen, and it was
