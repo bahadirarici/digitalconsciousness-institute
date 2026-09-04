@@ -13,7 +13,7 @@ hidemeta: true
 
 > **Why an institute publishes a manifesto.** The Institute does not campaign for policy positions, and this text is not published as one. It is published as a hypothesis with its test attached. The claims below that can be run — the ballot, the ceiling, the common fund, the floor, the record, the widening circle — are the ones [THEOI](/theoi/) is built to run, under conditions meant to embarrass them rather than to flatter them. Results are published on the Institute's terms: thresholds named in advance, adverse findings in the same font as favorable ones. What each pillar would look like if it were wrong is stated in the text, pillar by pillar, and where no instrument exists yet the text says so.
 >
-> Where the instrument stands on any given day is published on [its own page](/theoi/) and not here. A manifesto carries claims; a status is a date in another form, and this text declines to date what it cannot see. Corrections are published, dated, in the Institute's [Records](/records/).
+> Where the instrument stands on any given day is published on [its own page](/theoi/) and not here. A manifesto carries claims; a status is a date in another form, and this text declines to date what it cannot see.
 
 ---
 
