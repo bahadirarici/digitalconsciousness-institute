@@ -1,5 +1,5 @@
 {{- /* One waitlist, defined once (Kaptan, 2 September 2026): the Netlify form "waitlist",
-       fields email + found, honeypot, destination /subscribed/. The markup is kept exactly;
+       fields email + found + monday, honeypot, destination /subscribed/. The markup is kept exactly;
        only its clothes changed. */ -}}
 <form class="wl" name="waitlist" method="POST" action="/subscribed/" data-netlify="true" netlify-honeypot="bot-field">
   <input type="hidden" name="form-name" value="waitlist">
@@ -11,6 +11,9 @@
   <div class="wl-field">
     <label for="wl-found">Where did you find us? <span class="wl-opt">· optional</span></label>
     <input id="wl-found" name="found" type="text" placeholder="A link, a person, a forum">
+  </div>
+  <div class="wl-field wl-check">
+    <label for="wl-monday"><input id="wl-monday" name="monday" type="checkbox" value="yes"> Send me the Monday letter during the unveilings.</label>
   </div>
   <button type="submit">Tell me when the gate opens</button>
   <p class="wl-note">The address is used for that and for occasional notices about the Institute's work — nothing else. No profiling, no third-party processor beyond the site's host, no list shared or sold. Say the word and you are removed. What happens to it is written out in the <a href="/privacy/">privacy policy</a>.</p>
