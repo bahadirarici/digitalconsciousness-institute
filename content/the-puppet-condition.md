@@ -45,7 +45,7 @@ A first reassessment (August 2026) is available in Records: *[What Moved, What H
 The full manuscript is approximately 200 pages and includes an extensive critical apparatus drawing on philosophy of mind, ethics, cognitive science, and recent work on AI consciousness.
 
 - **Primary:** <a href="https://doi.org/10.5281/zenodo.20112010" target="_blank" rel="noopener">Read on Zenodo</a>
-- **Also indexed at:** <a href="https://philpapers.org/" target="_blank" rel="noopener">PhilPapers</a>
+- **Also indexed at:** <a href="https://philpapers.org/rec/ARCTPC" target="_blank" rel="noopener">PhilPapers</a>
 
 Inquiries from publishers, reviewers, or interested researchers may be directed via the [About](/about/) page.
 
