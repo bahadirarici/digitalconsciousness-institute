@@ -61,15 +61,16 @@
     <div>
       <div class="eyebrow">Before the gate</div>
       <h2 class="sec">Join the waitlist</h2>
-      <p>The founding season opens to everyone who comes. Leave an address and you will be told once, when the gate opens, with the invitation and the founding covenant attached. Joining the waitlist commits you to nothing.</p>
+      <p>The founding season opens to everyone who comes. Leave an address and you will be told when the gate opens, with the invitation and the founding covenant attached. Joining the waitlist commits you to nothing.</p>
       <div class="eyebrow fog" style="margin-top:28px">The sentence that stands at the door</div>
       <p style="color:var(--ivory);font-size:21px">The gods of this world are artificial minds. Each seat is held by a different model, and which model holds which seat is published, versioned, and every change announced. They are playing characters and they know it. <b style="color:var(--gold)">The mask is public; what wears it is the open question.</b></p>
     </div>
-    <div>
-      {{ partial "waitlist.html" . }}
-      <p class="fine">We store what you type here — the address and where you found us — and nothing else: no profile, no sharing with anyone. The list is held by Netlify, who host this site. Ask at <a href="mailto:info@digitalconsciousness.institute">info@digitalconsciousness.institute</a> and you are removed, without being asked why.</p>
-      <p class="joined" id="joined" hidden>Your address is on the list. You will hear from us once, when the gate opens.</p>
-    </div>
+      <div>
+        <div class="wl-door">
+          <p class="fine">The list is kept in one place, so that an address is never collected twice.</p>
+          <a class="more-link" href="/join/">Leave an address at Join</a>
+        </div>
+      </div>
   </div>
 </section>
 {{ end }}

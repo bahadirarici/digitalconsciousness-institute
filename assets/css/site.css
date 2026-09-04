@@ -17,6 +17,11 @@
 @font-face{font-family:'Poppins';src:url('/fonts/poppins-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:'Geist Mono';src:url('/fonts/geist-mono-400.woff2') format('woff2');font-weight:400;font-display:swap}
 @font-face{font-family:'Geist Mono';src:url('/fonts/geist-mono-500.woff2') format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:'Cormorant Garamond';src:url('/fonts/cormorant-garamond-400.woff2') format('woff2');font-weight:400 700;font-style:normal;font-display:swap}
+@font-face{font-family:'Cormorant Garamond';src:url('/fonts/cormorant-garamond-400-italic.woff2') format('woff2');font-weight:400 700;font-style:italic;font-display:swap}
+/* Formun tek toplama noktasi /join/; Vitrin oraya gonderiyor. */
+.wl-door{border:1px solid var(--line);padding:22px;border-radius:2px}
+.wl-door .fine{margin:0 0 14px}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 /* The footer said what the Institute is not — unaffiliated, no tracker — and never what
