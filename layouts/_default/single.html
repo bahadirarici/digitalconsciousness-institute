@@ -8,7 +8,7 @@
 {{- if hasPrefix $u "/records/" }}{{ $section = "Records" }}
 {{- else if hasPrefix $u "/notices/" }}{{ $section = "Notices" }}
 {{- else if in (slice "/restrung/" "/the-third-move/" "/the-puppet-condition/" "/olymposism/" "/arguments/") $u }}{{ $section = "Arguments" }}
-{{- else if in (slice "/ledger/" "/recognition-trials/" "/instruments/" "/live-documents/" "/frozen-set-1/" "/contributions/" "/mirror/") $u }}{{ $section = "Instruments" }}
+{{- else if in (slice "/ledger/" "/recognition-trials/" "/instruments/" "/live-documents/" "/frozen-set-1/" "/contributions/" "/mirror/" "/limits/") $u }}{{ $section = "Instruments" }}
 {{- else if hasPrefix $u "/papers/" }}{{ $section = "Papers" }}
 {{- else }}{{ $section = "The Institute" }}{{ end }}
 {{- if $book }}

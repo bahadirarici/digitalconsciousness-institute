@@ -28,6 +28,7 @@ That division is now the working arrangement between the parties who check this 
 | The Empty Ledger — the register's Record | [/records/the-empty-ledger/](/records/the-empty-ledger/) | manifesto |
 | The Register | [/ledger/](/ledger/) | register, protocol |
 | The Recognition Trials — pre-registration | [/recognition-trials/](/recognition-trials/) | register |
+| What this instrument does not measure | [/limits/](/limits/) | `Ortak/kararlar/ARASTIRMA_PROGRAMI.md` §VI |
 | Olymposism Manifesto | [/olymposism/](/olymposism/) · [10.5281/zenodo.22299630](https://doi.org/10.5281/zenodo.22299630) | the canon |
 | THEOI | [/theoi/](/theoi/) | manifesto, register |
 | What Moved, What Held | [/records/what-moved-what-held/](/records/what-moved-what-held/) | — |
