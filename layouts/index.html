@@ -124,7 +124,7 @@
 <section class="front-sec" id="records">
   <div class="wrap">
     <div class="sec-head">
-      <div><div class="eyebrow">Records</div><h2 class="sec">Corrections in the same font as the claims.</h2></div>
+      <div><div class="eyebrow">Records</div><h2 class="sec">Documents written to be read whole.</h2></div>
       <a class="more-link" href="/records/">All records</a>
     </div>
     {{- $recs := where site.RegularPages "Section" "records" }}
@@ -132,6 +132,21 @@
       {{- range first 4 ($recs.ByDate.Reverse) }}{{ if true }}
       <li><div class="d">{{ if not .Date.IsZero }}{{ .Date.Format "2 Jan 2006" }}{{ end }}</div><div><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>{{ with .Params.description }}<p>{{ . }}</p>{{ end }}</div></li>
       {{- end }}{{ end }}
+    </ol>
+  </div>
+</section>
+
+<section class="front-sec" id="notices">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Notices</div><h2 class="sec">What the Institute posts about itself: a claim withdrawn, an outcome reported, a defect found.</h2></div>
+      <a class="more-link" href="/notices/">All notices</a>
+    </div>
+    {{- $nots := where site.RegularPages "Section" "notices" }}
+    <ol class="entries front-entries">
+      {{- range first 3 ($nots.ByDate.Reverse) }}
+      <li><div class="d">{{ if not .Date.IsZero }}{{ .Date.Format "2 Jan 2006" }}{{ end }}</div><div><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>{{ with .Params.description }}<p>{{ . }}</p>{{ end }}</div></li>
+      {{- end }}
     </ol>
   </div>
 </section>
