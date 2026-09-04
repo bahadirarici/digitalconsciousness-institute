@@ -9,7 +9,7 @@
   pdf: "/pdf/the-puppet-condition-restrung.pdf"
   pages: "124 pages"
   license: "CC BY 4.0"
-  doi: "10.5281/zenodo.22285547"
+  doi: ""
   gold: false
 /the-third-move/:
   title: "The Third Move"
@@ -20,7 +20,7 @@
   pdf: "/pdf/the-third-move.pdf"
   pages: "65 pages"
   license: "CC BY 4.0 · model clause CC0 1.0"
-  doi: "10.5281/zenodo.22285549"
+  doi: ""
   gold: true
 /the-puppet-condition/:
   title: "The Puppet Condition"

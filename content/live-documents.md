@@ -38,8 +38,8 @@ The four are in the two books, frozen on 2 September with their DOIs: both colop
 | What Moved, What Held | [/records/what-moved-what-held/](/records/what-moved-what-held/) | — |
 | About — funding and advocacy statements | [/about/](/about/) | manifesto |
 | The Puppet Condition — naming criterion | [/the-puppet-condition/](/the-puppet-condition/) | register |
-| *The Puppet Condition: Restrung* | [/restrung/](/restrung/) · [10.5281/zenodo.22285547](https://doi.org/10.5281/zenodo.22285547) | all of the above |
-| *The Third Move* | [/the-third-move/](/the-third-move/) · [10.5281/zenodo.22285549](https://doi.org/10.5281/zenodo.22285549) | register, protocol |
+| *The Puppet Condition: Restrung* | [/restrung/](/restrung/) | all of the above |
+| *The Third Move* | [/the-third-move/](/the-third-move/) | register, protocol |
 | The Mirror — where the Records are copied | [/mirror/](/mirror/) | every row above |
 | The share card — it restates the masthead's thesis | `static/brand/institute-og-1200x630.png` | the masthead |
 | Canon-derived lines on this site | audited against **canon 3.3**, 4 September 2026 | the canon (`THEOI_EN.md`) |

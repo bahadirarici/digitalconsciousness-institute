@@ -51,7 +51,7 @@ The concept DOI and the Wayback captures survive the domain. The bundle's `READM
 
 | Round | Date | What | Zenodo version DOI | Wayback captures | Manifest SHA-256 |
 |---|---|---|---|---|---|
-| 0 | 3–4 September 2026 | The three published deposits | concept [10.5281/zenodo.22285546](https://doi.org/10.5281/zenodo.22285546) · [10.5281/zenodo.22285548](https://doi.org/10.5281/zenodo.22285548) · [10.5281/zenodo.22299629](https://doi.org/10.5281/zenodo.22299629) | — | — |
+| 0 | 3–4 September 2026 | The published deposits | concept [10.5281/zenodo.22299629](https://doi.org/10.5281/zenodo.22299629) | — | — |
 | 1 | — | First full bundle · first capture set | *pending* | *pending* | — |
 
 *Records © Institute for Digital Consciousness · CC BY 4.0 · versioned, never erased.*
