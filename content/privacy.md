@@ -37,7 +37,7 @@ The site is a static website hosted on **Netlify**, which provides standard serv
 
 ## Fonts and external resources
 
-The site loads **one** typeface from a third party: Cormorant Garamond, via **Google Fonts**. The other two it uses — Poppins and Geist Mono — are served from this site's own host, so displaying a page requests them from nobody else. Since 2022, Google Fonts has been served from a cookieless infrastructure; the request transmits only the visitor's IP address to Google for the purpose of font delivery, and Google has stated this is not used for advertising profiling. If you prefer that no such request be made on your behalf, you can use a browser extension that blocks third-party requests; the site will fall back to the system serif font (Georgia or a similar Garamond-family typeface), with no functional loss.
+All three typefaces the site uses — Poppins, Cormorant Garamond and Geist Mono — are served from this site's own host, so displaying a page requests them from nobody else. Until 5 September 2026 Cormorant Garamond was loaded from Google Fonts; it is now served here, and the page no longer needs the paragraph that explained what that request transmitted.
 
 No other external resources, scripts, or trackers are loaded. Every image on the site — the seat portraits under `/images/theoi/` among them — is served from the site's own host, so viewing one contacts no third party.
 

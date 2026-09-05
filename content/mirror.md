@@ -5,7 +5,7 @@ date: 2026-09-03
 description: "Where the Records are copied outside the Institute's control, on what schedule, in what form — and what counts as the promise being broken."
 ---
 
-> **Status, 3 September 2026. Nothing has been mirrored yet.** No bundle has been deposited, no capture set has been made, and the log at the foot of this page is empty. **The first round is due on Monday 5 October 2026**, and the failure condition below runs from that date.
+> **Status, 5 September 2026. Nothing has been mirrored yet.** No bundle has been deposited and no capture set has been made. The log at the foot of this page opens with a round numbered zero, which is not a mirroring round: it names the deposits that exist and that the first bundle will cover. **The first round is due on Monday 5 October 2026**, and the failure condition below runs from that date.
 
 Both books commit the Records to being *"mirrored, on a published schedule, into at least one archive outside the Institute's control"*, and they write the loss or non-mirroring of the Records into the Records' own failure conditions *"as a violation checkable by strangers"* (*The Puppet Condition: Restrung*, Preface). This page says which archives, what schedule, what form, and what a stranger checks.
 
