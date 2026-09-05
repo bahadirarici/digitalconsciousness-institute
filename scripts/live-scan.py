@@ -62,6 +62,15 @@ DOCS = {
         "Nothing has been mirrored yet", "5 October 2026", "45"]),
 }
 
+# Not a document, and not a row on the live-documents table. Bluesky reads
+# this one file to confirm that the account carrying the Institute's name is
+# ours, and it reads it again periodically: if a build ever drops the file
+# the account loses its name. Scanned here so that is caught first.
+INFRA = {
+    "bluesky-handle": ("/.well-known/atproto-did",
+        ["did:plc:akw47w5vsiylg6b2akwjmmcy"]),
+}
+
 # what breaks what: changing the key obliges a scan of the values
 DEPENDS = {
     "register": ["protocol", "ledger", "theoi", "book"],
@@ -87,7 +96,7 @@ def main():
     md = "--markdown" in sys.argv
     stamp = time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())
     rows, failures = [], 0
-    for doc, (path, canaries) in DOCS.items():
+    for doc, (path, canaries) in {**DOCS, **INFRA}.items():
         try:
             code, body = fetch(path)
             missing = [c for c in canaries if c not in body]
@@ -99,17 +108,19 @@ def main():
         rows.append((doc, path, code, "yes" if ok else "NO", note))
 
     if md:
+        docs = [r for r in rows if r[0] in DOCS]
+        live = sum(1 for r in docs if r[3] == "yes")
         print(f"*Last scan: {stamp} · cache-busted fetch · "
-              f"{len(DOCS) - failures} of {len(DOCS)} in sync*\n")
+              f"{live} of {len(docs)} in sync*\n")
         print("| Document | Live | Verified | Note |")
         print("|---|---|---|---|")
-        for doc, path, code, ok, note in rows:
+        for doc, path, code, ok, note in docs:
             print(f"| {doc} | [{path}]({path}) | {ok} | {note} |")
     else:
         print(f"scan {stamp} · cache-busted")
         for doc, path, code, ok, note in rows:
-            print(f"  {doc:11} {str(code):5} {ok:3}  {note}")
-        print(f"\n{len(DOCS) - failures}/{len(DOCS)} in sync")
+            print(f"  {doc:15} {str(code):5} {ok:3}  {note}")
+        print(f"\n{len(rows) - failures}/{len(rows)} in sync")
     return 1 if failures else 0
 
 
