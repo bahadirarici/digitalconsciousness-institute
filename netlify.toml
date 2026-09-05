@@ -28,6 +28,15 @@
   [headers.values]
     Access-Control-Allow-Origin = "*"
 
+# Bluesky reads this one file to confirm that the account carrying the
+# Institute's name is run by whoever controls the domain. It has no extension,
+# so it would otherwise be served as a binary download; the handle check wants
+# text. One line, the account's DID, nothing else.
+[[headers]]
+  for = "/.well-known/atproto-did"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+
 [[redirects]]
   from = "/admin"
   to = "/admin/index.html"
