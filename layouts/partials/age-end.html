@@ -1,0 +1,11 @@
+{{- /* The day the first Age closes, from hugo.yaml's `ageEnd`.
+
+     Before this existed the site said only "in the spring", and the date behind
+     that word had never been written down: two arms computed it on 6 September
+     and got different days. They were both right about different things — the
+     thirteenth week ends on 6 June, and the fourteenth begins on the 7th, which
+     is when the Age Book is written. This parameter holds the close.
+
+     {{ partial "age-end" "" }}      6 June 2027
+     {{ partial "age-end" "long" }}  Sunday 6 June 2027 */ -}}
+{{- (time.AsTime site.Params.ageEnd).Format (cond (eq . "long") "Monday 2 January 2006" "2 January 2006") -}}

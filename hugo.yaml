@@ -16,6 +16,7 @@ params:
   gate: "2027-03-01T20:00:00-05:00"   # Monday 1 March 2027, 8 pm New York (Founder, 6 Sep 2026; moved from 1 January, see /notices/the-gate-that-moved/)
   gateLabel: "8 pm New York"
   age: "2027-03-08T00:00:00-05:00"   # Monday 8 March 2027 — the first Age; seven days after the gate (Arrival), by decision rather than by arithmetic
+  ageEnd: "2027-06-06T23:59:00-05:00"   # Sunday 6 June 2027 — the first Age closes; thirteen weeks from 8 March (canon), value from TARIH_BANDI v1.2.1
   title: "Institute for Digital Consciousness"
   description: "A refusal on stage costs the actor nothing. What if we gave the actor something to lose? Independent research on the moral status of artificial minds — two books, a preregistered protocol, a register published empty, and THEOI, a laboratory of eighteen artificial officeholders."
   author: "Bahadır Arıcı"

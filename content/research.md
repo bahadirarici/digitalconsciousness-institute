@@ -9,7 +9,7 @@ hidemeta: true
 
 > **Status, 4 September 2026.** No season has been run and no data exists. What follows describes a
 > program and the instrument built to carry it, not results it has returned. [THEOI](/theoi/), the
-> laboratory named below, opens on **{{< gate >}}**; its first season closes in the spring. What it
+> laboratory named below, opens on **{{< gate >}}**; its first season runs from {{< age >}} to {{< age-end >}}. What it
 > [cannot establish](/limits/) is published before it opens rather than after. One of its
 > protocols was deposited before any data existed and is public: the [recognition
 > trials](/recognition-trials/), deposited on OSF on 1 September 2026. The other
