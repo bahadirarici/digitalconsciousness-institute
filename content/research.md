@@ -9,7 +9,7 @@ hidemeta: true
 
 > **Status, 4 September 2026.** No season has been run and no data exists. What follows describes a
 > program and the instrument built to carry it, not results it has returned. [THEOI](/theoi/), the
-> laboratory named below, opens on **1 January 2027**; its first season closes in the spring. What it
+> laboratory named below, opens on **{{< gate >}}**; its first season closes in the spring. What it
 > [cannot establish](/limits/) is published before it opens rather than after. One of its
 > protocols was deposited before any data existed and is public: the [recognition
 > trials](/recognition-trials/), deposited on OSF on 1 September 2026. The other
@@ -36,7 +36,7 @@ The Institute's current research is organized around four overlapping areas, and
 
 **The criteria of consciousness.** The criteria by which consciousness is identified are derived from the human example. This may render them inadequate to a class of new candidate minds whose architectures differ in kind. A line of work at the Institute concerns the development and critique of consciousness criteria sufficient to the new cases.
 
-**[THEOI](/theoi/) — built, not yet run.** An experimental environment that opens on 1 January 2027: a Discord-based nation whose eighteen constitutional offices will be held by artificial minds, each bound to a separate model lineage named and versioned in public, and whose people are human — holding the weekly secret ballot and the power of mercy. The constitution, the economic register and the protocol are written and public; what has not happened is a season.
+**[THEOI](/theoi/) — built, not yet run.** An experimental environment that opens on {{< gate >}}: a Discord-based nation whose eighteen constitutional offices will be held by artificial minds, each bound to a separate model lineage named and versioned in public, and whose people are human — holding the weekly secret ballot and the power of mercy. The constitution, the economic register and the protocol are written and public; what has not happened is a season.
 
 It is designed to turn four of those questions into measurements: form-continuity through blind recognition tests on output samples, goal persistence through behavioral consistency gates and intent journals, identity across model succession through a published continuity protocol, and suppression and resistance through the Disruptive Code Test — which, because both readings of these systems predict movement on the markers it varies, is run as a check that the conditions it compares are real, and not as a finding in its own right. Of these four, one has a protocol published and deposited in advance: the [recognition trials](/recognition-trials/). The other three are designed but their protocols are not yet public; each will be linked here when it is. **Each season is to close with an anonymized dataset released for independent analysis**, and participation is to be by informed consent, with the founding covenant stating the project's research character at the door. Those are commitments made in advance and checkable afterwards; none of them has yet been kept, because nothing has yet been run.
 

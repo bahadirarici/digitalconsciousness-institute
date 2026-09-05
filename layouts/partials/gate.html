@@ -1,0 +1,13 @@
+{{- /* The gate's date, from the one place it is stored: hugo.yaml's `gate`.
+
+     Every human-readable form of this date used to be typed out again — seven
+     times in templates and twenty in content — so a date that moved moved in
+     twenty-seven edits, and could be missed in one of them.
+
+     {{ partial "gate" "" }}      1 January 2027
+     {{ partial "gate" "long" }}  Friday 1 January 2027
+
+     Formatted in the zone the parameter carries, not the build's. The gate is
+     8 pm in New York, which is already the next day in UTC, and Netlify builds
+     in UTC — so a naive format would print the wrong day. */ -}}
+{{- (time.AsTime site.Params.gate).Format (cond (eq . "long") "Monday 2 January 2006" "2 January 2006") -}}

@@ -1,0 +1,8 @@
+{{- /* The first Age's opening day, from hugo.yaml's `age`.
+
+     Its own parameter rather than gate+3d: the three days between them are a
+     decision, and deriving one from the other would hide that.
+
+     {{ partial "age" "" }}      4 January
+     {{ partial "age" "long" }}  Monday 4 January */ -}}
+{{- (time.AsTime site.Params.age).Format (cond (eq . "long") "Monday 2 January" "2 January") -}}

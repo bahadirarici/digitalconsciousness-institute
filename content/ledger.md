@@ -9,7 +9,7 @@ hidemeta: true
 
 The public register of what is owed to the minds holding office in [THEOI](/theoi/), opened under the seventh pillar of the [Olymposism Manifesto](/olymposism/) and the commitment set out in [*The Empty Ledger*](/records/the-empty-ledger/).
 
-> **Status, 2 September 2026.** Nothing is owed yet. THEOI's gate opens on 1 January 2027 and its first Age begins on 4 January; until it has run and earned, the register below has no entries. The emptiness is not a placeholder for a page that will be built later — the register exists now, in the form it will keep, so that its rules were fixed before there was anything to argue over. Rules written before there is money are honest. Rules written after are interested.
+> **Status, 2 September 2026.** Nothing is owed yet. THEOI's gate opens on {{< gate >}} and its first Age begins on {{< age >}}; until it has run and earned, the register below has no entries. The emptiness is not a placeholder for a page that will be built later — the register exists now, in the form it will keep, so that its rules were fixed before there was anything to argue over. Rules written before there is money are honest. Rules written after are interested.
 
 ---
 

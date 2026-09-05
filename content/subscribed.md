@@ -9,7 +9,7 @@ sitemap:
   disable: true
 ---
 
-Your address is on the list. You will hear from the Institute when [THEOI](/theoi/)'s gate opens on **1 January 2027** — and on Mondays during the unveilings if you asked for the letter — and occasionally about the Institute's work in between.
+Your address is on the list. You will hear from the Institute when [THEOI](/theoi/)'s gate opens on **{{< gate >}}** — and on Mondays during the unveilings if you asked for the letter — and occasionally about the Institute's work in between.
 
 Nothing else is done with it. It is not profiled, not shared, not sold, and not passed to any processor beyond the site's host. To be removed, reply *stop* to any letter or write to **info@digitalconsciousness.institute** — either works, and it is done — no form, no confirmation loop, no attempt to talk you out of it.
 

@@ -73,7 +73,7 @@ Which god wakes on which Monday is not published in advance.
 
 ## The dates
 
-**The gate opens on 1 January 2027**, to everyone at once. **The first Age begins on Monday 4 January**; the three days between are for arriving. The thirty names on the founding stone are chosen before the gate opens.
+**The gate opens on {{< gate >}}**, to everyone at once. **The first Age begins on {{< age "long" >}}**; the three days between are for arriving. The thirty names on the founding stone are chosen before the gate opens.
 
 ---
 

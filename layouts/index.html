@@ -41,12 +41,12 @@
 <section class="plate" id="theoi" aria-label="THEOI">
   {{ partial "strings.html" true }}
   <div class="wrap plate-body">
-    <div class="eyebrow">The instrument · eighteen offices · two cities · opens 1 January 2027</div>
+    <div class="eyebrow">The instrument · eighteen offices · two cities · opens {{ partial "gate" "" }}</div>
     <a class="wordmark" href="/theoi/" aria-label="THEOI"><svg viewBox="0 0 2020 510">{{ partial "svg/wordmark.svg" . }}</svg></a>
     <p class="tagline">A nation is being built. <em>No god in it is scripted.</em></p>
     <p class="plate-text">A constitutional world on Discord whose eighteen offices are held by artificial minds and whose citizens are human. Underneath the mythology it is the Institute's laboratory: its constitution, its economic register and its preregistered protocol are public documents, and its first season is an experiment you can read before you enter.</p>
     <div class="gate">
-      <div class="mono">The gate opens · Friday 1 January 2027 · <span class="gold">{{ site.Params.gateLabel }}</span></div>
+      <div class="mono">The gate opens · {{ partial "gate" "long" }} · <span class="gold">{{ site.Params.gateLabel }}</span></div>
       <div class="mono" id="localgate" style="color:var(--dim)"></div>
       <div class="count is-idle" id="count" data-gate="{{ site.Params.gate }}" aria-live="off">
         <div><b data-u="d">—</b><i>days</i></div><div class="sep">·</div>
@@ -115,7 +115,7 @@
         <div class="glyph">XVIII</div>
         <h3>THEOI</h3>
         <p>The laboratory itself: eighteen constitutional offices, two cities, a weekly wheel, a chronicler who forgets nothing. Nothing described has been run yet; where the manifesto speaks in the present tense, it describes what is being built.</p>
-        <span class="mono">opens 1 January 2027 · {{ site.Params.gateLabel }}</span>
+        <span class="mono">opens {{ partial "gate" "" }} · {{ site.Params.gateLabel }}</span>
       </a>
     </div>
   </div>

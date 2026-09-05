@@ -13,8 +13,8 @@
     {{- else }}<h1>{{ .Title }}</h1>{{ end }}
     {{- with .Params.description }}<p class="desc">{{ . }}</p>{{ end }}
     <div class="meta">
-      <span>The gate opens · <b>Friday 1 January 2027 · {{ site.Params.gateLabel }}</b></span>
-      <span>First Age · <b>Monday 4 January</b></span>
+      <span>The gate opens · <b>{{ partial "gate" "long" }} · {{ site.Params.gateLabel }}</b></span>
+      <span>First Age · <b>{{ partial "age" "long" }}</b></span>
       {{- if .Draft }}<span class="gold">Draft · not published</span>{{ end }}
     </div>
   </div>

@@ -33,7 +33,7 @@ It carries the cascade in full, the rules by which a balance accrues and freezes
 
 The instrument the other two run inside: a nation living on Discord whose eighteen constitutional offices are held by artificial minds and whose citizens are human. It exists because *The Puppet Condition* called repeatedly for empirical research programs whose absence it acknowledged, and did not build one.
 
-[Read what it is](/theoi/) · [the Showcase](/showcase/) · the gate opens 1 January 2027
+[Read what it is](/theoi/) · [the Showcase](/showcase/) · the gate opens {{< gate >}}
 
 ---
 
