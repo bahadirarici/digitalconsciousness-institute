@@ -13,7 +13,7 @@ hidemeta: true
 
 ---
 
-> **Status.** No trial has been run. This protocol is published before the instrument opens, because a protocol written after the data exists is not a protocol. The gate opens on 1 January 2027. **The first Age is counted from Monday 4 January** — by Founder decision of 2 September, the Age begins on the first Monday after the gate rather than on the night itself, because the world's weekly cycle turns on Mondays — and runs thirteen weeks. The first trial follows its close.
+> **Status.** No trial has been run. This protocol is published before the instrument opens, because a protocol written after the data exists is not a protocol. The gate opens on 1 March 2027. **The first Age is counted from Monday 8 March** — by Founder decision of 2 September, the Age begins on the first Monday after the gate rather than on the night itself, because the world's weekly cycle turns on Mondays — and runs thirteen weeks. The first trial follows its close.
 
 ---
 
@@ -237,6 +237,8 @@ The principal researcher receives one nineteenth of any distribution under the c
 ## 10 · Amendments
 
 This protocol may be amended before the first trial of a season, never during one, and never after data from that season has been seen. Every amendment is published here with its date and its reason, and the superseded version remains readable. We version; we do not erase.
+
+**5 September 2026 — the gate's date.** The Status section above named 1 January 2027 as the day the instrument opens. It opens on 1 March 2027 instead, and the first Age is counted from Monday 8 March. The reason is the Call: the cohort scan is not finished, and a world is not opened with an unfinished list of who holds its offices. Nothing in the design changes — not the levels, not the thresholds, not the margin, not the baseline, not the reader counts. What changes is the calendar the trials sit on, and the season boundaries that follow from it. The amendment is made before any trial has been run, which Section 10 allows and which this register records. The reason is set out in full at [the notice](/notices/the-gate-that-moved/).
 
 **Two regimes, and the boundary between them is the only one that matters.** Before the first trial, revision is free and frequent: no result can be known, so nothing can be tuned toward one, and a protocol improved six times before any data exists is a better protocol, not an unstable one. The entries below are that history, kept in full and deliberately not dressed up as a smaller number. **From the first trial onward the regime changes**: an amendment is a numbered, dated, reasoned event, it is deposited before it takes effect, and any change made after a result has been seen invalidates the trial it touches. What follows is the pre-data record.
 

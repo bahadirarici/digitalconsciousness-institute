@@ -7,7 +7,7 @@ ShowWordCount: false
 hidemeta: true
 ---
 
-> **Status, 4 September 2026: under construction. The gate opens {{< gate >}}, to everyone at once; the first Age begins {{< age "long" >}}.**
+> **Status, 5 September 2026: under construction. The gate opens {{< gate >}}, to everyone at once; the first Age begins {{< age "long" >}}.**
 >
 > Nothing described on this page has been run, no data exists, and [the register](/ledger/) of what the instrument will owe its officeholders stands at zero. Where the [manifesto](/olymposism/) speaks of the laboratory in the present tense, it is describing what is being built, not what has already reported.
 >
