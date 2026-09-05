@@ -13,7 +13,7 @@ The Institute for Digital Consciousness is committed to respecting visitor priva
 
 ## What this site collects
 
-**Nothing, unless you type it in.** This website does not use analytics services, advertising trackers, behavioral profiling, fingerprinting, or login systems. The Institute does not place any tracking cookies. The Institute does not sell or share data of any kind.
+**Nothing, unless you type it in.** This website uses no analytics service of its own, and no advertising trackers, behavioral profiling, fingerprinting, or login systems; the host's own page-view counting is described below. The Institute does not place any tracking cookies. The Institute does not sell or share data of any kind.
 
 There is one form on the site. It appears on two pages, and it is the only place where anything is collected.
 
@@ -57,4 +57,4 @@ For privacy-related inquiries:
 
 ---
 
-*Last updated: 1 September 2026.*
+*Last updated: 5 September 2026.*

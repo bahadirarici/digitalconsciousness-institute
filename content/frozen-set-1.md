@@ -15,7 +15,7 @@ A freeze is not a pause in the work. It is a fixed target: for one round nothing
 
 ## The set
 
-*Last scan: 2026-09-01 23:39 UTC · cache-busted fetch · 9 of 9 in sync*
+*Scan at the freeze: 2026-09-01 23:39 UTC · cache-busted fetch · 9 of 9 in sync as frozen*
 
 | Document | Live | Verified | Note |
 |---|---|---|---|

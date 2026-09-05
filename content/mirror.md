@@ -29,11 +29,11 @@ Not the Records alone but the whole site source, so that the Records can be rebu
 
 ## The schedule
 
-- **Monthly:** on the first Monday of each month, a bundle is deposited on Zenodo and the page set is captured on the Wayback Machine, whether or not anything changed. A snapshot that finds nothing changed is still a snapshot.
+- **Monthly:** on the first Monday of each month, a bundle is deposited on Zenodo and the page set is captured on the Wayback Machine, whether or not anything changed. A snapshot that finds nothing changed is still a snapshot. The schedule begins with the October round, so the first Monday of September is not a missed one.
 - **On change, within 14 days:** when a load-bearing document changes — an amendment to the Empty Ledger, an entry in the Contributions Register, a revision of the protocol, a change to a frozen text's colophon or hash — a bundle and captures follow within fourteen days of the change.
 - **Before and after the season:** one snapshot in the last week before the gate opens (Week Zero), one in the week after the first Age ends, so the state of the instrument at both boundaries is held outside.
 
-Each round is logged below with the version DOI, the Wayback URLs and the manifest hash. The log is append-only.
+Each round is logged below with the version DOI, the Wayback URLs and the manifest hash. Round zero carries concept DOIs instead: it is not a mirroring round, and there is no bundle yet for a version to be a version of. The log is append-only.
 
 ## What a stranger checks
 
