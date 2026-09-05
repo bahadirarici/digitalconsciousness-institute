@@ -1,6 +1,23 @@
 [build]
   publish = "public"
   command = "hugo --gc --minify"
+  # Skip the build when nothing that can reach the output has changed. The
+  # command's exit status is the instruction: 0 means "ignore this push".
+  #
+  # Measured before it was written, and then measured again against the bill,
+  # which corrected it. A deploy costs a flat 15 credits: between 2 and 6
+  # September, 104 production deploys spent 1,560 of the month's 3,000, while
+  # every web request, byte of bandwidth and second of compute together spent
+  # 2.3. Duration does not enter it — a thirteen-second deploy costs the same
+  # fifteen as any other — so there is nothing to optimise but how often we
+  # deploy.
+  #
+  # This rule skips 6 of 178 commits. Worth having, because it costs nothing
+  # and needs no one to remember it; but the budget is 200 deploys a month and
+  # the habit is what has to change. Work is committed freely and pushed in
+  # batches, and scripts/deploy-diff.py says whether a batch changes any page
+  # before it is sent.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- content layouts assets static data themes hugo.yaml netlify.toml"
 
 [build.environment]
   HUGO_VERSION = "0.146.0"
