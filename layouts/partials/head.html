@@ -1,7 +1,8 @@
 {{- /* One head for every page. Fonts: Poppins (display) and Geist Mono self-hosted from /fonts/;
        All three faces are served from this domain; the site makes no third-party request.
        Icons and og:image follow the surface: THEOI's brand package (static/brand/) on ink pages,
-       the Institute's own bird (static/favicon.png, static/images/) on paper pages. */ -}}
+       the Institute's own bird (static/brand/institute-*.png, built by scripts/make-favicons.py
+       from static/images/logo-symbol-large.png) on paper pages. */ -}}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{- $title := cond .IsHome site.Title (printf "%s · %s" .Title (cond (.Store.Get "ink") "THEOI" site.Title)) }}
@@ -15,8 +16,11 @@
 <link rel="icon" href="/brand/favicon-16.png" sizes="16x16" type="image/png">
 <link rel="apple-touch-icon" href="/brand/apple-touch-icon-180.png">
 {{- else }}
-<link rel="icon" href="/favicon.png" type="image/png">
-<link rel="apple-touch-icon" href="/favicon.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/brand/institute-48.png" sizes="48x48" type="image/png">
+<link rel="icon" href="/brand/institute-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/brand/institute-16.png" sizes="16x16" type="image/png">
+<link rel="apple-touch-icon" href="/brand/institute-180.png">
 {{- end }}
 <meta property="og:type" content="{{ cond .IsHome "website" "article" }}">
 <meta property="og:site_name" content="{{ site.Title }}">
