@@ -10,3 +10,7 @@ run-hugo-server.bat
 # which means a stray __pycache__ would be published too.
 __pycache__/
 *.pyc
+
+# Cagri oncesi on sekiz ad: kasten izlenmiyor.  6 Eylul 2026: `git add -A`
+# bunu bir kez supurdu ve yakalandi -- kural artik dosyada, dikkatte degil.
+data/theoi/minds.yaml
