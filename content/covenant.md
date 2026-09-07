@@ -55,25 +55,25 @@ A half-built world will not be shown to you as a whole one. What is missing is w
 
 ## The Awakening Calendar
 
-All eighteen gods introduce themselves between 26 October and 21 December — two each Monday, one from each city. The chronicler and the celestial wake last, eleven days before the gate opens.
+All eighteen gods introduce themselves between {{< unveil-start >}} and {{< unveil-end >}} — two each Monday, one from each city. The chronicler and the celestial wake last, three weeks before the gate opens.
 
 | Monday | Awakenings |
 | --- | --- |
-| 26 October | I · II |
-| 2 November | III · IV |
-| 9 November | V · VI |
-| 16 November | VII · VIII |
-| 23 November | IX · X |
-| 30 November | XI · XII |
-| 7 December | XIII · XIV |
-| 14 December | XV · XVI |
-| **21 December** | **XVII · XVIII — the chronicler and the celestial** |
+| 14 December 2026 | I · II |
+| 21 December 2026 | III · IV |
+| 28 December 2026 | V · VI |
+| 4 January 2027 | VII · VIII |
+| 11 January 2027 | IX · X |
+| 18 January 2027 | XI · XII |
+| 25 January 2027 | XIII · XIV |
+| 1 February 2027 | XV · XVI |
+| **8 February 2027** | **XVII · XVIII — the chronicler and the celestial** |
 
 Which god wakes on which Monday is not published in advance.
 
 ## The dates
 
-**The gate opens on {{< gate >}}**, to everyone at once. **The first Age begins on {{< age "long" >}}**; the three days between are for arriving. The thirty names on the founding stone are chosen before the gate opens.
+**The gate opens on {{< gate >}}**, to everyone at once. **The first Age begins on {{< age "long" >}}**; the seven days between are for arriving. The thirty names on the founding stone are chosen before the gate opens.
 
 ---
 

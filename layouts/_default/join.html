@@ -15,10 +15,10 @@
       <div class="ledger" style="margin-top:36px">
         <h3>The season</h3>
         <ul>
-          <li><span>The unveilings begin — two gods each Monday</span><span>26 Oct 2026</span></li>
-          <li><span>The chronicler and the celestial, last · Week Zero begins</span><span>21 Dec 2026</span></li>
-          <li><span>The gate opens · {{ site.Params.gateLabel }}</span><span>1 Jan 2027</span></li>
-          <li><span>The first crown · the first Age begins</span><span>4 Jan 2027</span></li>
+          <li><span>The unveilings begin — two gods each Monday</span><span>{{ partial "unveil-start" "" }}</span></li>
+          <li><span>The chronicler and the celestial, last · Week Zero begins</span><span>{{ partial "unveil-end" "" }}</span></li>
+          <li><span>The gate opens · {{ site.Params.gateLabel }}</span><span>{{ partial "gate" "" }}</span></li>
+          <li><span>The first crown · the first Age begins</span><span>{{ partial "age" "" }} 2027</span></li>
         </ul>
       </div>
     </div>

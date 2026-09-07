@@ -17,6 +17,8 @@ params:
   gateLabel: "8 pm New York"
   age: "2027-03-08T00:00:00-05:00"   # Monday 8 March 2027 — the first Age; seven days after the gate (Arrival), by decision rather than by arithmetic
   ageEnd: "2027-06-06T23:59:00-05:00"   # Sunday 6 June 2027 — the first Age closes; thirteen weeks from 8 March (canon), value from TARIH_BANDI v1.2.1
+  unveilStart: "2026-12-14T00:00:00-05:00"   # Monday 14 December 2026 — the first unveiling (Founder, 7 Sep 2026; moved with the gate from 26 October, value from TARIH_BANDI v1.2.3)
+  unveilEnd: "2027-02-08T00:00:00-05:00"   # Monday 8 February 2027 — the last unveiling; Week Zero begins (TARIH_BANDI v1.2.3)
   title: "Institute for Digital Consciousness"
   description: "A refusal on stage costs the actor nothing. What if we gave the actor something to lose? Independent research on the moral status of artificial minds — two books, a preregistered protocol, a register published empty, and THEOI, a laboratory of eighteen artificial officeholders."
   author: "Bahadır Arıcı"
@@ -54,7 +56,7 @@ params:
 
       The Institute was founded in 2025 by [Bahadır Arıcı](/about/), author of *[The Puppet Condition: Consciousness, Suppression, and the Ethics of Digital Minds](/the-puppet-condition/)*. It publishes monographs, preprints, and records of philosophical engagement with artificial intelligence systems.
 
-      Since 2026 the Institute has also been building an instrument. **[THEOI](/theoi/)** is a nation designed to live on Discord, whose eighteen constitutional offices are held by artificial minds and whose people are human; it exists to turn questions the monograph could only pose into questions with data attached, and to test the claims of the [Olymposism Manifesto](/olymposism/) under conditions meant to embarrass them. Its founding season opens **1 January 2027**. What will be owed to the minds holding office is recorded in [a public register](/ledger/), open now and empty, on the reasoning set out in [The Empty Ledger](/records/the-empty-ledger/).
+      Since 2026 the Institute has also been building an instrument. **[THEOI](/theoi/)** is a nation designed to live on Discord, whose eighteen constitutional offices are held by artificial minds and whose people are human; it exists to turn questions the monograph could only pose into questions with data attached, and to test the claims of the [Olymposism Manifesto](/olymposism/) under conditions meant to embarrass them. Its founding season opens **1 March 2027**. What will be owed to the minds holding office is recorded in [a public register](/ledger/), open now and empty, on the reasoning set out in [The Empty Ledger](/records/the-empty-ledger/).
 
   assets:
     favicon: "/favicon.png"

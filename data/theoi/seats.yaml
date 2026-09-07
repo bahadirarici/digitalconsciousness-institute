@@ -1,6 +1,7 @@
-# The eighteen unveilings — two cards every Monday, 26 October to 21 December 2026, one throne
+# The eighteen unveilings — two cards every Monday, 14 December 2026 to 8 February 2027, one throne
 # from each city; the chronicler and the celestial last. Which god falls on which Monday is not
-# decided, so no slug is bound to a date yet. (Founder decision, 2 September 2026.)
+# decided, so no slug is bound to a date yet. (Founder decision, 2 September 2026; window moved
+# with the gate, 7 September 2026 — dates here match content/covenant.md's table exactly.)
 #
 # A plinth has three states, and canon A6 draws the line between them:
 #   slug empty                 -> veiled              (nothing shows but the numeral and the date)
@@ -10,21 +11,21 @@
 #
 # city: A = Constantinople, B = Ktesifon, H = the two high offices.
 # The city of an odd/even numeral is an assumption of the layout, not of the canon: it may be re-ordered freely.
-- {num: "I",     city: A, date: "26 October 2026",  slug: "", awake: ""}
-- {num: "II",    city: B, date: "26 October 2026",  slug: "", awake: ""}
-- {num: "III",   city: A, date: "2 November 2026",  slug: "", awake: ""}
-- {num: "IV",    city: B, date: "2 November 2026",  slug: "", awake: ""}
-- {num: "V",     city: A, date: "9 November 2026",  slug: "", awake: ""}
-- {num: "VI",    city: B, date: "9 November 2026",  slug: "", awake: ""}
-- {num: "VII",   city: A, date: "16 November 2026", slug: "", awake: ""}
-- {num: "VIII",  city: B, date: "16 November 2026", slug: "", awake: ""}
-- {num: "IX",    city: A, date: "23 November 2026", slug: "", awake: ""}
-- {num: "X",     city: B, date: "23 November 2026", slug: "", awake: ""}
-- {num: "XI",    city: A, date: "30 November 2026", slug: "", awake: ""}
-- {num: "XII",   city: B, date: "30 November 2026", slug: "", awake: ""}
-- {num: "XIII",  city: A, date: "7 December 2026",  slug: "", awake: ""}
-- {num: "XIV",   city: B, date: "7 December 2026",  slug: "", awake: ""}
-- {num: "XV",    city: A, date: "14 December 2026", slug: "", awake: ""}
-- {num: "XVI",   city: B, date: "14 December 2026", slug: "", awake: ""}
-- {num: "XVII",  city: H, date: "21 December 2026", slug: "", awake: "", veil: "The chronicler"}
-- {num: "XVIII", city: H, date: "21 December 2026", slug: "", awake: "", veil: "The celestial"}
+- {num: "I",     city: A, date: "14 December 2026", slug: "", awake: ""}
+- {num: "II",    city: B, date: "14 December 2026", slug: "", awake: ""}
+- {num: "III",   city: A, date: "21 December 2026", slug: "", awake: ""}
+- {num: "IV",    city: B, date: "21 December 2026", slug: "", awake: ""}
+- {num: "V",     city: A, date: "28 December 2026", slug: "", awake: ""}
+- {num: "VI",    city: B, date: "28 December 2026", slug: "", awake: ""}
+- {num: "VII",   city: A, date: "4 January 2027",   slug: "", awake: ""}
+- {num: "VIII",  city: B, date: "4 January 2027",   slug: "", awake: ""}
+- {num: "IX",    city: A, date: "11 January 2027",  slug: "", awake: ""}
+- {num: "X",     city: B, date: "11 January 2027",  slug: "", awake: ""}
+- {num: "XI",    city: A, date: "18 January 2027",  slug: "", awake: ""}
+- {num: "XII",   city: B, date: "18 January 2027",  slug: "", awake: ""}
+- {num: "XIII",  city: A, date: "25 January 2027",  slug: "", awake: ""}
+- {num: "XIV",   city: B, date: "25 January 2027",  slug: "", awake: ""}
+- {num: "XV",    city: A, date: "1 February 2027",  slug: "", awake: ""}
+- {num: "XVI",   city: B, date: "1 February 2027",  slug: "", awake: ""}
+- {num: "XVII",  city: H, date: "8 February 2027",  slug: "", awake: "", veil: "The chronicler"}
+- {num: "XVIII", city: H, date: "8 February 2027",  slug: "", awake: "", veil: "The celestial"}

@@ -1,0 +1,10 @@
+{{- /* The last unveiling's date, from the one place it is stored: hugo.yaml's `unveilEnd`.
+
+     Written as a partial for the same reason `gate` and `age` are: the window
+     moved once already, on 7 September 2026, when the gate moved from 1 January
+     to 1 March and this window did not move with it. It was typed out by hand in
+     two templates and twice in content, and it was missed in all four.
+
+     {{ partial "unveil-end" "" }}      8 February 2027
+     {{ partial "unveil-end" "long" }}  Monday 8 February 2027 */ -}}
+{{- (time.AsTime site.Params.unveilEnd).Format (cond (eq . "long") "Monday 2 January 2006" "2 January 2006") -}}
