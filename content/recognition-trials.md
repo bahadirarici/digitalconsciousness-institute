@@ -9,7 +9,7 @@ hidemeta: true
 
 *Pre-registered protocol for the blind recognition trials in [THEOI](/theoi/), as [The Empty Ledger](/records/the-empty-ledger/) requires.*
 
-***Status: fixed before the first trial. Last revised 2 September 2026. Deposited at [osf.io/ceauh](https://osf.io/ceauh/).** Every revision so far has been made while no data exists — which is when revision is free, and the point of publishing this early. The full history is in Section 10. From the first trial onward, changes are numbered, dated and reasoned, because from that point a revision is no longer free.*
+***Status: fixed before the first trial. Deposited at [osf.io/ceauh](https://osf.io/ceauh/) on 1 September 2026; every revision since is dated in Section 10, newest first.** Every revision so far has been made while no data exists, which is when revision is free, and the point of publishing this early. From the first trial onward, changes are numbered, dated and reasoned, because from that point a revision is no longer free.*
 
 ---
 
@@ -29,15 +29,19 @@ So the protocol is fixed in advance, in public, and Section 8 of that Record sta
 
 A registration cannot be edited afterwards — only withdrawn, which leaves a public tombstone naming the withdrawal. That permanence is why this was the right container, and it is also why the next sentence is necessary.
 
-**What is stamped, exactly.** The deposit fixes the text as it stood at 22:11 UTC on 1 September and nothing after it. Until the revision wave of 2 September this page could say that the deposited text and the live text were identical in every clause governing the trials, and it did. **That sentence no longer holds, and the specific statement replaces it rather than the reassuring one.**
+**What is stamped, exactly.** The deposit fixes the text as it stood at 22:11 UTC on 1 September and nothing after it. Until the revision wave that followed, this page could say that the deposited text and the live text were identical in every clause governing the trials, and it did. That stopped being true the next day, and this page has said so since.
 
-Sections 2, 3, 5, 7, 8 and 9 — what is being tested, the hypotheses, the readers, the limits, the publication rule, and the conflicts — differ from the deposit by nothing at all. **Sections 4 and 6 have changed**, in both cases by adding what the deposit promised rather than by altering what it fixed:
+**The claim worth holding this document to is that nothing was loosened after the stamp**, and it can be checked in four sentences. The acting margin has stood at fifteen points throughout and stands there now. H1 was tightened rather than relaxed: the deposit asks for a rate above chance, and this text asks for a rate above the measured within-lineage baseline by that same margin, which is a higher bar and not a lower one. Reader counts were raised. The confirmatory level is the one the deposit named, and there is still one and no other. A forking path would have to break one of those four, so those are the four to check.
 
-- **Section 4** links the redaction code the deposited text said would be published before the first block, and names its rule set version. No rule changed.
-- **Section 6** carries the power simulation's actual output — the curve, the minimum detectable effect at four levels of clustering, and the numbers behind the reader-versus-item claim — where the deposited text described a simulation that had not yet been run. **No threshold moved.** The design still acts at fifteen points, still targets 80 per cent power, still names one confirmatory level and no other.
-- **Section 10** gains the effect-deferral rule and this wave's changelog entry.
+**What has changed is in Section 10**, every amendment with its date and its reason, newest first. Two of them reach sections this page once called untouched: the amendment of 4 September, which moved Level B's null from chance to a measured baseline and so rewrote parts of Sections 2 and 3, and the amendment of 6 September, which named the same-lineage pairs once the roster closed.
 
-That distinction is the one to check rather than take on trust, because it is the one that matters: an addition that fulfils a promise and a threshold that moved after the promise was made look alike in a summary and not at all in a diff. The deposited file is downloadable from the registration.
+**And one difference is the deposit's own.** Section 5 of the deposited file sets the reader target at twelve, while Section 10 of that same file records it raised to twenty. The raise was made and recorded before the stamp; it was not carried into the body the stamp caught. The live text carries twenty, which is the number the deposited changelog announces. It is named here because a reader running the diff will find it, and finding it from us costs less than finding it from them. (The changelog's dates are local: 22:11 UTC on 1 September is 01:11 on 2 September where this work is done, which is why entries dated 2 September sit inside a file stamped 1 September.)
+
+Sections 8 and 9 differ from the deposit in spelling alone, British to American. Section 7 is identical.
+
+The deposited file is downloadable from the registration, so the difference can be taken as a diff rather than as our summary of one.
+
+*Corrected 10 September 2026.* This passage replaced an enumeration written on 2 September that named Sections 2, 3, 5, 7, 8 and 9 as identical to the deposit. Three of them were not, and each amendment responsible was recorded in Section 10, with its date, on the day it was made. Nothing was withheld; a summary was not kept. **A summary that is not kept is worse than none, because it is read as a check that someone performed.**
 
 **Until the next deposit is made, this page is ahead of its own timestamp.**
 

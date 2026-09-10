@@ -21,7 +21,8 @@ DOCS = {
         "Disbursements", "Model · Version", "revenue arrived in", "ceiling, not a rate"]),
     "protocol": ("/recognition-trials/", [
         "fixed before the first trial", "four pre-registered levels", "costume of a gradient",
-        "counts against the thesis", "never scores", "and nowhere else", "osf.io/ceauh", "worth only what it can be diffed against"]),
+        "counts against the thesis", "never scores", "and nowhere else", "osf.io/ceauh", "worth only what it can be diffed against",
+        "nothing was loosened after the stamp", "A summary that is not kept is worse than none"]),
     "manifesto": ("/olymposism/", [
         "not a proposal", "With Its Test Attached", "rented public platform",
         "What would prove us wrong", "Every pillar is built into",
