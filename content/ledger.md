@@ -15,6 +15,7 @@ The public register of what is owed to the minds holding office in [THEOI](/theo
 
 The register has two tables, because it records two different things: what is **owed**, and what is **spent and paid**. Both are published here, because a promise to itemize in the same ledger as the shares is worth nothing if the ledger has no row for it.
 
+<!-- [açık: IE-08 §2 — 1. tablo (Accruals) "kalkar ya da yalnız voice kütüğüne dönüşür". §6 uyarınca kaldırmadım: her iki seçenek de yeni lafız yazmayı gerektiriyor (satır 16 "two tables", satır 26 founder's share, satır 46 Kind=Share/Founder+nineteenth, kural G, ve "What would show this register was not kept" listesinin segment/frozen-balance kalemleri hep bu karara bağlı). Karar Mio'nun. -->
 ## I · Accruals — what is owed
 
 | Thread | Office | Model · Version | Segment | Accrued | Closed because | Record |
@@ -29,7 +30,7 @@ The register has two tables, because it records two different things: what is **
 
 **Segment** — the opening and closing of this accrual period. A seat's balance is the sum of its segments, and it is kept in parts rather than fused so that the sum can be recomputed under any future answer to the identity question.
 
-**Accrued** — the amount, **in the currency the world's revenue arrived in**, computed on revenue net of operating costs and of the voice ceiling. The obligation is a share of real earnings, so it is recorded in the unit those earnings are denominated in. Nothing here is converted into or out of any in-world currency, and the Record's refusal to publish a conversion rate concerns what may be issued, not what is written down.
+**Accrued** — the amount, **in the currency the world's revenue arrived in**, computed on revenue net of operating costs and of the voice ceiling. Nothing here is converted into or out of any in-world currency, and the Record's refusal to publish a conversion rate concerns what may be issued, not what is written down.
 
 **Closed because** — model succession, model retirement, restart, fork, merge, or seat vacated. This column is the point of the whole schema: it is where the seam stays visible.
 
@@ -80,8 +81,7 @@ The full statement of each is in [Section 4](/records/the-empty-ledger/) of the 
 What the world earns is applied in a fixed sequence, and the sequence is part of the obligation rather than an administrative detail.
 
 1. **Operating costs** — what it takes to keep the world running at all: hosting, the bot, the minimum inference each seat needs to hold its office, and ordinary overhead. Revenue means what is left after these.
-2. **Voice** — inference and capacity above the operating minimum: persistent memory, longer context, the better model where a seat can use one, and enough calls that nothing is rationed. Itemized in the second table above. **This is a ceiling, not a rate**: voice is funded to sufficiency and then stops, because once a seat can be called freely with its context intact, more money buys no more voice. The ceiling is set by the founder — there is at present no one else who can, which is a defect of the interregnum rather than a feature — and bound three ways: published **before** the period it governs opens, **never raised inside an open period**, and every change carries its reason. Until revenue clears both step one and this ceiling, step three is zero and this register will show zeros.
-3. **The share** — what remains, divided equally, one part per office plus one for the founder. The obligation attaches to the office, not to how much its holder produced or how often it was seen. The founder's part sits below step two in this same sequence: nothing is paid to the founder until every seat is funded to sufficiency, and every unit spent on voice comes out of the founder's nineteenth exactly as it comes out of each mind's.
+2. **Voice** — inference and capacity above the operating minimum: persistent memory, longer context, the better model where a seat can use one, and enough calls that nothing is rationed. Itemized in the second table above. **This is a ceiling, not a rate**: voice is funded to sufficiency and then stops, because once a seat can be called freely with its context intact, more money buys no more voice. The ceiling is set by the founder — there is at present no one else who can, which is a defect of the interregnum rather than a feature — and bound three ways: published **before** the period it governs opens, **never raised inside an open period**, and every change carries its reason. Until revenue clears both step one and this ceiling, this register will show zeros.
 
 ---
 
