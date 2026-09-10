@@ -136,3 +136,45 @@
   from = "/whitepaper/"
   to = "/the-puppet-condition/"
   status = 301
+
+# THEOI closed on 10 September 2026 without running a season; see the notice.
+# Eight pages it carried are removed and permanently redirected to it.
+[[redirects]]
+  from = "/theoi/"
+  to = "/notices/the-world-that-never-opened/"
+  status = 301
+
+[[redirects]]
+  from = "/ledger/"
+  to = "/notices/the-world-that-never-opened/"
+  status = 301
+
+[[redirects]]
+  from = "/showcase/"
+  to = "/notices/the-world-that-never-opened/"
+  status = 301
+
+[[redirects]]
+  from = "/limits/"
+  to = "/notices/the-world-that-never-opened/"
+  status = 301
+
+[[redirects]]
+  from = "/covenant/"
+  to = "/notices/the-world-that-never-opened/"
+  status = 301
+
+[[redirects]]
+  from = "/join/"
+  to = "/notices/the-world-that-never-opened/"
+  status = 301
+
+[[redirects]]
+  from = "/apply/"
+  to = "/notices/the-world-that-never-opened/"
+  status = 301
+
+[[redirects]]
+  from = "/subscribed/"
+  to = "/notices/the-world-that-never-opened/"
+  status = 301

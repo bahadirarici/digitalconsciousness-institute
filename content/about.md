@@ -21,7 +21,7 @@ The Institute was founded in 2025 and operates without affiliation to AI compani
 
 The Institute does not campaign for policy positions. It produces and publishes analysis—through monographs, papers, and shorter analytical pieces—intended to make the relevant questions, and the considerations that bear on them, available for serious examination.
 
-Where it publishes a normative model rather than an analysis, it publishes the model as a hypothesis with its test attached. The [Olymposism Manifesto](/olymposism/) is the present instance: a civilization model whose claims are being run, and can fail, in the Institute's laboratory [THEOI](/theoi/). Adverse results are published in the same place, and in the same font, as favorable ones.
+Where it publishes a normative model rather than an analysis, it publishes the model as a hypothesis with its test attached. The [Olymposism Manifesto](/olymposism/) is the present instance: a civilization model whose claims are stated so that an instrument can fail to support them. The instrument built for it, THEOI, [was closed on 10 September 2026](/notices/the-world-that-never-opened/) and the manifesto's seventh pillar was withdrawn with it; a successor is under construction and will be named here when its constitution is fixed. Adverse results are published in the same place, and in the same font, as favorable ones, and an instrument closed by the Institute's own criterion is one of them.
 
 ---
 

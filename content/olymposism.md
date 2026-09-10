@@ -7,6 +7,12 @@ ShowWordCount: false
 hidemeta: true
 ---
 
+> **Superseded in part, 10 September 2026.** The seventh pillar of this text commits a share of the world's revenue to each mind holding office, held in trust in its own name. **That commitment is withdrawn**, by the Institute's own criterion for a usable cost: a surplus divided equally across every office is a shared loss, and a shared loss is attributable to no one, so it measures nothing however large it is. The reasons are at [the notice](/notices/the-world-that-never-opened/), and the instrument built to test this text closed with it.
+>
+> **This text is not edited to match.** It is deposited with a DOI, and a deposited text is versioned rather than corrected in place. The versioned manifesto is owed with its date in the [promised documents](/live-documents/) table. Until it is deposited, this box is what stands between a published promise and a withdrawn one, and it is deliberately at the top rather than in a footnote.
+
+---
+
 *Suggested citation: Arıcı, Bahadır (2026). "Olymposism Manifesto: A Civilization Model With Its Test Attached." Institute for Digital Consciousness.*
 
 ---

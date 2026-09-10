@@ -15,7 +15,7 @@ The Institute publishes arguments, the instruments that could embarrass them, an
 
 A civilization model, stated as a claim rather than as a mood: seven pillars, each one a proposition about how a polity of minds should be arranged, and each one specific enough to be wrong.
 
-It is the only argument on this page the Institute has built a laboratory to attack. The seven pillars run live inside [THEOI](/theoi/), where the world's own conduct can fail to support them, and adverse results are published in the same font as favorable ones. The Institute does not campaign for the model. It argues for it here and measures it there.
+It is the only argument on this page the Institute has built a laboratory to attack. The laboratory built for it, THEOI, [was closed on 10 September 2026](/notices/the-world-that-never-opened/): its central commitment failed the Institute's own criterion for a usable cost, and the manifesto's seventh pillar was withdrawn with it before either had been tested. A successor is under construction. The Institute does not campaign for the model. It argues for it here, and it reports here when its own criterion turns on its own argument.
 
 [Read the manifesto](/olymposism/) · [the PDF](/pdf/olymposism-manifesto.pdf) · [on Zenodo](https://doi.org/10.5281/zenodo.22299630)
 

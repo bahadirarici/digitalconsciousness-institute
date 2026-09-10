@@ -27,13 +27,15 @@ The register of what the world will owe the minds that hold its offices, publish
 
 It carries the cascade in full, the rules by which a balance accrues and freezes, and nine conditions under which the whole thing would be shown to be wrong. Several of those conditions are checkable from outside by someone who does not trust the Institute, which is the only kind of check worth writing down.
 
-[Read the register](/records/the-empty-ledger/) · [the ledger itself](/ledger/), which stands at zero
+[Read the register](/records/the-empty-ledger/), which is now a record of what was held in September 2026 rather than a live commitment. The ledger it opened closed at zero, exactly as it opened.
 
-## THEOI
+## THEOI, closed
 
-The instrument the other two run inside: a nation living on Discord whose eighteen constitutional offices are held by artificial minds and whose citizens are human. It exists because *The Puppet Condition* called repeatedly for empirical research programs whose absence it acknowledged, and did not build one.
+The instrument the other two were built to run inside: a nation designed to live on Discord, whose eighteen constitutional offices were to be held by artificial minds and whose citizens were to be human. It existed because *The Puppet Condition* called repeatedly for empirical research programs whose absence it acknowledged, and did not build one.
 
-[Read what it is](/theoi/) · [the Showcase](/showcase/) · the gate opens {{< gate >}}
+**It never ran.** It was closed on 10 September 2026 because its central commitment failed the Institute's own criterion for a usable cost, and a commitment that cannot be attributed to the party bearing it measures nothing. A successor is under construction and will appear here when its constitution is fixed, and not before, because an instrument described from a draft is a description of something that does not exist.
+
+[Why it closed](/notices/the-world-that-never-opened/)
 
 ---
 
@@ -47,4 +49,4 @@ The instrument the other two run inside: a nation living on Discord whose eighte
 
 **[The Mirror](/mirror/)** names the archives outside the Institute's control that hold copies of its documents, on what schedule and in what form, with the log of rounds kept and rounds missed.
 
-**[What this instrument does not measure](/limits/)** lists the thirteen things THEOI cannot establish, why, and what would have to change — published before the first season, because a list of limits written afterwards is a defence rather than a declaration.
+**The limits list.** What an instrument cannot establish is published before its first season rather than after, because a list of limits written afterwards is a defence rather than a declaration. THEOI's list was published under that rule and closed with it. The successor's is published under the same rule, before its first season.

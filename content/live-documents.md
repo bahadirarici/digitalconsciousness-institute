@@ -30,11 +30,8 @@ The four are in the two books, frozen on 2 September with their DOIs: both colop
 | Document | Where | Depends on |
 |---|---|---|
 | The Empty Ledger — the register's Record | [/records/the-empty-ledger/](/records/the-empty-ledger/) | manifesto |
-| The Register | [/ledger/](/ledger/) | register, protocol |
 | The Recognition Trials — pre-registration | [/recognition-trials/](/recognition-trials/) | register |
-| What this instrument does not measure | [/limits/](/limits/) | the research programme, §VI — an internal working document |
 | Olymposism Manifesto | [/olymposism/](/olymposism/) · [10.5281/zenodo.22299630](https://doi.org/10.5281/zenodo.22299630) | the canon |
-| THEOI | [/theoi/](/theoi/) | manifesto, register |
 | What Moved, What Held | [/records/what-moved-what-held/](/records/what-moved-what-held/) | — |
 | About — funding and advocacy statements | [/about/](/about/) | manifesto |
 | The Puppet Condition — naming criterion | [/the-puppet-condition/](/the-puppet-condition/) | register |
@@ -42,7 +39,6 @@ The four are in the two books, frozen on 2 September with their DOIs: both colop
 | *The Third Move* | [/the-third-move/](/the-third-move/) · [10.5281/zenodo.22308622](https://doi.org/10.5281/zenodo.22308622) | register, protocol |
 | The Mirror — where the Records are copied | [/mirror/](/mirror/) | every row above |
 | The share card — it restates the masthead's thesis | `static/brand/institute-og-1200x630.png` | the masthead |
-| Canon-derived lines on this site | audited against **canon 3.3**, 4 September 2026 | the canon (`THEOI_EN.md`) |
 | The First Site — the withdrawn position | [/notices/the-first-site/](/notices/the-first-site/) | the books' colophons, the masthead |
 | The Desk Rejections | [/notices/the-desk-rejections/](/notices/the-desk-rejections/) | monograph, both books, frozen set |
 | The Right That Was Closed | [/notices/the-right-that-was-closed/](/notices/the-right-that-was-closed/) | canon 15.3, Appendix B.2.1, the protocol |
@@ -58,8 +54,10 @@ A document that has been committed to in public, but does not exist here yet, is
 | Document | Committed in | Due | Status |
 | --- | --- | --- | --- |
 | **Costed Binding Protocol v3** | *The Actor and the Role*, §7 | with a DOI, by **31 December 2026** — before the world opens on {{< gate >}} | **not yet deposited** |
+| **The versioned Olymposism Manifesto** | this table, on the closure of THEOI | with a DOI, by **31 October 2026** | **not yet deposited** |
+| **What a supported H3 obliges under the successor instrument** | [the Recognition Trials](/recognition-trials/), §6 | before the successor's first trial | **open** |
 
-The status column is the part that does the work. A row without it announces the date and says nothing about whether the date is being kept.
+The status column is the part that does the work. A row without it announces the date and says nothing about whether the date is being kept. A commitment withdrawn is not a commitment kept, and it does not belong in this table. What belongs here is a document owed and not yet delivered. The row above for the manifesto is owed because its published text still carries a pillar that has been superseded, and the gap between those two is held by a dated promise rather than by a quiet edit.
 
 ---
 

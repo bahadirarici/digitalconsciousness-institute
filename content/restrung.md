@@ -43,7 +43,7 @@ But the first book's inference — from persistence-under-suppression to somethi
 
 And a number the book prints against itself, before any referee has to: **of the six, two actually discriminate between the readings.** The other four are kept, and why they are kept is argued rather than assumed. A framework that counted all six as tests of itself would have been counting its own bookkeeping as evidence.
 
-The instrument is [THEOI](/theoi/), which opens on {{< gate >}}, and the protocol that will read it is [the Recognition Trials](/recognition-trials/), deposited before any data exists.
+The instrument built for it, THEOI, [was closed before it opened](/notices/the-world-that-never-opened/). The protocol written to read it, [the Recognition Trials](/recognition-trials/), was deposited before any data existed and stands, with a dated amendment recording what the closure changes in it and what it leaves alone.
 
 ## The blade turned inward
 
