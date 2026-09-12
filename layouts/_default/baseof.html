@@ -12,7 +12,7 @@
 <main id="main">
 {{ block "main" . }}{{ end }}
 </main>
-{{ block "foot" . }}{{ if .Store.Get "ink" }}{{ partial "institute.html" true }}{{ else }}{{ partial "foot.html" . }}{{ end }}{{ end }}
+{{ block "foot" . }}{{ partial "foot.html" . }}{{ end }}
 {{ partial "site-js.html" . }}
 </body>
 </html>
