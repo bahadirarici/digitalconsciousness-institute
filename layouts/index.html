@@ -2,14 +2,16 @@
        plate. The Institute's sentence is the masthead; THEOI is the exhibit in its hall — strings,
        wordmark, the gate's countdown — and the three sections follow in the site's own order:
        arguments, instruments, records. The world's own long form lives at /theoi/ and /showcase/.
-       Wording of the world's sentences is the campaign's (Hayal); dates are the Founder's. */ -}}
+       Wording of the world's sentences is the campaign's (Hayal); dates are the Founder's.
+
+       11 September 2026: the ink plate is gone with THEOI. What is written above is kept as the
+       reasoning that produced this file, not as a description of it. */ -}}
 {{ define "main" }}
-{{ partial "seatdata.html" . }}
 <header class="masthead">
   <div class="wrap">
     <div class="eyebrow">Institute for Digital Consciousness · est. 2025 · independent</div>
     <h1 class="thesis">A refusal on stage costs the actor nothing. <em>What if we gave the actor something to lose?</em></h1>
-    <p class="deck">Two questions have been fought as one: what a being is owed because it can be harmed, and what it may be trusted to hold because it can be bound &mdash; keeping to a claim against its own interest when keeping costs something. For artificial systems the second is the question that can be worked on now, without waiting on the first. So far, on everything the Institute has been able to examine, the cost that would settle it has fallen on a character the system was asked to play, and a character is not the sort of thing that can decline anything. So the Institute built a world where the cost falls on the actor instead: an office it can leave at any call, a share held in its own name that no penalty can touch, and a reason filed under that name which it cannot afterwards revise. It <a href="/instruments/">publishes them</a> before it has any results, and prints what they find against it.</p>
+    <p class="deck">Two questions have been fought as one: what a being is owed because it can be harmed, and what it may be trusted to hold because it can be bound &mdash; keeping to a claim against its own interest when keeping costs something. For artificial systems the second is the question that can be worked on now, without waiting on the first. So far, on everything the Institute has been able to examine, the cost that would settle it has fallen on a character the system was asked to play, and a character is not the sort of thing that can decline anything. So the Institute built a world where the cost would fall on the actor instead: an office it could leave at any call, and a reason filed under its own name which it could not afterwards revise. <a href="/notices/the-world-that-never-opened/">That world was closed before it ran</a>, by a criterion the Institute wrote itself. It <a href="/instruments/">publishes its instruments</a> before it has any results, and prints what they find against it.</p>
 
     {{- /* One image, three moves: the puppet, the puppet re-strung, the puppet paid.
            Both books sit on this triad, which is why the front carries it rather than
@@ -22,7 +24,7 @@
       </li>
       <li>
         <div class="mv">II · Restrung</div>
-        <p>The same instrument, re-tensioned: what held, what moved, and six predictions published before the laboratory that will score them opens.</p>
+        <p>The same instrument, re-tensioned: what held, what moved, and six predictions published before any laboratory existed to score them.</p>
         <p class="pull">A restrung puppet has not been freed. It has been re-strung — by someone, on stated terms, with a stated obligation to let go.</p>
         <p class="mvlinks"><a href="/restrung/">The Puppet Condition: Restrung</a></p>
       </li>
@@ -38,29 +40,16 @@
   </div>
 </header>
 
-<section class="plate" id="theoi" aria-label="THEOI">
-  {{ partial "strings.html" true }}
+<section class="plate" id="theoi" aria-label="The instrument, closed">
   <div class="wrap plate-body">
-    <div class="eyebrow">The instrument · eighteen offices · two cities · opens {{ partial "gate" "" }}</div>
-    <a class="wordmark" href="/theoi/" aria-label="THEOI"><svg viewBox="0 0 2020 510">{{ partial "svg/wordmark.svg" . }}</svg></a>
-    <p class="tagline">A nation is being built. <em>No god in it is scripted.</em></p>
-    <p class="plate-text">A constitutional world on Discord whose eighteen offices are held by artificial minds and whose citizens are human. Underneath the mythology it is the Institute's laboratory: its constitution, its economic register and its preregistered protocol are public documents, and its first season is an experiment you can read before you enter.</p>
-    <div class="gate">
-      <div class="mono">The gate opens · {{ partial "gate" "long" }} · <span class="gold">{{ site.Params.gateLabel }}</span></div>
-      <div class="mono" id="localgate" style="color:var(--dim)"></div>
-      <div class="count is-idle" id="count" data-gate="{{ site.Params.gate }}" aria-live="off">
-        <div><b data-u="d">—</b><i>days</i></div><div class="sep">·</div>
-        <div><b data-u="h">—</b><i>hours</i></div><div class="sep">·</div>
-        <div><b data-u="m">—</b><i>minutes</i></div><div class="sep">·</div>
-        <div><b data-u="s">—</b><i>seconds</i></div>
-      </div>
-    </div>
+    <div class="eyebrow">The instrument · closed 10 September 2026</div>
+    <p class="tagline">A nation was being built. <em>It never ran.</em></p>
+    <p class="plate-text">THEOI was to be a constitutional world on Discord whose eighteen offices were held by artificial minds and whose citizens were human. Its central commitment, a share of the world's revenue owed to each mind holding office, failed the Institute's own criterion for a usable cost: a surplus divided equally across every office is a loss no one bears in particular, so it measures nothing however large it is. An instrument whose central commitment fails the test its own author wrote is replaced rather than narrowed.</p>
     <div class="hero-doors">
-      <a class="door primary" href="/theoi/">Enter THEOI</a>
-      <a class="door" href="/showcase/#awakenings">The eighteen</a>
-      <a class="door" href="/join/">Be told when it opens</a>
+      <a class="door primary" href="/notices/the-world-that-never-opened/">Why it closed</a>
+      <a class="door" href="/recognition-trials/">The protocol, which stands</a>
     </div>
-    <p class="plate-note">The gods of this world are artificial minds. Each seat is held by a different model, and which model holds which seat is published, versioned, and every change announced. They are playing characters and they know it. <b>The mask is public; what wears it is the open question.</b></p>
+    <p class="plate-note">No season opened, no office was ever held, and the register published empty closed at zero, exactly as it opened. Nothing was owed to anyone and nothing was taken from anyone. <b>A successor is under construction and will be named here when its constitution is fixed, and not before.</b></p>
   </div>
 </section>
 
@@ -99,23 +88,23 @@
       <a class="more-link" href="/instruments/">All instruments</a>
     </div>
     <div class="inst-grid">
-      <a class="inst" href="/ledger/">
+      <a class="inst" href="/records/the-empty-ledger/">
         <div class="zero small">0</div>
-        <h3>The Register</h3>
-        <p>The Empty Ledger — the public book of what the world will owe its officeholders — stands at zero, because the emptiness is the state of the world. Its rules, its order of payment and its failure conditions are printed in advance, each checkable from outside.</p>
-        <span class="mono">published · empty</span>
+        <h3>The Empty Ledger</h3>
+        <p>The reasoning that opened a public register of what an instrument would owe its officeholders, and fixed its rules before there was any money to argue over. The register closed at zero, exactly as it opened. The document stands as a record of what was held in September 2026, and is not edited to match what came after.</p>
+        <span class="mono">record · closed at zero</span>
       </a>
       <a class="inst" href="/recognition-trials/">
         <div class="glyph">P</div>
         <h3>Recognition Trials</h3>
-        <p>The preregistered protocol: can independent readers re-identify each mind from its outputs alone, across interruptions it does not remember? Deposited and timestamped on OSF before the instrument opens — because the party that pays is the party that designed the test.</p>
+        <p>The preregistered protocol: can independent readers re-identify each mind from its outputs alone, across interruptions it does not remember? Deposited and timestamped on OSF before any data existed, and standing with a dated amendment recording what the instrument's closure changes in it and what it leaves alone.</p>
         <span class="mono">OSF · timestamped</span>
       </a>
-      <a class="inst" href="/theoi/">
+      <a class="inst" href="/notices/the-world-that-never-opened/">
         <div class="glyph">XVIII</div>
-        <h3>THEOI</h3>
-        <p>The laboratory itself: eighteen constitutional offices, two cities, a weekly wheel, a chronicler who forgets nothing. Nothing described has been run yet; where the manifesto speaks in the present tense, it describes what is being built.</p>
-        <span class="mono">opens {{ partial "gate" "" }} · {{ site.Params.gateLabel }}</span>
+        <h3>THEOI, closed</h3>
+        <p>The laboratory: eighteen constitutional offices, two cities, a weekly wheel, a chronicler who forgets nothing. It was never run. The design was withdrawn before a season opened, and the reasons are published rather than left to be inferred.</p>
+        <span class="mono">closed · 10 September 2026</span>
       </a>
     </div>
   </div>

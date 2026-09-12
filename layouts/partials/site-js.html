@@ -31,17 +31,6 @@
     if (/[?&]preview=1/.test(location.search)) document.querySelectorAll('.seat').forEach(function(c){c.classList.add('named');});
   }
 
-  // ——— countdown to the gate ———
-  var C = document.getElementById('count');
-  if (C) {
-    var gate = new Date(C.dataset.gate).getTime(); var u={}; C.querySelectorAll('b').forEach(function(b){u[b.dataset.u]=b;});
-    function pad(n){return (n<10?'0':'')+n;}
-    function tick(){ var t=Math.max(0,gate-Date.now()); var d=Math.floor(t/864e5), h=Math.floor(t%864e5/36e5), m=Math.floor(t%36e5/6e4), s=Math.floor(t%6e4/1e3);
-      u.d.textContent=d; u.h.textContent=pad(h); u.m.textContent=pad(m); u.s.textContent=pad(s); }
-    tick(); C.classList.remove('is-idle'); setInterval(tick,1000);
-    try { var lg=document.getElementById('localgate'); if(lg){ var fmt=new Intl.DateTimeFormat('en-GB',{weekday:'short',day:'numeric',month:'short',hour:'numeric',minute:'2-digit',timeZoneName:'short'}); /* 'en-GB' not undefined: the zone stays the visitor's, the wording stays the site's. Founder decision, 2 Sep — a Turkish reader was seeing "2 OCA CMT" inside an English line. */ lg.textContent='In your time zone · '+fmt.format(new Date(gate)); } } catch(e){}
-  }
-
   // ——— calendar: evenly spaced sequence; "today" interpolated between neighbouring dates ———
   var track=document.getElementById('track');
   if (track) {
